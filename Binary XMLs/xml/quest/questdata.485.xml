@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_485" category="normal" desc="q_485_sum" grade="1" group2="QG_Geoamgol" id="485" name2="Quest.Name2.485">
+    <text>
+    </text>
+    <acquisition level="17" preceding-quest-1="q_epic_318" preceding-quest-check="and" recommended-level="19">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_485_s_indi_1" msg="q_485_s" object="npc:ch_merchantcharm_002" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-13586.1582" location-y="62452.2109" map="GurAmGul">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.485_2" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_485_grocery_damaged_martial_arts_manual_1_icon" mapunit-1="2622_me_deadswordman_002" mapunit-2="2420_guramgul_s485(2)" object="npc:me_deadswordman_002" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.485_1" required-register-value="10">
+        <text>
+        </text>
+        <case object="npc:me_deadswordman_001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:me_deadswordman_0001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-3="2420_guramgul_s485(1)" mapunit-4="2622_me_deadswordman_001" mapunit-5="2622_me_deadswordman_001_1" mapunit-6="2622_me_deadswordman_001_2" mapunit-7="2622_me_deadswordman_001_3" object="npc:me_deadswordman_0002" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-29485.7891" location-y="63305.6445" map="songamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.485_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_485_m3_indi_1" msg="q_485_m3" object="npc:ch_merchantcharm_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="500" money="180" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:acc_ring_quest_006" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos8_gr2_songlim_bal_lv18" slot-2="item:gem_pos8_gr2_songlim_sheild_Lv18 " />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

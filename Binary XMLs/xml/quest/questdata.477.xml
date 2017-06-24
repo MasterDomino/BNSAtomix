@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_477" category="normal" desc="q_477_sum" grade="1" group2="QG_Geoamgol" id="477" name2="Quest.Name2.477">
+    <text>
+    </text>
+    <acquisition level="17" preceding-quest-1="q_epic_317" preceding-quest-check="and" recommended-level="19">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_477_s_indi_1" msg="q_477_s" object="npc:ch_jakyoungdan_041" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-30532.5859" location-y="65312.0039" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.477_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_477_quest_marshal_art_book_1_icon" mapunit-1="2420_mob_jinm_practitioner_crazy_swd_001" object="npc:mob_jinm_practitioner_crazy_swd_001" progress-mission="y" quest-symbol-drop-prob="40" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-32102.7813" location-y="62956.7109" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.477_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_477_m2_indi_1" msg="q_477_m2" object="npc:ch_jakyoungdan_041" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="250" money="90" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

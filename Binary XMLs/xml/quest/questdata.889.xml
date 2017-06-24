@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_889" category="normal" desc="q_889_sum" grade="1" group2="QG_OSaekAmDoWest" id="889" name2="Quest.Name2.889">
+    <text>
+    </text>
+    <acquisition level="34" preceding-quest-1="q_epic_542" preceding-quest-check="and" recommended-level="36">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_889_s_indi_1" msg="q_889_s" object="npc:ch_unguk_0006" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="3" location-x="34620.6563" location-y="60064.4922" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.889_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_889_m3_indi_1" msg="q_889_m3" object="npc:ch_unguk_0006" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="750" money="650" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_889" item-count-1="1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.889_2" required-register-value="1">
+        <text>
+        </text>
+        <case item="quest_889" msg="q_889_m2" prob="100" progress-mission="y" type="talk-to-item" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="1" location-x="36872.1328" location-y="59273.4297" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.889_1" required-register-value="1">
+        <text>
+        </text>
+        <case loot-item="quest_889" looting="q_889_quest_old_letter_1_icon" mapunit-1="3037_me_bonemaskthina_0008" object="npc:me_bonemaskthina_0008" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="quest_889" item-count-1="1" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

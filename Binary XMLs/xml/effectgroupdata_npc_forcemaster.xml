@@ -1,0 +1,438 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_blast_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_cold_blast_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_cold_blast_Lv1_freezing</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_blast_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_cold_blast_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_blast_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_common_coldforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_energy_wave_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_cold_energy_wave_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_cold_energy_wave_Lv1_freezing</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_energy_wave_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_cold_energy_wave_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_energy_wave_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_common_coldforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_energy_cyclone_Lv1_frostbite</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_energy_cyclone_Lv1_freezing</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_Lv1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_Lv1_e1_04</alias>
+	<effect-1>MH_ForceMaster_Deal_common_coldforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fast_energy_missile_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_fast_energy_missile_Lv1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fast_energy_missile_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_fast_energy_missile_Lv1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fast_energy_missile_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_fast_energy_missile_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40047</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_ball_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_ball_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_fire_ball_Lv1_burn</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5400</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_ball_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_ball_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_fire_ball_Lv1_burn</effect-2>
+	<effect-3>Destroyer_HardWall_StanceEffect_stancechange</effect-3>
+	<effect-4>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-4>
+	<skill-result>front-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter>50025</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_ball_Lv1_e1_03</alias>
+	<effect-1>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-1>
+	<skill-result>front-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter>50024</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_ball_Lv1_e1_04</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_ball_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_fire_ball_Lv1_burn</effect-2>
+	<effect-3>Destroyer_HardWall_StanceEffect_stancechange</effect-3>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_ball_Lv1_e1_05</alias>
+	<effect-1>MH_ForceMaster_Deal_common_fireforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_blast_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_blast_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_fire_blast_Lv1_burn</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_blast_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_blast_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_blast_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_common_fireforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_bomb_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_bomb_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_fire_bomb_Lv1_burn</effect-2>
+	<skill-result>hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_bomb_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_bomb_Lv1_criticalmidair1</effect-1>
+	<effect-2>MH_ForceMaster_Deal_fire_bomb_Lv1_burn</effect-2>
+	<skill-result>critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_bomb_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_bomb_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_bomb_Lv1_e1_04</alias>
+	<effect-1>MH_ForceMaster_Deal_common_fireforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_rapid_cooling_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_rapid_cooling_despeldebuff</effect-1>
+	<effect-2>MH_ForceMaster_Deal_rapid_cooling_Lv1_fastfreezing</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_rapid_cooling_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_common_coldforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_ball_instant_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_ball_instant_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_fire_ball_instant_Lv1_burn</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_ball_instant_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_fire_ball_instant_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fire_ball_instant_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_common_fireforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_instant_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_instant_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_energy_cyclone_instant_Lv1_frostbite</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_common_coldforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv2_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_instant_Lv2_freezing</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40020</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv2_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_instant_Lv2_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv2_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_common_coldforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv2_e1_04</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_instant_Lv2_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_energy_cyclone_instant_Lv2_frostbite</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv3_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_instant_Lv3_freezing</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40020</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv3_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_instant_Lv3_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv3_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_common_coldforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_energy_cyclone_instant_Lv3_e1_04</alias>
+	<effect-1>MH_ForceMaster_Deal_energy_cyclone_instant_Lv3_damage</effect-1>
+	<effect-2>MH_ForceMaster_Deal_energy_cyclone_instant_Lv3_frostbite</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_magnetic_energy_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_magnetic_energy_dispelattribute</effect-1>
+	<effect-2>MH_ForceMaster_Deal_magnetic_energyfront_Lv1_pull</effect-2>
+	<effect-3>MH_ForceMaster_Deal_magnetic_energy_Lv1_inhalation</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5400</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_magnetic_energy_Lv1_e1_02</alias>
+	<effect-1>Destroyer_HardWall_StanceEffect_stancechange</effect-1>
+	<effect-2>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-2>
+	<effect-3>MH_ForceMaster_Deal_magnetic_energy_dispelattribute</effect-3>
+	<effect-4>MH_ForceMaster_Deal_magnetic_energyfront_Lv1_pull</effect-4>
+	<effect-5>MH_ForceMaster_Deal_magnetic_energy_Lv1_inhalation</effect-5>
+	<skill-result>front-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter>50025</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_magnetic_energy_Lv1_e1_03</alias>
+	<effect-1>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-1>
+	<skill-result>front-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter>50024</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_magnetic_energy_Lv1_e1_04</alias>
+	<effect-1>Destroyer_HardWall_StanceEffect_stancechange</effect-1>
+	<effect-2>MH_ForceMaster_Deal_magnetic_energy_dispelattribute</effect-2>
+	<effect-3>MH_ForceMaster_Deal_magnetic_energyfront_Lv1_pull</effect-3>
+	<effect-4>MH_ForceMaster_Deal_magnetic_energy_Lv1_inhalation</effect-4>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_magnetic_energyback_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_magnetic_energy_common_unlink</effect-1>
+	<effect-2>MH_ForceMaster_magnetic_energyback_Lv1_knockback</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fast_energy_missile_0_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_fast_energy_missile_0_Lv1_damage</effect-1>
+	<effect-2>MH_ForceMaster_magnetic_energy_common_unlink</effect-2>
+	<effect-3>MH_ForceMaster_magnetic_energy_common_enddelay</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_fast_energy_missile_0_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_fast_energy_missile_0_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_magnetic_seal_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_magnetic_energy_common_unlink</effect-1>
+	<effect-2>MH_ForceMaster_Deal_magnetic_seal_Lv1_magneticseal</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_missile_Lv1_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_cold_missile_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_missile_Lv1_e1_02</alias>
+	<effect-1>MH_ForceMaster_Deal_cold_missile_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_cold_missile_Lv1_e1_03</alias>
+	<effect-1>MH_ForceMaster_Deal_common_coldforce</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_magnetic_energy_Q_e1_01</alias>
+	<effect-1>MH_ForceMaster_Deal_magnetic_energy_dispelattribute</effect-1>
+	<effect-2>MH_ForceMaster_Deal_magnetic_energyfront_Q_pull</effect-2>
+	<effect-3>MH_ForceMaster_Deal_magnetic_energy_Q_inhalation</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_ForceMaster_Deal_magnetic_seal_Q_e1_01</alias>
+	<effect-1>MH_ForceMaster_magnetic_energy_common_unlink</effect-1>
+	<effect-2>MH_ForceMaster_Deal_magnetic_seal_Q_magneticseal</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>

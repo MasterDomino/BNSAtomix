@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<CharacterServer>
+  <Port>12012</Port>
+
+  <!-- Mysql服务器域名或IP -->
+  <dbhost>127.0.0.1</dbhost>
+  
+  <!-- 数据库名称 -->
+  <dbname>sagabns</dbname>
+
+  <!-- Mysql服务器端口 -->
+  <dbport>3306</dbport>
+
+  <!-- 
+            日志等级：（加法）
+            Info = 1,
+            Warning = 2,
+            Error = 4,
+            SQL = 8,
+            Debug = 16       
+  -->
+  <LogLevel>31</LogLevel>
+
+  <!-- Mysql用户名 -->
+  <dbuser>root</dbuser>
+  <!-- Mysql密码 -->
+  <dbpass>saga</dbpass>
+
+  <!-- 内部通讯验证密码 -->
+  <Password>saga</Password>
+</CharacterServer>

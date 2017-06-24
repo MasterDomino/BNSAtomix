@@ -1,0 +1,64 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_379" category="normal" desc="q_379_sum" grade="1" group="제룡림(흑음림)" group2="QG_HuekUmmRim" id="379" name="환야의 숲에 이르는 빛 (완)" name2="Quest.Name2.379">
+    <text>
+    </text>
+    <acquisition level="11" preceding-quest-1="q_sub_378" preceding-quest-check="and" recommended-level="13">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_379_s_indi_1" msg="q_379_s" object="npc:ctzn_jinm_hogieum_shm_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-7849.2832" location-y="5068.1978" map="KyeIeHan_Dun">
+      <text>
+      </text>
+      <mission id="1" name="초롱등령의 등롱 획득" name2="Mission.Name2.379_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_379_quest_red_lantern_1_icon" mapunit-1="2200_kyeiehan_dun_s379(1)" mapunit-3="2620_me_moran_001" mapunit-4="2620_me_moran_001_1" mapunit-5="2620_me_moran_001_2" object="npc:me_moran_001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name="초롱등령 차호의 등롱 획득" name2="Mission.Name2.379_2" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_379_quest_blue_lantern_1_icon" mapunit-2="2620_me_moran_002" object="npc:me_moran_002" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-5689.2422" location-y="-8369.1797" map="huekummrim">
+      <text>
+      </text>
+      <mission id="3" name="흑음림 주술사 호기음에게 보고" name2="Mission.Name2.379_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_379_m3_indi_1" msg="q_379_m3" object="npc:ctzn_jinm_hogieum_shm_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="520" money="120" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Acc_ring_quest_003" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

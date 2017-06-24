@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_639" category="normal" desc="q_639_sum" grade="4" group2="QG_GmmDalUJukJi" id="639" name2="Quest.Name2.639">
+    <text>
+    </text>
+    <acquisition level="27" preceding-quest-1="q_epic_516" preceding-quest-2="q_sub_637" preceding-quest-check="and" recommended-level="29">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_639_s_indi_1" msg="q_639_s" object="npc:ch_tosok_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-38974.125" location-y="14479.5977" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.639_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_639_Quest_spiritual_stone001_1_icon" object="npc:me_adamantineman_0002" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case looting="q_639_Quest_spiritual_stone001_1_icon" object="npc:me_adamantineman_0003" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case looting="q_639_Quest_spiritual_stone001_1_icon" mapunit-1="3010_ME_AdamantineMan_0002" mapunit-2="3010_ME_AdamantineMan_0003" object="npc:me_adamantineman_0004" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-37948.6445" location-y="9352.2031" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.639_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_639_m2_indi_1" msg="q_639_m2" object="npc:ch_tosok_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1950" money="300" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:acc_neck_quest_002" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

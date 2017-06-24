@@ -1,0 +1,91 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_795" category="normal" desc="q_795_sum" grade="1" group2="QG_HeukChangJokBuRak" id="795" max-repeat="1" name2="Quest.Name2.795">
+    <text>
+    </text>
+    <acquisition level="30" preceding-quest-1="q_epic_525" preceding-quest-check="and" recommended-level="32">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_795_s_indi_1" msg="q_795_s" object="npc:ch_dangsan_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="31944.027" location-y="-38717.606" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.795_2" required-register-value="5">
+        <text>
+        </text>
+        <case looting="q_795_Quest_baemmushroom_cap_1_icon" mapunit-1="3023_ME_HolyMushroom_002" mapunit-2="3023_ME_HolyMushroom_002_1" mapunit-3="3023_ME_HolyMushroom_002_2" object="npc:me_holymushroom_002" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.795_1" required-register-value="3">
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" object="zoneenv:e_onoff_net_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" object="zoneenv:e_onoff_net_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" object="zoneenv:e_onoff_net_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" object="zoneenv:e_onoff_net_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" object="zoneenv:e_onoff_net_05" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_iconll" gadget-required="empty" object="zoneenv:e_onoff_net_06" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" object="zoneenv:e_onoff_net_07" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" object="zoneenv:e_onoff_net_08" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" object="zoneenv:e_onoff_net_09" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_766_quest_blue_fish_1_icon" gadget-required="empty" mapunit-1="3023_e_onoff_net_01" mapunit-2="3023_e_onoff_net_01_1" mapunit-3="3023_e_onoff_net_01_2" object="zoneenv:e_onoff_net_10" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="44577.375" location-y="-42604.789" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.795_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_795_m3_indi_1" msg="q_795_m3" object="npc:ch_mayeongganggun_0012" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="550" money="400" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="3" slot-1="item:Quest_766_food" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

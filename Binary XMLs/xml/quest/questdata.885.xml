@@ -1,0 +1,85 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_885" category="normal" desc="q_885_sum" grade="4" group2="QG_OSaekAmDoWest" id="885" max-repeat="30000" name2="Quest.Name2.885">
+    <text>
+    </text>
+    <mission-step desc="q_885_des_1" id="1" location-x="58000" location-y="36586.7969" map="heasangmudom">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.885_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3064_MH_BokGonPe_0001" object="npc:mh_bokgonpe_0001" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_885_des_2" id="2" location-x="63812.5" location-y="32774.2969" map="heasangmudom">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.885_2" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3064_MH_BokGonPe_0025" object="npc:mh_bokgonpe_0025" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <acquisition level="34" preceding-quest-1="q_sub_866" preceding-quest-check="and" recommended-level="36">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_885_s_indi_1" msg="q_885_s" object="npc:ch_graverobber_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_885_des_3" id="3" location-x="65625" location-y="24211.7949" map="heasangmudom">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.885_3" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3064_ME_FireGorilla_0001" object="npc:me_firegorilla_0001" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_885_des_4" id="4" location-x="44356.7813" location-y="38462.4609" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.885_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_885_m4_indi_1" msg="q_885_m4" object="npc:ch_graverobber_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="750" money="660" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:coin_sacrifice" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_310" category="epic" completed-desc="q_310_completed" completed-list="y" desc="q_310_sum" grade="1" group2="QG_JeRyoungRimEpic" id="310" name2="Quest.Name2.310">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="9" sort-no="210" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_310_des_1" id="1" location-x="-29676" location-y="-3149.8398" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.310_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_310_m1_indi_1" mapunit-1="2000_guide_E310" msg="q_310_m1" object="npc:ch_dweller_032" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_310_des_2" id="2" location-x="-29395.0938" location-y="-10347.9434" map="Oyum_Dun">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.310_2" required-register-value="7">
+        <text>
+        </text>
+        <case looting="q_310_Quest_insect_antenna_1_icon" mapunit-1="2200_oyum_dun_e310" mapunit-2="2630_me_pest_006" mapunit-3="2630_me_pest_006_1" mapunit-4="2630_me_pest_006_2" object="npc:me_pest_006" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_310_des_3" id="3" location-x="-29676" location-y="-3149.8398" map="huekummrim">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.310_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_310_m3_indi_1" msg="q_310_m3" object="npc:ch_dweller_032" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="550" money="80" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos2_gr2_tanyeon_bal_Lv09" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_311" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

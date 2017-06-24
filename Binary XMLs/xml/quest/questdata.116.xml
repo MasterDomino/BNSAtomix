@@ -1,0 +1,19 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_116" category="normal" grade="1" group2="QG_Gathering" id="116" name2="Quest.Name2.116">
+    <text>
+    </text>
+    <acquisition level="50" production-exp="30" production-id="gathering-type-5" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_116_Gather_redwave_forcestone_1_icon" object="zoneenv:e_onoff_3020forcemineral_01" type="manipulate" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

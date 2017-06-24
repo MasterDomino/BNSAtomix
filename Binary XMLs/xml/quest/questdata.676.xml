@@ -1,0 +1,64 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_676" category="normal" desc="q_676_sum" grade="1" group2="QG_MaengDokSaMak" id="676" name2="Quest.Name2.676">
+    <text>
+    </text>
+    <acquisition level="32" preceding-quest-1="q_epic_541" preceding-quest-check="and" recommended-level="34">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_676_s_indi_1" msg="q_676_s" object="npc:ch_mayeongganggun_0044" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-13150.6836" location-y="14945.7305" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.676_1" required-register-value="4">
+        <text>
+        </text>
+        <case looting="q_676_Quest_lackone_goure_bottle_1_icon" mapunit-1="3010_me_scorpion_002" object="npc:ME_Scorpion_002" progress-mission="y" quest-symbol-drop-prob="80" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.676_2" required-register-value="4">
+        <text>
+        </text>
+        <case object="npc:ch_mayeongganggun_0049" progress-mission="y" type="npc-manipulate" />
+        <text>
+        </text>
+        <case mapunit-1="3010_CH_MaYeongGangGun_0049" mapunit-2="3010_CH_MaYeongGangGun_0049_1" object="npc:ch_mayeongganggun_0050" progress-mission="y" type="npc-manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-17998.4063" location-y="12987.9961" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.676_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_676_m2_indi_1" msg="q_676_m2" object="npc:ch_mayeongganggun_0044" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1150" money="900" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

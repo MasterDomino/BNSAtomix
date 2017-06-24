@@ -1,0 +1,49 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_539" category="epic" completed-desc="q_539_completed" completed-list="y" desc="q_539_sum" grade="1" group2="QG_DaeSaMakEpic" id="539" name2="Quest.Name2.539">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="36" sort-no="341" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-12924.5918" location-y="5071.1978" map="toemungekjan_1">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.539_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_539_m1_indi_1" msg="q_539_m1" object="npc:ch_teachershaman_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_SYHBang" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="1150" money="1000" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:Costume_80008_AllRace" slot-2="item:Costume_80008_AllRace_col1" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_soyeonout_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.539_2" required-register-value="1" />
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

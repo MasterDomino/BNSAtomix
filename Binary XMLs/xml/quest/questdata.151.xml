@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_151" category="normal" grade="1" group2="QG_Gathering" id="151" name2="Quest.Name2.151">
+    <text>
+    </text>
+    <acquisition level="35" production-exp="200" production-id="gathering-type-1" recommended-level="37">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_151_Gather_Ginseng_1_icon" object="zoneenv:e_onoff_3037herb_02" progress-mission="y" type="manipulate" />
+      <text>
+      </text>
+      <basic-reward production-exp="50" production-id="gathering-type-1" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

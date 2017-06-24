@@ -1,0 +1,30 @@
+<config>
+	<module>rule</module>
+	<release-module>SystemData</release-module>
+	<release-mversion>0.0.0.173</release-mversion>
+	<release-side>client</release-side>
+</config>
+<option>
+	<name>using-np</name>
+	<value>true</value>
+</option>
+<option>
+	<name>np-address</name>
+	<value>112.175.196.89</value>
+</option>
+<option>
+	<name>np-port</name>
+	<value>6600</value>
+</option>
+<option>
+	<name>use-packed-data</name>
+	<value>false</value>
+</option>
+<option>
+	<name>use-chatting-server</name>
+	<value>true</value>
+</option>
+<option>
+	<name>np-account-postfix</name>
+	<value>@plaync.co.kr</value>
+</option>

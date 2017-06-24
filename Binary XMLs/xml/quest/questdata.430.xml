@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_430" category="normal" desc="q_430_sum" grade="1" group2="QG_NokMyungCHN" id="430" name2="Quest.Name2.430">
+    <text>
+    </text>
+    <mission-step id="1" location-x="3825.0884" location-y="14312.1475" map="NokMyungHoSu_Dun">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.430_1" required-register-value="6">
+        <text>
+        </text>
+        <case looting="q_430_Quest_oil_barrel_1_icon" mapunit-1="2300_nokmyunghosu_dun_s430(1)" mapunit-2="2300_nokmyunghosu_dun_1_s430(1)" mapunit-5="2608_me_belliedfirefrog_0001" mapunit-6="2608_me_belliedfirefrog_0001_1" mapunit-7="2608_me_belliedfirefrog_0001_2" mapunit-8="2608_me_belliedfirefrog_0001_3" mapunit-9="2608_me_belliedfirefrog_0001_4" object="npc:me_belliedfirefrog_0001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.430_2" required-register-value="6">
+        <text>
+        </text>
+        <case looting="q_430_Grocery_wooden_horn_1_icon" mapunit-3="2300_nokmyunghosu_dun_s430(2)" mapunit-4="2300_nokmyunghosu_dun_1_s430(2)" mapunit-5="2608_me_belliedfrog_0002" mapunit-6="2608_me_belliedfrog_0002_1" mapunit-7="2608_me_belliedfrog_0002_2" mapunit-8="2608_me_belliedfrog_0002_3" object="npc:me_belliedfrog_0002" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="10905.4971" location-y="15419.751" map="nokmyeong">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.430_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_430_m2_indi_1" msg="q_430_m2" object="npc:ctzn_jinf_nokmyeonctzn_hajinhwa_001" progress-mission="y" type="talk" zone="zone_nokmyungchn" />
+        <text>
+        </text>
+        <basic-reward exp="530" money="120" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <acquisition level="12" preceding-quest-1="q_epic_491" preceding-quest-check="and" recommended-level="14">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_430_s_indi_1" msg="q_430_s" object="npc:ctzn_jinf_nokmyeonctzn_hajinhwa_001" type="talk" zone="zone_nokmyungchn" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

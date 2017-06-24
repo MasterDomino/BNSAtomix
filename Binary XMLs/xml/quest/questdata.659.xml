@@ -1,0 +1,67 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_659" category="normal" desc="q_659_sum" grade="1" group2="QG_GoYoSaMak" id="659" name2="Quest.Name2.659">
+    <text>
+    </text>
+    <acquisition level="28" preceding-quest-1="q_epic_519" preceding-quest-check="and" recommended-level="30">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_659_s_indi_1" msg="q_659_s" object="npc:CH_MuYeongDan_0004" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-16676.2129" location-y="-42616.7266" map="seasidedg">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.659_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-2="3080_e_onoff_stonecoffin_01" object="zoneenv:e_onoff_stonecoffin_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case mapunit-1="3080_e_onoff_stonecoffin_02" object="zoneenv:e_onoff_stonecoffin_02" progress-mission="n" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.659_2" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-4="3080_e_onoff_stonecoffin_03" object="zoneenv:e_onoff_stonecoffin_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case mapunit-3="3080_e_onoff_stonecoffin_04" object="zoneenv:e_onoff_stonecoffin_04" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-24337.7344" location-y="-24395.3984" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.659_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_659_m3_indi_1" msg="q_659_m3" object="npc:CH_MuYeongDan_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="600" money="420" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

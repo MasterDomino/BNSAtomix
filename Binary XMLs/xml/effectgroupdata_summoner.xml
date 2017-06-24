@@ -1,0 +1,1768 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv2_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv3_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv4_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv5_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv6_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv7_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv8_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv9_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv10_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv11_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv12_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv13_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv14_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv15_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv16_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv1_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv1_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv2_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv2_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv3_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv3_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv4_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv4_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv5_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv5_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv6_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv6_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv7_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv7_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv8_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv8_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv9_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv9_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv10_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv10_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv11_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv11_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv12_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv12_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv13_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv13_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv14_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv14_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv15_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv15_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv16_e1_02</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv16_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv1_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv1_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv2_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv2_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv3_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv3_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv4_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv4_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv5_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv5_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv6_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv6_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv7_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv7_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv8_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv8_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv9_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv9_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv10_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv10_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv11_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv11_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv12_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv12_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv13_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv13_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv14_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv14_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv15_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv15_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_energy_missile_Lv16_e1_03</alias>
+	<effect-1>Summoner_Summon_energy_missile_Lv16_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv1_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv2_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv3_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv4_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv5_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv6_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv7_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv8_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv9_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv10_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv11_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv12_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv13_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv14_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv15_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_heal_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_heal_Lv16_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_quick_heal_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_quick_heal_Lv1_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dark_hands_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_dark_hands_Lv1_darkhands</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dark_hands_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_dark_hands_Lv2_darkhands</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dark_hands_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_dark_hands_Lv3_darkhands</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dark_hands_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_dark_hands_Lv4_darkhands</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dark_hands_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_dark_hands_Lv5_darkhands</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dark_hands_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_dark_hands_Lv6_darkhands</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dark_hands_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_dark_hands_Lv7_darkhands</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dark_hands_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_dark_hands_Lv8_darkhands</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv1_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv2_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv3_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv4_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv5_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv6_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv7_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv8_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv9_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv10_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv11_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv12_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv13_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv14_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv15_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_1_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_Wildfire_1_Lv16_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_chain_heal_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_chain_heal_Lv1_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv1_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv2_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv3_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv4_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv5_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv6_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv7_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv8_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv9_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv10_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv11_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv12_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv13_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv14_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv15_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_dot_heal_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_dot_heal_Lv16_heal</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv1_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv2_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv3_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv4_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv5_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv6_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv7_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv8_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv9_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv10_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv11_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv12_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv13_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv14_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv15_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_send_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_send_Lv16_hpsend</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv1_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv2_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv3_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv4_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv5_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv6_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv7_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv8_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv9_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv10_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv11_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv12_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv13_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv14_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv15_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_drain_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_drain_Lv16_hpdrain</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv1_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv2_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv3_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv4_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv5_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv6_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv7_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv8_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv9_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv10_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv11_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv12_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv13_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv14_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv15_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hp_fp_change_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_hp_fp_change_Lv16_hpfpchange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv1_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv2_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv3_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv4_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv5_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv6_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv7_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv8_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv9_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv10_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv11_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv12_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv13_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv14_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv15_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_wildfire_3_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_wildfire_3_Lv16_dot</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv1_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv2_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv3_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv4_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv5_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv6_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv7_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv8_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv9_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv10_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv11_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv12_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv13_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv14_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv15_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_necrosis_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_necrosis_Lv16_wildfire2explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv1_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv2_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv3_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv4_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv5_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv6_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv7_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv8_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv9_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv9_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv10_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv10_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv11_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv11_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv12_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv12_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv13_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv13_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv14_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv14_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv15_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv15_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_hell_fire_Lv16_e1_01</alias>
+	<effect-1>Summoner_Summon_hell_fire_Lv16_wildfire1explosion</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_rock_shield_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_rock_shield_Lv1_shield</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_rock_shield_Lv2_e1_01</alias>
+	<effect-1>Summoner_Summon_rock_shield_Lv2_shield</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_rock_shield_Lv3_e1_01</alias>
+	<effect-1>Summoner_Summon_rock_shield_Lv3_shield</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_rock_shield_Lv4_e1_01</alias>
+	<effect-1>Summoner_Summon_rock_shield_Lv4_shield</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_rock_shield_Lv5_e1_01</alias>
+	<effect-1>Summoner_Summon_rock_shield_Lv5_shield</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_rock_shield_Lv6_e1_01</alias>
+	<effect-1>Summoner_Summon_rock_shield_Lv6_shield</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_rock_shield_Lv7_e1_01</alias>
+	<effect-1>Summoner_Summon_rock_shield_Lv7_shield</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_rock_shield_Lv8_e1_01</alias>
+	<effect-1>Summoner_Summon_rock_shield_Lv8_shield</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_cause_ruin_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_cause_ruin_Lv1_timecount</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoner_Summon_restriction_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_restriction_Lv1_midair1</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40031</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_restriction_Lv1_e1_02</alias>
+	<effect-1>Summoner_Summon_restriction_Lv1_midair2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40032</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_restriction_Lv1_e1_03</alias>
+	<effect-1>Summoner_Summon_restriction_Lv1_midair3</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40033</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_restriction_Lv1_e1_04</alias>
+	<effect-1>Summoner_Summon_restriction_Lv1_down</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40009</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoner_Summon_flash_Lv1_e1_01</alias>
+	<effect-1>Summoner_Summon_flash_Lv1_tumbling</effect-1>
+	<effect-2>Summoner_Summon_flash_tumbling_cooltime</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_normal_attack1_Lv1_e1_01</alias>
+	<effect-1>Summoned_tank_normal_attack1_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_normal_attack1_Lv1_e1_02</alias>
+	<effect-1>Summoned_tank_normal_attack1_Lv1_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_normal_attack1_Lv1_e1_03</alias>
+	<effect-1>Summoned_tank_normal_attack1_Lv1_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoned_tank_normal_attack2_Lv1_e1_01</alias>
+	<effect-1>Summoned_tank_normal_attack2_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_normal_attack2_Lv1_e1_02</alias>
+	<effect-1>Summoned_tank_normal_attack2_Lv1_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_normal_attack2_Lv1_e1_03</alias>
+	<effect-1>Summoned_tank_normal_attack2_Lv1_Wildfire_2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40036</target-state-first-filter>
+</record>
+<record>
+	<alias>Summoned_tank_provoke_attack_Lv1_e1_01</alias>
+	<effect-1>Summoned_tank_provoke_attack_Lv1_damage</effect-1>
+	<effect-2>Summoned_tank_provoke_attack_Lv1_provoke</effect-2>
+	<skill-result>hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_provoke_attack_Lv1_e1_02</alias>
+	<effect-1>Summoned_tank_provoke_attack_Lv1_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_provoke_attack_Lv1_e1_03</alias>
+	<effect-1>Summoned_tank_provoke_attack_Lv1_kneel</effect-1>
+	<effect-2>Summoned_tank_provoke_attack_Lv1_provoke</effect-2>
+	<skill-result>critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_dash_attack_Lv1_e1_01</alias>
+	<effect-1>Summoned_tank_dash_attack_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_dash_attack_Lv1_e1_02</alias>
+	<effect-1>Summoned_tank_dash_attack_Lv1_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_dash_attack_Lv1_e1_03</alias>
+	<effect-1>Summoned_tank_dash_attack_Lv1_Stun</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_bomber_suicide_attack1_Lv1_e1_01</alias>
+	<effect-1>Summoned_bomber_suicide_attack1_Lv1_damage</effect-1>
+	<skill-result>hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_bomber_suicide_attack1_Lv1_e1_02</alias>
+	<effect-1>Summoned_bomber_suicide_attack1_Lv1_parrydamage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_bomber_suicide_attack1_Lv1_e1_03</alias>
+	<effect-1>Summoned_bomber_suicide_attack1_Lv1_down</effect-1>
+	<skill-result>critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_bomber_suicide_attack2_Lv1_e1_01</alias>
+	<effect-1>Summoned_bomber_suicide_attack2_Lv1_damage</effect-1>
+	<skill-result>hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_bomber_suicide_attack2_Lv1_e1_02</alias>
+	<effect-1>Summoned_bomber_suicide_attack2_Lv1_parrydamage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_bomber_suicide_attack2_Lv1_e1_03</alias>
+	<effect-1>Summoned_bomber_suicide_attack2_Lv1_down</effect-1>
+	<skill-result>critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_rick_bite1_Lv1_e1_01</alias>
+	<effect-1>Summoned_rick_bite1_common_speeddown</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_rick_bite2_Lv1_e1_01</alias>
+	<effect-1>Summoned_rick_bite2_common_speeddown</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_worm_normal_attack_Lv1_e1_01</alias>
+	<effect-1>Summoned_worm_normal_attack_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_worm_normal_attack_Lv1_e1_02</alias>
+	<effect-1>Summoned_worm_normal_attack_Lv1_damage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_worm_bomb_Lv1_e1_01</alias>
+	<effect-1>Summoned_worm_bomb_Lv1_knockback</effect-1>
+	<skill-result>hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_worm_bomb_Lv1_e1_02</alias>
+	<effect-1>Summoned_worm_bomb_Lv1_parrydamage</effect-1>
+	<skill-result>parry</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_worm_bomb_Lv1_e1_03</alias>
+	<effect-1>Summoned_worm_bomb_Lv1_midair1</effect-1>
+	<skill-result>critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_stance_to_follow_e1_01</alias>
+	<effect-1>Summoned_tank_stance_to_follow_change</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoned_tank_stance_to_command_e1_01</alias>
+	<effect-1>Summoned_tank_stance_to_command_change</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoned_bomber_stance_to_follow_e1_01</alias>
+	<effect-1>Summoned_bomber_stance_to_follow_change</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoned_bomber_stance_to_command_e1_01</alias>
+	<effect-1>Summoned_bomber_stance_to_command_change</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoned_rick_stance_to_follow_e1_01</alias>
+	<effect-1>Summoned_rick_stance_to_follow_change</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoned_rick_stance_to_command_e1_01</alias>
+	<effect-1>Summoned_rick_stance_to_command_change</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Summoned_worm_stance_to_command_e1_01</alias>
+	<effect-1>Summoned_worm_stance_to_command_change</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>

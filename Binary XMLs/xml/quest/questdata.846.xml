@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_846" category="normal" desc="q_846_sum" grade="1" group2="QG_OSaekAmDoWest" id="846" name2="Quest.Name2.846">
+    <text>
+    </text>
+    <acquisition level="32" preceding-quest-1="q_epic_529" preceding-quest-check="and" recommended-level="34">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_846_s_indi_1" msg="q_846_s" object="npc:ce_hoerangjok_0004" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_846_des_1" id="1" location-x="-1188.2188" location-y="35721.2227" map="susalmok">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.846_1" required-register-value="10">
+        <text>
+        </text>
+        <case mapunit-1="3069_ME_HweRang_0001" mapunit-2="3069_ME_HweRang_0001_1" mapunit-3="3030_susalmok" object="npc:me_hwerang_0001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:me_hoerangjok_0001" progress-mission="y" range-max="-1" type="killed" />
+        <text>
+        </text>
+        <case indicator-social="q_846_s_indi_2" object="npc:me_chunrang_0001" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="4526.625" location-y="35721.2227" map="susalmok">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.846_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_846_m2_indi_1" msg="q_846_m2" object="npc:ce_hoerangjok_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1700" money="1350" />
+        <text>
+        </text>
+        <case indicator-social="q_846_s_indi_3" object="npc:me_chunrang_0001" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

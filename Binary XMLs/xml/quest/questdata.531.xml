@@ -1,0 +1,67 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_531" category="epic" completed-desc="q_531_completed" completed-list="y" desc="q_531_sum" grade="1" group2="QG_DaeSaMakEpic" id="531" name2="Quest.Name2.531">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="35" sort-no="332" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="6156.1499" location-y="51551.4766" map="junodg">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.531_2" required-register-value="5">
+        <text>
+        </text>
+        <case looting="q_531_1_Quest_large_feather_1_icon" mapunit-1="3030_Epic_JunODg" mapunit-2="3076_ME_Juno_010" mapunit-5="3030_Guide_E531" object="npc:me_juno_010" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.531_1" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_531_Quest_large_feather_1_icon" mapunit-3="3076_e_onoff_lightshell_01" mapunit-4="3030_Guide_E531" object="zoneenv:e_onoff_lightshell_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="19927.75" location-y="33870.5156" map="hoerangchon">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.531_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_531_m2_indi_1" msg="q_531_m2" object="npc:ce_hwerang_007" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="2000" money="1850" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos3_gr2_osaekamdo_sheild_Lv35" slot-2="item:gem_pos3_gr2_osaekamdo_bal_Lv35" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_532" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

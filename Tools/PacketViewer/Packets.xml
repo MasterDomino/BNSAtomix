@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CBT>
+	<Version>CBT3</Version>
+	<Packet>
+		<ID>SM_ACTOR_APPEAR_LIST</ID>
+		<Field name="MapInstanceID" type="uint" Position="6" outText="MapInstanceID:{0}"/>
+		<Field name="countDisappear" type="short" Position="14" multi="true" while="true" outText="Disappear Count:{0}">
+			<Actor name="actorID" type="ulong" AfterAddPosition="9"  multi="true">
+				<Molecular name="npc" type="null"  actorIDMin="0x4000000000001" outText="NPC ActorID:0x{0:X16}" inText="actorID"/>
+				<Molecular name="pc" type="null"  actorIDMax="0x4000000000000" outText="PC ActorID:0x{0:X16}" inText="actorID"/>
+			</Actor>
+		</Field>
+		<Field name="countAppear" type="short" multi="true" while="true" outText="Appear Count:{0}">
+			<Actor name="actorID" type="ulong" multi="true">
+				<Molecular name="npcID" type="gushort" AddPosition="6" AfterAddPosition="93" actorIDMin="0x4000000000001"  outText="NPC ActorID:0x{1:X16} NPCID:{0}" inText="actorID"/>
+				<Molecular name="pc" type="null"  multi="true" actorIDMax="0x4000000000000">
+          <Atom name="race" type="Byte" AddPosition="1"/>
+          <Atom name="gender" type="Byte"/>
+          <Atom name="job" type="Byte" AfterAddPosition="92"/>
+          <Atom name="name" type="string"  AfterAddPosition="3" outText="PC ActorID:0x{4:X16} Race:{1} Gender:{2} Job:{3} Name:{0}" inText="race,gender,job,actorID"/>
+				</Molecular>
+			</Actor>
+		</Field>
+		<Field name="countSummon" type="short" multi="true" while="true">
+			<Actor name="actorID" type="ulong" multi="true">
+				<Molecular name="name" type="string" AddPosition="3" AfterAddPosition="7"  outText="Summon ActorID:0x{1} Name:{0}" inText="actorID"/>
+			</Actor>
+		</Field>
+	</Packet>
+	<Packet>
+		<ID>SM_ACTOR_APPEAR_INFO_LIST</ID>
+		<Field name="MapInstanceID" type="uint" Position="6" outText="MapInstanceID:{0}"/>
+		<Field name="countDisappear" type="short" Position="14" multi="true" while="true" outText="Disappear Count:{0}">
+			<Actor name="actorID" type="ulong" multi="true">
+				<Molecular name="npc" type="byte" outText="ActorID:0x{1} Option:{0}" inText="actorID"/>
+			</Actor>
+		</Field>
+		<Field name="countAppear" type="short" multi="true" while="true" outText="Appear Count:{0}">
+			<Actor name="actorID" type="ulong" AfterAddPosition="1" multi="true">
+				<Molecular name="appearEffect" type="int" AfterAddPosition="4"/>
+				<Molecular name="mapID" type="uint"/>
+				<Molecular name="x" type="short"/>
+				<Molecular name="y" type="short"/>
+				<Molecular name="z" type="short"/>
+				<Molecular name="dir" type="ushort"/>
+				<Molecular name="level" type="byte" AfterAddPosition="4"/>
+				<Molecular name="hp" type="int" AfterAddPosition="16"/>
+				<Molecular name="mp" type="short" />
+				<Molecular name="mana" type="int"  AfterAddPosition="76"/>
+				<Molecular name="friendly" type="byte"/>
+				<Molecular name="maxhp" type="int"/>
+				<Molecular name="maxmp" type="ushort"  AfterAddPosition="35" outText="{13} ActorID:0x{1:X16} MapID:{2} Friendly:{12:X} Pos:{3},{4},{5} Dir:{6} Level:{7} HP:{8}/{9} MP:{10}/{0} ManaType:{11}" inText="actorID,mapID,x,y,z,dir,level,hp,maxhp,mp,mana,friendly,actortype"/>
+				<Molecular name="toggle" type="ushort" discard="12"/>
+			</Actor>
+		</Field>
+		<Field name="countUnknown1" type="short" multi="true"  while="true" outText="Unknown Object Count: {0}">
+			<Actor name="actorID" type="ulong"/>
+			<Actor name="reference" type="ulong"/>
+			<Actor name="unk" type="bytes" length="7" outText="ActorID:0x{1} Referenced ActorID 0x{2} Unknown:{0}" inText="actorID,reference"/>
+		</Field>
+	</Packet>
+	<Packet>
+		<ID>SM_ACTOR_LIST</ID>
+		<Field name="MapInstanceID" type="uint" Position="6" outText="MapInstanceID:{0}"/>
+		<Field name="count" type="short" Position="15" multi="true" while="true" outText="Count:{0}">
+			<Actor name="actorID" type="ulong" multi="true">
+				<Molecular name="npcID" type="gushort" AddPosition="5" AfterAddPosition="93" actorIDMin="0x4000000000001"  outText="NPC ActorID:0x{1:X} NPCID:{0}" inText="actorID"/>
+				<Molecular name="pc" type="null"  multi="true" actorIDMax="0x4000000000000" outText="PC ActorID:0x{0:X} Race:{1} Gender:{2} Job:{3} Name:{4} Unknown:{5:X}" inText="actorID,race,gender,job,name,Unknown">
+          <Atom name="race" type="byte"/>
+          <Atom name="gender" type="byte"/>
+          <Atom name="job" type="byte" AfterAddPosition="92"/>
+          <Atom name="name" type="string"/>
+          <Atom name="Unknown" type="Bytes" length="3"/>
+				</Molecular>
+			</Actor>
+		</Field>
+	</Packet>
+	<Packet>
+		<ID>SM_ACTOR_INFO_LIST</ID>
+		<Field name="length" type="short" Position="2" merge="true" RunMin="1"/>
+		<Field name="MapInstanceID" type="uint" Position="6" outText="MapInstanceID:{0}"/>
+		<Field name="countActor" type="short" Position="14" multi="true"  while="true" outText="Count:{0}">
+			<Actor name="actorID" type="ulong" multi="true">
+				<Molecular name="mapID" type="uint"/>
+				<Molecular name="x" type="short"/>
+				<Molecular name="y" type="short"/>
+				<Molecular name="z" type="short"/>
+				<Molecular name="dir" type="ushort"/>
+				<Molecular name="level" type="byte" AfterAddPosition="4"/>
+				<Molecular name="hp" type="int" AfterAddPosition="16"/>
+				<Molecular name="mp" type="short" />
+				<Molecular name="mana" type="int"  AfterAddPosition="76"/>
+				<Molecular name="friendly" type="byte"/>
+				<Molecular name="maxhp" type="int"/>
+				<Molecular name="maxmp" type="short"  AfterAddPosition="35" outText="{13} ActorID:0x{1:X16} MapID:{2} Friendly:{12:X} Pos:{3},{4},{5} Dir:{6} Level:{7} HP:{8}/{9} MP:{10}/{0} ManaType:{11}" inText="actorID,mapID,x,y,z,dir,level,hp,maxhp,mp,mana,friendly,actortype"/>
+				<Molecular name="toggle" type="short" discard="12"/>
+			</Actor>
+		</Field>
+		<Field name="countObj" type="short" multi="true"  while="true" outText="Map Obj Count:{0}">
+			<Actor name="actorID" type="ulong" multi="true">
+				<Molecular name="stateId" type="int"  AfterAddPosition="1"/>
+				<Molecular name="enabled" type="Byte" AfterAddPosition="1" outText="Map Obj:0x{1:X16} is {2} and {0}" inText="actorID,stateId"/>
+				<Molecular name="toggle" type="short" discard="4"/>
+			</Actor>
+		</Field>
+		<Field name="countUnknown1" type="short" multi="true"  while="true" outText="Unknown Count:{0}">
+			<Actor name="actorID" type="ulong" multi="true" outText="Unknown Obj:0x{0:X16} X:{1}, Y:{2}, Z:{3}" inText="x,y,z">
+				<Molecular name="x" type="short" AddPosition="5"/>
+				<Molecular name="y" type="short"/>
+				<Molecular name="z" type="short" AfterAddPosition="5" outText="Unknown Obj:0x{1:X16} X:{2}, Y:{3}, Z:{0}" inText="actorID,x,y"/>
+			</Actor>
+		</Field>
+		<Field name="countUnknown2" type="short" />
+		<Field name="countUnknown3" type="short" multi="true"  while="true" outText="Unknown Count:{0}">
+			<Actor name="actorID" type="ulong" multi="true" outText="Unknown Obj:0x{0:X16} X:{1}, Y:{2}, Z:{3}" inText="x,y,z">
+				<Molecular name="x" type="short" AddPosition="22"/>
+				<Molecular name="y" type="short"/>
+				<Molecular name="z" type="short" AfterAddPosition="2" outText="Unknown Obj:0x{3:X16} X:{1}, Y:{2}, Z:{0}" inText="x,y,actorID"/>
+				<Molecular name="temp" type="short" discard="4"/>
+			</Actor>
+		</Field>
+		<Field name="countUnknown4" type="short" multi="true"  while="true" outText="Unknown Count:{0}">
+			<Actor name="actorID" type="ulong"/>
+			<Actor name="actorID2" type="ulong" AfterAddPosition="7" outText="Unknown Obj:0x{0:X16} associated with 0x{1:X16}" inText="actorID"/>
+		</Field>
+		<Field name="countUnknown5" type="short" multi="true"  while="true" outText="Unknown Count:{0}">
+			<Actor name="actorID" type="ulong" multi="true">
+				<Molecular name="x" type="short" AddPosition="13"/>
+				<Molecular name="y" type="short"/>
+				<Molecular name="z" type="short" AfterAddPosition="2" outText="Campfires:0x{3:X16} X:{1}, Y:{2}, Z:{0}" inText="x,y,actorID"/>
+			</Actor>
+		</Field>
+	</Packet>
+  <Packet>
+    <ID>SM_ACTOR_UPDATE_LIST</ID>
+    <Field name="length" type="uint" Position="2" outText="Data Length: {0}"/>
+    <Field name="count" type="ushort" multi="true" while="true" outText="Number of Parameters: {0}">
+      <Actor name="dataLen" type="packet" multi="true">
+        <Molecular name="type" type="byte" switch="true" multi="true" Position="2">
+          <Atom name="1" type="null" multi="true">
+            <Proton name="actorID" type="ulong"/>
+            <Proton name="x" type="short"/>
+            <Proton name="y" type="short"/>
+            <Proton name="z" type="short"/>
+            <Proton name="dir" type="ushort"/>
+            <Proton name="speed" type="ushort"/>
+            <Proton name="unk1" type="byte"/>
+            <Proton name="unk2" type="ushort"/>
+            <Proton name="moveType" type="ushort"/>
+            <Proton name="surplus" type="surplus" outText="Move 0x{9},{1},{2},{3},{4},{5},{6},{7},{8},{0}" inText="x,y,z,dir,speed,moveType,unk1,unk2,actorID"/>
+          </Atom>
+          <Atom name="2" type="null" multi="true">
+            <Proton name="actorID" type="ulong"/>
+            <Proton name="x" type="short"/>
+            <Proton name="y" type="short"/>
+            <Proton name="z" type="short"/>
+            <Proton name="dir" type="ushort"/>
+            <Proton name="surplus" type="surplus" outText="0x02 0x{5},{1},{2},{3},{4},{0}" inText="x,y,z,dir,actorID"/>
+          </Atom>
+          <Atom name="3" type="null" multi="true">
+            <Proton name="actorID" type="ulong"/>
+            <Proton name="skillId" type="uint"/>
+            <Proton name="unk1" type="ushort"/>
+            <Proton name="unk2" type="ushort"/>
+            <Proton name="skillMode" type="byte"/>
+            <Proton name="unk4" type="ushort"/>
+            <Proton name="pLength" type="byte"/>
+            <Proton name="pType" type="byte" switch="true" multi="true" outText="Skill Caster:0x{8},SkillID:{1},U1:{2},U2:{3},SkillMode:{4},{5},Length:{6},CastMode:{7},TargetContent:{0}" inText="skillId,unk1,unk2,skillMode,unk4,pLength,pType,texttemp,actorId1">
+              <Quark name="1" type="null" multi="true" tempText="{1}" inText="texttemp">
+                <String name="actorId2" type="ulong" tempText="0x{0}"/>
+              </Quark>
+              <Quark name="2" type="null" multi="true" tempText="{1}" inText="texttemp">
+                <String name="x" type="short"/>
+                <String name="y" type="short"/>
+                <String name="z" type="short" tempText="X:{1},Y:{2},Z:{0}" inText="x,y"/>
+              </Quark>
+            </Proton>
+          </Atom>
+          <Atom name="4" type="null" multi="true">
+            <Proton name="actorID" type="ulong"/>
+            <Proton name="actorID2" type="ulong"/>
+            <Proton name="skillID" type="uint"/>
+            <Proton name="skill1" type="byte"/>
+            <Proton name="skill2" type="byte"/>
+            <Proton name="skill3" type="byte"/>
+            <Proton name="skillAttackResult" type="byte" outText="Effect Caster:0x{6},Effector:0x{1},SkillID:{2},{3},{4},{5},{0}" inText="actorID2,skillID,skill1,skill2,skill3,actorID"/>
+          </Atom>
+        </Molecular>
+      </Actor>
+    </Field>
+  </Packet>
+</CBT>

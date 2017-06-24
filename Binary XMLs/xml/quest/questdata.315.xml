@@ -1,0 +1,76 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_315" category="epic" completed-desc="q_315_completed" completed-list="y" desc="q_315_sum" grade="1" group2="QG_JeRyoungRimEpic" id="315" name2="Quest.Name2.315">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="17" sort-no="219" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_315_des_1" id="1" location-x="-9073.2422" location-y="43416.4922" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.315_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_315_m1_indi_1" mapunit-1="2310_guide_E315" mapunit-2="2300_guide_E315" msg="q_315_m1" object="npc:ctzn_jinf_jakyungdan_buyoung_kff_002" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_315_des_2" id="2" location-x="-5492.9707" location-y="46151.9336" map="songamgul_dun">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.315_2" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_315_Quest_cubic_package_1_icon" mapunit-5="2609_mob_jinm_pdungn_bandit_member_sht_001" mapunit-6="2609_mob_jinm_pdungn_bandit_member_sht_001_1" mapunit-7="2609_mob_jinm_pdungn_bandit_member_sht_001_2" object="npc:mob_jinm_pdungn_bandit_member_sht_001" prob="100" progress-mission="y" quest-symbol-drop-prob="50" type="loot" />
+        <text>
+        </text>
+        <case looting="q_315_Quest_cubic_package_1_icon" mapunit-1="2440_songamgul_dun_e315" mapunit-2="2609_mh_noklimdo_0001" mapunit-3="2609_mh_noklimdo_0001_1" mapunit-4="2609_mh_noklimdo_0001_2" object="npc:MH_NokLimDo_0001" progress-mission="y" quest-symbol-drop-prob="50" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_315_des_3" id="3" location-x="-8637.0703" location-y="49348.3477" map="songamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.315_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_315_m3_indi_1" msg="q_315_m3" object="npc:ctzn_jinf_jakyungdan_buyoung_kff_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="800" money="240" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos2_gr2_songlim_sheild_lv17" slot-2="item:gem_pos2_gr2_songlim_bal_lv17" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_316" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

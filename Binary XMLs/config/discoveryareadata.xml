@@ -1,0 +1,446 @@
+<table>
+	<release-module>LevelData</release-module>
+	<release-side>client</release-side>
+	<type>discovery-area</type>
+	<version>0.8</version>
+</table>
+<record>
+	<alias>DeNaMuHeAn</alias>
+	<id>1</id>
+	<name2>Discovery.Name2.DeNaMuHeAn</name2>
+</record>
+<record>
+	<alias>DeNaMuMaUl</alias>
+	<id>2</id>
+	<name2>Discovery.Name2.DeNaMuMaUl</name2>
+</record>
+<record>
+	<alias>MangJaSup</alias>
+	<id>3</id>
+	<name2>Discovery.Name2.MangJaSup</name2>
+</record>
+<record>
+	<alias>JaKyungDanChoSo</alias>
+	<id>4</id>
+	<name2>Discovery.Name2.JaKyungDanChoSo</name2>
+</record>
+<record>
+	<alias>WalYungMyoJi</alias>
+	<id>5</id>
+	<name2>Discovery.Name2.WalYungMyoJi</name2>
+</record>
+<record>
+	<alias>BurRyuJinUrChon</alias>
+	<id>6</id>
+	<name2>Discovery.Name2.BurRyuJinUrChon</name2>
+</record>
+<record>
+	<alias>HuekUmLim</alias>
+	<id>7</id>
+	<name2>Discovery.Name2.HuekUmLim</name2>
+</record>
+<record>
+	<alias>SukGaMaTer</alias>
+	<id>8</id>
+	<name2>Discovery.Name2.SukGaMaTer</name2>
+</record>
+<record>
+	<alias>SuRyunGol</alias>
+	<id>9</id>
+	<name2>Discovery.Name2.SuRyunGol</name2>
+</record>
+<record>
+	<alias>NokMyeongChon</alias>
+	<id>10</id>
+	<name2>Discovery.Name2.NokMyeongChon</name2>
+</record>
+<record>
+	<alias>SuRyunPokPo</alias>
+	<id>11</id>
+	<name2>Discovery.Name2.SuRyunPokPo</name2>
+</record>
+<record>
+	<alias>GiYunJulBuk</alias>
+	<id>12</id>
+	<name2>Discovery.Name2.GiYunJulBuk</name2>
+</record>
+<record>
+	<alias>SongAmDo</alias>
+	<id>13</id>
+	<name2>Discovery.Name2.SongAmDo</name2>
+</record>
+<record>
+	<alias>GurAmGol</alias>
+	<id>14</id>
+	<name2>Discovery.Name2.GurAmGol</name2>
+</record>
+<record>
+	<alias>SongRimSa</alias>
+	<id>15</id>
+	<name2>Discovery.Name2.SongRimSa</name2>
+</record>
+<record>
+	<alias>HangAurRiYaYoung</alias>
+	<id>16</id>
+	<name2>Discovery.Name2.HangAurRiYaYoungJi</name2>
+</record>
+<record>
+	<alias>MeMaRounWuMul</alias>
+	<id>17</id>
+	<name2>Discovery.Name2.MeMaRounWuMul</name2>
+</record>
+<record>
+	<alias>DoGulMuDum</alias>
+	<id>18</id>
+	<name2>Discovery.Name2.DoGulMuDum</name2>
+</record>
+<record>
+	<alias>SanJukSoGul</alias>
+	<id>19</id>
+	<name2>Discovery.Name2.SanJukSoGul</name2>
+</record>
+<record>
+	<alias>BukJJokDongGul</alias>
+	<id>20</id>
+	<name2>Discovery.Name2.BukJJokDongGul</name2>
+</record>
+<record>
+	<alias>OuYumDongGul</alias>
+	<id>21</id>
+	<name2>Discovery.Name2.OuYumDongGul</name2>
+</record>
+<record>
+	<alias>EunSinDongGul</alias>
+	<id>22</id>
+	<name2>Discovery.Name2.EunSinDongGul</name2>
+</record>
+<record>
+	<alias>GiIeHanDongGul</alias>
+	<id>23</id>
+	<name2>Discovery.Name2.GiIeHanDongGul</name2>
+</record>
+<record>
+	<alias>SanYangMokGul</alias>
+	<id>24</id>
+	<name2>Discovery.Name2.SanYangMokGul</name2>
+</record>
+<record>
+	<alias>PokPoSuDongGul</alias>
+	<id>25</id>
+	<name2>Discovery.Name2.PokPoSuDongGul</name2>
+</record>
+<record>
+	<alias>NokMyeongHoSuDongGul</alias>
+	<id>26</id>
+	<name2>Discovery.Name2.NokMyeongHoSuDongGul</name2>
+</record>
+<record>
+	<alias>JulBukDongGul</alias>
+	<id>27</id>
+	<name2>Discovery.Name2.JulBukDongGul</name2>
+</record>
+<record>
+	<alias>GiYunDongGul</alias>
+	<id>28</id>
+	<name2>Discovery.Name2.GiYunDongGul</name2>
+</record>
+<record>
+	<alias>SuRyunDongGul</alias>
+	<id>29</id>
+	<name2>Discovery.Name2.SuRyunDongGul</name2>
+</record>
+<record>
+	<alias>HeAnDongGul</alias>
+	<id>30</id>
+	<name2>Discovery.Name2.HeAnDongGul</name2>
+</record>
+<record>
+	<alias>MangJaGul</alias>
+	<id>31</id>
+	<name2>Discovery.Name2.MangJaGul</name2>
+</record>
+<record>
+	<alias>SongAmGul</alias>
+	<id>32</id>
+	<name2>Discovery.Name2.SongAmGul</name2>
+</record>
+<record>
+	<alias>GurAmDongGul</alias>
+	<id>33</id>
+	<name2>Discovery.Name2.GurAmDongGul</name2>
+</record>
+<record>
+	<alias>ChungKakJeRyoungGiJi</alias>
+	<id>34</id>
+	<name2>Discovery.Name2.ChungKakJeRyoungGiJi</name2>
+</record>
+<record>
+	<alias>ChungKakJeRyoungJiBu</alias>
+	<id>35</id>
+	<name2>Discovery.Name2.ChungKakJeRyoungJiBu</name2>
+</record>
+<record>
+	<alias>JeRyoungRim</alias>
+	<id>36</id>
+	<name2>Discovery.Name2.JeRyoungRim</name2>
+</record>
+<record>
+	<alias>DaeSaMak</alias>
+	<id>37</id>
+	<name2>Discovery.Name2.DaeSaMak</name2>
+</record>
+<record>
+	<alias>ToeMunJean</alias>
+	<id>38</id>
+	<name2>Discovery.Name2.ToeMunJean</name2>
+</record>
+<record>
+	<alias>YeolSaJeeDea</alias>
+	<id>39</id>
+	<name2>Discovery.Name2.YeolSaJeeDea</name2>
+</record>
+<record>
+	<alias>SaJiSukRim</alias>
+	<id>40</id>
+	<name2>Discovery.Name2.SaJiSukRim</name2>
+</record>
+<record>
+	<alias>OSeakAmDo</alias>
+	<id>41</id>
+	<name2>Discovery.Name2.OSeakAmDo</name2>
+</record>
+<record>
+	<alias>OeTolIMaEul</alias>
+	<id>42</id>
+	<name2>Discovery.Name2.OeTolIMaEul</name2>
+</record>
+<record>
+	<alias>YuGaChon</alias>
+	<id>43</id>
+	<name2>Discovery.Name2.YuGaChon</name2>
+</record>
+<record>
+	<alias>ToeMunGekJan</alias>
+	<id>44</id>
+	<name2>Discovery.Name2.ToeMunGekJan</name2>
+</record>
+<record>
+	<alias>DoGiBangChongTa</alias>
+	<id>45</id>
+	<name2>Discovery.Name2.DoGiBangChongTa</name2>
+</record>
+<record>
+	<alias>MuUnMaEul</alias>
+	<id>46</id>
+	<name2>Discovery.Name2.MuUnMaEul</name2>
+</record>
+<record>
+	<alias>HoeRangChon</alias>
+	<id>47</id>
+	<name2>Discovery.Name2.HoeRangChon</name2>
+</record>
+<record>
+	<alias>DoGulAmSiJang</alias>
+	<id>48</id>
+	<name2>Discovery.Name2.DoGulAmSiJang</name2>
+</record>
+<record>
+	<alias>SaDangUiJiHa</alias>
+	<id>49</id>
+	<name2>Discovery.Name2.SaDangUiJiHa</name2>
+</record>
+<record>
+	<alias>SeoNangDangNaMuDongGul</alias>
+	<id>50</id>
+	<name2>Discovery.Name2.SeoNangDangNaMuDongGul</name2>
+</record>
+<record>
+	<alias>TakGiGul</alias>
+	<id>51</id>
+	<name2>Discovery.Name2.TakGiGul</name2>
+</record>
+<record>
+	<alias>HwanYeongChoJeoJangSo</alias>
+	<id>52</id>
+	<name2>Discovery.Name2.HwanYeongChoJeoJangSo</name2>
+</record>
+<record>
+	<alias>SaMaGyoBunTaIpGu</alias>
+	<id>53</id>
+	<name2>Discovery.Name2.SaMaGyoBunTaIpGu</name2>
+</record>
+<record>
+	<alias>MaYeongGangGunBalGulJi</alias>
+	<id>54</id>
+	<name2>Discovery.Name2.MaYeongGangGunBalGulJi</name2>
+</record>
+<record>
+	<alias>HwangSaGul</alias>
+	<id>55</id>
+	<name2>Discovery.Name2.HwangSaGul</name2>
+</record>
+<record>
+	<alias>PungSaGul</alias>
+	<id>56</id>
+	<name2>Discovery.Name2.PungSaGul</name2>
+</record>
+<record>
+	<alias>HwangPungGul</alias>
+	<id>57</id>
+	<name2>Discovery.Name2.HwangPungGul</name2>
+</record>
+<record>
+	<alias>UlBuJitNeunSaWon</alias>
+	<id>58</id>
+	<name2>Discovery.Name2.UlBuJitNeunSaWon</name2>
+</record>
+<record>
+	<alias>NaRyuSaWon</alias>
+	<id>59</id>
+	<name2>Discovery.Name2.NaRyuSaWon</name2>
+</record>
+<record>
+	<alias>GeuRimJaSukGul</alias>
+	<id>60</id>
+	<name2>Discovery.Name2.GeuRimJaSukGul</name2>
+</record>
+<record>
+	<alias>ORakDangTuGiJang</alias>
+	<id>61</id>
+	<name2>Discovery.Name2.ORakDangTuGiJang</name2>
+</record>
+<record>
+	<alias>BunWaJokBuRak</alias>
+	<id>62</id>
+	<name2>Discovery.Name2.BunWaJokBuRak</name2>
+</record>
+<record>
+	<alias>HangARiDanSoGul</alias>
+	<id>63</id>
+	<name2>Discovery.Name2.HangARiDanSoGul</name2>
+</record>
+<record>
+	<alias>YoengACohJeBaeJe</alias>
+	<id>64</id>
+	<name2>Discovery.Name2.YoengACohJeBaeJe</name2>
+</record>
+<record>
+	<alias>ToSinUiJeaDan</alias>
+	<id>65</id>
+	<name2>Discovery.Name2.ToSinUiJeaDan</name2>
+</record>
+<record>
+	<alias>HeukChangJokYeonHoeJang</alias>
+	<id>66</id>
+	<name2>Discovery.Name2.HeukChangJokYeonHoeJang</name2>
+</record>
+<record>
+	<alias>BokGonPaeGul</alias>
+	<id>67</id>
+	<name2>Discovery.Name2.BokGonPaeGul</name2>
+</record>
+<record>
+	<alias>ToGulMuDom</alias>
+	<id>68</id>
+	<name2>Discovery.Name2.ToGulMuDom</name2>
+</record>
+<record>
+	<alias>GeuRimJaNapGolDang</alias>
+	<id>69</id>
+	<name2>Discovery.Name2.GeuRimJaNapGolDang</name2>
+</record>
+<record>
+	<alias>AekMakINaMuUiPpuRi</alias>
+	<id>70</id>
+	<name2>Discovery.Name2.AekMakINaMuUiPpuRi</name2>
+</record>
+<record>
+	<alias>CheonJoUiDoungJi</alias>
+	<id>71</id>
+	<name2>Discovery.Name2.CheonJoUiDoungJi</name2>
+</record>
+<record>
+	<alias>ORakDangAmGul</alias>
+	<id>72</id>
+	<name2>Discovery.Name2.ORakDangAmGul</name2>
+</record>
+<record>
+	<alias>JeoJangChangGo</alias>
+	<id>73</id>
+	<name2>Discovery.Name2.JeoJangChangGo</name2>
+</record>
+<record>
+	<alias>GolMyeonJokBuRakGul</alias>
+	<id>74</id>
+	<name2>Discovery.Name2.GolMyeonJokBuRakGul</name2>
+</record>
+<record>
+	<alias>GeuRimJaBonGeoji</alias>
+	<id>75</id>
+	<name2>Discovery.Name2.GeuRimJaBonGeoji</name2>
+</record>
+<record>
+	<alias>MuSinReungIpGu</alias>
+	<id>76</id>
+	<name2>Discovery.Name2.MusinreungIpGu</name2>
+</record>
+<record>
+	<alias>MuSinReung</alias>
+	<id>77</id>
+	<name2>Discovery.Name2.Musinreung</name2>
+</record>
+<record>
+	<alias>HuiSaengUiMuDom</alias>
+	<id>78</id>
+	<name2>Discovery.Name2.HuiSaengUiMuDom</name2>
+</record>
+<record>
+	<alias>HyeolToKwan</alias>
+	<id>79</id>
+	<name2>Discovery.Name2.HyeolToKwan</name2>
+</record>
+<record>
+	<alias>HeukChangJokBuRak</alias>
+	<id>80</id>
+	<name2>Discovery.Name2.HeukChangJokBuRak</name2>
+</record>
+<record>
+	<alias>YeonKkotHoSu</alias>
+	<id>81</id>
+	<name2>Discovery.Name2.YeonKkotHoSu</name2>
+</record>
+<record>
+	<alias>MuIlBong</alias>
+	<id>82</id>
+	<name2>Discovery.Name2.MuIlBong</name2>
+</record>
+<record>
+	<alias>SiHumUiDongGul</alias>
+	<id>83</id>
+	<name2>Discovery.Name2.SiHumUiDongGul</name2>
+</record>
+<record>
+	<alias>HyeolToKwanIpGu</alias>
+	<id>84</id>
+	<name2>Discovery.Name2.HyeolToKwanIpGu</name2>
+</record>
+<record>
+	<alias>ToeMunGekJanICheung</alias>
+	<id>85</id>
+	<name2>Discovery.Name2.ToeMunGekJanICheung</name2>
+</record>
+<record>
+	<alias>ToeMunGekJanJiHa</alias>
+	<id>86</id>
+	<name2>Discovery.Name2.ToeMunGekJanJiHa</name2>
+</record>
+<record>
+	<alias>SaMaGyoBunTaJiHaIlCheung</alias>
+	<id>87</id>
+	<name2>Discovery.Name2.SaMaGyoBunTaJiHaIlCheung</name2>
+</record>
+<record>
+	<alias>SaMaGyoBunTaJiHaICheung</alias>
+	<id>88</id>
+	<name2>Discovery.Name2.SaMaGyoBunTaJiHaICheung</name2>
+</record>

@@ -1,0 +1,94 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_790" category="normal" desc="q_790_sum" grade="4" group2="QG_HwangPungSaMak" id="790" name2="Quest.Name2.790">
+    <text>
+    </text>
+    <acquisition level="50" preceding-quest-1="q_epic_508" preceding-quest-check="and" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_790_s_indi_1" msg="q_790_s" object="npc:ch_musingwan_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="34065.6211" location-y="-2274.5398" map="HyeolToKwan">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.790_1" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:me_musingwan_0019" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="34065.6211" location-y="-2274.5398" map="HyeolToKwan">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.790_2" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:me_musingwan_0020" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="34065.6211" location-y="-2274.5398" map="HyeolToKwan">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.790_3" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:me_musingwan_0021" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.790_4" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:me_musingwan_0022" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-37877.4531" location-y="-37694.4453" map="HyeolToKwanIpGu">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.790_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_790_m5_indi_1" msg="q_790_m5" object="npc:ch_musingwan_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="2900" money="1400" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Acc_neck_quest_002" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_560" category="normal" desc="q_560_sum" grade="1" group2="QG_ToMunJinSouth" id="560" name2="Quest.Name2.560">
+    <text>
+    </text>
+    <acquisition level="20" preceding-quest-1="q_epic_502" preceding-quest-check="and" recommended-level="22">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_560_s_indi_1" msg="q_560_s" object="npc:ch_tojibosal_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_560_des_1" id="1" location-x="-61058.4023" location-y="-75905.4141" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.560_1" required-register-value="1">
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="3000_e_onoff_incense_01" object="zoneenv:e_onoff_incense_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-61058.4023" location-y="-75905.4141" map="toemunjean">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.560_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_560_m2_indi_1" msg="q_560_m2" object="npc:ch_tojibosal_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="230" money="80" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="2" slot-1="item:Potion_Gr3_Lv21" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

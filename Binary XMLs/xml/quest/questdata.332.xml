@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_332" category="normal" desc="q_332_sum" grade="1" group="제룡림(망자의 숲)" group2="QG_MangJaSup" id="332" name="노장의 지혜" name2="Quest.Name2.332">
+    <text>
+    </text>
+    <acquisition level="3" preceding-quest-1="q_epic_304" preceding-quest-check="and" recommended-level="5">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_332_s_indi_1" msg="q_332_s" object="npc:ctzn_jinm_jakyungdan_dangmunwi_foc_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_332_des_1" id="1" location-x="-37784.8906" location-y="-59611.7539" map="MeMaRyun_Dun">
+      <text>
+      </text>
+      <mission id="1" name="석등비룡의 내단 획득" name2="Mission.Name2.332_1" required-register-value="10">
+        <text>
+        </text>
+        <case looting="q_332_quest_gall_of_wool_1_icon" mapunit-1="2000_memaryun_dun_s332" mapunit-2="2600_mob_etc_mflt_spctr_pdungn_lantern_lizard_001" mapunit-3="2600_mob_etc_mflt_spctr_pdungn_lantern_lizard_001_1" mapunit-4="2600_mob_etc_mflt_spctr_pdungn_lantern_lizard_001_2" mapunit-5="2600_mob_etc_mflt_spctr_pdungn_lantern_lizard_001_3" object="npc:mob_etc_mflt_spctr_pdungn_lantern_lizard_001" prob="100" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-33384.3203" location-y="-52256.3203" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name="자경단 초소의 당문위에게 보고" name2="Mission.Name2.332_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_332_m2_indi_1" msg="q_332_m2" object="npc:ctzn_jinm_jakyungdan_dangmunwi_foc_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="400" money="30" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="3" item-count-2="1" item-count-3="1" slot-1="item:gem_despose_material_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

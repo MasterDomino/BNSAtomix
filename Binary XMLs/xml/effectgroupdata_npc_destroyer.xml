@@ -1,0 +1,815 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>MH_Destroyer_Destruction_Charge_Q_E1_01</alias>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Destruction_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Destruction_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Destruction_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Destruction_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Destruction_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Destruction_Destruction_Lv1_moveblock</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Destruction_Lv1_E1_p</alias>
+	<effect-1>MH_Destroyer_Destruction_Destruction_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Destruction_Lv1_E2_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Destruction_Lv1_damage2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Destruction_Lv1_E2_p</alias>
+	<effect-1>MH_Destroyer_Destruction_Destruction_Lv1_damage2</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Earthquake_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Earthquake_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Earthquake_kneel</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Earthquake_Lv1_hidden_E2_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Earthquake_Lv1_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Earthquake_Lv1_down</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Earthquake_Lv1_hidden_E2_p</alias>
+	<effect-1>MH_Destroyer_Destruction_Earthquake_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Earthquake_lv2_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Earthquake_LV2_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Earthquake_LV2_kneel</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Earthquake_lv3_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Earthquake_LV3_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Earthquake_LV3_kneel</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Ruination_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Ruination_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Ruination_castspeedup</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Ruination_E1_02</alias>
+	<effect-1>MH_Destroyer_Destruction_Ruination_dashknockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Shock_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Shock_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Threat_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Threat_blunt</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Threat_E1_02</alias>
+	<effect-1>MH_Destroyer_Destruction_Threat_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Threat_immune</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Threat_LV2_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Threat_LV2_blunt</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Threat_LV2_E1_02</alias>
+	<effect-1>MH_Destroyer_Destruction_Threat_LV2_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Threat_LV2_immune</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Threat_LV3_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Threat_LV3_blunt</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Threat_LV3_E1_02</alias>
+	<effect-1>MH_Destroyer_Destruction_Threat_LV3_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Threat_LV3_immune</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Thunderbolt_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Thunderbolt_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Thunderbolt_shock</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Thunderbolt_LV2_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Thunderbolt_LV2_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Thunderbolt_shock</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Thunderbolt_LV3_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Thunderbolt_LV3_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Thunderbolt_shock</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_HardWall_Shoulder_Tackle_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_HardWall_Shoulder_Tackle_Lv1_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_HardWall_Shoulder_Tackle_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_HardWall_Shoulder_Tackle_Lv1_dispel</effect-1>
+	<effect-2>MM_MH_Destroyer_Destruction_StanceEffect_Visual</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_HardWall_Shoulder_Tackle_Lv1_E1_p</alias>
+	<effect-1>MH_Destroyer_HardWall_Shoulder_Tackle_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Axe_Chop_damagePLUS</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40058</target-state-first-filter>
+	<target-state-second-filter>40063</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_Lv1_downdamage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_Lv1_E1_03</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_Lv1_downdamage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40060</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_Lv1_E1_04</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_knockback</effect-1>
+	<skill-result>parry</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_Lv1_E1_05</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Axe_Chop_knockback_void</effect-2>
+	<skill-result>perfect-parry</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_Lv1_E1_06</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_damage</effect-1>
+	<skill-result>counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_LV2_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_LV2_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Axe_Chop_LV2_damagePLUS</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Axe_Chop_LV3_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Axe_Chop_LV3_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Axe_Chop_LV3_damagePLUS</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Earthquake_Lv1_hidden_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Earthquake_Lv1_hidden_moveblock</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_HardWall_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_HardWall_Lv1_defense</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_HardWall_Raging_Wind_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_HardWall_Lv1_defense2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_HardWall_Cancel</alias>
+	<effect-1>MH_Destroyer_Protection_HardWall_Lv1_cancel</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Judgement_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Judgement_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Judgement_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Judgement_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Judgement_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Protection_Judgement_Lv1_moveblock</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Judgement_Lv1_E1_p</alias>
+	<effect-1>MH_Destroyer_Protection_Judgement_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_knockbackdash</effect-1>
+	<effect-2>MH_Destroyer_Protection_KickKnockback_knockback</effect-2>
+	<effect-3>MH_Destroyer_Protection_KickKnockback_damage</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_LV2_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_Lv2_knockbackdash</effect-1>
+	<effect-2>MH_Destroyer_Protection_KickKnockback_Lv2_knockback</effect-2>
+	<effect-3>MH_Destroyer_Protection_KickKnockback_Lv2_damage</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_LV3_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_Lv3_knockbackdash</effect-1>
+	<effect-2>MH_Destroyer_Protection_KickKnockback_Lv3_knockback</effect-2>
+	<effect-3>MH_Destroyer_Protection_KickKnockback_Lv3_damage</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Nemesis_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Nemesis_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Punishment_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Punishment_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Punishment_lv2_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Punishment_damage_lv2</effect-1>
+	<effect-2>MH_Destroyer_Protection_Punishment_defenddown_lv2</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Punishment_lv3_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Punishment_damage_lv3</effect-1>
+	<effect-2>MH_Destroyer_Protection_Punishment_defenddown_lv3</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Rage_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Rage_Lv1_down</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_RageChange_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_RageChange_Lv1_stancechange</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_RageChange_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Protection_RageChange_Lv1_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_RageChange_Lv1_E2_01</alias>
+	<effect-1>KungfuMaster_Attack_Escape_Lv1_unmount</effect-1>
+	<effect-2>KungfuMaster_Attack_Escape_Lv1_uninhalation</effect-2>
+	<effect-3>KungfuMaster_Attack_Escape_Lv1_dispel</effect-3>
+	<effect-4>KungfuMaster_Attack_Escape_Lv1_dispeldebuff</effect-4>
+	<effect-5>KungfuMaster_Attack_Escape_Lv1_immune</effect-5>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_RageChange_Q_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_RageChange_Q_stancechange</effect-1>
+	<effect-2>MH_Destroyer_Protection_RageChange_Q_PowerUp</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_RageChange_Q_E1_p</alias>
+	<effect-1>MH_Destroyer_Protection_RageChange_Q_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_RageChange_Q_E2_01</alias>
+	<effect-1>KungfuMaster_Attack_Escape_Lv1_unmount</effect-1>
+	<effect-2>KungfuMaster_Attack_Escape_Lv1_uninhalation</effect-2>
+	<effect-3>KungfuMaster_Attack_Escape_Lv1_dispel</effect-3>
+	<effect-4>KungfuMaster_Attack_Escape_Lv1_dispeldebuff</effect-4>
+	<effect-5>KungfuMaster_Attack_Escape_Lv1_immune</effect-5>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Raging_Wind_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Raging_Wind_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Raging_Wind_speeddown</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Raging_Wind_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Raging_Wind_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Raging_Wind_parryblock</alias>
+	<effect-1>MH_Destroyer_Protection_Raging_Wind_parryblock</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Raging_Wind_Lv1_E1_p</alias>
+	<effect-1>MH_Destroyer_Protection_Raging_Wind_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Raging_Wind_Lv1_E2_01</alias>
+	<effect-1>MH_Destroyer_Protection_Raging_Wind_Lv1_debuff</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Raging_Wind_LV2_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Raging_Wind_LV2_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Raging_Wind_LV2_speeddown</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Raging_Wind_LV3_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Raging_Wind_LV3_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Raging_Wind_LV3_speeddown</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_Raging_Wind_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Raging_Wind_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Revenge_Lv1_E1_01</alias>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Revenge_Lv1_E2_01</alias>
+	<effect-1>MH_Destroyer_Protection_Revenge_Lv1_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Revenge_Lv1_kneel</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Revenge_Lv1_E2_p</alias>
+	<effect-1>MH_Destroyer_Protection_Revenge_Lv1_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Revenge_Lv1_kneel</effect-2>
+	<skill-result>parry</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_ChargeDash_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Destruction_Chargedash_Lv1_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Chargedash_Lv1_stun</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40058</target-state-first-filter>
+	<target-state-second-filter>40063</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_ChargeDash_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Destruction_Chargedash_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_ChargeDash_Lv1_E1_03</alias>
+	<effect-1>MH_Destroyer_Destruction_Chargedash_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40060</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_ChargeDash_Lv1_E1_p</alias>
+	<effect-1>MH_Destroyer_Destruction_Chargedash_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Earthquake_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Earthquake_Lv1_damage</effect-1>
+	<effect-2>MH_Destroyer_Destruction_Chargedash_Lv1_stun</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40058</target-state-first-filter>
+	<target-state-second-filter>40063</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Earthquake_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Protection_Earthquake_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Earthquake_Lv1_E1_03</alias>
+	<effect-1>MH_Destroyer_Protection_Earthquake_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40060</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Earthquake_Lv1_E1_01_p</alias>
+	<effect-1>MH_Destroyer_Protection_Earthquake_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_Lv1_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_KickKnockback_Lv1_knockback</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40058</target-state-first-filter>
+	<target-state-second-filter>40063</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_Lv1_E1_03</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40060</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_Lv1_E1_04</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_Lv1_damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_KickKnockback_Lv1_knockback_parry</effect-2>
+	<skill-result>parry-perfect-parry</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_Lv1_E1_05</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_Lv1_damage</effect-1>
+	<skill-result>counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_KickKnockback_Lv1_E1_06</alias>
+	<effect-1>MH_Destroyer_Protection_KickKnockback_Lv1_dash</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Nemesis_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Nemesis_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Nemesis_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Protection_Nemesis_Lv1_moveblock</effect-1>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Nemesis_Lv1_E1_p</alias>
+	<effect-1>MH_Destroyer_Protection_Nemesis_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Trampledown_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Trampledown_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Trampledown_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Protection_Trampledown_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40060</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Trampledown_Lv1_E1_03</alias>
+	<effect-1>MH_Destroyer_Protection_Trampledown_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Catch_E1_01</alias>
+	<effect-1>MH_Destroyer_Catch_link</effect-1>
+	<effect-2>MH_Destroyer_Catch_Lv1_dispel</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Catch_E1_02</alias>
+	<effect-1>MH_Destroyer_Catch_Lv1_moveblock</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Catch_Headbutt_E2_01</alias>
+	<effect-1>MH_Destroyer_Catch_Lv1_Flag</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Catch_Headbutt_E3_01</alias>
+	<effect-1>MH_Destroyer_Catch_Lv1_unlink</effect-1>
+	<effect-2>MH_Destroyer_Catch_Headbutt_damage</effect-2>
+	<effect-3>MH_Destroyer_Catch_Headbutt_down</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Countercrush_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_CounterCrush_Lv1_moveblock</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Countercrush_Lv1_E2_01</alias>
+	<effect-1>MH_Destroyer_Protection_Countercrush_Lv1_Damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Countercrush_Lv1_knockback</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Countercrush_Lv1_E2_02</alias>
+	<effect-1>MH_Destroyer_Protection_Countercrush_Lv1_Damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_Countercrush_Counter_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_Countercrush_Counter_Lv1_Damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_Countercrush_Counter_Lv1_knockback</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_CounterUppercut_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_Protection_CounterUppercut_Lv1_Damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_CounterUppercut_Lv1_midair</effect-2>
+	<effect-3>MH_Destroyer_Common_dispel_down</effect-3>
+	<effect-4>MH_Destroyer_Common_dispel_stun</effect-4>
+	<effect-5>MH_Destroyer_Common_dispel_kneel</effect-5>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40055</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_CounterUppercut_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_Protection_CounterUppercut_Lv1_Damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_CounterUppercut_Lv1_midair</effect-2>
+	<effect-3>MH_Destroyer_Common_dispel_down</effect-3>
+	<effect-4>MH_Destroyer_Common_dispel_stun</effect-4>
+	<effect-5>MH_Destroyer_Common_dispel_kneel</effect-5>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40038</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_CounterUppercut_Lv1_E1_03</alias>
+	<effect-1>MH_Destroyer_Protection_CounterUppercut_Lv1_Damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_CounterUppercut_Lv1_midair</effect-2>
+	<effect-3>MH_Destroyer_Common_dispel_down</effect-3>
+	<effect-4>MH_Destroyer_Common_dispel_stun</effect-4>
+	<effect-5>MH_Destroyer_Common_dispel_kneel</effect-5>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_CounterUppercut_Lv1_E1_04</alias>
+	<effect-1>MH_Destroyer_Protection_CounterUppercut_Lv1_Damage</effect-1>
+	<effect-2>MH_Destroyer_Protection_CounterUppercut_Lv1_midair</effect-2>
+	<effect-3>MH_Destroyer_Common_dispel_down</effect-3>
+	<effect-4>MH_Destroyer_Common_dispel_stun</effect-4>
+	<effect-5>MH_Destroyer_Common_dispel_kneel</effect-5>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40060</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Destroyer_Protection_CounterUppercut_Lv1_E1_05</alias>
+	<effect-1>MH_Destroyer_Protection_CounterUppercut_Lv1_Damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_AnkleCutOff_Lv1_E1_01</alias>
+	<effect-1>MH_Destroyer_MH_Destruction_AnkleCutOff_Lv1_Damage</effect-1>
+	<effect-2>MH_Destroyer_MH_Destruction_AnkleCutOff_Down</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Destroyer_Destruction_AnkleCutOff_Lv1_E1_02</alias>
+	<effect-1>MH_Destroyer_MH_Destruction_AnkleCutOff_Lv1_Damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>

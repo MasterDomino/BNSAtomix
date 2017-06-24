@@ -1,0 +1,145 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_509" category="epic" completed-desc="q_509_completed" completed-list="y" desc="q_509_sum" grade="1" group2="QG_DaeSaMakEpic" id="509" name2="Quest.Name2.509">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="25" sort-no="310" />
+    <text>
+    </text>
+    <mission-step id="1">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.509_1" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="epic_509_con" indicator-social="q_509_m1_indi_1" msg="q_509_m1" object="npc:ch_unguksoldier_0005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_SamaBunta" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" zone-1="zone_SamaBunta">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.509_2" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="epic_509_con" mapunit-1="3004_e_onoff_boontadoor_01" mapunit-2="3007_ShamanDie" object="zone:zone_SamaBunta" progress-mission="y" type="convoy-arrived" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission-step-fail zone-1="zone_SamaBunta">
+        <text>
+        </text>
+        <case convoy="epic_509_con" object="zone:zone_SamaBunta" progress-mission="reaction-only" type="convoy-failed" />
+        <text>
+      </text>
+      </mission-step-fail>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.509_3" required-register-value="1">
+        <text>
+        </text>
+        <case msg="q_509_m3" object="npc:ch_unguksoldier_0005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case mapunit-1="3004_e_onoff_boontadoor_01" object="zone:zone_SamaBunta" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.509_4" required-register-value="1">
+        <text>
+        </text>
+        <case object="zoneenv:3007_Cinema" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zoneenv:3007_SpawnGhost" progress-mission="reaction-only" type="env-entered" />
+        <text>
+        </text>
+        <case mapunit-1="3007_Cinema" object="zone:zone_SamaBunta" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.509_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_509_m5_indi_1" msg="q_509_m5" object="npc:ch_unguksoldier_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HanSiRangHouse" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="801" money="371" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:Costume_51003_AllRace" slot-2="item:Costume_51003_AllRace_col1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_510" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <transit id="1" zone="zone_HwanGakCho">
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

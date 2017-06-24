@@ -1,0 +1,94 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_762" category="normal" desc="q_762_sum" grade="1" group2="QG_SaJiSeokRimSouth" id="762" name2="Quest.Name2.762">
+    <text>
+    </text>
+    <acquisition level="32" preceding-quest-1="q_epic_528" preceding-quest-2="q_sub_787" preceding-quest-check="and" recommended-level="34">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_762_s_indi_1" msg="q_762_s" object="npc:ch_mayeongganggun_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="2" location-x="14106.283" location-y="-37581.875" map="hangari" zone-1="zone_sunjinhan">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.762_2" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3020_ch_mayeongganggun_0020_1" object="npc:ch_mayeongganggun_0020" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zone:zone_sunjinhan" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case mapunit-1="3020_ch_mayeongganggun_0020_1" object="npc:ch_mayeongganggun_0054" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission-step-fail rollback-step-id="1" zone-1="zone_sunjinhan" />
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="13461.752" location-y="-37503.75" map="hangari">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.762_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_762_m3_indi_1" msg="q_762_m3" object="npc:ch_mayeongganggun_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1150" money="900" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="2" slot-1="item:Potion_Gr3_Lv33" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="1" location-x="14106.283" location-y="-37581.875" map="hangari">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.762_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_762_m1_indi_1" msg="q_762_m1" object="npc:ch_mayeongganggun_0020" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_sunjinhan" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_sunjinhan">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="0" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="0" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

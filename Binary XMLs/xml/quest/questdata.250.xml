@@ -1,0 +1,37 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_250" category="epic" grade="1" group2="QG_Toturial" id="250" name2="Quest.Name2.250" tutorial="y">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="1" />
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1">
+      <text>
+      </text>
+      <mission id="1" required-register-value="1">
+        <text>
+        </text>
+        <case object="zone:StartZone_Renew_All" progress-mission="y" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_221" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

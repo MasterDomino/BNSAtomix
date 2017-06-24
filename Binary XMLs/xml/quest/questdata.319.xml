@@ -1,0 +1,142 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_319" category="epic" completed-desc="q_319_completed" completed-list="y" desc="q_319_sum" grade="1" group2="QG_JeRyoungRimEpic" id="319" name2="Quest.Name2.319">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="20" sort-no="226" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_319_des_1" id="1" location-x="-61325.8711" location-y="72290.6563" map="chunggakjibu">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.319_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_319_m1_indi_1" mapunit-1="2420_e_airdash_chung_01_a" mapunit-2="2420_guide_E319" msg="q_319_m1" object="npc:ch_jakyoungdan_0009" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_319_des_2" id="2" location-x="-68961.1563" location-y="70000.2813" map="chunggakjibu">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.319_2" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2420_e_airdash_chung_01_a_1" mapunit-2="2627_e_footswitch_312_2_finish" object="zoneenv:e_footswitch_312_2_finish" progress-mission="y" type="env-entered" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_319_des_3" id="3" location-x="-68961.1563" location-y="70000.2813" map="chunggakjibu">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.319_3" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2627_mob_gonm_chunggak_eungwangsam_001" object="npc:mob_gonm_chunggak_eungwangsam_001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zone:zone_chunggakjibu_ship" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_319_des_4" id="4" location-x="-68961.1563" location-y="70000.2813" map="chunggakjibu">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.319_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_319_m4_indi_1" msg="q_319_m4" object="npc:ctzn_jinf_nokmyeonctzn_namsoyu_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_chunggakjibu_ship" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_ChungGakJiBu_Ship2">
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_320" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <mission-step desc="q_319_des_5" id="5" location-x="-68277.5625" location-y="69590.1251" map="chunggakjibu">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.319_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_319_m5_1_indi_1" msg="q_319_m5_1" object="npc:ch_jakyoungdan_0009" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="q_319_m5_2_indi_1" msg="q_319_m5_2" object="npc:ctzn_jinm_jakyungdan_seomunbeom_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="900" money="300" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="3" slot-1="item:teleportitem_001" />
+        <text>
+        </text>
+        <optional-reward job-1="검사" slot-1="item:weapon_sw_quest_011" slot-2="item:weapon_sw_quest_011_01" />
+        <text>
+        </text>
+        <optional-reward job-1="권사" slot-1="item:weapon_gt_quest_011" slot-2="item:weapon_gt_quest_011_01" />
+        <text>
+        </text>
+        <optional-reward job-1="기공사" slot-1="item:weapon_ab_quest_011" slot-2="item:weapon_ab_quest_011_01" />
+        <text>
+        </text>
+        <optional-reward job-1="암살자" slot-1="item:weapon_dg_quest_011" slot-2="item:weapon_dg_quest_011_01" />
+        <text>
+        </text>
+        <optional-reward job-1="역사" slot-1="item:weapon_ta_quest_011" slot-2="item:weapon_ta_quest_011_01" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

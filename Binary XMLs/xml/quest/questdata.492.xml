@@ -1,0 +1,58 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_492" category="epic" completed-desc="q_492_completed" completed-list="y" desc="q_492_sum" grade="1" group2="QG_JeRyoungRimEpic" id="492" name2="Quest.Name2.492">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="14" sort-no="214" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_492_des_1" id="1" location-x="4038.2671" location-y="12796.21" map="NokMyungHoSu_Dun">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.492_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2300_Epic_NokMyungHoSu_Dun_1" msg="q_492_m1" object="npc:mh_practitioner_002" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_492_des_2" id="2" location-x="13108.623" location-y="20529.125" map="nokmyeong">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.492_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_492_m2_indi_1" msg="q_492_m2" object="npc:ctzn_lynm_dokchogeosa_foc_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="420" money="80" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos5_gr2_dokcho_bal_Lv14" slot-2="item:gem_pos5_gr2_dokcho_atk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_313" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

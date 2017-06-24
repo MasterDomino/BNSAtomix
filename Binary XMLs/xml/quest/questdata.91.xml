@@ -1,0 +1,37 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_91" category="normal" desc="q_91_sum" grade="1" group2="QG_Gathering" id="91" name2="Quest.Name2.91">
+    <text>
+    </text>
+    <acquisition level="11" production-exp="0" production-id="gathering-type-5" recommended-level="13">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_91_s_indi_1" msg="q_91_s" object="npc:CH_Gather_Miner_0004" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_91_des_1" id="1" location-x="10108.6221" location-y="18982.25" map="nokmyeong">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.91_1" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_91_Gather_rare_cooper_1_icon" mapunit-1="2310_e_onoff_2310mineral_01" object="zoneenv:e_onoff_2310mineral_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <basic-reward exp="350" money="20" production-exp="10" production-id="gathering-type-5" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

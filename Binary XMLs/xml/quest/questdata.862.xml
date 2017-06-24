@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_862" category="normal" desc="q_862_sum" grade="1" group2="QG_OSaekAmDoWest" id="862" name2="Quest.Name2.862">
+    <text>
+    </text>
+    <acquisition level="33" preceding-quest-1="q_sub_861" preceding-quest-check="and" recommended-level="35">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_862_s_indi_1" msg="q_862_s" object="npc:ch_smuggler_0005" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="2" location-x="34194.7031" location-y="36941.1953" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.862_2" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_862_grocery_rough_skin_1_icon" mapunit-1="3030_ME_Wolf_0011" object="npc:me_wolf_0011" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="36920.75" location-y="35660.5586" map="dalgokchon">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.862_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_862_m3_indi_1" msg="q_862_m3" object="npc:ch_smuggler_0005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="660" money="580" />
+        <text>
+        </text>
+        <case indicator-social="q_862_m3_indi_2" object="npc:ch_blackmarket_0004" type="approach" />
+        <text>
+        </text>
+        <case indicator-social="q_862_m3_indi_3" object="npc:ch_dojuksang_0001" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_862_des_1" id="1" location-x="34194.7031" location-y="34446.3125" map="dalgokchon">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.862_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_862_m1_indi_1" msg="q_862_m1" object="npc:ce_hwarang_0001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

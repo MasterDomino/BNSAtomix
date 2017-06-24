@@ -1,0 +1,323 @@
+<table>
+	<release-module>LevelData</release-module>
+	<release-side>client</release-side>
+	<type>cinematic</type>
+	<version>0.5</version>
+</table>
+<record>
+	<alias>NamSoYu</alias>
+	<cinema-name>NamSoYu</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>SoYeonHwa</alias>
+	<cinema-name>SoYeonHwa</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>YeHaRang</alias>
+	<cinema-name>YeHaRang</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>NamsMeet</alias>
+	<cinema-name>NamsMeet</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR02</alias>
+	<cinema-name>E_JR02</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR03</alias>
+	<cinema-name>E_JR03</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR06</alias>
+	<cinema-name>E_JR06</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR12</alias>
+	<cinema-name>E_JR12</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR13</alias>
+	<cinema-name>E_JR13</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR20</alias>
+	<cinema-name>E_JR20</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR20_01</alias>
+	<cinema-name>E_JR20_01</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR20_02</alias>
+	<cinema-name>E_JR20_02</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR20_03</alias>
+	<cinema-name>E_JR20_03</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR21</alias>
+	<cinema-name>E_JR21</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR22</alias>
+	<cinema-name>E_JR22</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_JR23</alias>
+	<cinema-name>E_JR23</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>Fire_Chungryong</alias>
+	<cinema-name>Fire_Chungryong</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>load_jr06</alias>
+	<cinema-name>load_jr06</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>load_jr23</alias>
+	<cinema-name>load_jr23</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>unload</alias>
+	<cinema-name>unload</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>q_174_kismet</alias>
+	<cinema-name>q_174_kismet</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>q_187_kismet</alias>
+	<cinema-name>Q_187_kismet</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS01</alias>
+	<cinema-name>E_DS01</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS01B</alias>
+	<cinema-name>E_DS01B</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS02</alias>
+	<cinema-name>E_DS02</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS03</alias>
+	<cinema-name>E_DS03</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS04</alias>
+	<cinema-name>E_DS04</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS04_B</alias>
+	<cinema-name>E_DS04_B</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS06</alias>
+	<cinema-name>E_DS06</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS07</alias>
+	<cinema-name>E_DS07</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>G_DS01</alias>
+	<cinema-name>G_DS01</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>G_DS01_B</alias>
+	<cinema-name>G_DS01_B</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>G_DS02</alias>
+	<cinema-name>G_DS02</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS08</alias>
+	<cinema-name>E_DS08</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS09</alias>
+	<cinema-name>E_DS09</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS10</alias>
+	<cinema-name>E_DS10</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_DS11</alias>
+	<cinema-name>E_DS11</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>FireGolila_start</alias>
+	<cinema-name>FireGolila_start</cinema-name>
+	<skippable>n</skippable>
+</record>
+<record>
+	<alias>DualGuard_Start</alias>
+	<cinema-name>DualGuard_Start</cinema-name>
+	<skippable>n</skippable>
+</record>
+<record>
+	<alias>musin_restore</alias>
+	<cinema-name>musin_restore</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>musin_origin</alias>
+	<cinema-name>musin_origin</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>q_719_kismet</alias>
+	<cinema-name>q_719_kismet</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>e_15_airdash</alias>
+	<cinema-name>e_15_airdash</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>q_506</alias>
+	<cinema-name>q_506</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_SJ01</alias>
+	<cinema-name>E_SJ01</cinema-name>
+	<costume>Start_zone_costume</costume>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_SJ02</alias>
+	<cinema-name>E_SJ02</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_SJ03</alias>
+	<cinema-name>E_SJ03</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_SJ04</alias>
+	<cinema-name>E_SJ04</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>gergerbung_start</alias>
+	<cinema-name>gergerbung_start</cinema-name>
+	<skippable>n</skippable>
+</record>
+<record>
+	<alias>gergerbung_change</alias>
+	<cinema-name>gergerbung_change</cinema-name>
+	<skippable>n</skippable>
+</record>
+<record>
+	<alias>gergerbung_end</alias>
+	<cinema-name>gergerbung_end</cinema-name>
+	<skippable>n</skippable>
+</record>
+<record>
+	<alias>nockmyoungchon_change</alias>
+	<cinema-name>nockmyoungchon_change</cinema-name>
+	<skippable>y</skippable>
+</record>
+<record>
+	<alias>E_SW01</alias>
+	<cinema-name>E_SW01</cinema-name>
+</record>
+<record>
+	<alias>E_SW02</alias>
+	<cinema-name>E_SW02</cinema-name>
+</record>
+<record>
+	<alias>E_SW03</alias>
+	<cinema-name>E_SW03</cinema-name>
+</record>
+<record>
+	<alias>E_SW04</alias>
+	<cinema-name>E_SW04</cinema-name>
+</record>
+<record>
+	<alias>E_SW05</alias>
+	<cinema-name>E_SW05</cinema-name>
+</record>
+<record>
+	<alias>E_SW06</alias>
+	<cinema-name>E_SW06</cinema-name>
+</record>
+<record>
+	<alias>E_SW07</alias>
+	<cinema-name>E_SW07</cinema-name>
+</record>
+<record>
+	<alias>E_SW08</alias>
+	<cinema-name>E_SW08</cinema-name>
+</record>
+<record>
+	<alias>E_SW09</alias>
+	<cinema-name>E_SW09</cinema-name>
+</record>
+<record>
+	<alias>E_SW10</alias>
+	<cinema-name>E_SW10</cinema-name>
+</record>
+<record>
+	<alias>E_SW11</alias>
+	<cinema-name>E_SW11</cinema-name>
+</record>
+<record>
+	<alias>E_SW12</alias>
+	<cinema-name>E_SW12</cinema-name>
+</record>
+<record>
+	<alias>E_SW13</alias>
+	<cinema-name>E_SW13</cinema-name>
+</record>
+<record>
+	<alias>E_SW14</alias>
+	<cinema-name>E_SW14</cinema-name>
+</record>

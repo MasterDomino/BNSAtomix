@@ -1,0 +1,114 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>dieAnim</type>
+	<version>0.3</version>
+</table>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>normal</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Down</die-anim>
+	<idle-type>down</idle-type>
+</record>
+<record>
+	<die-anim>00007910.Dead_Mount_To_Die</die-anim>
+	<idle-type>mount-linker</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Down</die-anim>
+	<idle-type>mount-linkee</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>inhalation_linker</idle-type>
+</record>
+<record>
+	<die-anim>00007910.Knee_To_Die</die-anim>
+	<idle-type>inhalation_linkee</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>stun</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>stagger</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>block</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Down</die-anim>
+	<idle-type>air</idle-type>
+</record>
+<record>
+	<die-anim>00007910.FrontDown_To_Die</die-anim>
+	<idle-type>air2</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Down</die-anim>
+	<idle-type>air3</idle-type>
+</record>
+<record>
+	<die-anim>00007910.Knee_To_Die</die-anim>
+	<idle-type>kneel</idle-type>
+</record>
+<record>
+	<die-anim>00007910.Die_Attach_with_Down</die-anim>
+	<idle-type>magnetic</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>stiff</idle-type>
+</record>
+<record>
+	<die-anim>00007910.FrontDown_To_Die</die-anim>
+	<idle-type>front_down</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>block2</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>knockback-stand</idle-type>
+</record>
+<record>
+	<die-anim>00007910.Knee_To_Die</die-anim>
+	<idle-type>knockback-kneel</idle-type>
+</record>
+<record>
+	<die-anim>00007910.FrontDown_To_Die</die-anim>
+	<idle-type>knockback-frontdown</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Down</die-anim>
+	<idle-type>knockback-down</idle-type>
+</record>
+<record>
+	<die-anim>00007910.Exhaustion_To_Die</die-anim>
+	<idle-type>exhaustion</idle-type>
+</record>
+<record>
+	<die-anim>00007910.Restoration_To_Die</die-anim>
+	<idle-type>restoration</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>destroyer-catch</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>destroyer-catched</idle-type>
+</record>
+<record>
+	<die-anim>00007911.Die_Normal</die-anim>
+	<idle-type>catch-inhalation</idle-type>
+</record>
+<record>
+	<die-anim>00007910.Knee_To_Die</die-anim>
+	<idle-type>catched-inhalation</idle-type>
+</record>

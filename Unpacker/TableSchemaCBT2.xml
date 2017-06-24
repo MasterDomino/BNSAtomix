@@ -1,0 +1,1318 @@
+<?xml version="1.0"?>
+<TableSchema>
+  <Table>
+    <Name>reward2</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+  </Table>
+  <Table>
+    <Name>item-recipe</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="U01" type="byte"/>        
+    <Field name="U02" type="byte"/>        
+    <Field name="U03" type="byte"/>        
+    <Field name="Filler1" type="byte"/>        
+    <Field name="U04" type="int"/>    
+    <Field name="U05" type="int"/>    
+    <Field name="U06" type="long"/>
+    <Field name="U07" type="short"/>
+    <Field name="U08" type="byte"/>        
+    <Field name="U09" type="byte"/>        
+    <Field name="A10a" type="array" subtype="long" size="4"/>
+    <Field name="A10b" type="array" subtype="byte" size="4"/>
+    <Field name="A11a" type="array" subtype="long" size="4"/>
+    <Field name="A11b" type="array" subtype="byte" size="4"/>
+    <Field name="A12a" type="array" subtype="long" size="4"/>
+    <Field name="A12b" type="array" subtype="byte" size="4"/>
+    <Field name="A13a" type="array" subtype="long" size="4"/>
+    <Field name="A13b" type="array" subtype="byte" size="4"/>
+    <Field name="U14" type="long"/>
+    <Field name="U15" type="long"/>
+  </Table>
+  <Table>
+    <Name>ItemPouchMesh</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="Texture" type="string"/>
+    <Field name="U1" type="string"/>
+    <Field name="U2" type="string"/>
+  </Table>
+  <Table>
+    <Name>IconTexture</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="Texture" type="string"/>
+    <Field name="U01" type="short"/>
+    <Field name="U02" type="short"/>
+    <Field name="U03" type="short"/>
+  </Table>
+  <Table>
+    <Name>ZoneEnv</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="U02" type="int"/>    
+    <Field name="U03" type="int"/>    
+    <Field name="U04" type="long"/>
+    <Field name="U05" type="int"/>    
+    <Field name="A06a" type="array" subtype="byte" size="12"/>
+    <Field name="A06b" type="array" subtype="byte" size="12"/>
+    <Field name="A06c" type="array" subtype="byte" size="12"/>
+    <Field name="A06d" type="array" subtype="byte" size="12"/>    
+    <Field name="U07" type="short"/>
+    <Field name="U08" type="short"/>
+    <Field name="U09" type="long"/>
+    <Field name="A10" type="array" subtype="byte" size="20"/>    
+    <Field name="A11" type="array" subtype="long" size="20"/>    
+    <Field name="A12" type="array" subtype="byte" size="20"/>    
+    <Field name="A13" type="array" subtype="byte" size="20"/>    
+    <Field name="A14" type="array" subtype="short" size="20"/>    
+    <Field name="A15" type="array" subtype="long" size="20"/>    
+    <Field name="U16" type="byte"/>        
+  </Table>
+  <Table>
+    <Name>CustomizingDetailSlider</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="U1" type="byte"/>        
+    <Field name="U2" type="byte"/>        
+    <Field name="U3" type="byte"/>        
+    <Field name="U4" type="byte"/>        
+  </Table>
+  <Table>
+    <Name>user-command</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+  </Table>
+  <Table>
+    <Name>effect</Name>
+    <ElementName>Entry</ElementName>
+
+    <Field name="Name" type="string"/>
+    <Field name="U01" type="long"/>
+    <Field name="U02" type="short"/>
+    <Field name="U03" type="byte"/>        
+    <Field name="U04" type="byte"/>        
+
+    <Field name="S01" type="string"/>
+    <Field name="U05" type="byte"/>        
+    <Field name="U06" type="byte"/>        
+    <Field name="U07" type="short"/>        
+    <Field name="U08" type="int"/>    
+
+    <Field name="U09" type="int"/>    
+    <Field name="U10" type="int"/>        
+    <Field name="U11" type="long"/>
+    <Field name="U12" type="byte"/>        
+    <Field name="U13" type="byte"/>        
+
+    <Field name="A01" type="array" subtype="byte" size="4"/>
+    <Field name="unkFiller" type="short"/>        
+
+    <Field name="U14" type="long"/>
+    <Field name="A02" type="array" subtype="byte" size="4"/>
+    <Field name="U15" type="long"/>
+    <Field name="U16" type="byte"/>        
+    <Field name="A03" type="array" subtype="byte" size="8"/>
+    <Field name="U17" type="byte"/>        
+    <Field name="U18" type="byte"/>        
+    <Field name="U19" type="byte"/>        
+    <Field name="A04" type="array" subtype="byte" size="2"/>
+    <Field name="U20" type="byte"/>        
+    <Field name="U21" type="byte"/>        
+    <Field name="U22" type="byte"/>        
+    <Field name="U23" type="byte"/>        
+    <Field name="U24" type="byte"/>        
+    <Field name="U25" type="byte"/>        
+    <Field name="U26" type="byte"/>        
+    <Field name="U27" type="byte"/>        
+    <Field name="Filler03" type="array" subtype="byte" size="2"/>
+    <Field name="U28" type="long"/>
+    <Field name="U29" type="long"/>
+    <Field name="U30" type="long"/>
+    <Field name="U31" type="long"/>
+    <Field name="A05" type="array" subtype="byte" size="4"/>
+    <Field name="A06" type="array" subtype="long" size="2"/>
+    <Field name="A07" type="array" subtype="short" size="8"/>
+    <Field name="A08" type="array" subtype="short" size="8"/>
+    <Field name="A09" type="array" subtype="short" size="8"/>
+    <Field name="U32" type="byte"/>        
+    <Field name="Filler05" type="array" subtype="byte" size="3"/>
+    <Field name="U33" type="long"/>
+    <Field name="U34" type="byte"/>        
+    <Field name="U35" type="byte"/>        
+    <Field name="Filler06" type="array" subtype="byte" size="2"/>
+    <Field name="S02" type="string"/>
+    <Field name="S03" type="string"/>
+    <Field name="S04" type="string"/>
+    <Field name="S05" type="string"/>
+    <Field name="S06" type="string"/>
+    <Field name="S07" type="string"/>
+    <Field name="S08" type="string"/>
+    <Field name="S09" type="string"/>
+    <Field name="S10" type="string"/>
+    <Field name="S11" type="string"/>
+    <Field name="U36" type="int"/>        
+    <Field name="U37" type="long"/>
+    <Field name="U38" type="short"/>
+    <Field name="Filler07" type="array" subtype="byte" size="2"/>
+    <Field name="A10" type="array" subtype="byte" size="12"/>
+    <Field name="U39" type="long"/>
+    <Field name="U40" type="int"/>    
+    <Field name="U41" type="int"/>    
+    <Field name="U42" type="int"/>    
+    <Field name="U43" type="int"/>    
+    <Field name="U44" type="byte"/>        
+    <Field name="U45" type="byte"/>        
+    <Field name="U46" type="byte"/>        
+    <Field name="U47" type="byte"/>        
+    <Field name="U48" type="byte"/>        
+    <Field name="Filler08" type="array" subtype="byte" size="3"/>
+    <Field name="S12" type="string"/>
+    <Field name="U49" type="byte"/>        
+    <Field name="Filler09" type="array" subtype="byte" size="3"/>
+    <Field name="S13" type="string"/>
+    <Field name="S14" type="string"/>
+    <Field name="S15" type="string"/>
+    <Field name="S16" type="string"/>
+    <Field name="S17" type="string"/>
+    <Field name="S18" type="string"/>
+    <Field name="S19" type="string"/>
+    <Field name="S20" type="string"/>
+  </Table>
+  <Table>
+    <Name>set-item</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="A1" type="array" subtype="long" size="4"/>
+    <Field name="A2" type="array" subtype="long" size="4"/>
+    <Field name="A3" type="array" subtype="long" size="4"/>
+    <Field name="A4" type="array" subtype="long" size="4"/>
+    <Field name="A5" type="array" subtype="long" size="4"/>
+    <Field name="A6" type="array" subtype="long" size="4"/>
+    <Field name="A7" type="array" subtype="long" size="4"/>
+    <Field name="A8" type="array" subtype="long" size="4"/>
+    <Field name="A9" type="array" subtype="byte" size="4"/>
+    <Field name="A10" type="array" subtype="byte" size="4"/>
+    <Field name="A11" type="array" subtype="byte" size="4"/>
+    <Field name="A12" type="array" subtype="byte" size="4"/>
+    <Field name="A13" type="array" subtype="byte" size="4"/>
+    <Field name="A14" type="array" subtype="byte" size="4"/>
+    <Field name="A15" type="array" subtype="byte" size="4"/>
+    <Field name="A16" type="array" subtype="byte" size="4"/>
+    <Field name="U1" type="int"/>        
+    <Field name="A17" type="array" subtype="int" size="16"/>
+  </Table>
+  <Table>
+    <Name>campfire</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="U1" type="int"/>
+    <Field name="U2" type="int"/>
+    <Field name="U3" type="int"/>
+    <Field name="Name1" type="string"/>
+    <Field name="Name2" type="string"/>
+    <Field name="Name3" type="string"/>
+    <Field name="Name4" type="string"/>
+    <Field name="Name5" type="string"/>
+    <Field name="Name6" type="string"/>
+    <Field name="Name7" type="string"/>
+    <Field name="U4" type="long"/>
+    <Field name="U5" type="long"/>
+  </Table>
+  <Table>
+    <Name>partymatch</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="U1" type="long"/>
+  </Table>
+  <Table>
+    <Name>ZoneCampfire</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="Type" type="long" export="true"/>
+    <!--<Field name="A1" type="array" subtype="byte" size="12"/>-->
+    <Field name="X" type="int" export="true"/>    
+    <Field name="Y" type="int" export="true"/>    
+    <Field name="Z" type="int" export="true"/>        
+  </Table>
+  <Table>
+    <Name>ZoneGatherSource</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="A1" type="array" subtype="byte" size="12"/>
+    <Field name="U1" type="long"/>
+  </Table>
+  <Table>
+    <Name>ZonePathway</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <!--<Field name="A1" type="array" subtype="byte" size="12"/>-->
+    <Field name="PosX" type="int"/>    
+    <Field name="PosY" type="int"/>    
+    <Field name="PosZ" type="int"/>        
+    <Field name="U1" type="int"/>    
+    <Field name="U2" type="long"/>
+    <Field name="Name2" type="string"/>        
+  </Table>
+  <Table>
+    <Name>ZoneRespawn</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="U1" type="array" subtype="byte" size="8"/>    
+    <Field name="A1" type="array" subtype="byte" size="12"/>
+  </Table>
+  <Table>
+    <Name>TalkSocial</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="Unk1" type="long"/>
+    <Field name="Unk2" type="long"/>
+    <Field name="Unk3" type="int"/>
+    <Field name="Unk4" type="int"/>
+    <Field name="Unk5" type="string"/>    
+  </Table>
+  <Table>
+    <Name>ZoneTeleportSwitch</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="Pos1" type="int"/>
+    <Field name="Pos2" type="int"/>
+    <Field name="Pos3" type="int"/>
+    <Field name="A2" type="array" subtype="byte" size="4"/>
+    <Field name="u1" type="long"/>    
+  </Table>
+  <Table>
+    <Name>teleport</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="MapId" type="int" export="true"/>
+    <Field name="U2" type="long"/>
+    <Field name="X" type="int" export="true"/>
+    <Field name="Y" type="int" export="true"/>
+    <Field name="Z" type="int" export="true"/>
+    <Field name="U3" type="long"/>
+    <Field name="U4" type="long"/>
+    <Field name="U5" type="short"/>
+    <Field name="filler" type="short"/>
+    <Field name="U6" type="long"/>
+    <Field name="U7" type="long"/>
+    <Field name="U8" type="long"/>
+    <Field name="U9" type="long"/>
+    <Field name="U10" type="long"/>
+  </Table>
+  <Table>
+    <Name>store</Name>
+    <ElementName>Store</ElementName>
+    <Field name="Name" type="string" export="true"/>
+    <Field name="U1" type="long"/>
+    <Field name="BuyRate" type="short" export="true"/>
+    <Field name="SellRate" type="short"/>
+    <Field name="BuyBackRate" type="short"/>
+    <Field name="filler" type="short"/>
+    <Field name="Items" type="array" subtype="long" size="100"  export="true"/>
+    <Field name="A2" type="array" subtype="short" size="100"/>
+  </Table>
+  <Table>
+    <Name>store-by-item</Name>
+    <ElementName>StoreByItem</ElementName>
+    <Field name="Name" type="string" export="true"/>
+    <Field name="Items" type="array" subtype="long" size="100" export="true"/>
+    <Field name="Materials" type="array" subtype="long" size="100" export="true"/>
+    <Field name="MaterialCounts" type="array" subtype="byte" size="100" export="true"/>
+  </Table>
+  <Table>
+    <Name>game-tip</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="U1" type="byte"/>
+    <Field name="U2" type="byte"/>
+    <Field name="U3" type="byte"/>
+    <Field name="U4" type="byte"/>
+    <Field name="U5" type="byte"/>
+    <Field name="U6" type="byte"/>
+    <Field name="U7" type="short"/>
+    <Field name="U8" type="long"/>
+    <Field name="U9" type="long"/>
+    <Field name="U10" type="short"/>
+    <Field name="u11" type="short"/>
+  </Table>
+  <Table>
+    <Name>fielditem</Name>
+    <ElementName>Item</ElementName>
+    <Field name="U1" type="string"/>
+    <Field name="U2" type="int"/>
+    <Field name="U3" type="int"/>
+    <Field name="U4" type="int"/>
+    <Field name="U5" type="int"/>
+    <Field name="A1" type="array" subtype="long" size="4"/>
+    <Field name="U6" type="byte"/>
+    <Field name="Filler2" type="byte"/>
+    <Field name="Filler3" type="short"/>
+    <Field name="U7" type="long"/>
+    <Field name="U8" type="byte"/>
+    <Field name="U9" type="byte"/>
+    <Field name="U10" type="short"/>
+    <Field name="U11" type="long"/>
+    <Field name="U12" type="string"/>
+    <Field name="U13" type="string"/>
+    <Field name="U14" type="string"/>
+    <Field name="U15" type="long"/>
+    <Field name="U16" type="string"/>
+    <Field name="U17" type="string"/>
+    <Field name="U18" type="string"/>
+    <Field name="U19" type="string"/>
+    <Field name="U20" type="int"/>
+    <Field name="U21" type="int"/>
+    <Field name="U22" type="int"/>
+    <Field name="U23" type="string"/>
+    <Field name="U24" type="int"/>
+    <Field name="U25" type="string"/>
+    <Field name="U26" type="string"/>
+    <Field name="U27" type="string"/>
+    <Field name="U28" type="string"/>
+    <Field name="U29" type="string"/>
+    <Field name="U30" type="string"/>
+    <Field name="U31" type="string"/>
+    <Field name="U32" type="long"/>
+    <Field name="U33" type="long"/>
+    <Field name="U34" type="long"/>
+    <Field name="U35" type="long"/>
+    <Field name="U36" type="long"/>
+    <Field name="U37" type="string"/>
+    <Field name="U38" type="int"/>
+    <Field name="U39" type="string"/>
+    <Field name="U40" type="string"/>
+    <Field name="U41" type="string"/>
+    <Field name="U42" type="string"/>
+  </Table>
+  <Table>
+    <Name>stance</Name>
+    <ElementName>Entry</ElementName>   
+    <Field name="U1" type="long"/>
+    <Field name="U2" type="byte"/>
+    <Field name="Filler1" type="byte"/>
+    <Field name="U3" type="short"/>
+    <Field name="U4" type="short"/>
+    <Field name="U5" type="short"/>
+    <Field name="A1" type="array" subtype="long" size="4"/>
+    <Field name="U6" type="byte"/>
+    <Field name="Filler2" type="byte"/>
+    <Field name="Filler3" type="short"/>
+    <Field name="A2" type="array" subtype="int" size="4"/>
+    <Field name="A3" type="array" subtype="int" size="4"/>
+    <Field name="A4" type="array" subtype="int" size="4"/>
+    <Field name="A5" type="array" subtype="int" size="4"/>
+    <Field name="A6" type="array" subtype="short" size="4"/>
+    <Field name="A7" type="array" subtype="int" size="4"/>
+    <Field name="A8" type="array" subtype="int" size="4"/>
+    <Field name="A9" type="array" subtype="int" size="4"/>
+    <Field name="A10" type="array" subtype="int" size="4"/>
+    <Field name="U7" type="int"/>
+    <Field name="U8" type="int"/>
+    <Field name="U9" type="int"/>
+    <Field name="U10" type="int"/>
+    <Field name="U11" type="int"/>
+    <Field name="U12" type="int"/>
+    <Field name="U13" type="byte"/>
+    <Field name="U14" type="byte"/>
+  </Table>
+  <Table>
+    <Name>phantomSword</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Unk1" type="string"/>  
+    <Field name="A1" type="array" subtype="string" size="6"/>
+    <Field name="A2" type="array" subtype="string" size="6"/>
+    <Field name="A3" type="array" subtype="string" size="6"/>
+    <Field name="A4" type="array" subtype="string" size="6"/>
+    <Field name="A5" type="array" subtype="string" size="6"/>
+    <Field name="A6" type="array" subtype="string" size="6"/>
+    <Field name="A7" type="array" subtype="string" size="6"/>
+    <Field name="A8" type="array" subtype="string" size="6"/>
+    <Field name="A9" type="array" subtype="string" size="6"/>
+    <Field name="A10" type="array" subtype="string" size="6"/>
+    <Field name="A11" type="array" subtype="string" size="6"/>
+    <Field name="A12" type="array" subtype="string" size="6"/>
+    <Field name="A13" type="array" subtype="string" size="6"/>
+    <Field name="A14" type="array" subtype="string" size="6"/>
+    <Field name="A15" type="array" subtype="string" size="6"/>
+    <Field name="A16" type="array" subtype="string" size="6"/>
+    <Field name="A17" type="array" subtype="string" size="6"/>
+    <Field name="A18" type="array" subtype="string" size="6"/>
+    <Field name="A19" type="array" subtype="string" size="6"/>
+    <Field name="A20" type="array" subtype="string" size="6"/>
+    <Field name="A21" type="array" subtype="string" size="6"/>
+  </Table>
+  <Table>
+    <Name>chat-domain</Name>
+    <ElementName>Entry</ElementName>
+  </Table>
+  <Table>
+    <Name>animset</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="U1" type="byte"/>
+    <Field name="U2" type="byte"/>
+    <Field name="U3" type="short"/>
+    <Field name="Unk1" type="string"/>  
+  </Table>
+  <Table>
+    <Name>abnormalMoveAnim</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="U1" type="int"/>
+    <Field name="Unk1" type="string"/>  
+    <Field name="Unk2" type="string"/>  
+    <Field name="Unk3" type="string"/>  
+    <Field name="Unk4" type="string"/>  
+    <Field name="Unk5" type="string"/>  
+    <Field name="Unk6" type="string"/>  
+    <Field name="Unk7" type="string"/>  
+    <Field name="Unk8" type="string"/>  
+    <Field name="Unk9" type="string"/>  
+    <Field name="Unk10" type="string"/>  
+    <Field name="Unk11" type="string"/>  
+    <Field name="Unk12" type="string"/>  
+    <Field name="Unk13" type="string"/>  
+    <Field name="Unk14" type="string"/>  
+    <Field name="Unk15" type="string"/>  
+    <Field name="Unk16" type="string"/>  
+    <Field name="Unk17" type="string"/>  
+    <Field name="Unk18" type="string"/>  
+    <Field name="Unk19" type="string"/>  
+    <Field name="Unk20" type="string"/>  
+    <Field name="Unk21" type="string"/>  
+    <Field name="Unk22" type="string"/>  
+    <Field name="Unk23" type="string"/>  
+    <Field name="Unk24" type="string"/>  
+    <Field name="Unk25" type="string"/>  
+    <Field name="Unk26" type="string"/>  
+    <Field name="Unk27" type="string"/>  
+    <Field name="Unk28" type="string"/>  
+    <Field name="Unk29" type="string"/>  
+    <Field name="Unk30" type="string"/>  
+    <Field name="Unk31" type="string"/>  
+    <Field name="Unk32" type="string"/>  
+    <Field name="Unk33" type="string"/>  
+    <Field name="Unk34" type="string"/>  
+    <Field name="Unk35" type="string"/>  
+    <Field name="Unk36" type="string"/>  
+    <Field name="Unk37" type="string"/>  
+    <Field name="Unk38" type="string"/>  
+    <Field name="Unk39" type="string"/>  
+    <Field name="Unk40" type="string"/>  
+    <Field name="Unk41" type="string"/>  
+    <Field name="Unk42" type="string"/>  
+    <Field name="Unk43" type="string"/>  
+    <Field name="Unk44" type="string"/>  
+    <Field name="Unk45" type="string"/>  
+    <Field name="Unk46" type="string"/>  
+    <Field name="Unk47" type="string"/>  
+    <Field name="Unk48" type="string"/>  
+    <Field name="Unk49" type="string"/>  
+    <Field name="Unk50" type="string"/>  
+    <Field name="Unk51" type="string"/>  
+    <Field name="Unk52" type="string"/>  
+    <Field name="Unk53" type="string"/>  
+    <Field name="Unk54" type="string"/>  
+    <Field name="Unk55" type="string"/>  
+    <Field name="Unk56" type="string"/>  
+    <Field name="Unk57" type="string"/>  
+    <Field name="Unk58" type="string"/>  
+    <Field name="Unk59" type="string"/>  
+    <Field name="Unk60" type="string"/>  
+  </Table>
+  <Table>
+    <Name>pc-appearance</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Unk1" type="string"/>  
+    <Field name="U1" type="long"/>
+  </Table>
+  <Table>
+    <Name>cinematic</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Unk1" type="string"/>  
+    <Field name="Unk2" type="string"/>  
+    <Field name="U1" type="long"/>
+    <Field name="U2" type="byte"/>
+  </Table>
+  <Table>
+    <Name>lobby-pc</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Unk1" type="string"/>  
+    <Field name="U1" type="long"/>
+    <Field name="Unk2" type="string"/>  
+    <Field name="Unk3" type="string"/>  
+    <Field name="U2" type="long"/>
+    <Field name="Unk4" type="string"/>  
+    <Field name="Unk5" type="string"/>  
+    <Field name="Unk6" type="string"/>
+  </Table>
+  <Table>
+    <Name>social</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>  
+    <Field name="TimeMS" type="int"/>
+    <Field name="U2" type="long"/>
+    <Field name="U3" type="int"/>
+    <Field name="Animation" type="string"/>  
+    <Field name="CooldownMS" type="int"/>
+    <Field name="U5" type="int"/>
+    <Field name="Action" type="string"/>  
+    <Field name="U6" type="byte"/>
+  </Table>
+  <Table>
+    <Name>race</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="U1" type="long"/>
+    <Field name="Name" type="string"/>  
+    <Field name="U2" type="long"/>
+  </Table>
+  <Table>
+    <Name>profession</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Unk1" type="string"/>  
+    <Field name="U1" type="byte"/>
+    <Field name="U2" type="byte"/>
+    <Field name="U3" type="short"/>
+    <Field name="U4" type="short"/>
+    <Field name="U5" type="short"/>
+    <Field name="U6" type="long"/>
+  </Table>
+  <Table>
+    <Name>key-command</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="U1" type="int"/>
+    <Field name="U2" type="long"/>
+    <Field name="Key" type="string"/>    
+    <Field name="U3" type="byte"/>
+  </Table>
+  <Table>
+    <Name>pc-animset</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+  </Table>
+  <Table>
+    <Name>pc-race-sex-job</Name>
+    <ElementName>Entry</ElementName>
+  </Table>
+  <Table>
+    <Name>pc</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="long"/>
+    <Field name="U1" type="short"/>
+    <Field name="U2" type="short"/>
+    <Field name="A1" type="array" subtype="long" size="40"/>
+    <Field name="A2" type="array" subtype="short" size="10"/>
+    <Field name="U3" type="int"/>
+    <Field name="U4" type="short"/>
+    <Field name="U5" type="short"/>
+    <Field name="U6" type="short"/>
+    <Field name="U7" type="short"/>
+    <Field name="U8" type="int"/>
+    <Field name="U9" type="int"/>
+    <Field name="U10" type="short"/>
+    <Field name="U11" type="short"/>
+    <Field name="U12" type="short"/>
+    <Field name="U13" type="short"/>
+    <Field name="U14" type="short"/>
+    <Field name="U15" type="short"/>
+    <Field name="U16" type="short"/>
+    <Field name="U17" type="short"/>
+    <Field name="U18" type="short"/>
+    <Field name="U19" type="short"/>
+    <Field name="U20" type="short"/>
+    <Field name="U21" type="short"/>
+    <Field name="U22" type="short"/>
+    <Field name="U23" type="short"/>
+    <Field name="U24" type="short"/>
+    <Field name="U25" type="short"/>
+    <Field name="U26" type="short"/>
+    <Field name="U27" type="short"/>
+    <Field name="U28" type="short"/>
+    <Field name="U29" type="short"/>
+    <Field name="U30" type="short"/>
+    <Field name="U31" type="short"/>
+    <Field name="U32" type="short"/>
+    <Field name="U33" type="short"/>
+    <Field name="U34" type="short"/>
+    <Field name="U35" type="short"/>
+    <Field name="U36" type="short"/>
+    <Field name="U37" type="short"/>
+    <Field name="U38" type="short"/>
+    <Field name="U39" type="short"/>
+    <Field name="U40" type="short"/>
+    <Field name="U41" type="short"/>
+    <Field name="U42" type="short"/>
+    <Field name="U43" type="short"/>
+    <Field name="U44" type="short"/>
+    <Field name="U45" type="short"/>
+    <Field name="U46" type="short"/>
+    <Field name="U47" type="short"/>
+    <Field name="U48" type="short"/>
+    <Field name="U49" type="short"/>
+    <Field name="U50" type="short"/>
+    <Field name="U51" type="short"/>
+    <Field name="U52" type="short"/>
+    <Field name="U53" type="short"/>
+    <Field name="U54" type="short"/>
+    <Field name="U55" type="short"/>
+    <Field name="U56" type="short"/>
+    <Field name="U57" type="short"/>
+    <Field name="U58" type="short"/>
+    <Field name="U59" type="short"/>
+    <Field name="U60" type="short"/>
+    <Field name="U61" type="short"/>
+    <Field name="U62" type="short"/>
+    <Field name="U63" type="short"/>
+    <Field name="U64" type="short"/>
+  </Table>
+  <Table>
+    <Name>text</Name>
+    <ElementName>Entry</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="Value" type="sizedString"/>
+  </Table>
+  <Table>
+    <Name>faction</Name>
+    <ElementName>Faction</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="U2" type="long"/>
+    <Field name="U3" type="long"/>
+  </Table>
+  <Table>
+    <Name>expand-inventory</Name>
+    <ElementName>Level</ElementName>
+    <Field name="U1" type="short"/>
+    <Field name="U2" type="short"/>
+    <Field name="U3" type="int"/>
+  </Table>
+  <Table>
+    <Name>skillshow2</Name>
+    <ElementName>Skill</ElementName>
+    <Field name="A1" type="array" subtype="string" size="64"/>
+  </Table>
+  <Table>
+    <Name>skillcontext</Name>
+    <ElementName>Skill</ElementName>
+    <Field name="Name" type="string"/>    
+    <Field name="U1" type="int"/>    
+    <Field name="A1" type="array" subtype="int" size="2"/>
+    <Field name="U2" type="int"/>    
+    <Field name="A2" type="array" subtype="int" size="3"/>
+    <Field name="A3" type="array" subtype="int" size="12"/>
+    <Field name="A4" type="array" subtype="int" size="2"/>
+    <Field name="U3" type="int"/>    
+    <Field name="U4" type="int"/>    
+    <Field name="U5" type="int"/>    
+    <Field name="U6" type="int"/>    
+  </Table>
+  <Table>
+    <Name>skillAttributeRule</Name>
+    <ElementName>Skill</ElementName>
+    <Field name="A1" type="array" subtype="short" size="4"/>
+    <Field name="A2" type="array" subtype="short" size="4"/>
+    <Field name="A3" type="array" subtype="byte" size="4"/>
+
+  </Table>
+  <Table>
+    <Name>SkillCastCondition</Name>
+    <ElementName>Condition</ElementName>
+    <Field name="Name" type="string" export="true"/>    
+    <Field name="U1" type="byte"/>
+    <Field name="U2" type="byte"/>
+    <Field name="U3" type="byte"/>
+    <Field name="U4" type="byte"/>
+    <Field name="U5" type="byte"/>
+    <Field name="U6" type="byte"/>
+    <Field name="U7" type="byte"/>
+    <Field name="U8" type="byte"/>
+    <Field name="A1" type="array" subtype="short" size="4"/>
+    <Field name="U9" type="short"/>
+    <Field name="A2" type="array" subtype="short" size="4"/>
+    <Field name="U10" type="byte"/>
+    <Field name="U11" type="byte"/>
+    <Field name="A3" type="array" subtype="short" size="4"/>
+    <Field name="U111" type="short"/>
+    <Field name="A32" type="array" subtype="short" size="4"/>
+    <Field name="U12" type="byte"/>
+    <Field name="U13" type="byte"/>
+    <Field name="U14" type="byte"/>
+    <Field name="U15" type="byte"/>
+    <Field name="U16" type="byte"/>
+    <Field name="U17" type="byte"/>
+    <Field name="U18" type="byte"/>
+    <Field name="U19" type="byte"/>
+    <Field name="CastRangeMin" type="short" export="true"/>
+    <Field name="CastRangeMax" type="short" export="true"/>
+    <Field name="U22" type="short"/>
+    <Field name="U222" type="short"/>
+    <Field name="U23" type="byte"/>
+    <Field name="U24" type="byte"/>
+    <Field name="U25" type="short"/>
+    <Field name="U26" type="short"/>
+    <Field name="ForceCost" type="short" export="true"/>
+    <Field name="U28" type="short"/>
+    <Field name="ManaCost" type="short" export="true"/>
+    <Field name="U30" type="byte"/>
+    <Field name="A4" type="array" subtype="byte" size="4"/>
+    <Field name="A5" type="array" subtype="byte" size="4"/>
+    <Field name="U31" type="byte"/>
+    <Field name="PreviousSkills" type="array" subtype="int" size="4" export="true"/>
+    <Field name="A7" type="array" subtype="byte" size="4"/>
+    <Field name="A8" type="array" subtype="byte" size="4"/>
+    <Field name="A9" type="array" subtype="short" size="4"/>
+    <Field name="A10" type="array" subtype="byte" size="8"/>
+    <Field name="A11" type="array" subtype="byte" size="8"/>
+    <Field name="A12" type="array" subtype="byte" size="8"/>
+    <Field name="A13" type="array" subtype="byte" size="8"/>
+    <Field name="A14" type="array" subtype="byte" size="2"/>
+    <Field name="A15" type="array" subtype="short" size="2"/>
+    <Field name="A16" type="array" subtype="byte" size="8"/>
+    <Field name="A17" type="array" subtype="byte" size="8"/>
+  </Table>
+  <Table>
+    <Name>skillAcquireCondition</Name>
+    <ElementName>Condition</ElementName>
+    <Field name="U1" type="byte"/>
+    <Field name="Job" type="byte"/>
+    <Field name="U3" type="short"/>
+    <Field name="A1" type="array" subtype="int" size="4"/>
+    <Field name="A2" type="array" subtype="byte" size="4"/>
+    <Field name="A3" type="array" subtype="byte" size="4"/>
+    <Field name="A4" type="array" subtype="byte" size="4"/>
+    <Field name="A5" type="array" subtype="byte" size="4"/>
+    <Field name="A6" type="array" subtype="int" size="4"/>
+    <Field name="A7" type="array" subtype="byte" size="4"/>
+    <Field name="A8" type="array" subtype="byte" size="4"/>
+    <Field name="A9" type="array" subtype="byte" size="4"/>
+    <Field name="A10" type="array" subtype="byte" size="4"/>
+    <Field name="U4" type="int"/>
+    <Field name="U5" type="int"/>
+    <Field name="U6" type="long"/>
+    <Field name="U7" type="long"/>
+    <Field name="U8" type="long"/>
+    <Field name="U9" type="int"/>
+  </Table>
+  <Table>
+    <Name>questlooting</Name>
+    <ElementName>Loot</ElementName>
+    <Field name="Name" type="string"/>
+    <Field name="U2" type="long"/>
+    <Field name="U3" type="int"/>
+    <Field name="U4" type="long"/>
+  </Table>
+  <Table>
+    <Name>job</Name>
+    <ElementName>Job</ElementName>
+    <Field name="U1" type="long"/>
+    <Field name="U2" type="long"/>
+    <Field name="S1" type="string"/>
+    <Field name="S2" type="string"/>
+    <Field name="A1" type="array" subtype="short" size="2"/>
+    <Field name="S3" type="string"/>
+    <Field name="U3" type="short"/>
+    <Field name="U4" type="short"/>
+  </Table>
+  <Table>
+    <Name>jobskillset</Name>
+    <ElementName>JobSkills</ElementName>
+    <Field name="Skills" type="array" subtype="int" size="100" export="true"/>    
+  </Table>
+  <Table>
+    <Name>level</Name>
+    <ElementName>Level</ElementName>
+    <Field name="Exp" type="int" export="true"/>
+  </Table>
+
+  <Table>
+    <Name>npc_old</Name>
+    <ElementName>NPC</ElementName>
+    <Field name="NameID" type="string"/>
+    <Field name="Name" type="string" export="true"/>
+    <Field name="Title" type="string" export="true"/>
+    <Field name="Unknown4" type="int"/>
+    <Field name="Unknown5" type="array" size="12"/>
+    <Field name="Unknown6" type="short"/>
+    <Field name="Unknown7" type="short"/>
+    <Field name="Unknown8" type="short"/>
+    <Field name="Unknown9" type="short"/>
+    <Field name="Unknown10" type="short"/>
+    <Field name="Unknown11" type="array" size="66"/>
+    <Field name="Unknown12" type="string"/>
+    <Field name="Unknown13" type="string"/>
+    <Field name="Unknown14" type="array" size="994"/>
+    <Field name="Unknown15" type="short"/>
+    <Field name="Unknown16" type="short"/>
+    <Field name="Unknown17" type="short"/>
+    <Field name="Unknown18" type="short"/>
+    <Field name="Unknown19" type="array" size="6"/>
+    <Field name="Unknown20" type="string"/>
+    <Field name="Unknown21" type="string"/>
+    <Field name="AnimationSet" type="string"/>
+    <Field name="Unknown23" type="string"/>
+    <Field name="Unknown24" type="string"/>
+    <Field name="Unknown25" type="string"/>
+    <Field name="Unknown26" type="string"/>
+    <Field name="Unknown27" type="string"/>
+    <Field name="Unknown28" type="int"/>
+    <Field name="Unknown29" type="short"/>
+    <Field name="Unknown30" type="short"/>
+    <Field name="Unknown31" type="short"/>
+    <Field name="Unknown32" type="short"/>
+    <Field name="Unknown33" type="int"/>
+    <Field name="Unknown34" type="int"/>
+    <Field name="Unknown35" type="string"/>
+    <Field name="Unknown36" type="string"/>
+    <Field name="Unknown37" type="string"/>
+    <Field name="Unknown38" type="string"/>
+    <Field name="Unknown39" type="int"/>
+    <Field name="DeadBody" type="string"/>
+    <Field name="Unknown41" type="array" size="3"/>
+    <Field name="ManaType" type="byte" export="true"/>
+    <Field name="Level" type="byte" export="true"/>
+    <Field name="Unknown44" type="array" size="23"/>
+    <Field name="HP" type="int" export="true"/>
+    <Field name="MP" type="short" export="true"/>
+    <Field name="Unknown47" type="short"/>
+    <Field name="Unknown48" type="int"/>
+    <Field name="Unknown49" type="int"/>
+    <Field name="Unknown50" type="int"/>
+    <Field name="Unknown51" type="short"/>
+    <Field name="Unknown52" type="short"/>
+    <Field name="Unknown53" type="int"/>
+    <Field name="Unknown54" type="int"/>
+    <Field name="Unknown55" type="int"/>
+    <Field name="Unknown56" type="int"/>
+    <Field name="Unknown57" type="int"/>
+    <Field name="Unknown58" type="int"/>
+    <Field name="Unknown59" type="short"/>
+    <Field name="Unknown60" type="short"/>
+    <Field name="Unknown61" type="array" size="6"/>
+    <Field name="Unknown62" type="short"/>
+    <Field name="Unknown63" type="short"/>
+    <Field name="Unknown64" type="int"/>
+    <Field name="Unknown65" type="int"/>
+    <Field name="Unknown66" type="int"/>
+    <Field name="Unknown67" type="array" size="12"/>
+    <Field name="Unknown68" type="int"/>
+    <Field name="Unknown69" type="array" size="10"/>
+    <Field name="Unknown70" type="short"/>
+    <Field name="Unknown71" type="short"/>
+    <Field name="Unknown72" type="short"/>
+    <Field name="Unknown73" type="short"/>
+    <Field name="Unknown74" type="short"/>
+    <Field name="Unknown75" type="short"/>
+    <Field name="Unknown76" type="short"/>
+    <Field name="Unknown77" type="short"/>
+    <Field name="Unknown78" type="short"/>
+    <Field name="Unknown79" type="short"/>
+    <Field name="Unknown80" type="int"/>
+    <Field name="Unknown81" type="string"/>
+    <Field name="Unknown82" type="int"/>
+    <Field name="Unknown83" type="int"/>
+    <Field name="Unknown84" type="string"/>
+    <Field name="Unknown85" type="int"/>
+    <Field name="Unknown86" type="int"/>
+    <Field name="Unknown87" type="string"/>
+    <Field name="Unknown88" type="string"/>
+    <Field name="Unknown89" type="array" size="73"/>
+    <Field name="Unknown90" type="byte"/>
+    <Field name="Unknown91" type="byte"/>
+    <Field name="Unknown92" type="byte"/>
+    <Field name="Immunity" type="string" export="true"/>
+    <Field name="Unknown94" type="array" size="512"/>
+  </Table>
+
+  <Table>
+    <Name>npc</Name>
+    <ElementName>NPC</ElementName>
+    <Field name="NameID" type="string"/>
+    <Field name="Name" type="string" export="true"/>
+    <Field name="Title" type="string" export="true"/>
+    <Field name="U1" type="long"/>
+    <Field name="U2" type="long"/>
+    <Field name="U3" type="short"/>
+    <Field name="U4" type="short"/>
+    <Field name="U5" type="short"/>
+    <Field name="U6" type="short"/>
+    <Field name="U7" type="byte"/>
+    <Field name="U8" type="byte"/>
+    <Field name="A1N" type="array" subtype="byte" size="4"/>
+    <Field name="A1" type="array" subtype="byte" size="16"/>
+    <Field name="A2" type="array" subtype="byte" size="8"/>
+    <Field name="U9" type="short"/>
+    <Field name="U10" type="int"/>
+    <Field name="A2N" type="array" subtype="string" size="8"/>
+    <Field name="U11" type="long"/>
+    <Field name="U12" type="long"/>
+    <Field name="U13" type="long"/>
+    <Field name="U14" type="byte"/>
+    <Field name="U15" type="byte"/>
+    <Field name="U16" type="byte"/>
+    <Field name="U162" type="byte"/>
+    <Field name="U163" type="short"/>
+    <Field name="U164" type="short"/>
+    <Field name="U165" type="long"/>
+    <Field name="U166" type="int"/>
+    <Field name="U167" type="int"/>
+    <Field name="S1" type="string"/>
+    <Field name="S2" type="string"/>
+    <Field name="U17" type="long"/>
+    <Field name="U18" type="long"/>
+    <Field name="A3" type="array" subtype="byte" size="64"/>
+    <Field name="QuestID" type="array" subtype="long" size="64" export="true"/>
+    <Field name="QuestUnknown" type="array" subtype="byte" size="64"/>
+    <Field name="QuestStep" type="array" subtype="byte" size="64" export="true"/>
+    <Field name="A7" type="array" subtype="short" size="64"/>
+    <Field name="A8" type="array" subtype="long" size="8"/>
+    <Field name="A9" type="array" subtype="byte" size="8"/>
+    <Field name="A10" type="array" subtype="byte" size="8"/>
+    <Field name="A11" type="array" subtype="long" size="8"/>
+    <Field name="U19" type="int"/>
+    <Field name="U20" type="int"/>
+    <Field name="U21" type="long"/>
+    <Field name="S3" type="string"/>
+    <Field name="S4" type="string"/>
+    <Field name="AnimationSet" type="string"/>
+    <Field name="S6" type="string"/>
+    <Field name="S7" type="string"/>
+    <Field name="S8" type="string"/>
+    <Field name="S9" type="string"/>
+    <Field name="S10" type="string"/>
+    <Field name="U22" type="byte"/>
+    <Field name="U23" type="byte"/>
+    <Field name="U24" type="short"/>
+    <Field name="U242" type="int"/>
+    <Field name="U25" type="short"/>
+    <Field name="U26" type="short"/>
+    <Field name="U27" type="short"/>
+    <Field name="U28" type="short"/>
+    <Field name="U29" type="short"/>
+    <Field name="U292" type="short"/>
+    <Field name="S11" type="string"/>
+    <Field name="S12" type="string"/>
+    <Field name="S13" type="string"/>
+    <Field name="S14" type="string"/>
+    <Field name="U30" type="int"/>
+    <Field name="DeadBody" type="string"/>
+    <Field name="U31" type="byte"/>
+    <Field name="U32" type="byte"/>
+    <Field name="U33" type="byte"/>
+    <Field name="ManaType" type="byte" export="true"/>
+    <Field name="Level" type="int" export="true"/>
+    <Field name="U36" type="long"/>
+    <Field name="U37" type="byte"/>
+    <Field name="U38" type="byte"/>
+    <Field name="U39" type="short"/>
+    <Field name="U40" type="long"/>
+    <Field name="HP" type="int" export="true"/>
+    <Field name="MP" type="short" export="true"/>
+    <Field name="U43" type="short"/>
+    <Field name="U44" type="int"/>
+    <Field name="U45" type="int"/>
+    <Field name="U46" type="int"/>
+    <Field name="A12" type="array" subtype="short" size="54"/>
+    <Field name="U47" type="int"/>
+    <Field name="S16" type="string"/>
+    <Field name="U49" type="long"/>
+    <Field name="U492" type="byte"/>
+    <Field name="U493" type="byte"/>
+    <Field name="U494" type="short"/>
+    <Field name="S17" type="string"/>
+    <Field name="U51" type="long"/>
+    <Field name="S18" type="string"/>
+    <Field name="S19" type="string"/>
+    <Field name="U522" type="int"/>
+    <Field name="U523" type="long"/>
+    <Field name="U524" type="long"/>
+    <Field name="U52" type="array" subtype="long" size="9"/>
+    <Field name="U53" type="byte"/>
+    <Field name="U54" type="byte"/>
+    <Field name="U55" type="short"/>
+    <Field name="Immunity" type="string"/>
+    <Field name="U56" type="long"/>
+    <Field name="U57" type="long"/>
+    <Field name="U58" type="int"/>
+    <Field name="U59" type="long"/>
+    <Field name="U60" type="int"/>
+    <Field name="U61" type="long"/>
+    <Field name="U63" type="array" subtype="long" size="9"/>
+    <Field name="U64" type="array" subtype="long" size="9"/>
+    <Field name="U642" type="array" subtype="byte" size="12"/>
+    <Field name="U65" type="array" subtype="long" size="9"/>
+    <Field name="U66" type="array" subtype="long" size="9"/>
+    <Field name="U67" type="array" subtype="long" size="9"/>
+    <Field name="U68" type="array" subtype="long" size="9"/>
+    <Field name="U69" type="array" subtype="long" size="3"/>
+    <Field name="U70" type="long"/>
+    <Field name="U71" type="long"/>
+    <Field name="U72" type="long"/>
+    <Field name="U73" type="long"/>
+    <Field name="U74" type="array" subtype="long" size="3"/>
+    <Field name="U75" type="array" subtype="short" size="3"/>
+    <Field name="U76" type="byte"/>
+  </Table>
+  <Table>
+    <Name>item</Name>
+    <ElementName>Item</ElementName>
+    <Field name="Name" type="string" export="true"/>
+    <Field name="Price" type="int" export="true"/>
+    <Field name="ItemType" type="byte" export="true"/>
+    <Field name="Dispose" type="byte" export="true"/>
+    <Field name="Sell" type="byte" export="true"/>
+    <Field name="Trade" type="byte" export="true"/>
+    <Field name="UnknownByte7" type="byte"/>
+    <Field name="UnknownByte8" type="byte"/>
+    <Field name="UnknownByte9" type="byte"/>
+    <Field name="UnknownByte10" type="byte"/>
+    <Field name="UnknownByte11" type="int"/>
+    <Field name="UnknownLong12" type="array" subtype="long" size="4"/>
+    <Field name="UnknownLong13" type="array" subtype="long" size="4"/>
+    <Field name="ItemLevel" type="short" export="true"/>
+    <Field name="PlayerLevel" type="byte" export="true"/>
+    <Field name="PlayerJob" type="byte" export="true"/>
+    <Field name="UnknownByte17" type="byte"/>
+    <Field name="UnknownByte18" type="byte"/>
+    <Field name="EquipmentSlot" type="byte" export="true"/>
+    <Field name="Grade" type="byte" export="true"/>
+    <Field name="Durability" type="int" export="true"/>
+    <Field name="RepairCost" type="int" export="true"/>
+    <Field name="SynthesisItem" type="long" export="true"/>
+    <Field name="SynthesisItemCount" type="int" export="true"/>
+    <Field name="UnknownLong25" type="long"/>
+    <Field name="BaoPaiSetNumber" type="long" export="true"/>
+    <Field name="Faction" type="long" export="true"/>
+    <Field name="UnknownLong28" type="long"/>
+    <Field name="UnknownShort29" type="short"/>
+    <Field name="UnknownByte30" type="byte"/>
+    <Field name="UnknownByte31" type="byte"/>
+    <Field name="UnknownByte32" type="array" subtype="byte" size="64"/>
+    <Field name="UnknownLong33" type="array" subtype="long" size="64"/>
+    <Field name="UnknownByte34" type="array" subtype="byte" size="64"/>
+    <Field name="UnknownByte35" type="array" subtype="byte" size="64"/>
+    <Field name="UnknownShort36" type="array" subtype="short" size="64"/>
+    <Field name="AttackPowerEquipMin" type="short" export="true"/>
+    <Field name="AttackPowerEquipMax" type="short" export="true"/>
+    <Field name="DefendPowerEquipValue" type="short" export="true"/>
+    <Field name="DefendResistPowerEquipValue" type="short" export="true"/>
+    <Field name="AttackHitBasePercent" type="short" export="true"/>
+    <Field name="AttackHitValue" type="short" export="true"/>
+    <Field name="AttackPierceValue" type="short" export="true"/>
+    <Field name="AttackCriticalBasePercent" type="short" export="true"/>
+    <Field name="AttackCriticalValue" type="short" export="true"/>
+    <Field name="DefendCriticalBasePercent" type="short" export="true"/>
+    <Field name="DefendCriticalValue" type="short" export="true"/>
+    <Field name="DefendDodgeBasePercent" type="short" export="true"/>
+    <Field name="DefendDodgeValue" type="short" export="true"/>
+    <Field name="DefendParryBasePercent" type="short" export="true"/>
+    <Field name="DefendParryValue" type="short" export="true"/>
+    <Field name="AttackStiffDurationBasePercent" type="short" export="true"/>
+    <Field name="AttackStiffDurationValue" type="short" export="true"/>
+    <Field name="DefendStiffDurationBasePercent" type="short" export="true"/>
+    <Field name="DefendStiffDurationValue" type="short" export="true"/>
+    <Field name="CastDurationBasePercent" type="short" export="true"/>
+    <Field name="CastDurationValue" type="short" export="true"/>
+    <Field name="DefendPhysicalDamageReducePercent" type="short" export="true"/>
+    <Field name="DefendForceDamageReducePercent" type="short" export="true"/>
+    <Field name="AttackDamageModifyPercent" type="short" export="true"/>
+    <Field name="AttackDamageModifyDiff" type="short" export="true"/>
+    <Field name="DefendDamageModifyPercent" type="short" export="true"/>
+    <Field name="DefendDamageModifyDiff" type="int" export="true"/>
+    <Field name="MaxHp" type="int" export="true"/>
+    <Field name="MaxFp" type="int" export="true"/>
+    <Field name="HpRegen" type="int" export="true"/>
+    <Field name="UnknownInt67" type="int"/>
+    <Field name="FpRegen" type="short" export="true"/>
+    <Field name="FpRegenCombat" type="short" export="true"/>
+    <!-- Start Count of stat to apply with synthesis -->
+    <Field name="BPAttackPowerEquipMin" type="short" export="true"/>
+    <Field name="BPAttackPowerEquipMax" type="short" export="true"/>
+    <Field name="BPDefendPowerEquipValue" type="short" export="true"/>
+    <Field name="BPDefendResistPowerEquipValue" type="short" export="true"/>
+    <Field name="BPAttackHitBasePercent" type="short" export="true"/>
+    <Field name="BPAttackHitValue" type="short" export="true"/>
+    <Field name="BPAttackPierceValue" type="short" export="true"/>
+    <Field name="BPAttackCriticalBasePercent" type="short" export="true"/>
+    <Field name="BPAttackCriticalValue" type="short" export="true"/>
+    <Field name="BPDefendCriticalBasePercent" type="short" export="true"/>
+    <Field name="BPDefendCriticalValue" type="short" export="true"/>
+    <Field name="BPDefendDodgeBasePercent" type="short" export="true"/>
+    <Field name="BPDefendDodgeValue" type="short" export="true"/>
+    <Field name="BPDefendParryBasePercent" type="short" export="true"/>
+    <Field name="BPDefendParryValue" type="short" export="true"/>
+    <Field name="BPAttackStiffDurationBasePercent" type="short" export="true"/>
+    <Field name="BPAttackStiffDurationValue" type="short" export="true"/>
+    <Field name="BPDefendStiffDurationBasePercent" type="short" export="true"/>
+    <Field name="BPDefendStiffDurationValue" type="short" export="true"/>
+    <Field name="BPCastDurationBasePercent" type="short" export="true"/>
+    <Field name="BPCastDurationValue" type="short" export="true"/>
+    <Field name="BPDefendPhysicalDamageReducePercent" type="short" export="true"/>
+    <Field name="BPDefendForceDamageReducePercent" type="short" export="true"/>
+    <Field name="BPAttackDamageModifyPercent" type="short" export="true"/>
+    <Field name="BPAttackDamageModifyDiff" type="short" export="true"/>
+    <Field name="BPDefendDamageModifyPercent" type="short" export="true"/>
+    <Field name="BPDefendDamageModifyDiff" type="int" export="true"/>
+    <Field name="BPMaxHp" type="int" export="true"/>
+    <Field name="BPMaxFp" type="int" export="true"/>
+    <Field name="BPHpRegen" type="int" export="true"/>
+    <Field name="UnknownInt100" type="int"/>
+    <Field name="BPFpRegen" type="short" export="true"/>
+    <Field name="BPFpRegenCombat" type="short" export="true"/>
+    <!-- End Count of stat to apply with synthesis -->
+    <Field name="UnknownShort103" type="short"/>
+    <Field name="UnknownShort104" type="short"/>
+    <Field name="UnknownShort105" type="short"/>
+    <Field name="UnknownShort106" type="short"/>
+    <Field name="UnknownShort107" type="short"/>
+    <Field name="UnknownShort108" type="short"/>
+    <Field name="UnknownString109" type="string"/>
+    <Field name="UnknownString110" type="string"/>
+    <Field name="UnknownString111" type="string"/>
+    <Field name="BaGuaReferenceId" type="long"/>
+    <Field name="UnknownLong114" type="long"/>
+    <Field name="UnknownLong115" type="long"/>
+    <Field name="UnknownShort116" type="int"/>
+    <Field name="UnknownArray117" type="array" size="12"/>
+    <Field name="KunCostumeTexture" type="string"/>
+    <Field name="GonMCostumeTexture" type="string"/>
+    <Field name="GonFCostumeTexture" type="string"/>
+    <Field name="LynMCostumeTexture" type="string"/>
+    <Field name="LynFCostumeTexture" type="string"/>
+    <Field name="JinMCostumeTexture" type="string"/>
+    <Field name="JinFCostumeTexture" type="string"/>
+    <Field name="KunCostumeMesh" type="string"/>
+    <Field name="GonMCostumeMesh" type="string"/>
+    <Field name="GonFCostumeMesh" type="string"/>
+    <Field name="LynMCostumeMesh" type="string"/>
+    <Field name="LynFCostumeMesh" type="string"/>
+    <Field name="JinMCostumeMesh" type="string"/>
+    <Field name="JinFCostumeMesh" type="string"/>
+    <Field name="UnknownString134" type="string"/>
+    <Field name="UnknownString135" type="string"/>
+    <Field name="CommonItemMesh" type="string"/>
+    <Field name="CommonItemAnimation" type="string"/>
+    <Field name="UnknownString138" type="string"/>
+    <Field name="UnknownString139" type="string"/>
+    <Field name="UnknownString140" type="string"/>
+    <Field name="UnknownLong142" type="long"/>
+    <Field name="UnknownLong143" type="long"/>
+    <Field name="UnknownLong144" type="array" subtype="long" size="9"/>
+    <Field name="UnknownString150" type="string"/>
+  </Table>
+  <Table>
+    <Name>skill</Name>
+    <ElementName>Skill</ElementName>
+    <Field name="U1" type="int"/>
+    <Field name="Name" type="string" export="true"/>
+    <Field name="DisplayName" type="string"/>
+    <Field name="U4" type="long"/>
+    <Field name="U42" type="byte"/>
+    <Field name="U43" type="byte"/>
+    <Field name="U5" type="short"/>
+    <Field name="U11" type="string"/>
+    <Field name="U12" type="string"/>
+    <Field name="U13" type="string"/>
+    <Field name="U14" type="byte"/>
+    <Field name="U15" type="byte"/>
+    <Field name="U16" type="byte"/>
+    <Field name="U17" type="byte"/>
+    <Field name="U18" type="long"/>
+    <Field name="U19" type="int"/>
+    <Field name="U20" type="long"/>
+    <Field name="U21" type="int"/>
+    <Field name="U22" type="long"/>
+    <Field name="U23" type="long"/>
+    <Field name="U24" type="byte"/>
+    <Field name="U25" type="byte"/>
+    <Field name="U26" type="byte"/>
+    <Field name="U27" type="byte"/>
+    <Field name="MinAtk" type="int" export="true"/>
+    <Field name="MaxAtk" type="int" export="true"/>
+    <Field name="Description" type="string"/>
+    <Field name="U31" type="long"/>
+    <Field name="U32" type="byte"/>
+    <Field name="U33" type="byte"/>
+    <Field name="U34" type="byte"/>
+    <Field name="U35" type="byte"/>
+    <Field name="U36" type="byte"/>
+  </Table>
+  <Table>
+    <Name>skill_old</Name>
+    <ElementName>Skill</ElementName>
+    <Field name="U1" type="int"/>
+    <Field name="Name" type="string" export="true"/>
+    <Field name="U2" type="string"/>
+    <Field name="U3" type="int"/>
+    <Field name="U4" type="int"/>
+    <Field name="U5" type="int"/>
+    <Field name="U6" type="int"/>
+    <Field name="U7" type="int"/>
+    <Field name="U8" type="array" size="60"/>
+    <Field name="U9" type="int"/>
+    <Field name="U10" type="string"/>
+    <Field name="U11" type="string"/>
+    <Field name="U12" type="string"/>
+    <Field name="U13" type="short"/>
+    <Field name="U14" type="short"/>
+    <Field name="U15" type="int"/>
+    <Field name="U16" type="int"/>
+    <Field name="U17" type="int"/>
+    <Field name="U18" type="array" size="20"/>
+    <Field name="U19" type="int"/>
+    <Field name="U20" type="int"/>
+    <Field name="U21" type="byte"/>
+    <Field name="U22" type="byte"/>
+    <Field name="U23" type="array" size="10"/>
+    <Field name="U24" type="string"/>
+    <Field name="U25" type="array" size="12"/>
+    <Field name="U26" type="int"/>
+    <Field name="U27" type="array" size="18"/>
+    <Field name="U28" type="int"/>
+    <Field name="U29" type="short"/>
+    <Field name="U30" type="string"/>
+    <Field name="U31" type="string"/>
+    <Field name="U32" type="string"/>
+    <Field name="U33" type="string"/>
+    <Field name="U34" type="string"/>
+    <Field name="U35" type="string"/>
+    <Field name="U36" type="int"/>
+    <Field name="U37" type="int"/>
+    <Field name="U38" type="byte"/>
+    <Field name="U39" type="int"/>
+    <Field name="U40" type="byte"/>
+    <Field name="U41" type="array" size="22"/>
+    <Field name="U42" type="int"/>
+    <Field name="U43" type="array" size="56"/>
+    <Field name="U44" type="int"/>
+    <Field name="U45" type="array" size="130"/>
+    <Field name="U46" type="short"/>
+    <Field name="U47" type="int"/>
+    <Field name="U48" type="short"/>
+    <Field name="U49" type="int"/>
+    <Field name="U50" type="short"/>
+    <Field name="U51" type="int"/>
+    <Field name="U52" type="int"/>
+    <Field name="U53" type="short"/>
+    <Field name="U54" type="short"/>
+    <Field name="U55" type="short"/>
+    <Field name="U56" type="short"/>
+    <Field name="U57" type="short"/>
+    <Field name="U58" type="short"/>
+    <Field name="U59" type="short"/>
+    <Field name="U60" type="short"/>
+    <Field name="U61" type="short"/>
+    <Field name="U62" type="array" size="38"/>
+    <Field name="U63" type="int"/>
+    <Field name="U64" type="array" size="62"/>
+    <Field name="U65" type="int"/>
+    <Field name="U66" type="int"/>
+    <Field name="U67" type="int"/>
+    <Field name="U68" type="array" size="72"/>
+    <Field name="U69" type="int"/>
+    <Field name="U70" type="array" size="28"/>
+    <Field name="U71" type="byte"/>
+    <Field name="U72" type="byte"/>
+    <Field name="U73" type="array" size="10"/>
+    <Field name="U74" type="int"/>
+    <Field name="U75" type="array" size="516"/>
+    <Field name="U76" type="int"/>
+    <Field name="U77" type="array" size="28"/>
+  </Table>
+</TableSchema>

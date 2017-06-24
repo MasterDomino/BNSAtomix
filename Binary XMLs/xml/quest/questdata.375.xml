@@ -1,0 +1,79 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_375" category="normal" desc="q_375_sum" grade="1" group="제룡림(흑음림)" group2="QG_HuekUmmRim" id="375" name="숯을 만들어 보아요 (1)" name2="Quest.Name2.375">
+    <text>
+    </text>
+    <acquisition level="10" preceding-quest-1="q_sub_373" preceding-quest-check="and" recommended-level="12">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_375_s_indi_1" msg="q_375_s" object="npc:ch_shaman_022" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-2968.5234" location-y="-14532.4453" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name="백 년 된 썩은 나무 채집" name2="Mission.Name2.375_1" required-register-value="3">
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_05" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_06" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_07" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_08" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" object="zoneenv:e_onoff_tress_09" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_375_Quest_bad_wood_piece_1_icon" gadget-required="empty" mapunit-1="2200_e_onoff_tress_01" mapunit-2="2200_e_onoff_tress_01_1" mapunit-3="2200_e_onoff_tress_01_2" mapunit-4="2200_e_onoff_tress_01_3" mapunit-5="2200_e_onoff_tress_01_4" object="zoneenv:e_onoff_tress_10" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-3412.7188" location-y="-12866.6973" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name="흑음림 군투양의 제자 하운에게 보고" name2="Mission.Name2.375_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_375_m2_indi_1" msg="q_375_m2" object="npc:ch_shaman_022" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="120" money="25" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

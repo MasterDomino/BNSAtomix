@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_345" category="normal" desc="q_345_sum" grade="1" group="제룡림(월영 공동묘지)" group2="QG_WalYoungCemetery" id="345" name="등불이 필요한 이유" name2="Quest.Name2.345">
+    <text>
+    </text>
+    <acquisition level="4" preceding-quest-1="q_sub_337" preceding-quest-check="and" recommended-level="6">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_345_s_indi_1" msg="q_345_s" object="npc:ch_wanderer_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_345_des_1" id="1" location-x="-32545.0898" location-y="-37389.9453" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name="날렵한 석등비룡의 점액 획득" name2="Mission.Name2.345_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_345_quest_black_sticky_1_icon" mapunit-1="2000_me_wolf_0015" mapunit-2="2000_me_wolf_0015_1" mapunit-3="2000_me_wolf_0015_2" mapunit-4="2000_me_wolf_0015_3" object="npc:me_wolf_0015" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-36321.6328" location-y="-35891.3164" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name="소각장에 있는 방랑거사 심봉사에게 보고" name2="Mission.Name2.345_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_345_m2_indi_1" msg="q_345_m2" object="npc:ch_wanderer_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="320" money="40" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Camp_repairKit_Lv6" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,232 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_505" category="epic" completed-desc="q_505_completed" completed-list="y" desc="q_505_sum" grade="1" group2="QG_DaeSaMakEpic" id="505" name2="Quest.Name2.505">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="23" sort-no="306" />
+    <text>
+    </text>
+    <mission-step completion-type="or" id="1" location-x="-44359.1523" location-y="-62430.625" map="oemalri">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.505_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_504_m6_indi_1" msg="q_504_m6" object="npc:ch_murimmaeng_0011" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HanSiRangHouse" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <fixed-reward job-1="역사" slot-1="item:Costume_20001_AllRace" slot-2="item:weapon_ta_quest_012" />
+        <text>
+        </text>
+        <fixed-reward job-1="암살자" slot-1="item:Costume_20001_AllRace" slot-2="item:weapon_dg_quest_012" />
+        <text>
+        </text>
+        <fixed-reward job-1="기공사" slot-1="item:Costume_20001_AllRace" slot-2="item:weapon_ab_quest_012" />
+        <text>
+        </text>
+        <fixed-reward job-1="권사" slot-1="item:Costume_20001_AllRace" slot-2="item:weapon_gt_quest_012" />
+        <text>
+        </text>
+        <fixed-reward job-1="검사" slot-1="item:Costume_20001_AllRace" slot-2="item:weapon_sw_quest_012" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.505_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_504_m7_indi_1" msg="q_504_m7" object="npc:ch_honchungyo_0009" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <fixed-reward job-1="역사" slot-1="item:Costume_21003_AllRace" slot-2="item:weapon_ta_quest_013" />
+        <text>
+        </text>
+        <fixed-reward job-1="암살자" slot-1="item:Costume_21003_AllRace" slot-2="item:weapon_dg_quest_013" />
+        <text>
+        </text>
+        <fixed-reward job-1="기공사" slot-1="item:Costume_21003_AllRace" slot-2="item:weapon_ab_quest_013" />
+        <text>
+        </text>
+        <fixed-reward job-1="권사" slot-1="item:Costume_21003_AllRace" slot-2="item:weapon_gt_quest_013" />
+        <text>
+        </text>
+        <fixed-reward job-1="검사" slot-1="item:Costume_21003_AllRace" slot-2="item:weapon_sw_quest_013" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-46720.6484" location-y="-75777.3984" map="toemunjean">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.505_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_505_m1_indi_1" mapunit-1="3000_guide_e505" msg="q_505_m1" object="npc:ch_shaman_023" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_BaekMoo" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-46720.6484" location-y="-75777.3984" map="toemunjean">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.505_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_505_m2_indi_1" msg="q_505_m2" object="npc:ch_unguksoldier_0003" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_BaekMoo" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-46720.6484" location-y="-75777.3984" map="toemunjean">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.505_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_505_m3_indi_1" msg="q_505_m3" object="npc:ch_shaman_023" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_BaekMoo" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_505_des_5" id="5" location-x="-53750.5859" location-y="-90306.9688" map="suonangdangdg">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.505_6" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_505_quest_sorcery_black_stone_1_icon" mapunit-3="3078_ME_Hades_0002" object="npc:me_hades_0002" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case drop-gadget="y" mapunit-2="3078_ME_ThunderDrum_0001" object="npc:me_thunderdrum_0001" progress-mission="reaction-only" type="killed" />
+        <text>
+        </text>
+        <case gadget="Q_DrumA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_sealedrock_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_DrumA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_sealedrock_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_DrumA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_sealedrock_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_DrumA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_sealedrock_04" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_DrumA" gadget-required="carry-and-remove" mapunit-1="3078_e_onoff_sealedrock_01" object="zoneenv:e_onoff_sealedrock_05" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_BaekMoo" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="6" location-x="-46720.6484" location-y="-75777.3984" map="toemunjean">
+      <text>
+      </text>
+      <mission id="7" name2="Mission.Name2.505_7" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_505_m5_indi_1" msg="q_505_m5" object="npc:ch_shaman_023" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_BaekMoo" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="7" location-x="-46720.6484" location-y="-75777.3984" map="toemunjean">
+      <text>
+      </text>
+      <mission id="8" name2="Mission.Name2.505_8" required-register-value="1">
+        <text>
+        </text>
+        <case object="zoneenv:e_onoff_drycorpse_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case mapunit-1="3003_e_destroy_drycorpse_01" mapunit-2="3003_e_destroy_drycorpse_02" object="zoneenv:e_onoff_drycorpse_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_BaekMoo" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="8" location-x="-46720.6484" location-y="-75777.3984" map="toemunjean">
+      <text>
+      </text>
+      <mission id="9" name2="Mission.Name2.505_9" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_505_m7_indi_1" msg="q_505_m7" object="npc:ch_shaman_023" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_BaekMoo" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="2100" money="770" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos5_gr2_woonkuk_bal_Lv23" slot-2="item:gem_pos5_gr2_woonkuk_shield_Lv23" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_506" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,148 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_507" category="epic" completed-desc="q_507_completed" completed-list="y" desc="q_507_sum" grade="1" group2="QG_DaeSaMakEpic" id="507" name2="Quest.Name2.507">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="24" sort-no="308" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-38079.5938" location-y="-54654.8164" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.507_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_507_m1_indi_1" msg="q_507_m1" object="npc:ch_unguksoldier_007" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HealSpring" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case approach-social="q_507_m1_app_1" object="npc:ch_inspector_002" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-38079.5938" location-y="-54654.8164" map="toemunjean">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.507_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_507_m2_indi_1" msg="q_507_m2" object="npc:ch_unguksoldier_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HealSpring" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-32702.9336" location-y="-57791.1992" map="toemunjean">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.507_3" required-register-value="9">
+        <text>
+        </text>
+        <case looting="q_507_medic_pill_for_adamantine_1_icon" mapunit-1="3004_ME_SaMaGyo_047" mapunit-2="3004_ME_SaMaGyo_047_1" object="npc:me_samagyo_047" progress-mission="y" quest-symbol-drop-prob="85" type="loot" />
+        <text>
+        </text>
+        <case object="zone:zone_HealSpring" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-38079.5938" location-y="-54654.8164" map="toemunjean">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.507_4" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3004_CH_Inspector_002_1" object="npc:ch_inspector_002" progress-mission="y" type="npc-manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_HealSpring" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-38079.5938" location-y="-54654.8164" map="toemunjean">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.507_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_507_m5_indi_1" msg="q_507_m5" object="npc:ch_inspector_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HealSpring" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="npc:ch_inspector_002" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="6" location-x="-38079.5938" location-y="-54654.8164" map="toemunjean">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.507_6" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_507_m6_indi_1" msg="q_507_m6" object="npc:ch_unguksoldier_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HealSpring" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="npc:ch_inspector_002" type="approach" />
+        <text>
+        </text>
+        <basic-reward exp="1050" money="440" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="2" item-count-2="1" slot-1="item:Medic_Pill_for_Adamantine" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos8_gr2_woonkuk_bal_Lv24" slot-2="item:gem_pos8_gr2_woonkuk_shield_Lv24" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_508" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

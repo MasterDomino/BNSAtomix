@@ -1,0 +1,1392 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>CustomizingDesignerPreset</type>
+	<version>0.3</version>
+</table>
+<record>
+	<beard>1</beard>
+	<body>1</body>
+	<etc>1</etc>
+	<face>1</face>
+	<icon-index>129</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>1</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>2</beard>
+	<body>2</body>
+	<etc>2</etc>
+	<face>2</face>
+	<icon-index>130</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>2</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>3</beard>
+	<body>3</body>
+	<etc>3</etc>
+	<face>3</face>
+	<icon-index>131</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>3</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>4</beard>
+	<body>4</body>
+	<etc>4</etc>
+	<face>4</face>
+	<icon-index>132</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>4</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>5</beard>
+	<body>5</body>
+	<etc>5</etc>
+	<face>5</face>
+	<icon-index>133</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>5</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>6</beard>
+	<body>6</body>
+	<etc>6</etc>
+	<face>6</face>
+	<icon-index>134</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>6</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>7</beard>
+	<body>7</body>
+	<etc>7</etc>
+	<face>7</face>
+	<icon-index>135</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>7</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>8</beard>
+	<body>8</body>
+	<etc>8</etc>
+	<face>8</face>
+	<icon-index>136</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>8</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>9</beard>
+	<body>9</body>
+	<etc>9</etc>
+	<face>9</face>
+	<icon-index>137</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>9</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>10</beard>
+	<body>10</body>
+	<etc>10</etc>
+	<face>10</face>
+	<icon-index>138</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>10</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>11</beard>
+	<body>11</body>
+	<etc>11</etc>
+	<face>11</face>
+	<icon-index>139</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>11</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>12</beard>
+	<body>12</body>
+	<etc>12</etc>
+	<face>12</face>
+	<icon-index>140</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>12</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>13</beard>
+	<body>13</body>
+	<etc>13</etc>
+	<face>13</face>
+	<icon-index>141</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>13</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>14</beard>
+	<body>14</body>
+	<etc>14</etc>
+	<face>14</face>
+	<icon-index>142</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>14</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>15</beard>
+	<body>15</body>
+	<etc>15</etc>
+	<face>15</face>
+	<icon-index>143</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>15</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>16</beard>
+	<body>16</body>
+	<etc>16</etc>
+	<face>16</face>
+	<icon-index>144</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>16</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>17</beard>
+	<body>17</body>
+	<etc>17</etc>
+	<face>17</face>
+	<icon-index>145</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>17</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>18</beard>
+	<body>18</body>
+	<etc>18</etc>
+	<face>18</face>
+	<icon-index>146</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>18</index>
+	<race>t</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>1</beard>
+	<body>1</body>
+	<etc>1</etc>
+	<face>1</face>
+	<icon-index>97</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>1</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>2</beard>
+	<body>2</body>
+	<etc>2</etc>
+	<face>2</face>
+	<icon-index>98</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>2</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>3</beard>
+	<body>3</body>
+	<etc>3</etc>
+	<face>3</face>
+	<icon-index>99</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>3</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>4</beard>
+	<body>4</body>
+	<etc>4</etc>
+	<face>4</face>
+	<icon-index>100</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>4</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>5</beard>
+	<body>5</body>
+	<etc>5</etc>
+	<face>5</face>
+	<icon-index>101</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>5</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>6</beard>
+	<body>6</body>
+	<etc>6</etc>
+	<face>6</face>
+	<icon-index>102</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>6</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>7</beard>
+	<body>7</body>
+	<etc>7</etc>
+	<face>7</face>
+	<icon-index>103</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>7</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>8</beard>
+	<body>8</body>
+	<etc>8</etc>
+	<face>8</face>
+	<icon-index>104</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>8</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>9</beard>
+	<body>9</body>
+	<etc>9</etc>
+	<face>9</face>
+	<icon-index>105</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>9</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>10</beard>
+	<body>10</body>
+	<etc>10</etc>
+	<face>10</face>
+	<icon-index>106</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>10</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>11</beard>
+	<body>11</body>
+	<etc>11</etc>
+	<face>11</face>
+	<icon-index>107</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>11</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>12</beard>
+	<body>12</body>
+	<etc>12</etc>
+	<face>12</face>
+	<icon-index>108</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>12</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>13</beard>
+	<body>13</body>
+	<etc>13</etc>
+	<face>13</face>
+	<icon-index>109</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>13</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>14</beard>
+	<body>14</body>
+	<etc>14</etc>
+	<face>14</face>
+	<icon-index>110</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>14</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>15</beard>
+	<body>15</body>
+	<etc>15</etc>
+	<face>15</face>
+	<icon-index>111</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>15</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>16</beard>
+	<body>16</body>
+	<etc>16</etc>
+	<face>16</face>
+	<icon-index>112</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>16</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>17</beard>
+	<body>17</body>
+	<etc>17</etc>
+	<face>17</face>
+	<icon-index>113</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>17</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>18</beard>
+	<body>18</body>
+	<etc>18</etc>
+	<face>18</face>
+	<icon-index>114</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>18</index>
+	<race>ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>1</beard>
+	<body>1</body>
+	<etc>1</etc>
+	<face>1</face>
+	<icon-index>193</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>1</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>2</beard>
+	<body>2</body>
+	<etc>2</etc>
+	<face>2</face>
+	<icon-index>194</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>2</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>3</beard>
+	<body>3</body>
+	<etc>3</etc>
+	<face>3</face>
+	<icon-index>195</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>3</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>4</beard>
+	<body>4</body>
+	<etc>4</etc>
+	<face>4</face>
+	<icon-index>196</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>4</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>5</beard>
+	<body>5</body>
+	<etc>5</etc>
+	<face>5</face>
+	<icon-index>197</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>5</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>6</beard>
+	<body>6</body>
+	<etc>6</etc>
+	<face>6</face>
+	<icon-index>198</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>6</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>7</beard>
+	<body>7</body>
+	<etc>7</etc>
+	<face>7</face>
+	<icon-index>199</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>7</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>8</beard>
+	<body>8</body>
+	<etc>8</etc>
+	<face>8</face>
+	<icon-index>200</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>8</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>9</beard>
+	<body>9</body>
+	<etc>9</etc>
+	<face>9</face>
+	<icon-index>201</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>9</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>10</beard>
+	<body>10</body>
+	<etc>10</etc>
+	<face>10</face>
+	<icon-index>202</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>10</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>11</beard>
+	<body>11</body>
+	<etc>11</etc>
+	<face>11</face>
+	<icon-index>203</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>11</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>12</beard>
+	<body>12</body>
+	<etc>12</etc>
+	<face>12</face>
+	<icon-index>204</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>12</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>13</beard>
+	<body>13</body>
+	<etc>13</etc>
+	<face>13</face>
+	<icon-index>205</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>13</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>14</beard>
+	<body>14</body>
+	<etc>14</etc>
+	<face>14</face>
+	<icon-index>206</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>14</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>15</beard>
+	<body>15</body>
+	<etc>15</etc>
+	<face>15</face>
+	<icon-index>207</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>15</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>16</beard>
+	<body>16</body>
+	<etc>16</etc>
+	<face>16</face>
+	<icon-index>208</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>16</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>17</beard>
+	<body>17</body>
+	<etc>17</etc>
+	<face>17</face>
+	<icon-index>209</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>17</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>18</beard>
+	<body>18</body>
+	<etc>18</etc>
+	<face>18</face>
+	<icon-index>210</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>18</index>
+	<race>°</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>1</beard>
+	<body>1</body>
+	<etc>1</etc>
+	<face>1</face>
+	<icon-index>33</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>1</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>2</beard>
+	<body>2</body>
+	<etc>2</etc>
+	<face>2</face>
+	<icon-index>34</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>2</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>3</beard>
+	<body>3</body>
+	<etc>3</etc>
+	<face>3</face>
+	<icon-index>35</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>3</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>4</beard>
+	<body>4</body>
+	<etc>4</etc>
+	<face>4</face>
+	<icon-index>36</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>4</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>5</beard>
+	<body>5</body>
+	<etc>5</etc>
+	<face>5</face>
+	<icon-index>37</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>5</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>6</beard>
+	<body>6</body>
+	<etc>6</etc>
+	<face>6</face>
+	<icon-index>38</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>6</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>7</beard>
+	<body>7</body>
+	<etc>7</etc>
+	<face>7</face>
+	<icon-index>39</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>7</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>8</beard>
+	<body>8</body>
+	<etc>8</etc>
+	<face>8</face>
+	<icon-index>40</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>8</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>9</beard>
+	<body>9</body>
+	<etc>9</etc>
+	<face>9</face>
+	<icon-index>41</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>9</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>10</beard>
+	<body>10</body>
+	<etc>10</etc>
+	<face>10</face>
+	<icon-index>42</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>10</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>11</beard>
+	<body>11</body>
+	<etc>11</etc>
+	<face>11</face>
+	<icon-index>43</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>11</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>12</beard>
+	<body>12</body>
+	<etc>12</etc>
+	<face>12</face>
+	<icon-index>44</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>12</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>13</beard>
+	<body>13</body>
+	<etc>13</etc>
+	<face>13</face>
+	<icon-index>45</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>13</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>14</beard>
+	<body>14</body>
+	<etc>14</etc>
+	<face>14</face>
+	<icon-index>46</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>14</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>15</beard>
+	<body>15</body>
+	<etc>15</etc>
+	<face>15</face>
+	<icon-index>47</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>15</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>16</beard>
+	<body>16</body>
+	<etc>16</etc>
+	<face>16</face>
+	<icon-index>48</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>16</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>17</beard>
+	<body>17</body>
+	<etc>17</etc>
+	<face>17</face>
+	<icon-index>49</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>17</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>18</beard>
+	<body>18</body>
+	<etc>18</etc>
+	<face>18</face>
+	<icon-index>50</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>18</index>
+	<race>Ä</race>
+	<sex>ì</sex>
+</record>
+<record>
+	<beard>1</beard>
+	<body>1</body>
+	<etc>1</etc>
+	<face>1</face>
+	<icon-index>65</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>1</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>2</beard>
+	<body>2</body>
+	<etc>2</etc>
+	<face>2</face>
+	<icon-index>66</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>2</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>3</beard>
+	<body>3</body>
+	<etc>3</etc>
+	<face>3</face>
+	<icon-index>67</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>3</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>4</beard>
+	<body>4</body>
+	<etc>4</etc>
+	<face>4</face>
+	<icon-index>68</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>4</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>5</beard>
+	<body>5</body>
+	<etc>5</etc>
+	<face>5</face>
+	<icon-index>69</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>5</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>6</beard>
+	<body>6</body>
+	<etc>6</etc>
+	<face>6</face>
+	<icon-index>70</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>6</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>7</beard>
+	<body>7</body>
+	<etc>7</etc>
+	<face>7</face>
+	<icon-index>71</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>7</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>8</beard>
+	<body>8</body>
+	<etc>8</etc>
+	<face>8</face>
+	<icon-index>72</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>8</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>9</beard>
+	<body>9</body>
+	<etc>9</etc>
+	<face>9</face>
+	<icon-index>73</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>9</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>10</beard>
+	<body>10</body>
+	<etc>10</etc>
+	<face>10</face>
+	<icon-index>74</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>10</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>11</beard>
+	<body>11</body>
+	<etc>11</etc>
+	<face>11</face>
+	<icon-index>75</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>11</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>12</beard>
+	<body>12</body>
+	<etc>12</etc>
+	<face>12</face>
+	<icon-index>76</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>12</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>13</beard>
+	<body>13</body>
+	<etc>13</etc>
+	<face>13</face>
+	<icon-index>77</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>13</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>14</beard>
+	<body>14</body>
+	<etc>14</etc>
+	<face>14</face>
+	<icon-index>78</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>14</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>15</beard>
+	<body>15</body>
+	<etc>15</etc>
+	<face>15</face>
+	<icon-index>79</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>15</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>16</beard>
+	<body>16</body>
+	<etc>16</etc>
+	<face>16</face>
+	<icon-index>80</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>16</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>17</beard>
+	<body>17</body>
+	<etc>17</etc>
+	<face>17</face>
+	<icon-index>81</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>17</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>18</beard>
+	<body>18</body>
+	<etc>18</etc>
+	<face>18</face>
+	<icon-index>82</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>18</index>
+	<race>ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>1</beard>
+	<body>1</body>
+	<etc>1</etc>
+	<face>1</face>
+	<icon-index>161</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>1</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>2</beard>
+	<body>2</body>
+	<etc>2</etc>
+	<face>2</face>
+	<icon-index>162</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>2</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>3</beard>
+	<body>3</body>
+	<etc>3</etc>
+	<face>3</face>
+	<icon-index>163</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>3</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>4</beard>
+	<body>4</body>
+	<etc>4</etc>
+	<face>4</face>
+	<icon-index>164</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>4</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>5</beard>
+	<body>5</body>
+	<etc>5</etc>
+	<face>5</face>
+	<icon-index>165</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>5</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>6</beard>
+	<body>6</body>
+	<etc>6</etc>
+	<face>6</face>
+	<icon-index>166</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>6</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>7</beard>
+	<body>7</body>
+	<etc>7</etc>
+	<face>7</face>
+	<icon-index>167</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>7</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>8</beard>
+	<body>8</body>
+	<etc>8</etc>
+	<face>8</face>
+	<icon-index>168</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>8</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>9</beard>
+	<body>9</body>
+	<etc>9</etc>
+	<face>9</face>
+	<icon-index>169</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>9</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>10</beard>
+	<body>10</body>
+	<etc>10</etc>
+	<face>10</face>
+	<icon-index>170</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>10</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>11</beard>
+	<body>11</body>
+	<etc>11</etc>
+	<face>11</face>
+	<icon-index>171</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>11</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>12</beard>
+	<body>12</body>
+	<etc>12</etc>
+	<face>12</face>
+	<icon-index>172</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>12</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>13</beard>
+	<body>13</body>
+	<etc>13</etc>
+	<face>13</face>
+	<icon-index>173</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>13</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>14</beard>
+	<body>14</body>
+	<etc>14</etc>
+	<face>14</face>
+	<icon-index>174</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>14</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>15</beard>
+	<body>15</body>
+	<etc>15</etc>
+	<face>15</face>
+	<icon-index>175</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>15</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>16</beard>
+	<body>16</body>
+	<etc>16</etc>
+	<face>16</face>
+	<icon-index>176</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>16</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>17</beard>
+	<body>17</body>
+	<etc>17</etc>
+	<face>17</face>
+	<icon-index>177</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>17</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>18</beard>
+	<body>18</body>
+	<etc>18</etc>
+	<face>18</face>
+	<icon-index>178</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>18</index>
+	<race>°</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>1</beard>
+	<body>1</body>
+	<etc>1</etc>
+	<face>1</face>
+	<icon-index>1</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>1</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>2</beard>
+	<body>2</body>
+	<etc>2</etc>
+	<face>2</face>
+	<icon-index>2</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>2</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>3</beard>
+	<body>3</body>
+	<etc>3</etc>
+	<face>3</face>
+	<icon-index>3</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>3</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>4</beard>
+	<body>4</body>
+	<etc>4</etc>
+	<face>4</face>
+	<icon-index>4</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>4</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>5</beard>
+	<body>5</body>
+	<etc>5</etc>
+	<face>5</face>
+	<icon-index>5</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>5</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>6</beard>
+	<body>6</body>
+	<etc>6</etc>
+	<face>6</face>
+	<icon-index>6</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>6</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>7</beard>
+	<body>7</body>
+	<etc>7</etc>
+	<face>7</face>
+	<icon-index>7</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>7</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>8</beard>
+	<body>8</body>
+	<etc>8</etc>
+	<face>8</face>
+	<icon-index>8</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>8</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>9</beard>
+	<body>9</body>
+	<etc>9</etc>
+	<face>9</face>
+	<icon-index>9</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>9</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>10</beard>
+	<body>10</body>
+	<etc>10</etc>
+	<face>10</face>
+	<icon-index>10</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>10</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>11</beard>
+	<body>11</body>
+	<etc>11</etc>
+	<face>11</face>
+	<icon-index>11</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>11</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>12</beard>
+	<body>12</body>
+	<etc>12</etc>
+	<face>12</face>
+	<icon-index>12</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>12</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>13</beard>
+	<body>13</body>
+	<etc>13</etc>
+	<face>13</face>
+	<icon-index>13</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>13</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>14</beard>
+	<body>14</body>
+	<etc>14</etc>
+	<face>14</face>
+	<icon-index>14</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>14</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>15</beard>
+	<body>15</body>
+	<etc>15</etc>
+	<face>15</face>
+	<icon-index>15</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>15</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>16</beard>
+	<body>16</body>
+	<etc>16</etc>
+	<face>16</face>
+	<icon-index>16</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>16</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>17</beard>
+	<body>17</body>
+	<etc>17</etc>
+	<face>17</face>
+	<icon-index>17</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>17</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>
+<record>
+	<beard>18</beard>
+	<body>18</body>
+	<etc>18</etc>
+	<face>18</face>
+	<icon-index>18</icon-index>
+	<icon-texture>Lobby_Scene_Icon_preset</icon-texture>
+	<index>18</index>
+	<race>Ä</race>
+	<sex>¨</sex>
+</record>

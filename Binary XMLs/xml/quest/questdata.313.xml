@@ -1,0 +1,139 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_313" category="epic" completed-desc="q_313_completed" completed-list="y" desc="q_313_sum" grade="1" group2="QG_JeRyoungRimEpic" id="313" name2="Quest.Name2.313">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="15" sort-no="215" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_313_des_1" id="1" location-x="43644.2109" location-y="20613.7832" map="SuRyun_Dun">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.313_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2300_suryun_dun_e313" mapunit-2="2310_guide_E313" object="zone:zone_suryendonggul" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_313_m2_indi_1" mapunit-1="2300_suryun_dun_e313" object="npc:ch_hongsam_0001" progress-mission="y" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_313_des_2" id="2" location-x="43644.2109" location-y="20650.8926" map="SuRyun_Dun" zone-1="zone_suryendonggul">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.313_2" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="epic_313_con_1" msg="q_313_m2" object="npc:ch_hongsam_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_suryendonggul" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_313_des_3" id="3" location-x="46130.543" location-y="21467.2988" map="SuRyun_Dun">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.313_3" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="epic_313_con_1" mapunit-1="2300_suryun_dun_e313" object="zone:zone_suryendonggul" progress-mission="y" type="convoy-arrived" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission-step-fail rollback-step-id="2" zone-1="zone_suryendonggul">
+        <text>
+        </text>
+        <case convoy="epic_313_con_1" object="zone:zone_suryendonggul" progress-mission="reaction-only" type="convoy-failed" />
+        <text>
+      </text>
+      </mission-step-fail>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_313_des_4" id="4" location-x="47948.9023" location-y="22061.0508" map="SuRyun_Dun">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.313_4" required-register-value="1">
+        <text>
+        </text>
+        <case approach-social="q_313_m4_app_1" indicator-social="q_313_m4_indi_1" msg="q_313_m4" object="npc:ch_hongsam_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_suryendonggul" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_313_des_5" id="5" location-x="52068.0469" location-y="20131.3613" map="SuRyun_Dun">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.313_5" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2350_e_footswitch_309_1_finish" object="zoneenv:e_footswitch_309_1_finish" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zone:zone_suryendonggul" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <fixed-reward slot-1="skill:common_act_airdash_lv1" slot-2="skill:common_act_dive_lv1" slot-3="skill:common_act_boost_lv1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_313_des_6" id="6" location-x="28349.2324" location-y="36810.2109" map="suryengol">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.313_6" required-register-value="1">
+        <text>
+        </text>
+        <case object="zone:zone_suryengol" progress-mission="y" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="600" money="210" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_494" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

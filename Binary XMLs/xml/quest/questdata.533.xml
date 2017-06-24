@@ -1,0 +1,190 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_533" category="epic" completed-desc="q_533_completed" completed-list="y" desc="q_533_sum" grade="1" group2="QG_DaeSaMakEpic" id="533" name2="Quest.Name2.533">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="35" sort-no="334" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="37832.1211" location-y="35114" map="dalgokchon">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.533_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_533_m1_indi_1" msg="q_533_m1" object="npc:ch_unguksoldier_0015" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_MuChon_Sul_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case approach-social="q_533_m1_app_1" object="npc:ch_unguksoldier_0016" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="34233.25" location-y="33613.6836" map="dalgokchon_3091">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.533_2" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3030_Epic_BuSangGuoMukBburi" mapunit-2="3030_Epic_BuSangGuoMukBburi_1" object="zone:zone_ChangGo_2" progress-mission="y" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="34508.9531" location-y="30458.2988" map="busangguomukbburi">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.533_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_533_m3_indi_1" msg="q_533_m3" object="npc:ch_ildong_0003" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_ChangGo_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="35856.6094" location-y="25719.041" map="busangguomukbburi">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.533_4" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3095_e_footswitch_949" object="zoneenv:e_footswitch_949" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zone:zone_ChangGo_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="35721.8438" location-y="25045.2129" map="busangguomukbburi">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.533_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_533_m5_indi_1" msg="q_533_m5" object="npc:ch_jinsoa_0009" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_ChangGo_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="6" location-x="37832.1211" location-y="35114" map="dalgokchon_3091">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.533_6" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_533_m6_indi_1" msg="q_533_m6" object="npc:ch_unguksoldier_0015" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case approach-social="q_533_m6_app_1" object="npc:ch_unguksoldier_0016" type="approach" />
+        <text>
+        </text>
+        <basic-reward exp="1250" money="1200" />
+        <text>
+        </text>
+        <case object="zone:zone_muchon_sul_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos5_gr2_osaekamdo_sheild_Lv36" slot-2="item:gem_pos5_gr2_osaekamdo_bal_Lv36" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_MuChon_Sul_1">
+      <text>
+      </text>
+      <destination mission-step-id="6" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="2" zone="zone_ChangGo_1">
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="3" zone="zone_MuChon_1">
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_542" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

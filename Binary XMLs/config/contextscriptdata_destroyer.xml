@@ -1,0 +1,529 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-mversion>0.0.0.171</release-mversion>
+	<release-side>client</release-side>
+	<version>0.1</version>
+</table>
+<contextscript>
+	<job>í¬</job>
+</contextscript>
+<stance>
+	<abnormal-flag>down</abnormal-flag>
+</stance>
+<decision>
+</decision>
+<result>
+	<skillbar-1>14238</skillbar-1>
+	<skillbar-2>14239</skillbar-2>
+	<skillbar-3>14236</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<stance>
+	<link>catch</link>
+	<status>link</status>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute>ä´</immune-breaker-attribute>
+	<skill>14603</skill>
+</condition>
+<result>
+	<skillbar-1>14603</skillbar-1>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute>ä´</immune-breaker-attribute>
+	<skill>14601</skill>
+</condition>
+<result>
+	<skillbar-3>14601</skillbar-3>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<decision>
+</decision>
+<result>
+	<skillbar-1>14603</skillbar-1>
+	<skillbar-2>14605</skillbar-2>
+	<skillbar-3>14601</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<stance>
+	<link>catch-none-human</link>
+	<status>link</status>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<skillbar-1>14620</skillbar-1>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<decision>
+</decision>
+<result>
+	<skillbar-1>14620</skillbar-1>
+	<skillbar-2>501</skillbar-2>
+	<skillbar-3>501</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<stance>
+	<link>catch-friend</link>
+	<status>link</status>
+</stance>
+<decision>
+</decision>
+<result>
+	<skillbar-1>14631</skillbar-1>
+	<skillbar-2>501</skillbar-2>
+	<skillbar-3>501</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<stance>
+	<stance>4</stance>
+	<status>stance</status>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute>ä´</immune-breaker-attribute>
+	<skill>14223</skill>
+</condition>
+<result>
+	<skillbar-2>14223</skillbar-2>
+	<skillbar-7>14500</skillbar-7>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute>0</immune-breaker-attribute>
+	<skill>14219</skill>
+</condition>
+<result>
+	<skillbar-3>14219</skillbar-3>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<skillbar-4>14234</skillbar-4>
+	<skillbar-6>14133</skillbar-6>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<context-2>14201</context-2>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14224</skill>
+</condition>
+<result>
+	<context-1>14224</context-1>
+	<tps-context-1>14224</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14108</skill>
+</condition>
+<result>
+	<context-1>14108</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14108</tps-context-1>
+</result>
+<condition>
+	<skill>14209</skill>
+</condition>
+<result>
+	<context-1>14209</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14209</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14908</skill>
+</condition>
+<result>
+	<context-1>14908</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14908</tps-context-1>
+</result>
+<condition>
+	<skill>14909</skill>
+</condition>
+<result>
+	<context-1>14909</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14909</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14918</skill>
+</condition>
+<result>
+	<context-1>14918</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14918</tps-context-1>
+</result>
+<condition>
+	<skill>14919</skill>
+</condition>
+<result>
+	<context-1>14919</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14919</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14928</skill>
+</condition>
+<result>
+	<context-1>14928</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14928</tps-context-1>
+</result>
+<condition>
+	<skill>14929</skill>
+</condition>
+<result>
+	<context-1>14929</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14929</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14226</skill>
+</condition>
+<result>
+	<skillbar-2>14226</skillbar-2>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14233</skill>
+</condition>
+<result>
+	<context-2>14233</context-2>
+	<tps-context-2>14233</tps-context-2>
+</result>
+<condition>
+	<skill>14201</skill>
+</condition>
+<result>
+	<context-2>14201</context-2>
+	<tps-context-2>14201</tps-context-2>
+</result>
+<condition>
+	<skill>14606</skill>
+</condition>
+<result>
+	<context-2>14606</context-2>
+	<tps-context-2>14606</tps-context-2>
+</result>
+<condition>
+	<skill>14600</skill>
+</condition>
+<result>
+	<context-2>14600</context-2>
+	<tps-context-2>14600</tps-context-2>
+</result>
+<condition>
+	<skill>14610</skill>
+</condition>
+<result>
+	<context-2>14610</context-2>
+	<tps-context-2>14610</tps-context-2>
+</result>
+<condition>
+	<skill>14611</skill>
+</condition>
+<result>
+	<context-2>14611</context-2>
+	<tps-context-2>14611</tps-context-2>
+</result>
+<condition>
+	<skill>14630</skill>
+</condition>
+<result>
+	<context-2>14630</context-2>
+	<tps-context-2>14630</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14207</skill>
+</condition>
+<result>
+	<context-1>14207</context-1>
+	<tps-context-1>14207</tps-context-1>
+</result>
+<condition>
+	<skill>14907</skill>
+</condition>
+<result>
+	<context-1>14907</context-1>
+	<tps-context-1>14907</tps-context-1>
+</result>
+<condition>
+	<skill>14917</skill>
+</condition>
+<result>
+	<context-1>14917</context-1>
+	<tps-context-1>14917</tps-context-1>
+</result>
+<condition>
+	<skill>14927</skill>
+</condition>
+<result>
+	<context-1>14927</context-1>
+	<tps-context-1>14927</tps-context-1>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>14129</skill>
+</condition>
+<result>
+	<skillbar-4>14129</skillbar-4>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<skillbar-1>14222</skillbar-1>
+	<skillbar-2>14223</skillbar-2>
+	<skillbar-3>14219</skillbar-3>
+	<skillbar-4>14234</skillbar-4>
+	<skillbar-5>501</skillbar-5>
+	<skillbar-6>14133</skillbar-6>
+	<skillbar-7>14500</skillbar-7>
+	<skillbar-8>14230</skillbar-8>
+	<stance>14205</stance>
+</result>
+<stance>
+	<stance>ô8</stance>
+	<status>stance</status>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<skillbar-2>14223</skillbar-2>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute>0</immune-breaker-attribute>
+	<skill>14219</skill>
+</condition>
+<result>
+	<skillbar-3>14219</skillbar-3>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<skillbar-4>14234</skillbar-4>
+	<skillbar-8>14502</skillbar-8>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14224</skill>
+</condition>
+<result>
+	<context-1>14224</context-1>
+	<tps-context-1>14224</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14108</skill>
+</condition>
+<result>
+	<context-1>14108</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14108</tps-context-1>
+</result>
+<condition>
+	<skill>14209</skill>
+</condition>
+<result>
+	<context-1>14209</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14209</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14908</skill>
+</condition>
+<result>
+	<context-1>14908</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14908</tps-context-1>
+</result>
+<condition>
+	<skill>14909</skill>
+</condition>
+<result>
+	<context-1>14909</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14909</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14918</skill>
+</condition>
+<result>
+	<context-1>14918</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14918</tps-context-1>
+</result>
+<condition>
+	<skill>14919</skill>
+</condition>
+<result>
+	<context-1>14919</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14919</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14928</skill>
+</condition>
+<result>
+	<context-1>14928</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14928</tps-context-1>
+</result>
+<condition>
+	<skill>14929</skill>
+</condition>
+<result>
+	<context-1>14929</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>14929</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14226</skill>
+</condition>
+<result>
+	<skillbar-2>14226</skillbar-2>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14233</skill>
+</condition>
+<result>
+	<context-2>14233</context-2>
+	<tps-context-2>14233</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14207</skill>
+</condition>
+<result>
+	<context-1>14207</context-1>
+	<tps-context-1>14207</tps-context-1>
+</result>
+<condition>
+	<skill>14907</skill>
+</condition>
+<result>
+	<context-1>14907</context-1>
+	<tps-context-1>14907</tps-context-1>
+</result>
+<condition>
+	<skill>14917</skill>
+</condition>
+<result>
+	<context-1>14917</context-1>
+	<tps-context-1>14917</tps-context-1>
+</result>
+<condition>
+	<skill>14927</skill>
+</condition>
+<result>
+	<context-1>14927</context-1>
+	<tps-context-1>14927</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>14502</skill>
+</condition>
+<result>
+	<skillbar-8>14502</skillbar-8>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>14129</skill>
+</condition>
+<result>
+	<skillbar-4>14129</skillbar-4>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<skillbar-1>14222</skillbar-1>
+	<skillbar-2>14223</skillbar-2>
+	<skillbar-3>14219</skillbar-3>
+	<skillbar-4>14234</skillbar-4>
+	<skillbar-5>501</skillbar-5>
+	<skillbar-6>501</skillbar-6>
+	<skillbar-7>501</skillbar-7>
+	<skillbar-8>501</skillbar-8>
+	<stance>14205</stance>
+</result>

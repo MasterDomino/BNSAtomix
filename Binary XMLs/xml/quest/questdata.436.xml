@@ -1,0 +1,64 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_436" category="normal" desc="q_436_sum" grade="1" group="제룡림(기연절벽)" group2="QG_KiYoenCliff" id="436" name="태상문의 위력" name2="Quest.Name2.436">
+    <text>
+    </text>
+    <acquisition level="13" preceding-quest-1="q_epic_494" preceding-quest-check="and" recommended-level="15">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_436_s_indi_1" msg="q_436_s" object="npc:ch_wanderer_006" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="23989.0762" location-y="44327.7227" map="suryengol">
+      <text>
+      </text>
+      <mission id="1" name="광인기공사 처치" name2="Mission.Name2.436_1" required-register-value="9">
+        <text>
+        </text>
+        <case mapunit-1="2300_Mob_JinM_Practitioner_Crazy_Sht_Q_002" mapunit-2="2300_Mob_JinM_Practitioner_Crazy_Sht_Q_002_1" mapunit-3="2300_Mob_JinM_Practitioner_Crazy_Sht_Q_002_2" mapunit-4="2300_Mob_JinM_Practitioner_Crazy_Sht_Q_002_3" object="npc:mob_jinm_practitioner_crazy_sht_q_002" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name="광인격사 처치" name2="Mission.Name2.436_2" required-register-value="9">
+        <text>
+        </text>
+        <case mapunit-5="2300_mob_jinm_practitioner_crazy_sht_001" mapunit-6="2300_mob_jinm_practitioner_crazy_sht_001_1" mapunit-7="2300_mob_jinm_practitioner_crazy_sht_001_2" mapunit-8="2300_mob_jinm_practitioner_crazy_sht_001_3" object="npc:mob_jinm_practitioner_crazy_sht_001" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="23989.0762" location-y="44327.7227" map="suryengol">
+      <text>
+      </text>
+      <mission id="3" name="녹명촌에 있는 태상문 궁무결에게 보고" name2="Mission.Name2.436_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_436_m3_indi_1" msg="q_436_m3" object="npc:ch_wanderer_006" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="500" money="140" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos8_gr2_dokcho_bal_lv16" slot-2="item:gem_pos8_gr2_dokcho_atk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

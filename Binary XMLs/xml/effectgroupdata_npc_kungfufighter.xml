@@ -1,0 +1,701 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>MH_KungfuMaster_Attack_Armbar_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Armbar_Lv1_extend-link</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Armbar_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Armbar_Lv1_Flag</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Armbar_Lv1_E2_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Armbar_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Armbar_Lv1_E2_02</alias>
+	<effect-1>ME_Common_None_HateDown</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Commandskill_right_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Commandskill_right_targetdebuff</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Commandskill_right_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Commandskill_right_MoveBlock</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Counterenemy_counter_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Counterenemy_counter_Lv1_stun</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Counterenemy_counter_Lv1_E2_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Counterenemy_counter_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Counterenemy_counter_Lv1_stun2</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Counterenemy_counter_Lv1_E2_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_Counterenemy_counter_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Counterenemy_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Counterenemy_Lv1_detection</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Finalattack_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Finalattack_Lv1_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Finalattack_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_Finalattack_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Heavypunch_Lv1_knockback</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_Lv1_E1_012</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_knockback_kneel</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40038</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_Lv1_E1_022</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_knockback_kneel</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40038</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_Lv1_E1_03</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_knockback_stun</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40015</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_Lv1_E1_032</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_knockback_stun</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40015</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_Lv1_E1_p2</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_LV2_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv2_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Heavypunch_Lv2_knockback</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Heavypunch_LV3_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Heavypunch_Lv3_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Heavypunch_Lv3_knockback</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Jumppunch_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Jumppunch_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Jumppunch_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Jumppunch_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Jumppunch_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_Jumppunch_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Jumppunch_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Jumppunch_MoveBlock</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Jumppunch_Lv1_E1_03</alias>
+	<effect-1>MH_KungfuMaster_Attack_Jumppunch_MoveBlock</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Jumppunch_Lv1_E2_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Jumppunch_Lv1_stun</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Jumppunch_Lv1_E2_p</alias>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Jumppunch_Q_E1_01</alias>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Justicepunch_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Justicepunch_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Justicepunch_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_Justicepunch_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Lowkick_E1_01_Q</alias>
+	<effect-1>MH_KungfuMaster_Attack_Lowkick_Lv1_down_0</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40024</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Lowkick_E1_02_Q</alias>
+	<effect-1>MH_KungfuMaster_Attack_Lowkick_Lv1_extend_down</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40009</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Lowkick_E1_03_Q</alias>
+	<effect-1>MH_KungfuMaster_Attack_Lowkick_Lv1_moveblock</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Lowkick_E1_04_Q</alias>
+	<effect-1>MH_KungfuMaster_Attack_Lowkick_Lv1_down_0</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40024</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Lowkick_E1_05_Q</alias>
+	<effect-1>MH_KungfuMaster_Attack_Lowkick_Lv1_downcritical_0</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40008</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Lowkick_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Lowkick_Lv1_down</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Lowkick_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Lowkick_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40009</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Lowkick_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_Lowkick_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_PowerfulAttack_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_PowerfulAttack_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_PowerfulAttack_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_PowerfulAttack_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_PowerfulAttack_LV2_E1_01</alias>
+	<effect-1>KungfuMaster_Attack_PowerfulAttack_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_PowerfulAttack_Tutorial_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_PowerfulAttack_Tutorial_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_PowerfulAttack_Tutorial_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_PowerfulAttack_Lv1_damage_kneel</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_PowerfulAttack_Lv1_stun</effect-2>
+	<individual-probability>y</individual-probability>
+	<probability-2>50</probability-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_PowerfulAttack_Tutorial_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_PowerfulAttack_Tutorial_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Strongpunch_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Strongpunch_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Strongpunch_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_Strongpunch_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Takedown_hid1_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Takedown_hid1_Lv1_mount</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Takedown_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Takedown_Lv1_mount</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40009</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Takedown_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Takedown_Lv1_Flag</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Trampledown_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Trampledown_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Triplekick_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Triplekick_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Triplekick_hitanim</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Triplekick_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Attack_Triplekick_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Triplekick_Lv1_E2_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Triplekick_kneel</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Crushground_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Defend_Crushground_Lv1_down</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40024</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Crushground_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Defend_Crushground_Lv1_extenddown</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40009</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Crushground_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Defend_Crushground_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Heavyattack_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Defend_Heavyattack_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Defend_Heavyattack_Lv1_stun</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Heavyattack_Lv1_E1_p</alias>
+	<effect-1>MH_KungfuMaster_Defend_Heavyattack_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Heavyattack_Lv1_E2_01</alias>
+	<effect-1>MH_KungfuMaster_Defend_Heavyattack_Lv1_damage2</effect-1>
+	<effect-2>MH_KungfuMaster_Defend_Heavyattack_Lv1_dashknockback</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Heavyattack_Lv1_E2_p</alias>
+	<effect-1>MH_KungfuMaster_Defend_Heavyattack_Lv1_damage3</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Heavyattack_lv2_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Defend_Heavyattack_damage_lv2</effect-1>
+	<effect-2>MH_KungfuMaster_Defend_Heavyattack_stun_lv2</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Justiceattack_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Defend_Justiceattack_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_Justiceattack_shooter_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Defend_Justiceattack_shooter_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_AbdomenAttack_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Defend_AbdomenAttack_Lv1_air</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Defend_AbdomenAttack_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Defend_AbdomenAttack_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_BackStep_Lv1_E1_01</alias>
+	<effect-1>KungfuMaster_Attack_BackStep_Lv1_tumbling</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Uppercut2_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Uppercut2_Lv1_airstart</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Uppercut2_Lv1_E2_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Uppercut2_Lv1_rupture</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Uppercut2_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Uppercut2_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Pounding_First_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Pounding_First_Lv1_extend-link</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Pounding_First_Lv1_E2_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Pounding_First_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Pounding_First_Lv1_E3_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Pounding_First_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Pounding_First_Lv1_E4_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Pounding_First_Lv1_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E1_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Martialdance_Lv1_knockback</effect-2>
+	<effect-3>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-stun</effect-3>
+	<effect-4>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-kneel</effect-4>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40024</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E2_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Martialdance_Lv1_knockback</effect-2>
+	<effect-3>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-stun</effect-3>
+	<effect-4>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-kneel</effect-4>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40025</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E3_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Martialdance_Lv1_knockback</effect-2>
+	<effect-3>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-stun</effect-3>
+	<effect-4>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-kneel</effect-4>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40026</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E4_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Martialdance_Lv1_knockback</effect-2>
+	<effect-3>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-stun</effect-3>
+	<effect-4>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-kneel</effect-4>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40027</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-down</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40009</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E2_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-down</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40010</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E3_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-down</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40011</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E4_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Martialdance_Lv1_extend-down</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40012</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E1_03</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E2_03</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E3_03</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E4_03</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Martialdance_Lv1_E1_04</alias>
+	<effect-1>MH_KungfuMaster_Attack_Martialdance_Lv1_moveblock</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Skytakedown_Lv1_E1_01</alias>
+	<effect-1>KungfuMaster_Common_dispelair</effect-1>
+	<effect-2>MH_KungfuMaster_Attack_Skytakedown_Lv1_anim</effect-2>
+	<effect-3>MH_KungfuMaster_Attack_Skytakedown_Lv1_debuff</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Skytakedown_Lv1_E1_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Skytakedown_Lv1_rupture</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Skytakedown_Lv1_E2_01</alias>
+	<effect-1>MH_KungfuMaster_Attack_Skytakedown_Lv1_down</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_KungfuMaster_Attack_Skytakedown_Lv1_E2_02</alias>
+	<effect-1>MH_KungfuMaster_Attack_Skytakedown_Lv1_casterdown</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>

@@ -1,0 +1,133 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_506" category="epic" completed-desc="q_506_completed" completed-list="y" desc="q_506_sum" grade="1" group2="QG_DaeSaMakEpic" id="506" name2="Quest.Name2.506">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="24" sort-no="307" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-36607.4141" location-y="-70400.7422" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.506_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_506_m1_indi_1" msg="q_506_m1" object="npc:ch_shaman_025" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_BaekMoo" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-36267.3398" location-y="-82940.7188" map="yeogwegul">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.506_4" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3061_worm1" object="zoneenv:3061_worm2" progress-mission="y" type="env-entered" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-36607.4141" location-y="-70400.7422" map="toemunjean">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.506_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_506_m5_indi_1" msg="q_506_m5" object="npc:ch_shaman_025" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1600" money="650" />
+        <text>
+        </text>
+        <optional-reward job-1="역사" slot-1="item:weapon_ta_quest_014" slot-2="item:weapon_ta_quest_015" />
+        <text>
+        </text>
+        <optional-reward job-1="암살자" slot-1="item:weapon_dg_quest_014" slot-2="item:weapon_dg_quest_015" />
+        <text>
+        </text>
+        <optional-reward job-1="기공사" slot-1="item:weapon_ab_quest_014" slot-2="item:weapon_ab_quest_015" />
+        <text>
+        </text>
+        <optional-reward job-1="권사" slot-1="item:weapon_gt_quest_014" slot-2="item:weapon_gt_quest_015" />
+        <text>
+        </text>
+        <optional-reward job-1="검사" slot-1="item:weapon_sw_quest_014" slot-2="item:weapon_sw_quest_015" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_507" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-36431.4023" location-y="-78292.2813" map="yeogwegul" zone-1="zone_namudungchi">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.506_2" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:ch_seonggundang_0005" progress-mission="y" type="approach" />
+        <text>
+        </text>
+        <case object="zone:zone_namudungchi" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-36431.4023" location-y="-78292.2813" map="yeogwegul" zone-1="zone_namudungchi">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.506_3" required-register-value="1">
+        <text>
+        </text>
+        <case msg="q_506_m3" object="npc:ch_seonggundang_0005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_namudungchi" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_namudungchi">
+      <text>
+      </text>
+      <complete zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

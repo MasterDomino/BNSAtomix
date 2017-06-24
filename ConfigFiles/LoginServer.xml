@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<LoginServer>
+  <Port>6600</Port>
+
+  <!-- 帐号服务器域名或IP -->
+  <AccountHost>127.0.0.1</AccountHost>
+  
+  <!-- 帐号服务器端口 -->
+  <AccountPort>12010</AccountPort>
+
+  <!-- 帐号服务器内部通讯验证密码 -->
+  <AccountPassword>saga</AccountPassword>
+
+  <!-- 人物服务器域名或IP -->
+  <CharacterHost>127.0.0.1</CharacterHost>
+  
+  <!-- 人物服务器端口 -->
+  <CharacterPort>12012</CharacterPort>
+
+  <!-- 人物服务器内部通讯验证密码 -->
+  <CharacterPassword>saga</CharacterPassword>
+
+  <!-- 
+            日志等级：（加法）
+            Info = 1,
+            Warning = 2,
+            Error = 4,
+            SQL = 8,
+            Debug = 16       
+  -->
+  <LogLevel>31</LogLevel>
+  <World>
+    <Name>SagaBNS_Srv1</Name>
+    <PublicAddress>127.0.0.1:7518</PublicAddress>
+  </World>
+</LoginServer>

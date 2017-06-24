@@ -1,0 +1,46 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_872" category="normal" desc="q_872_sum" grade="1" group2="QG_OSaekAmDoEast" id="872" name2="Quest.Name2.872">
+    <text>
+    </text>
+    <acquisition level="34" preceding-quest-1="q_epic_535" preceding-quest-check="and" recommended-level="36">
+      <text>
+      </text>
+      <case acquire-quest="y" item="quest_872" msg="q_872_s" type="talk-to-item" />
+      <text>
+      </text>
+      <case loot-item="Quest_872" looting="q_872_Quest_brown_book_1_icon" object="npc:mh_jinhyul_0001" type="loot" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_872_des_1" id="1" location-x="34133.8516" location-y="69374.6563" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.872_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_872_m1_indi_1" msg="q_872_m1" object="npc:ch_smuggler_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="750" money="660" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_872" item-count-1="1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="quest_872" item-count-1="1" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,615 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>Quest_Magic137_Death_E1_01</alias>
+	<effect-1>70000</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_Magic138_Death_E1_01</alias>
+	<effect-1>70001</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_GrudgeGhost140_damage_E1_01</alias>
+	<effect-1>70002</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_WeirdAnimal145_Buff_E1_01</alias>
+	<effect-1>70003</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_WeirdAnimal150_Buff_E1_01</alias>
+	<effect-1>70013</effect-1>
+	<effect-2>70004</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_MadTrainee171_Buff_E1_01</alias>
+	<effect-1>70005</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_MadTrainee171_Powerup_E1_01</alias>
+	<effect-1>70006</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_Crescent205_Stun_E1_01</alias>
+	<effect-1>70007</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_Impact210_Impact_E1_01</alias>
+	<effect-1>10203011</effect-1>
+	<effect-2>10203012</effect-2>
+	<effect-3>10203013</effect-3>
+	<effect-4>10203014</effect-4>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_Awakening212_Dot_E1_01</alias>
+	<effect-1>70009</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_Awakening212_Dotcancel_E1_01</alias>
+	<effect-1>70010</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_Crushattack220_Crushattack_E1_01</alias>
+	<effect-1>2120</effect-1>
+	<effect-2>2121</effect-2>
+	<effect-3>2123</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_Cure234_Heal_E1_01</alias>
+	<effect-1>3450</effect-1>
+	<effect-2>3450</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Quest_energyReflection235_energyReflection_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+</record>
+<record>
+	<alias>Quest_BigHeal238_BigHeal_E1_01</alias>
+	<effect-1>3460</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Quest_MagneticEnergy239_MagneticEnergy_E1_01</alias>
+	<effect-1>3130</effect-1>
+	<effect-2>3131</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_MagneticEnergy239_MagneticEnergyBack_E1_01</alias>
+	<effect-1>3161</effect-1>
+	<effect-2>3160</effect-2>
+	<effect-3>3162</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_MagneticEnergy532_MagneticEnergyFront_E1_01</alias>
+	<effect-1>3171</effect-1>
+	<effect-2>3170</effect-2>
+	<effect-3>3172</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_DohyenMind308_Dot_E1_01</alias>
+	<effect-1>70011</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_ChunggakAttack109_Death_E1_01</alias>
+	<effect-1>70012</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_WeirdAnimal148_damage_E1_01</alias>
+	<effect-1>70013</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_333_Death_E1_01</alias>
+	<effect-1>70014</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_351_stun_E1_01</alias>
+	<effect-1>70015</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_351_powerup_E1_01</alias>
+	<effect-1>70016</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_352_flag_E1_01</alias>
+	<effect-1>70017</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_425_death_E1_01</alias>
+	<effect-1>70018</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_426_death_E1_01</alias>
+	<effect-1>70019</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_448_slow_E1_01</alias>
+	<effect-1>70020</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_368_maxhp_E1_01</alias>
+	<effect-1>70022</effect-1>
+	<effect-2>70023</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_371_buff_E1_01</alias>
+	<effect-1>70024</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_373_flag_E1_01</alias>
+	<effect-1>70025</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_378_flag_E1_01</alias>
+	<effect-1>70026</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_392_pulling_E1_01</alias>
+	<effect-1>70027</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_171_flag_E1_01</alias>
+	<effect-1>70029</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_101_stoneskin_E1_01</alias>
+	<effect-1>70030</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_210_damage_E1_01</alias>
+	<effect-1>70031</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_370_abnormal_E1_01</alias>
+	<effect-1>70034</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_133_stun_E1_01</alias>
+	<effect-1>70035</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_239_inhalationpush_E1_01</alias>
+	<effect-1>70036</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_238_fire_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+</record>
+<record>
+	<alias>Quest_532_inhalationpull_E1_01</alias>
+	<effect-1>70039</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_351_flag_E1_01</alias>
+	<effect-1>70037</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_Heal_Test_Lv1_E1_01</alias>
+	<effect-1>70042</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_Heal_Test_Lv2_E1_01</alias>
+	<effect-1>70043</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_536_vampiric_E1_01</alias>
+	<effect-1>12211011</effect-1>
+	<effect-2>12211012</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_537_missile_E1_01</alias>
+	<effect-1>12106011</effect-1>
+	<effect-2>12106012</effect-2>
+	<effect-3>12106013</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Quest_136_damage_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+</record>
+<record>
+	<alias>Quest_296_death_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+</record>
+<record>
+	<alias>Quest_457_damage_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+</record>
+<record>
+	<alias>Quest_504_damage_E1_01</alias>
+	<effect-1>60000500</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_519_damage_E1_01</alias>
+	<effect-1>60000510</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_652_damage_E1_01</alias>
+	<effect-1>62000500</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_659_Flag_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_561_Flag_E1_01</alias>
+	<effect-1>62000520</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_562_insanity_E1_01</alias>
+	<effect-1>Quest_562_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_562_insanity_E1_02</alias>
+	<effect-1>Quest_562_stun</effect-1>
+	<effect-2>Quest_562_insanity</effect-2>
+	<individual-probability>y</individual-probability>
+	<probability-1>50</probability-1>
+	<probability-2>50</probability-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_563_damage_E1_01</alias>
+	<effect-1>Quest_563_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_594_damage_E1_01</alias>
+	<effect-1>Quest_594_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_597_Flag_E1_01</alias>
+	<effect-1>Quest_597_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_602_Flag_E1_01</alias>
+	<effect-1>62000570</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_602_Flag_E1_02</alias>
+	<effect-1>62000571</effect-1>
+	<effect-2>62000572</effect-2>
+	<individual-probability>y</individual-probability>
+	<probability-1>70</probability-1>
+	<probability-2>30</probability-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_603_Flag_E1_01</alias>
+	<effect-1>Quest_603_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_604_damage_E1_01</alias>
+	<effect-1>Quest_604_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_605_damage_E1_01</alias>
+	<effect-1>Quest_605_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_703_damage_E1_01</alias>
+	<effect-1>Quest_703_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_716_damage_E1_01</alias>
+	<effect-1>Quest_716_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_735_dispel_E1_01</alias>
+	<effect-1>Quest_735_dispel</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_787_damage_E1_01</alias>
+	<effect-1>Quest_787_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_787_damage_E1_02</alias>
+	<effect-1>Quest_787_death</effect-1>
+	<effect-2>Quest_787_powerup</effect-2>
+	<individual-probability>y</individual-probability>
+	<probability-1>70</probability-1>
+	<probability-2>30</probability-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_845_flag_E1_01</alias>
+	<effect-1>Quest_845_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_849_scent_E1_01</alias>
+	<effect-1>Quest_849_dispel</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_650_debuff_E1_01</alias>
+	<effect-1>Quest_650_debuff</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_879_flag_E1_01</alias>
+	<effect-1>Quest_879_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_802_damage_E1_01</alias>
+	<effect-1>Quest_802_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Quest_609_damage_E1_01</alias>
+	<effect-1>Quest_609_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>

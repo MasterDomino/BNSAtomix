@@ -1,0 +1,79 @@
+<table>
+	<release-module>LevelData</release-module>
+	<release-side>client</release-side>
+	<type>BossNpc</type>
+	<version>0.3</version>
+</table>
+<record>
+	<alias>ME_GuGuBung_0003_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_GuGuBung_0002_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_FireGorilla_0001_BossNpc</alias>
+	<rising-attack-invoke-time>1500</rising-attack-invoke-time>
+</record>
+<record>
+	<alias>ME_MuSinGwan_0019_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_MuSinGwan_0020_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_MuSinGwan_0021_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_MuSinGwan_0022_BossNpc</alias>
+</record>
+<record>
+	<alias>MH_BladeMaster_0001_BossNpc</alias>
+</record>
+<record>
+	<alias>MH_ChungGak_0040_BossNpc</alias>
+</record>
+<record>
+	<alias>MH_BokGonPe_0001_BossNpc</alias>
+</record>
+<record>
+	<alias>MH_BokGonPe_0025_BossNpc</alias>
+</record>
+<record>
+	<alias>MH_BokGonPe_0026_BossNpc</alias>
+</record>
+<record>
+	<alias>MH_BokGonPe_0027_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_HeukMokIn_0001_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_HeukMokIn_0002_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_HeukMokIn_0003_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_PotAxParty_0003_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_JunoBoss_001_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_IronTurtle_0001_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_HongUn_0001_BossNpc</alias>
+</record>
+<record>
+	<alias>MH_SukSamJa_0001_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_DarkCrazyTribe_0034_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_MudSoldier_012_BossNpc</alias>
+</record>
+<record>
+	<alias>ME_Devil_0011_BOossNpc</alias>
+</record>

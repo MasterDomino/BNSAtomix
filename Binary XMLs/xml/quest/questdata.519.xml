@@ -1,0 +1,214 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_519" category="epic" completed-desc="q_519_completed" completed-list="y" desc="q_519_sum" grade="1" group2="QG_DaeSaMakEpic" id="519" name2="Quest.Name2.519">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="30" sort-no="319" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-15666.7793" location-y="3827.0571" map="toemungekjan">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.519_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_519_m1_indi_1" msg="q_519_m1" object="npc:ch_tomun_011" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-24337.7344" location-y="-24395.3984" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.519_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_519_m2_indi_1" mapunit-1="3016_Guide_E519" msg="q_519_m2" object="npc:ch_jinsoa_0003" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+        </text>
+        <case approach-social="q_519_m2_app_1" object="npc:ch_jinsoa_0003" type="approach" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-19117.1094" location-y="-30455.0508" map="yousadonggul">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.519_3" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3010_Epic_YouSaDongGul" object="zone:zone_ChungSungBuRak_2" progress-mission="y" type="enter-zone" />
+        <text>
+        </text>
+        <case object="npc:ch_jinsoa_0003" progress-mission="n" type="approach" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-17015.373" location-y="-30956.9727" map="yousadonggul">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.519_4" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="epic_519_con" indicator-social="q_519_m4_indi_1" msg="q_519_m4" object="npc:ch_soyeonhwa_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_ChungSungBuRak_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="npc:ch_jinsoa_0003" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-10019.2793" location-y="-31097.5977" map="yousadonggul" zone-1="zone_ChungSungBuRak_2">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.519_5" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="epic_519_con" object="zone:zone_ChungSungBuRak_2" progress-mission="y" type="convoy-arrived" />
+        <text>
+        </text>
+        <case mapunit-1="3048_e_FootSwitch_519_Finish" object="zoneenv:e_FootSwitch_519_Play" progress-mission="reaction-only" type="env-entered" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission-step-fail rollback-step-id="4" zone-1="zone_ChungSungBuRak_2">
+        <text>
+        </text>
+        <case convoy="epic_519_con" object="zone:zone_ChungSungBuRak_2" progress-mission="reaction-only" type="convoy-failed" />
+        <text>
+      </text>
+      </mission-step-fail>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="6" location-x="-8191.1543" location-y="-30992.1289" map="yousadonggul">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.519_6" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_519_m6_indi_1" msg="q_519_m6" object="npc:ch_baekunsunsa_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_ChungSungBuRak_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="7" location-x="-8191.1543" location-y="-30992.1289" map="yousadonggul">
+      <text>
+      </text>
+      <mission id="7" name2="Mission.Name2.519_7" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_519_m7_indi_1" msg="q_519_m7" object="npc:ch_soyeonhwa_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_ChungSungBuRak_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="8" location-x="-24337.7344" location-y="-24395.3984" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="8" name2="Mission.Name2.519_8" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_519_m8_indi_1" msg="q_519_m8" object="npc:ch_jinsoa_0004" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+        </text>
+        <basic-reward exp="1950" money="1300" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_ChungSungBuRak_1">
+      <text>
+      </text>
+      <destination mission-step-id="7" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="6" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <complete zone-index="2" />
+      <text>
+      </text>
+      <destination mission-step-id="8" zone-index="2" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="2" zone="zone_MJNaru_1">
+      <text>
+      </text>
+      <destination mission-step-id="8" zone-index="1" />
+      <text>
+      </text>
+      <complete zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_520" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

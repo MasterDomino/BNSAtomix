@@ -1,0 +1,115 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_625" category="normal" desc="q_625_sum" grade="1" group2="QG_HwangPungSaMak" id="625" name2="Quest.Name2.625">
+    <text>
+    </text>
+    <acquisition level="26" preceding-quest-1="q_epic_515" preceding-quest-check="and" recommended-level="28">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_625_s_indi_1" msg="q_625_s" object="npc:ch_treasurehunter_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-45815.6484" location-y="34073.5664" map="PungSaGul">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.625_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3072_e_FootSwitch_625_Search" mapunit-2="3072_e_FootSwitch_625_Search_H" mapunit-3="3072_e_FootSwitch_625_Search_P" object="zoneenv:e_FootSwitch_625_Search" progress-mission="y" type="env-entered" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-45815.6484" location-y="34073.5664" map="pungsailjok" zone-1="zone_pungsailjok">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.625_2" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3072_e_destroy_meshtrap_01" mapunit-2="3072_e_destroy_meshtrap_01_H" mapunit-3="3072_e_destroy_meshtrap_01_P" object="zoneenv:e_destroy_meshtrap_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case indicator-social="q_625_m1_indi_1" object="npc:ch_treasurehunter_0003" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-45815.6484" location-y="34073.5664" map="pungsailjok">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.625_3" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="sub_625_con_1" indicator-social="q_625_m3_indi_1" msg="q_625_m3" object="npc:ch_treasurehunter_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_pungsailjok" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-49040.2578" location-y="28665.3633" map="hwangsagul">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.625_4" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="sub_625_con_1" mapunit-1="3072_e_FootSwitch_625_Esc" mapunit-2="3072_e_FootSwitch_625_Esc_H" object="zone:zone_pungsailjok" progress-mission="y" type="convoy-arrived" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission-step-fail rollback-step-id="3" zone-1="zone_pungsailjok">
+        <text>
+        </text>
+        <case convoy="sub_625_con_1" object="zone:zone_pungsailjok" progress-mission="reaction-only" type="convoy-failed" />
+        <text>
+      </text>
+      </mission-step-fail>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-56686.9531" location-y="7860.5977" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.625_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_625_m5_indi_1" msg="q_625_m5" object="npc:ch_treasurehunter_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1700" money="800" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos5_gr2_hwangpoong_sheild_lv29" slot-2="item:gem_pos5_gr2_hwangpoong_bal_lv29" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

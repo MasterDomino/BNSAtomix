@@ -1,0 +1,43 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_854" category="normal" desc="q_854_sum" grade="1" group2="QG_OSaekAmDoWest" id="854" name2="Quest.Name2.854">
+    <text>
+    </text>
+    <mission-step desc="q_854_des_1" id="1" location-x="3255.7593" location-y="48973.3516" map="junodg">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.854_1" required-register-value="1">
+        <text>
+        </text>
+        <case gadget="q_eggb" gadget-required="carry-and-remove" indicator-social="q_854_m1_indi_1" msg="q_854_m1" object="npc:ch_smuggler_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-1="3076_e_onoff_blackegg_01" object="zoneenv:e_onoff_blackegg_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <basic-reward exp="570" money="450" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="3" slot-1="item:food_gr3_lv33" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <acquisition level="32" preceding-quest-1="q_epic_530" preceding-quest-check="and" recommended-level="34">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_854_s_indi_1" msg="q_854_s" object="npc:ch_smuggler_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,85 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_517" category="epic" completed-desc="q_517_completed" completed-list="y" desc="q_517_sum" grade="1" group2="QG_DaeSaMakEpic" id="517" name2="Quest.Name2.517">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="28" sort-no="317" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-37948.6445" location-y="9352.2031" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.517_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_517_m1_indi_1" msg="q_517_m1" object="npc:ch_noklimdo_0001" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-37855.4219" location-y="5436.7344" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.517_2" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_517_Quest_rock_salt_1_icon" mapunit-1="3010_e_onoff_saltrock_01" mapunit-2="3010_e_onoff_saltrock_01_1" object="zoneenv:e_onoff_saltrock_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_517_Quest_rock_salt_1_icon" object="zoneenv:e_onoff_saltrock_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_517_Quest_rock_salt_1_icon" object="zoneenv:e_onoff_saltrock_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_517_Quest_rock_salt_1_icon" object="zoneenv:e_onoff_saltrock_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_517_Quest_rock_salt_1_icon" object="zoneenv:e_onoff_saltrock_05" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case object="npc:ch_noklimdo_0001" type="approach" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-37948.6445" location-y="9352.2031" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.517_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_517_m3_indi_1" msg="q_517_m3" object="npc:ch_noklimdo_0001" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+        </text>
+        <basic-reward exp="1100" money="550" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_518" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

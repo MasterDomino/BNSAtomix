@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_371" category="normal" desc="q_371_sum" grade="1" group="제룡림(흑음림)" group2="QG_HuekUmmRim" id="371" name="현실은 버섯밭 (1)" name2="Quest.Name2.371">
+    <text>
+    </text>
+    <acquisition level="9" preceding-quest-1="q_sub_357" preceding-quest-check="and" recommended-level="11">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_371_s_indi_1" msg="q_371_s" object="npc:ctzn_jinf_jakyungdan_buyoung_kff_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-18126.8203" location-y="-6037.1328" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name="광대버섯의 갓 획득" name2="Mission.Name2.371_1" required-register-value="10">
+        <text>
+        </text>
+        <case looting="q_371_quest_swampmushroom_cap_1_icon" mapunit-1="2200_mob_2leg_mlnd_spctr_mushroom_walker_001" mapunit-2="2200_Mob_2Leg_MLnd_Spctr_Mushroom_Walker_001_1" object="npc:mob_2leg_mlnd_spctr_mushroom_walker_001" progress-mission="y" quest-symbol-drop-prob="80" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-18126.8203" location-y="-6037.1328" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name="버려진 어촌 북쪽의 자경단원 부용에게 보고" name2="Mission.Name2.371_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_371_m2_indi_1" msg="q_371_m2" object="npc:ctzn_jinf_jakyungdan_buyoung_kff_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="390" money="80" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos6_gr2_tanyeon_bal_Lv11" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

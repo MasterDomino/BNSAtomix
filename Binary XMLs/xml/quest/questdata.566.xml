@@ -1,0 +1,91 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_566" category="normal" desc="q_566_sum" grade="1" group2="QG_ToMunJinSouth" id="566" name2="Quest.Name2.566">
+    <text>
+    </text>
+    <acquisition level="20" preceding-quest-1="q_epic_503" preceding-quest-check="and" recommended-level="22">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_566_s_indi_1" msg="q_566_s" object="npc:ch_sunwooyeon_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_566_des_1" id="1" location-x="-56961.9023" location-y="-64832.0625" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.566_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_566_m1_indi_1" msg="q_566_m1" object="npc:ch_namhwadang_0001" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_door_namjail_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_566_des_2" id="2" location-x="-54721.6289" location-y="-57663.1836" map="toemunjean">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.566_2" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_566_quest_old_book_1_icon" mapunit-1="3000_MH_Samagyo_0006" object="npc:mh_samagyo_0006" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_door_namjail_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object="npc:ch_namhwadang_0001" type="approach" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.566_3" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_566_grocery_letter_1_icon" mapunit-2="3000_MH_Samagyo_0007" object="npc:mh_samagyo_0007" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-46546.6523" location-y="-64461.875" map="OeMalRi">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.566_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_566_m4_indi_1" msg="q_566_m4" object="npc:ch_unguksoldier_013" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="370" money="150" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos4_gr2_woonkuk_bal_Lv22" slot-2="item:gem_pos4_gr2_woonkuk_shield_Lv22" />
+        <text>
+        </text>
+        <case object="npc:ch_namhwadang_0001" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

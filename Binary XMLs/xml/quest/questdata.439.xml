@@ -1,0 +1,25 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_439" category="normal" desc="q_439_sum" grade="1" group="제룡림(녹명촌)" group2="QG_KiYoenCliff" id="439" name="은거 노인의 선물" name2="Quest.Name2.439">
+    <text>
+    </text>
+    <acquisition level="13" preceding-quest-1="q_epic_494" preceding-quest-check="and" recommended-level="15">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_439_s_indi_1" mapunit-1="2300_ch_dweller_033" msg="q_439_s" npc="CH_Dweller_033" object="npc:ch_dweller_033" type="talk" />
+      <text>
+      </text>
+      <basic-reward exp="150" money="35" />
+      <text>
+      </text>
+      <fixed-reward item-count-1="5" slot-1="item:production_stone_1" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

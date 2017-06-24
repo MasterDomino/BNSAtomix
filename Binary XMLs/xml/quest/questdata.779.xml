@@ -1,0 +1,100 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_779" category="normal" desc="q_779_sum" grade="1" group2="QG_SaJiSeokRimEast" id="779" name2="Quest.Name2.779">
+    <text>
+    </text>
+    <acquisition level="31" preceding-quest-1="q_epic_526" preceding-quest-2="q_sub_772" preceding-quest-check="and" recommended-level="33">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_779_s_indi_1" msg="q_779_s" object="npc:ch_muun_0003" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="45796.0547" location-y="-19869.5391" map="haerimchon">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.779_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_779_m1_indi_1" msg="q_779_m1" object="npc:ch_muun_0004" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="45796.0547" location-y="-19869.5391" map="haerimchon">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.779_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_779_m2_indi_1" msg="q_779_m2" object="npc:ch_children_0001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="45796.0547" location-y="-19869.5391" map="haerimchon">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.779_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_779_m3_indi_1" msg="q_779_m3" object="npc:ch_muun_0004" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="45796.0547" location-y="-19869.5391" map="haerimchon">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.779_4" required-register-value="1">
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="3024_e_onoff_balloon_01" object="zoneenv:e_onoff_balloon_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="45796.0547" location-y="-19869.5391" map="haerimchon">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.779_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_779_m5_indi_1" msg="q_779_m5" object="npc:ch_muun_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="280" money="250" />
+        <text>
+        </text>
+        <case approach-social="q_779_m5_app_1" object="npc:ch_children_0001" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,64 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_555" category="normal" desc="q_555_sum" grade="1" group2="QG_ToMunJinSouth" id="555" name2="Quest.Name2.555">
+    <text>
+    </text>
+    <acquisition level="19" preceding-quest-1="q_epic_501" preceding-quest-2="q_sub_554" preceding-quest-check="and" recommended-level="21">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_555_s_indi_1" msg="q_555_s" object="npc:ch_gunwonsungdo_0004" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_555_des_1" id="1" location-x="-57025.9102" location-y="-77505.6094" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.555_1" required-register-value="7">
+        <text>
+        </text>
+        <case mapunit-1="3000_ME_SaMaGyo_035" object="npc:me_samagyo_035" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.555_2" required-register-value="7">
+        <text>
+        </text>
+        <case mapunit-2="3000_mh_samagyo_0004" object="npc:mh_samagyo_0004" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-64002.7656" location-y="-81730.125" map="toemunjean">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.555_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_555_m3_indi_1" msg="q_555_m3" object="npc:ch_unguksoldier_015" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="900" money="280" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos8_gr2_tomoonjin_shield_Lv21" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,175 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_536" category="epic" completed-desc="q_536_completed" completed-list="y" desc="q_536_sum" grade="1" group2="QG_DaeSaMakEpic" id="536" name2="Quest.Name2.536">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="36" sort-no="338" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="42767.0547" location-y="79953.0781" map="hakjadg" zone-1="zone_HakJaDg">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.536_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_536_Quest_gold_tag_1_icon" mapunit-1="3083_MH_MuYeongDan_0022" mapunit-2="3083_MH_MuYeongDan_0022_1" mapunit-3="3083_MH_MuYeongDan_0022_2" object="npc:mh_muyeongdan_0022" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case object="zone:zone_HakJaDg" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="41396.9375" location-y="79863.2344" map="hakjadg" zone-1="zone_HakJaDg">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.536_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_536_m2_indi_1" msg="q_536_m2" object="npc:ch_chungun_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HakJaDg" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="30787.0566" location-y="71930.3906" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.536_3" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3032_Epic_MuSinEnterZone" object="zone:zone_MuShinBeaCha_Epic" progress-mission="y" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="30787.0566" location-y="71930.3906" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.536_4" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:ch_yeoharang_0001" progress-mission="y" type="approach" />
+        <text>
+        </text>
+        <case object="zone:zone_MuShinBeaCha_Epic" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="30787.0566" location-y="71930.3906" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.536_5" required-register-value="1">
+        <text>
+        </text>
+        <case idx="1" mapunit-1="3032_MH_MuSeong_0005" object="npc:mh_museong_0005" progress-mission="y" type="npc-bleeding-occured" />
+        <text>
+        </text>
+        <case object="zone:zone_MuShinBeaCha_Epic" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="6" location-x="30787.0566" location-y="71930.3906" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.536_6" required-register-value="1">
+        <text>
+        </text>
+        <case msg="q_536_m6" object="npc:ch_soyeonhwa_009" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_MuShinBeaCha_Epic" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="7" location-x="26542.875" location-y="4369.0884" map="musinreungf">
+      <text>
+      </text>
+      <mission id="7" name2="Mission.Name2.536_7" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_536_m7_indi_1" mapunit-1="3041_CH_BaekWoon_0001" msg="q_536_m7" object="npc:ch_baekwoon_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_MuoShinReungEpic" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case mapunit-1="3032_e_onoff_3032altar_01" object="zoneenv:e_onoff_3032altar_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <basic-reward exp="2250" money="2000" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos8_gr2_osaekamdo_sheild_Lv36" slot-2="item:gem_pos8_gr2_osaekamdo_bal_Lv36" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_MuShinBeaCha_1">
+      <text>
+      </text>
+      <destination mission-step-id="7" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="6" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_537" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

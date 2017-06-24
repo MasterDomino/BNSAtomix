@@ -1,0 +1,103 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_770" category="normal" desc="q_770_sum" grade="4" group2="QG_HeukChangJokSaWon" id="770" name2="Quest.Name2.770">
+    <text>
+    </text>
+    <acquisition level="30" preceding-quest-1="q_epic_525" preceding-quest-check="and" recommended-level="32">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_770_s_indi_1" msg="q_770_s" object="npc:ch_mayeongganggun_0011" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="44577.375" location-y="-42604.789" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.770_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_770_m1_indi_1" msg="q_770_m1" object="npc:ch_mayeongganggun_0012" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.770_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_770_m2_indi_1" msg="q_770_m2" object="npc:ch_mayeongganggun_0014" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.770_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_770_m3_indi_1" msg="q_770_m3" object="npc:ch_mayeongganggun_0015" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="44577.375" location-y="-42604.789" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.770_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_770_m4_indi_1" msg="q_770_m4" object="npc:ch_mayeongganggun_0011" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="50225.938" location-y="-31246.926" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.770_5" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_770_Quest_old_book_1_icon" mapunit-1="3023_ME_DarkCrazyTribe_011" object="npc:me_darkcrazytribe_011" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="44577.375" location-y="-42604.789" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.770_6" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_770_m6_indi_1" msg="q_770_m6" object="npc:ch_mayeongganggun_0011" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1000" money="800" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:weapongem_Gr3_001_Lv33" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

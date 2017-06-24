@@ -1,0 +1,40 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_406" category="normal" desc="q_406_sum" grade="1" group2="QG_Geoamgol" id="406" name2="Quest.Name2.406">
+    <text>
+    </text>
+    <acquisition level="18" preceding-quest-1="q_sub_399" preceding-quest-2="q_sub_485" preceding-quest-3="q_sub_405" preceding-quest-4="q_epic_495" preceding-quest-check="or" recommended-level="20">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_406_s_indi_1" msg="q_406_s" object="npc:ctzn_jinm_songrimsa_gobongsan_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-34370.8398" location-y="63392.875" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.406_1" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="n" indicator-social="q_406_m1_indi_1" msg="q_406_m1" object="npc:ctzn_jinm_songrimsa_pengilgang_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="150" money="50" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="5" slot-1="item:food_gr3_lv15" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

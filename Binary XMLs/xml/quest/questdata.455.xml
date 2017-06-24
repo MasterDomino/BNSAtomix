@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_455" category="normal" desc="q_455_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="455" name2="Quest.Name2.455">
+    <text>
+    </text>
+    <acquisition level="15" preceding-quest-1="q_epic_315" preceding-quest-2="q_sub_450" preceding-quest-check="and" recommended-level="17">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_455_s_indi_1" msg="q_455_s" object="npc:ctzn_jinm_jakyungdan_giljun_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-17709.3164" location-y="50744.0742" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name="흑룡채 순찰조가 지닌 온전한 초상화 획득" name2="Mission.Name2.455_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_455_quest_portrait_girl_1_icon" mapunit-1="2440_mob_jinm_bandit_member_axe_001" mapunit-2="2440_Mob_JinM_Bandit_Member_Axe_001_1" object="npc:mob_jinm_bandit_member_axe_001" progress-mission="y" quest-symbol-drop-prob="40" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-16225.127" location-y="54249.6172" map="songrimsa">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.455_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_455_m2_indi_1" msg="q_455_m2" object="npc:ctzn_jinm_jakyungdan_giljun_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="200" money="80" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

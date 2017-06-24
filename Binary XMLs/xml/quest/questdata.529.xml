@@ -1,0 +1,106 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_529" category="epic" completed-desc="q_529_completed" completed-list="y" desc="q_529_sum" grade="1" group2="QG_DaeSaMakEpic" id="529" name2="Quest.Name2.529">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="34" sort-no="330" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-17998.4063" location-y="12987.9961" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.529_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_529_m1_indi_1" mapunit-1="3016_Guide_E529" msg="q_529_m1" object="npc:ch_unguksoldier_0009" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0014" type="approach" visible-object="y" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0013" type="approach" visible-object="y" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0012" type="approach" visible-object="y" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0011" type="approach" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-13035.6816" location-y="28085.543" map="poisondg" zone-1="zone_PoisonDg">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.529_2" required-register-value="1">
+        <text>
+        </text>
+        <case object="zone:zone_PoisonDg" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_529_m2_indi_1" msg="q_529_m2" object="npc:ch_ildong_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0009" type="approach" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="16919.9375" location-y="31421.2988" map="hoerangchon">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.529_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_529_m3_indi_1" mapunit-1="3010_Guide_E529" msg="q_529_m3" object="npc:ce_hwerang_006" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1150" money="900" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0009" type="approach" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0014" type="approach" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0013" type="approach" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0012" type="approach" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0011" type="approach" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos1_gr2_osaekamdo_sheild_Lv34" slot-2="item:gem_pos1_gr2_osaekamdo_bal_Lv34" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_530" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,49 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_405" category="normal" desc="q_405_sum" grade="1" group2="QG_Geoamgol" id="405" name2="Quest.Name2.405">
+    <text>
+    </text>
+    <acquisition level="17" preceding-quest-1="q_sub_392" preceding-quest-check="and" recommended-level="19">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_405_s_indi_1" msg="q_405_s" object="npc:ctzn_hangari_dolchin_002" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-13687.7207" location-y="62452.2109" map="GurAmGul" zone-1="zone_songamdo_dun_4_q">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.405_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_405_m1_indi_1" mapunit-1="2420_GurAmGul" msg="q_405_m1" object="npc:ctzn_hangari_jindol_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="500" money="180" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit env="portal_SongAmDo_Dun_4" id="1" zone="zone_songamdo_dun_4">
+      <text>
+      </text>
+      <not-acquire zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

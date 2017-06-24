@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_751" category="normal" desc="q_751_sum" grade="1" group2="QG_SaJiSeokRimSouth" id="751" name2="Quest.Name2.751">
+    <text>
+    </text>
+    <acquisition level="29" preceding-quest-1="q_epic_521" preceding-quest-check="and" recommended-level="31">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_751_s_indi_1" msg="q_751_s" object="npc:ch_mangnanja_0002" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="2" location-x="11111.155" location-y="-16548.512" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.751_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_751_m2_indi_1" msg="q_751_m2" object="npc:ch_mangnanja_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1100" money="780" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="1" location-x="12508.1113" location-y="-23411.8203" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.751_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_751_Gather_smooth_wolfleather_1_icon" mapunit-1="3020_ME_Wolf_004" mapunit-2="3020_ME_Wolf_004_1" object="npc:me_wolf_004" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

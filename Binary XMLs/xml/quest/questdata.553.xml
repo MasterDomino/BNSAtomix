@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_553" category="normal" desc="q_553_sum" grade="1" group2="QG_ToMunJinSouth" id="553" name2="Quest.Name2.553">
+    <text>
+    </text>
+    <acquisition level="19" preceding-quest-1="q_epic_501" preceding-quest-check="and" recommended-level="21">
+      <text>
+      </text>
+      <case loot-item="quest_553" looting="q_553_Quest_detail_memo_1_icon" object="npc:mh_bandit_0014" type="loot" />
+      <text>
+      </text>
+      <case acquire-quest="y" item="quest_553" msg="q_553_s" type="talk-to-item" />
+      <text>
+      </text>
+      <case loot-item="quest_553" looting="q_553_Quest_detail_memo_1_icon" object="npc:mh_bandit_0015" type="loot" />
+      <text>
+      </text>
+      <case loot-item="quest_553" looting="q_553_Quest_detail_memo_1_icon" object="npc:mh_bandit_0016" type="loot" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-51905.2813" location-y="-77825.6484" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.553_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_553_m1_indi_1" msg="q_553_m1" object="npc:ch_gunwonsungdo_0003" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_553" />
+        <text>
+        </text>
+        <basic-reward exp="500" money="140" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="quest_553" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

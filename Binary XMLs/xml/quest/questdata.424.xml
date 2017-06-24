@@ -1,0 +1,58 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_424" category="normal" desc="q_424_sum" grade="1" group="제룡림(녹명촌)" group2="QG_NokMyungCHN" id="424" name="수련자들의 마을" name2="Quest.Name2.424">
+    <text>
+    </text>
+    <acquisition level="11" preceding-quest-1="q_epic_311" preceding-quest-check="and" recommended-level="13">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_424_s_indi_1" msg="q_424_s" object="npc:ch_wanderer_004" type="talk" zone="zone_nokmyungchn" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_424_des_1" id="1" location-x="6999.498" location-y="10949.9668" map="suryengol" map-zoom-rate="none">
+      <text>
+      </text>
+      <mission id="1" name="골짜기 큰뿔 산양의 간 획득" name2="Mission.Name2.424_1" required-register-value="7">
+        <text>
+        </text>
+        <case looting="q_424_quest_liver_1_icon" mapunit-1="2300_mob_4legr_mlnd_beast_pungjer_001" mapunit-2="2300_mob_4legr_mlnd_beast_pungjer_001_1" object="npc:mob_4legr_mlnd_beast_pungjer_001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case indicator-social="q_424_m1_indi_1" object="npc:ch_wanderer_005" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_424_des_2" id="2" location-x="6999.498" location-y="10949.9668" map="suryengol" map-zoom-rate="none">
+      <text>
+      </text>
+      <mission id="2" name="녹명촌 초입에 있는 방랑거사 심봉사에게 보고" name2="Mission.Name2.424_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_424_m2_indi_1" msg="q_424_m2" object="npc:ch_wanderer_004" progress-mission="y" type="talk" zone="zone_nokmyungchn" />
+        <text>
+        </text>
+        <basic-reward exp="415" money="80" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos8_gr2_suryeon_shield_Lv14" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

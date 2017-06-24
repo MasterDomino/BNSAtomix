@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_141" category="normal" grade="1" group2="QG_Gathering" id="141" name2="Quest.Name2.141">
+    <text>
+    </text>
+    <acquisition level="32" production-exp="150" production-id="gathering-type-6" recommended-level="34">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_141_Gather_mica_1_icon" object="zoneenv:e_onoff_3030rock_01" progress-mission="y" type="manipulate" />
+      <text>
+      </text>
+      <basic-reward production-exp="30" production-id="gathering-type-6" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

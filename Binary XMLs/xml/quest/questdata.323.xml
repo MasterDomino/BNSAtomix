@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_323" category="normal" desc="q_323_sum" grade="1" group2="QG_DaeNaMuCHN" id="323" name2="Quest.Name2.323">
+    <text>
+    </text>
+    <acquisition level="2" preceding-quest-1="q_epic_304" preceding-quest-check="and" recommended-level="4">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_323_s_indi_1" msg="q_323_s" object="npc:ch_andumae_0001" type="talk" zone="zone_chryoungchn" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_323_des_1" id="1" location-x="-38479.6523" location-y="-49798.5742" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.323_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_323_Grocery_Return_talisman_1_icon" mapunit-2="2000_MH_ChungGak_023" object="npc:mh_chunggak_023" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+        </text>
+        <case looting="q_323_Grocery_Return_talisman_1_icon" mapunit-1="2000_MH_ChungGak_020" object="npc:mh_chunggak_020" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+        </text>
+        <case looting="q_323_Grocery_Return_talisman_1_icon" object="npc:mob_jinm_chunggak_plunder_kff_q_002" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-35242.6172" location-y="-49978.4063" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.323_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_323_m2_indi_1" msg="q_323_m2" object="npc:ctzn_jinm_jakyungdan_gwakchil_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="350" money="20" />
+        <text>
+        </text>
+        <fixed-reward item-count-2="3" slot-1="item:gem_pos8_gr2_jeryonglim_shield_Lv05" slot-2="item:teleportitem_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

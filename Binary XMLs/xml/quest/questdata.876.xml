@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_876" category="normal" desc="q_876_sum" grade="1" group2="QG_OSaekAmDoEast" id="876" name2="Quest.Name2.876">
+    <text>
+    </text>
+    <mission-step desc="q_876_des_1" id="1" location-x="35046.6094" location-y="66453.8203" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.876_1" required-register-value="6">
+        <text>
+        </text>
+        <case looting="q_876_Quest_red_ball_1_icon" mapunit-1="3030_MH_ZombieA_0031" mapunit-2="3030_MH_ZombieA_0031_1" object="npc:mh_treasurehunter_0006" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="34133.8516" location-y="69374.6563" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.876_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_876_m2_indi_1" msg="q_876_m2" object="npc:ch_smuggler_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1400" money="1300" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <acquisition level="34" preceding-quest-1="q_sub_878" preceding-quest-check="and" recommended-level="36">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_876_s_indi_1" msg="q_876_s" object="npc:ch_smuggler_0006" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,109 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_226" category="epic" completed-desc="q_226_completed" completed-list="y" desc="q_226_sum" grade="1" group2="QG_Toturial" id="226" name2="Quest.Name2.226" tutorial="y">
+    <text>
+    </text>
+    <acquisition job-1="검사" level="1" recommended-level="1" sort-no="106" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_226_des_1" id="1" location-x="-8378.602" location-y="40751.602" map="startzone">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.226_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_226_m1_indi_1" mapunit-1="225_1_CH_YungMook_0001" msg="q_226_m1" object="npc:ch_youngmook_0009" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <fixed-reward slot-1="skill:blademaster_sword_stab_lv1" slot-2="skill:blademaster_sword_blocking_lv1" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_blade" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_226_des_2" id="2" zone-1="startzone_renew_blade">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.226_2" required-register-value="3">
+        <text>
+        </text>
+        <case indicator-social="q_226_m2_indi_1" msg="q_226_m2" object="npc:ch_youngmook_0009" type="talk" />
+        <text>
+        </text>
+        <tutorial-case object-1="npc:mh_redmokujin_0001" progress-mission="y" skill="blademaster_sword_stab_lv1" type="skill" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_blade" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_226_m2_indi_2" object="npc:mh_redmokujin_0001" type="approach" />
+        <text>
+        </text>
+        <tutorial-case object-1="npc:mh_redmokujin_0001" progress-mission="y" skill="blademaster_sword_stab_hidden_lv1" type="skill" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_226_des_3" id="3" zone-1="startzone_renew_blade">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.226_3" required-register-value="3">
+        <text>
+        </text>
+        <case indicator-social="q_226_m3_indi_1" msg="q_226_m3" object="npc:ch_youngmook_0009" type="talk" />
+        <text>
+        </text>
+        <tutorial-case object-1="npc:mh_bluemokujin_0001" progress-mission="y" skill="blademaster_sword_stab_hidden_lv1" type="skill" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_blade" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_226_m3_indi_2" object="npc:mh_bluemokujin_0001" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_227" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <transit id="1" zone="startzone_renew_blade">
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="0" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="0" />
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="0" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

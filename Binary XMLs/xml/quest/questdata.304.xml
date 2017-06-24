@@ -1,0 +1,184 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_304" category="epic" completed-desc="q_304_completed" completed-list="y" desc="q_304_sum" grade="1" group2="QG_JeRyoungRimEpic" id="304" name2="Quest.Name2.304">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="4" sort-no="204" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_304_des_2" id="2" location-x="-52866.4688" location-y="-52795.8281" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.304_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_304_m2_indi_1" msg="q_304_m2" object="npc:ch_jakyoungdan_013" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_304_des_3" id="3" location-x="-52866.4688" location-y="-52795.8281" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.304_3" required-register-value="1">
+        <text>
+        </text>
+        <case approach-social="q_304_m3_app_1" indicator-social="q_304_m3_indi_1" msg="q_304_m3" object="npc:ch_kwakchil_0001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_304_des_4" id="4" location-x="-52866.4688" location-y="-52795.8281" map="mangjasup">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.304_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_304_m4_indi_1" msg="q_304_m4" object="npc:ch_jakyoungdan_013" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_304_des_5" id="5" location-x="-55683.8867" location-y="-56332.5859" map="mangjasup">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.304_5" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_304_Quest_golden_sticky_1_icon" mapunit-1="2010_me_soracrab_004" mapunit-2="2010_me_soracrab_004_1" mapunit-3="2010_ME_SoraCrab_004_2" object="npc:me_soracrab_004" prob="100" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_304_des_6" id="6" location-x="-55743.832" location-y="-55073.7422" map="mangjasup">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.304_6" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_304_m6_indi_1" msg="q_304_m6" object="npc:ch_jakyoungdan_013" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_304_des_7" id="7" location-x="-51405.2188" location-y="-53937.3125" map="chungryoung">
+      <text>
+      </text>
+      <mission id="7" name2="Mission.Name2.304_7" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_304_m7_indi_1" msg="q_304_m7" object="npc:ctzn_jinm_jakyungdan_docheonpung_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="555" money="30" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="3" job-1="job-none" slot-1="item:Camp_repairKit_Lv6" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="2" zone="zone_ChRyoungCHN_Doctor_SP">
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="6" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="7" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="3" zone="zone_chryoungchn_dochunpung_1">
+      <text>
+      </text>
+      <destination mission-step-id="7" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="0" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_305" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_304_des_1" id="1" location-x="-50973.5781" location-y="-54064.2656" map="chungryoung">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.304_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_304_m1_indi_1" msg="q_304_m1" object="npc:ch_gwakdekyu_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="q_304_m1_indi_2" object="npc:ch_dochunpung_0002" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_chryoungchn_dochunpung_0">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="0" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="0" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

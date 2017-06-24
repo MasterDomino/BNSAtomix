@@ -1,0 +1,270 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>MH_Assassin_Disturb_DewSlash_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Disturb_DewSlash_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_DewSlash_Lv1_E1_02</alias>
+	<effect-1>MH_Assassin_Hide_Reveal_Lv1_Reveal</effect-1>
+	<effect-2>MH_Assassin_Hide_Reveal_Lv1_Stance</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_DewSlash_Lv1_E1_p</alias>
+	<effect-1>MH_Assassin_Disturb_DewSlash_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_Flashbang_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Disturb_Flashbang_Lv1_smokescreen</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_Flashbang_Lv1_E1_p</alias>
+	<effect-1>MH_Assassin_Disturb_Flashbang_Lv1_smokescreen</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_HeartStab_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Disturb_HeartStab_Lv1_damage</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_HeartStab_Lv1_E1_02</alias>
+	<effect-1>MH_Assassin_Disturb_HeartStab_Lv1_stun</effect-1>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_HeartStab_Lv1_E1_03</alias>
+	<effect-1>MH_Assassin_Hide_Reveal_Lv1_Reveal</effect-1>
+	<effect-2>MH_Assassin_Hide_Reveal_Lv1_Stance</effect-2>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_HeartStab_Lv1_E1_p</alias>
+	<effect-1>MH_Assassin_Disturb_HeartStab_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_MistSlash_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Disturb_MistSlash_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_MistSlash_Lv1_E1_02</alias>
+	<effect-1>MH_Assassin_Hide_Reveal_Lv1_Reveal</effect-1>
+	<effect-2>MH_Assassin_Hide_Reveal_Lv1_Stance</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_MistSlash_Lv1_E1_p</alias>
+	<effect-1>MH_Assassin_Disturb_MistSlash_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_MoonlightSlash_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Disturb_MoonlightSlash_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_MoonlightSlash_Lv1_E1_02</alias>
+	<effect-1>MH_Assassin_Hide_Reveal_Lv1_Reveal</effect-1>
+	<effect-2>MH_Assassin_Hide_Reveal_Lv1_Stance</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_MoonlightSlash_Lv1_E1_p</alias>
+	<effect-1>MH_Assassin_Disturb_MoonlightSlash_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_Teleport_Lv1_Q_E1_01</alias>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_Dash_front_Lv1_E1_01</alias>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_LowKick_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Hide_LowKick_Lv1_down</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_LowKick_Lv1_E1_03</alias>
+	<effect-1>MH_Assassin_Hide_LowKick_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_WoodBlock_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Disturb_WoodBlock_Counter_detection</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_WoodBlock_Counter_Lv1_E1_01</alias>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_Mine_Lv1_E1_01</alias>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_Mine_Lv1_E2_01</alias>
+	<effect-1>MH_Assassin_Hide_Mine_Lv1_down</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_Mine_Lv1_E2_02</alias>
+	<effect-1>MH_Assassin_Hide_Mine_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_SpineStab_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Hide_SpineStab_Lv1_damage</effect-1>
+	<effect-2>MH_Assassin_Hide_SpineStab_Lv1_stun</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_SpineStab_Lv1_E1_03</alias>
+	<effect-1>MH_Assassin_Hide_SpineStab_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_MidAir_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Hide_MidAir_Lv1_air</effect-1>
+	<effect-2>MH_Assassin_Hide_MidAir_Lv1_dispel</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Hide_MidAir_Lv1_E1_02</alias>
+	<effect-1>MH_Assassin_Hide_MidAir_Lv1_damage</effect-1>
+	<skill-result>Parry-Perfect-Parry-Counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_PoisonBreath_Lv1_E1_01</alias>
+	<effect-1>MH_Assassin_Disturb_PoisonBreath_Lv1_damage</effect-1>
+	<effect-2>MH_Assassin_targetPoison_Lv1</effect-2>
+	<effect-3>MH_Assassin_Disturb_PoisonBreath_Lv1_knockback</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_PoisonBreath_Lv1_E1_02</alias>
+	<effect-1>MH_Assassin_CasterPoison_Lv1</effect-1>
+	<effect-2>MH_Assassin_Disturb_PoisonBreath_MoveBlock_300ms</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Disturb_PoisonBreath_Lv1_E2_02</alias>
+	<effect-1>MH_Assassin_Disturb_PoisonBreath_MoveBlock_300ms</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Assassin_Assassinate_SpiderWeb_Lv1_E1_02</alias>
+	<effect-1>MH_Assassin_Assassinate_SpiderWeb_Lv1_midair1</effect-1>
+	<effect-2>MH_Assassin_Common_spiderweb_air</effect-2>
+	<effect-3>Assassin_Assassinate_Decapitation_Lv1_dispel</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40031</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Assassin_Assassinate_SpiderWeb_Lv1_E1_03</alias>
+	<effect-1>MH_Assassin_Assassinate_SpiderWeb_Lv1_midair2</effect-1>
+	<effect-2>MH_Assassin_Common_spiderweb_air</effect-2>
+	<effect-3>Assassin_Assassinate_Decapitation_Lv1_dispel</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40032</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_Assassin_Assassinate_SpiderWeb_Lv1_E1_04</alias>
+	<effect-1>MH_Assassin_Assassinate_SpiderWeb_Lv1_midair3</effect-1>
+	<effect-2>MH_Assassin_Common_spiderweb_air</effect-2>
+	<effect-3>Assassin_Assassinate_Decapitation_Lv1_dispel</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40033</target-state-first-filter>
+</record>

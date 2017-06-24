@@ -1,0 +1,67 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_777" category="normal" desc="q_777_sum" grade="1" group2="QG_SaJiSeokRimEast" id="777" name2="Quest.Name2.777">
+    <text>
+    </text>
+    <acquisition job-1="암살자" level="31" preceding-quest-1="q_epic_526" preceding-quest-check="and" recommended-level="33">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_777_s_indi_1" msg="q_777_s" object="npc:ch_muungwan_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="44433.75" location-y="-22213.289" map="haerimchon">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.777_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_777_m1_indi_1" mapunit-1="3024_MH_MuUnGwan_0001" msg="q_777_m1" object="npc:mh_muungwan_0005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_IelDong" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="44521.641" location-y="-21759.188" map="haerimchon">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.777_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_777_m2_indi_1" msg="q_777_m2" object="npc:ch_muungwan_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1000" money="800" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="2" slot-1="item:Potion_Gr3_Lv33" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_ieldong">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="0" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

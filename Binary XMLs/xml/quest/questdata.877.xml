@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_877" category="normal" desc="q_877_sum" grade="1" group2="QG_OSaekAmDoEast" id="877" name2="Quest.Name2.877">
+    <text>
+    </text>
+    <acquisition level="34" preceding-quest-1="q_epic_535" preceding-quest-check="and" recommended-level="36">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_877_s_indi_1" msg="q_877_s" object="npc:ch_mayeongganggun_0035" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_877_des_1" id="1" location-x="39853.8203" location-y="66758.0781" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.877_1" required-register-value="12">
+        <text>
+        </text>
+        <case object="npc:mh_hwangpungdan_0004" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_hwangpungdan_0005" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-1="3037_MH_HwangPungDan_0004" mapunit-2="3037_MH_HwangPungDan_0004_1" object="npc:mh_hwangpungdan_0006" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="34133.8516" location-y="69374.6563" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.877_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_877_m2_indi_1" msg="q_877_m2" object="npc:ch_mayeongganggun_0047" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1400" money="1300" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="2" slot-1="item:DotPotion_Gr3_Lv36" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

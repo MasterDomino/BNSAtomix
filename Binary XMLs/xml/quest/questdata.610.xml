@@ -1,0 +1,136 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_610" category="normal" desc="q_610_sum" grade="1" group2="QG_HyeolPungSaMak" id="610" name2="Quest.Name2.610" reset-type="daily">
+    <text>
+    </text>
+    <acquisition faction="factionmain2" level="24" preceding-quest-1="q_epic_508" preceding-quest-2="q_sub_603" preceding-quest-check="and" recommended-level="26">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_610_s_indi_1" msg="q_610_s" object="npc:ch_honchenogyo_0003" type="talk">
+        <text>
+        </text>
+        <filter-set>
+          <text>
+          </text>
+          <filter subject="case:talked:pc" type="active-faction" value="factionmain2" />
+          <text>
+        </text>
+        </filter-set>
+        <text>
+      </text>
+      </case>
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-41864.1133" location-y="-16378.0117" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.610_1" required-register-value="1">
+        <text>
+        </text>
+        <case gadget="Q_PrisonerB" gadget-required="carry-and-remove" indicator-social="q_610_m1_indi_1" msg="q_610_m1" object="npc:ch_honchenogyo_0001" progress-mission="y" type="talk">
+          <text>
+          </text>
+          <filter-set>
+            <text>
+            </text>
+            <filter subject="case:talked:pc" type="active-faction" value="factionmain2" />
+            <text>
+          </text>
+          </filter-set>
+          <text>
+        </text>
+        </case>
+        <text>
+        </text>
+        <case gadget="Q_PrisonerD" gadget-required="carry-and-remove" indicator-social="q_610_m1_2_indi_1" msg="q_610_m1_2" object="npc:ch_honchenogyo_0001" progress-mission="y" type="talk">
+          <text>
+          </text>
+          <filter-set>
+            <text>
+            </text>
+            <filter subject="case:talked:pc" type="active-faction" value="factionmain2" />
+            <text>
+          </text>
+          </filter-set>
+          <text>
+        </text>
+        </case>
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-1="3010_ch_prisoner_0003" object="npc:ch_prisoner_0003" progress-mission="reaction-only" type="npc-manipulate">
+          <text>
+          </text>
+          <filter-set>
+            <text>
+            </text>
+            <filter subject="case:npc-manipulate:pc" type="active-faction" value="factionmain2" />
+            <text>
+          </text>
+          </filter-set>
+          <text>
+        </text>
+        </case>
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="npc:ch_prisoner_0004" progress-mission="reaction-only" type="npc-manipulate">
+          <text>
+          </text>
+          <filter-set>
+            <text>
+            </text>
+            <filter subject="case:npc-manipulate:pc" type="active-faction" value="factionmain2" />
+            <text>
+          </text>
+          </filter-set>
+          <text>
+        </text>
+        </case>
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-40558.957" location-y="-3140.0039" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.610_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_610_m2_indi_1" msg="q_610_m2" object="npc:ch_honchenogyo_0003" progress-mission="y" type="talk">
+          <text>
+          </text>
+          <filter-set>
+            <text>
+            </text>
+            <filter subject="case:talked:pc" type="active-faction" value="factionmain2" />
+            <text>
+          </text>
+          </filter-set>
+          <text>
+        </text>
+        </case>
+        <text>
+        </text>
+        <basic-reward exp="1250" faction="factionmain2" faction-reputation="250" money="350" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="3" slot-1="item:production_stone_2" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

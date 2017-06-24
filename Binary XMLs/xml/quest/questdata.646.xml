@@ -1,0 +1,67 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_646" category="normal" desc="q_646_sum" grade="1" group2="QG_GoYoSaMak" id="646" name2="Quest.Name2.646">
+    <text>
+    </text>
+    <acquisition level="27" preceding-quest-1="q_epic_517" preceding-quest-2="q_sub_644" preceding-quest-check="and" recommended-level="29">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_646_s_indi_1" msg="q_646_s" object="npc:ch_treasurehunter_0005" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-23778.3828" location-y="-4351.9336" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.646_1" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_646_Grocery_Damaged_martial_arts_manual_1_icon" mapunit-1="3010_e_onoff_togu_01" object="zoneenv:e_onoff_togu_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.646_2" required-register-value="7">
+        <text>
+        </text>
+        <case looting="q_646_Quest_savage_headdeco_1_icon" mapunit-2="3010_mh_treasurehunter_0002" object="npc:mh_treasurehunter_0002" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <text>
+        </text>
+        <case looting="q_646_Quest_savage_headdeco_1_icon" object="npc:mh_treasurehunter_0007" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <text>
+        </text>
+        <case looting="q_646_Quest_savage_headdeco_1_icon" object="npc:mh_treasurehunter_0008" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-18408.9668" location-y="5452.0571" map="toemungekjan">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.646_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_646_m3_indi_1" msg="q_646_m3" object="npc:ch_treasurehunter_0005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1250" money="650" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,100 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_456" category="normal" desc="q_456_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="456" name="녹림왕의 의중 (완)" name2="Quest.Name2.456">
+    <text>
+    </text>
+    <acquisition level="16" preceding-quest-1="q_epic_493" preceding-quest-2="q_sub_450" preceding-quest-3="q_sub_455" preceding-quest-check="and" recommended-level="18">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_456_s_indi_1" msg="q_456_s" object="npc:ctzn_jinm_jakyungdan_giljun_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-20239.0781" location-y="43329.2617" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.456_1" required-register-value="5">
+        <text>
+        </text>
+        <case indicator-social="q_456_m1_indi_1" looting="q_455_quest_turban_meat_1_icon" mapunit-1="2440_mob_etc_mlnd_beast_crab_hermit_002" msg="q_456_m1" object="npc:mob_etc_mlnd_beast_crab_hermit_002" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-19361.8457" location-y="54077.7422" map="songrimsa">
+      <text>
+      </text>
+      <mission id="2" name="가마솥에 소라탕 끓이기" name2="Mission.Name2.456_2" required-register-value="1">
+        <text>
+        </text>
+        <case env="e_onoff_sorapot_01" indicator-social="q_456_m2_indi_1" msg="q_456_m2" object="npc:ctzn_jinm_shimbongsa_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="3" location-x="-20350.127" location-y="55151.9609" map="songrimsa">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.456_3" required-register-value="1">
+        <text>
+        </text>
+        <case gadget-required="empty" indicator-social="q_456_m3_indi_1" mapunit-1="2450_e_onoff_sorapot_01" mapunit-2="2450_e_onoff_sorapot_01_1" msg="q_456_m3" npc="Ctzn_JinM_ShimBongSa_001" object="zoneenv:e_onoff_sorapot_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="4" location-x="-20350.127" location-y="55151.9609" map="songrimsa">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.456_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_456_m4_indi_1" msg="q_456_m4" object="npc:ctzn_jinm_shimbongsa_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="5" location-x="-18115.752" location-y="57966.4141" map="songrimsa">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.456_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_456_m5_indi_1" msg="q_456_m5" object="npc:ctzn_jinm_songrimsa_jeongdam_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="450" money="140" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="5" item-count-2="1" slot-1="item:QuestID_456_reward" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

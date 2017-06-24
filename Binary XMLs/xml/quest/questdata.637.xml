@@ -1,0 +1,76 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_637" category="normal" desc="q_637_sum" grade="1" group2="QG_GmmDalUJukJi" id="637" name2="Quest.Name2.637">
+    <text>
+    </text>
+    <acquisition level="26" preceding-quest-1="q_epic_516" preceding-quest-2="q_sub_634" preceding-quest-check="and" recommended-level="28">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_637_s_indi_1" msg="q_637_s" object="npc:ch_tosok_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-36177.3633" location-y="16157.6602" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.637_1" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_637_Quest_brown_book_1_icon" mapunit-1="3010_e_onoff_whangcorpse_01" object="zoneenv:e_onoff_whangcorpse_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:quest_637" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-37948.6445" location-y="9352.2031" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.637_3" required-register-value="1">
+        <text>
+        </text>
+        <case grocery="Quest_637" indicator-social="q_637_m3_indi_1" msg="q_637_m3" object="npc:ch_tosok_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_637" />
+        <text>
+        </text>
+        <basic-reward exp="300" money="150" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="Quest_637" />
+    <text>
+    </text>
+    <mission-step id="2">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.637_2" required-register-value="1">
+        <text>
+        </text>
+        <case item="Quest_637" msg="q_637_m2" progress-mission="y" type="talk-to-item" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

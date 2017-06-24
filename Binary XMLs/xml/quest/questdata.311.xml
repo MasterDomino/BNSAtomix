@@ -1,0 +1,151 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_311" category="epic" completed-desc="q_311_completed" completed-list="y" desc="q_311_sum" grade="1" group2="QG_JeRyoungRimEpic" id="311" name2="Quest.Name2.311">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="11" sort-no="211" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_311_des_1" id="1" location-x="-8965.2109" location-y="-10867.8008" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.311_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_311_m1_indi_1" msg="q_311_m1" object="npc:ch_docheonpung_002" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_311_des_2" id="2" location-x="-5022.9414" location-y="-12755.6484" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.311_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_311_m2_indi_1" msg="q_311_m2" object="npc:ch_jakyoungdan_023" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_huekummrim_dochunpung" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_311_des_3" id="3" location-x="-1358.3008" location-y="-14643.4941" map="huekummrim">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.311_3" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_311_Quest_wooden_identity_tag_1_icon" mapunit-1="2200_e_onoff_2200drycorpse_01" object="npc:mh_ghost_0002" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="2200_e_onoff_2200drycorpse_01" object="zoneenv:e_onoff_2200drycorpse_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-2="2200_e_onoff_2200drycorpse_02" object="zoneenv:e_onoff_2200drycorpse_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-3="2200_e_onoff_2200drycorpse_03" object="zoneenv:e_onoff_2200drycorpse_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_311_des_4" id="4" location-x="-3912.4453" location-y="-13088.7969" map="huekummrim">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.311_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_311_m4_indi_1" msg="q_311_m4" object="npc:ch_dweller_026" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_311_des_5" id="5" location-x="-5022.9414" location-y="-12755.6484" map="huekummrim">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.311_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_311_m5_indi_1" msg="q_311_m5" object="npc:ch_wionehong_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="390" money="120" />
+        <text>
+        </text>
+        <fixed-reward job-1="job-none" slot-1="item:Food_Gr3_Lv9" />
+        <text>
+        </text>
+        <optional-reward job-1="역사" slot-1="item:weapon_ta_quest_006" slot-2="item:weapon_ta_quest_007" />
+        <text>
+        </text>
+        <optional-reward job-1="암살자" slot-1="item:weapon_dg_quest_006" slot-2="item:weapon_dg_quest_007" />
+        <text>
+        </text>
+        <optional-reward job-1="기공사" slot-1="item:weapon_ab_quest_006" slot-2="item:weapon_ab_quest_007" />
+        <text>
+        </text>
+        <optional-reward job-1="권사" slot-1="item:weapon_gt_quest_006" slot-2="item:weapon_gt_quest_007" />
+        <text>
+        </text>
+        <optional-reward job-1="검사" slot-1="item:weapon_sw_quest_006" slot-2="item:weapon_sw_quest_007" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_HuekUmmRim_DoChunPung_SP">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="2" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="2" />
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="2" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_312" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

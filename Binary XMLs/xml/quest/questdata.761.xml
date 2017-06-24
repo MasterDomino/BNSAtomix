@@ -1,0 +1,70 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_761" category="normal" desc="q_761_sum" grade="4" group2="QG_SaJiSeokRimSouth" id="761" max-repeat="1" name2="Quest.Name2.761" reset-type="daily">
+    <text>
+    </text>
+    <acquisition level="29" preceding-quest-1="q_epic_521" preceding-quest-2="q_sub_753" preceding-quest-check="and" recommended-level="31">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_761_s_indi_1" msg="q_761_s" object="npc:ce_bunwajok_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="7570.227" location-y="-7749.345" map="waroungtogul">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.761_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3075_ME_Frog_0001" object="npc:me_frog_0001" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="7570.227" location-y="-7749.345" map="waroungtogul">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.761_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_761_m2_indi_1" mapunit-1="3075_MH_BelliedFrog_0007" mapunit-2="3075_MH_BelliedFrog_0008" mapunit-3="3075_MH_BelliedFrog_0009" msg="q_761_m2" object="npc:ce_bunwajok_0003" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="13844.33" location-y="-14604.922" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.761_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_761_m3_indi_1" msg="q_761_m3" object="npc:ce_bunwajok_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="600" money="400" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Daily_Coin_002" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

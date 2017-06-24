@@ -1,0 +1,28 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_10" category="epic" completed-desc="q_10_completed" completed-list="y" desc="q_10_sum" grade="1" group2="QG_SuwalPWEpic" id="10" name2="Quest.Name2.10">
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.10_1" required-register-value="1">
+        <text>
+        </text>
+        <case object="zone:zone_NeukDaeGuRung" progress-mission="y" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="35" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

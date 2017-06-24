@@ -1,0 +1,388 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_320" category="epic" completed-desc="q_320_completed" completed-list="y" desc="q_320_sum" grade="1" group2="QG_JeRyoungRimEpic" id="320" name2="Quest.Name2.320">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="20" sort-no="227" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_320_des_1" id="1" location-x="-54125.3164" location-y="-50338.0781" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.320_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_320_m1_indi_1" mapunit-1="2626_zone_chryoungchn_doctor3" msg="q_320_m1" object="zone:zone_chryoungchn_doctor3" progress-mission="y" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_320_des_2" id="2" location-x="-54484.9844" location-y="-50218.1875" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.320_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_320_m2_indi_1" msg="q_320_m2" object="npc:ch_gwakdekyu_0001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_320_des_3" id="3" location-x="-55084.4375" location-y="-50757.6953" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.320_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_320_m3_indi_1" msg="q_320_m3" object="npc:ch_jakyoungdan_043" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zoneenv:2626_footswich_1" progress-mission="reaction-only" type="env-entered" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_320_des_4" id="4" location-x="-54904.6016" location-y="-51297.2031" map="mangjasup">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.320_4" required-register-value="12">
+        <text>
+        </text>
+        <case approach-social="q_320_m4_app_1" indicator-social="q_320_m4_indi_1" object="npc:MH_ChungGak_050" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mob_jinm_chunggak_plunder_sht_003" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:MH_ChungGak_045" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:MH_ChungGak_046" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:MH_ChungGak_047" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:MH_ChungGak_048" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-1="2040_mh_chunggak_049" mapunit-2="2040_mh_chunggak_049_1" mapunit-3="2040_mh_chunggak_049_2" mapunit-4="2040_mh_chunggak_049_3" mapunit-5="2040_mh_chunggak_049_4" object="npc:MH_ChungGak_049" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:MH_ChungGak_0050" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.320_5" required-register-value="2">
+        <text>
+        </text>
+        <case mapunit-1="2040_e_door_chungcannon_01" mapunit-2="2040_e_door_chungcannon_01_1" object="zoneenv:e_door_chungcannon_01" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_chungcannon_02" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_chungcannon_03" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_chungcannon_04" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_chungcannon_05" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_chungcannon_06" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_chungcannon_07" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_chungcannon_08" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_320_des_5" id="5" location-x="-55084.4375" location-y="-50757.6953" map="mangjasup">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.320_6" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_320_m6_indi_1" msg="q_320_m6" object="npc:CH_JaKyoungDan_043" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_320_des_6" id="6" location-x="-51582.9531" location-y="-51728.3281" map="chungryoung2">
+      <text>
+      </text>
+      <mission id="7" name2="Mission.Name2.320_7" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_320_m7_indi_1" msg="q_320_m7" object="npc:CH_CheongRyeongCtzn_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="q_320_m7_indi_2" object="npc:CH_CheongRyeongCtzn_0002" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_320_des_7" id="7" location-x="-49856.3906" location-y="-51702.9375" map="chungryoung2">
+      <text>
+      </text>
+      <mission id="8" name2="Mission.Name2.320_8" required-register-value="1">
+        <text>
+        </text>
+        <case gadget="Q_BabyA" gadget-required="carry-and-remove" indicator-social="q_320_m8_indi_1" msg="q_320_m8" object="npc:ch_cheongryeongctzn_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_underdoor_01" progress-mission="reaction-only" type="killed" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-1="2060_e_onoff_baby_01" object="zoneenv:e_onoff_baby_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_320_des_8" id="8" location-x="-49957.9531" location-y="-50763.4844" map="chungryoung2">
+      <text>
+      </text>
+      <mission id="9" name2="Mission.Name2.320_9" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-idle="JE_ani_01" object="npc:CH_CheongRyeongCtzn_0001" type="approach" />
+        <text>
+        </text>
+        <case indicator-social="q_320_m9_indi_1" msg="q_320_m9" object="npc:CH_JaKyoungDan_0010" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_501" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <mission-step desc="q_320_des_9" id="9" location-x="-50770.4531" location-y="-53911.9219" map="chungryoung2">
+      <text>
+      </text>
+      <mission id="10" name2="Mission.Name2.320_10" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2070_zone_ChRyoungCHN2_DoChun" object="zone:zone_ChRyoungCHN2_DoChun" progress-mission="y" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_320_des_10" id="10" location-x="-50770.4531" location-y="-53911.9219" map="chungryoung2">
+      <text>
+      </text>
+      <mission id="11" name2="Mission.Name2.320_11" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_320_m11_indi_1" msg="q_320_m11" object="npc:ch_docheonpung_0002" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_320_des_11" id="11" location-x="-52806.5234" location-y="-50398.0234" map="mangjasup">
+      <text>
+      </text>
+      <mission id="12" name2="Mission.Name2.320_12" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2040_e_footswitch_313_2_finish" object="zone:zone_ChRyoungCHN2_DeungDe" progress-mission="y" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_320_des_12" id="12" location-x="-52806.5234" location-y="-50398.0234" map="mangjasup" zone-1="zone_ChRyoungCHN2_DeungDe">
+      <text>
+      </text>
+      <mission id="13" name2="Mission.Name2.320_13" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2040_Mob_JinM_ChungGak_EunGwangIl_001" object="npc:mob_jinm_chunggak_eungwangil_001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="zone:zone_ChRyoungCHN2_DeungDe" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_320_des_13" id="13" location-x="-50770.4531" location-y="-53911.9219" map="chungryoung">
+      <text>
+      </text>
+      <mission id="14" name2="Mission.Name2.320_14" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_320_m14_indi_1" msg="q_320_m14" object="npc:ch_jakyoungdan_0012" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="900" money="300" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:Costume_51002_AllRace" slot-2="item:Costume_51002_AllRace_col1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_ChRyoungCHN_Doctor_SP">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="2" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="2" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="2" zone="zone_chryoungchn">
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="6" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="7" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="8" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="9" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="10" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="11" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="12" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="3" zone="zone_ChRyoungCHN2_JuJum_SP">
+      <text>
+      </text>
+      <destination mission-step-id="6" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="7" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="4" zone="zone_ChRyoungCHN2_DoChun_SP">
+      <text>
+      </text>
+      <destination mission-step-id="9" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="10" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="11" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="5" zone="zone_ChRyoungCHN2_DeungDe_SP">
+      <text>
+      </text>
+      <destination mission-step-id="11" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="12" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="6" zone="zone_chryoungchn_dochunpung_1">
+      <text>
+      </text>
+      <destination mission-step-id="13" zone-index="2" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

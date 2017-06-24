@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01DDFA2D-045B-45DC-BE25-9B6E658D5013}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Scripts</RootNamespace>
+    <AssemblyName>Scripts</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\106.cs" />
+    <Compile Include="Maps\BambooVillage\155.cs" />
+    <Compile Include="Maps\BambooVillage\841.cs" />
+    <Compile Include="Maps\BambooVillage\203.cs" />
+    <Compile Include="Maps\BambooVillage\204.cs" />
+    <Compile Include="Maps\BambooVillage\206.cs" />
+    <Compile Include="Maps\BambooVillage\1126.cs" />
+    <Compile Include="Maps\BambooVillage\842.cs" />
+    <Compile Include="Maps\BambooVillage\82.cs" />
+    <Compile Include="Maps\BambooVillage\1141.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2000_28 .cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2000_29.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2000_30.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2000_60.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2000_71.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2200_51.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2200_52.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2200_53.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2000_61.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_1.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_10.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_2.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_3.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_4.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_5.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_6.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_7.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_8.cs" />
+    <Compile Include="Maps\BambooVillage\MapObject2300_9.cs" />
+    <Compile Include="Maps\Startzone\643.cs" />
+    <Compile Include="Maps\Startzone\MapObject60.cs" />
+    <Compile Include="Maps\Startzone\752.cs" />
+    <Compile Include="Maps\Startzone\751.cs" />
+    <Compile Include="Maps\Startzone\692.cs" />
+    <Compile Include="Maps\Startzone\642.cs" />
+    <Compile Include="Maps\Startzone\636.cs" />
+    <Compile Include="Maps\Startzone\766.cs" />
+    <Compile Include="Maps\Startzone\774.cs" />
+    <Compile Include="Maps\Startzone\763.cs" />
+    <Compile Include="Maps\Startzone\765.cs" />
+    <Compile Include="Maps\Startzone\767.cs" />
+    <Compile Include="Maps\Startzone\768.cs" />
+    <Compile Include="Maps\Startzone\762.cs" />
+    <Compile Include="Maps\Startzone\760.cs" />
+    <Compile Include="Maps\Startzone\759.cs" />
+    <Compile Include="Maps\Startzone\672.cs" />
+    <Compile Include="Maps\Startzone\673.cs" />
+    <Compile Include="Maps\Startzone\770.cs" />
+    <Compile Include="Maps\Startzone\675.cs" />
+    <Compile Include="Maps\BambooVillage\135.cs" />
+    <Compile Include="Maps\Startzone\2475.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{D2F2E853-9897-4261-8B83-1204149102C4}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameServer\GameServer.csproj">
+      <Project>{E16FA0F2-BFA3-402E-A99F-45F67B3FF816}</Project>
+      <Name>GameServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartEngine.Network\SmartEngine.Network.csproj">
+      <Project>{48A58130-3777-444E-B92D-D7169A7FD75D}</Project>
+      <Name>SmartEngine.Network</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\MapObject2000_62.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\MapObject2000_63.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\MapObject2000_64.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\MapObject2000_65.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\MapObject2000_66.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\MapObject2000_67.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\MapObject2000_68.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Maps\BambooVillage\MapObject2000_69.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

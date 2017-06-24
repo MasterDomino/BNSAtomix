@@ -1,0 +1,79 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_867" category="normal" desc="q_867_sum" grade="1" group2="QG_OSaekAmDoEast" id="867" name2="Quest.Name2.867">
+    <text>
+    </text>
+    <acquisition level="34" preceding-quest-1="q_epic_533" preceding-quest-check="and" recommended-level="36">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_867_s_indi_1" msg="q_867_s" object="npc:ce_hoerangjok_0013" type="talk" />
+      <text>
+      </text>
+      <fixed-reward slot-1="item:quest_867" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_867_des_1" id="1">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.867_1" required-register-value="1">
+        <text>
+        </text>
+        <case item="quest_867" msg="q_867_m1" progress-mission="y" type="talk-to-item" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="33221.0859" location-y="55318.125" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.867_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_867_m3_indi_1" msg="q_867_m3" object="npc:ce_mokrang_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="450" money="380" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_867" item-count-1="1" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:TeleportItem_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="31760.6699" location-y="47833.4844" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.867_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_867_m2_indi_1" msg="q_867_m2" object="npc:ce_hoerangjok_0013" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="quest_867" item-count-1="1" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,161 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>moveAnimTransit</type>
+	<version>0.3</version>
+</table>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>kneel</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Knee_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>down</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>front_down</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_Front_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>mount-linker</before-idle>
+	<transit-anim-seq>BK_A_Mount_Bat_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>stiff</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Fall_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>kneel</after-idle>
+	<before-idle>down</before-idle>
+</record>
+<record>
+	<after-idle>kneel</after-idle>
+	<before-idle>front_down</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Knee_Toknee_Start</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>air</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>knockback-stand</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Fall_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>knockback-kneel</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Knee_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>knockback-frontdown</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_Front_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>knockback-down</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>kneel</after-idle>
+	<before-idle>knockback-frontdown</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Knee_Toknee_Start</transit-anim-seq>
+</record>
+<record>
+	<after-idle>kneel</after-idle>
+	<before-idle>knockback-down</before-idle>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>mount-linkee</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>picking</after-idle>
+	<before-idle>normal</before-idle>
+	<transit-anim-seq>AA_A_None_Mov_PickupStart</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>picking</before-idle>
+	<transit-anim-seq>AA_A_None_Mov_PickupEnd</transit-anim-seq>
+</record>
+<record>
+	<after-idle>kneel</after-idle>
+	<before-idle>knockback-kneel</before-idle>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>front_down</before-idle>
+</record>
+<record>
+	<after-idle>front_down</after-idle>
+	<before-idle>kneel</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_Front_Start</transit-anim-seq>
+</record>
+<record>
+	<after-idle>front_down</after-idle>
+	<before-idle>normal</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_Front_Start</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>inhalation_linker</before-idle>
+	<transit-anim-seq>BK_A_Hard_Skl_MagneticEnergy_Finish</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>inhalation_linkee</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Pratfall</transit-anim-seq>
+</record>
+<record>
+	<after-idle>kneel</after-idle>
+	<before-idle>inhalation_linkee</before-idle>
+</record>
+<record>
+	<after-idle>stiff</after-idle>
+	<before-idle>normal</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Fall_Start</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>landing-shock</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_LandingToNormal</transit-anim-seq>
+</record>
+<record>
+	<after-idle>stagger</after-idle>
+	<before-idle>normal</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Stagger_B_Looping</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>hide</before-idle>
+	<transit-anim-seq>DG_A_Hide_Skl_Reveal</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>air2</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_Front_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>air3</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Down_End</transit-anim-seq>
+</record>
+<record>
+	<after-idle>normal</after-idle>
+	<before-idle>magnetic</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Pratfall</transit-anim-seq>
+</record>
+<record>
+	<after-idle>kneel</after-idle>
+	<before-idle>normal</before-idle>
+	<transit-anim-seq>AA_A_None_Bat_Knee_F_Start</transit-anim-seq>
+</record>

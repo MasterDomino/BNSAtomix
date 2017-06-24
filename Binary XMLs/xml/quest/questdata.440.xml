@@ -1,0 +1,79 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_440" category="normal" desc="q_440_sum" grade="1" group="제룡림(기연절벽)" group2="QG_KiYoenCliff" id="440" name="목구멍이 포도청 (2)" name2="Quest.Name2.440">
+    <text>
+    </text>
+    <acquisition level="14" preceding-quest-1="q_sub_383" preceding-quest-check="and" recommended-level="16">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_440_s_indi_1" msg="q_440_s" object="npc:ch_hunter_003" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_440_des_1" id="1" location-x="12474.3086" location-y="40092.6211" map="JulBukDongGul_dun">
+      <text>
+      </text>
+      <mission id="1" name="동굴버섯 채집" name2="Mission.Name2.440_1" required-register-value="7">
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mush02_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mush02_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mush02_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mush02_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mush02_05" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mush02_06" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mush02_07" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mush02_08" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" mapunit-1="2607_e_onoff_mush02_01_9" object="zoneenv:e_onoff_mush02_09" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_440_Quest_mushroom_1_icon" gadget-required="empty" mapunit-1="2300_julbukdonggul_s440" mapunit-10="2607_e_onoff_mush02_01" mapunit-2="2607_e_onoff_mush02_01_1" mapunit-3="2607_e_onoff_mush02_01_2" mapunit-4="2607_e_onoff_mush02_01_3" mapunit-5="2607_e_onoff_mush02_01_4" mapunit-6="2607_e_onoff_mush02_01_5" mapunit-7="2607_e_onoff_mush02_01_6" mapunit-8="2607_e_onoff_mush02_01_7" mapunit-9="2607_e_onoff_mush02_01_8" object="zoneenv:e_onoff_mush02_10" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_440_des_2" id="2" location-x="23838.7246" location-y="42673.8672" map="suryengol">
+      <text>
+      </text>
+      <mission id="2" name="기연절벽에 있는 사냥꾼 금여화에게 보고" name2="Mission.Name2.440_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_440_m2_indi_1" msg="q_440_m2" object="npc:ch_hunter_003" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="280" money="90" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

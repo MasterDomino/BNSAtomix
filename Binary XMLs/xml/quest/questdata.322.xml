@@ -1,0 +1,112 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_322" category="normal" desc="q_322_sum" grade="1" group="제룡림(대나무 마을)" group2="QG_DaeNaMuCHN" id="322" name="여자의 미모는 피부부터" name2="Quest.Name2.322">
+    <text>
+    </text>
+    <acquisition level="2" preceding-quest-1="q_epic_303" preceding-quest-check="and" recommended-level="4">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_322_s_indi_1" msg="q_322_s" object="npc:ctzn_jinf_cheongryeongctzn_nayerin_001" type="talk" zone="zone_chryoungchn" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_322_des_1" id="1" location-x="-55923.668" location-y="-56392.5313" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name="진주조개의 진주 채집" name2="Mission.Name2.322_1" required-register-value="3">
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" mapunit-1="2010_e_onoff_clam_01" mapunit-2="2010_e_onoff_clam_01_1" mapunit-3="2010_e_onoff_clam_01_2" object="zoneenv:e_onoff_clam_01" progress-mission="y" type="manipulate" zone="null" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_02" progress-mission="y" type="manipulate" zone="null" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_03" progress-mission="y" type="manipulate" zone="null" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_04" progress-mission="y" type="manipulate" zone="null" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_05" progress-mission="y" type="manipulate" zone="null" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_06" progress-mission="y" type="manipulate" zone="null" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_07" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_08" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_09" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_10" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_11" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_12" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_13" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_14" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_15" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_16" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_17" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_18" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_19" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_322_Gather_pearly_1_icon" gadget-required="empty" object="zoneenv:e_onoff_clam_20" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_322_des_2" id="2" location-x="-51405.2188" location-y="-53835.75" map="chungryoung">
+      <text>
+      </text>
+      <mission id="2" name="대나무 마을 주민 나예린에게 보고" name2="Mission.Name2.322_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_322_m2_indi_1" msg="q_322_m2" object="npc:ctzn_jinf_cheongryeongctzn_nayerin_001" progress-mission="y" type="talk" zone="zone_chryoungchn" />
+        <text>
+        </text>
+        <basic-reward exp="110" money="5" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="3" slot-1="item:DotPotion_Gr3_Lv6" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

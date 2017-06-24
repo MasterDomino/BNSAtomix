@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_366" category="normal" desc="q_366_sum" grade="1" group2="QG_MangJaSup" id="366" name2="Quest.Name2.366">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="9">
+      <text>
+      </text>
+      <case acquire-quest="y" item="quest_336" msg="q_366_s" type="talk-to-item" />
+      <text>
+      </text>
+      <case loot-item="Quest_336" looting="q_366_Quest_written_instruction_1_icon" object="npc:mh_bandit_0002" type="loot" />
+      <text>
+      </text>
+      <case loot-item="Quest_336" looting="q_366_Quest_written_instruction_1_icon" object="npc:mh_bandit_0003" type="loot" />
+      <text>
+      </text>
+      <case loot-item="Quest_336" looting="q_366_Quest_written_instruction_1_icon" object="npc:mh_bandit_0004" type="loot" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-29398.375" location-y="-4093.7617" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.366_1" required-register-value="1">
+        <text>
+        </text>
+        <case grocery="quest_336" indicator-social="q_366_m1_indi_1" msg="q_366_m1" object="npc:ch_jakyungdan_0007" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_336" />
+        <text>
+        </text>
+        <basic-reward exp="180" money="20" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:New_Item_Potion_Poison_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="quest_336" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

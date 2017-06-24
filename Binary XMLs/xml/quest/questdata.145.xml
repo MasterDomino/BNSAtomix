@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_145" category="normal" grade="1" group2="QG_Gathering" id="145" name2="Quest.Name2.145">
+    <text>
+    </text>
+    <acquisition level="50" production-exp="10" production-id="gathering-type-1" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_145_Gather_arrow_root_1_icon" object="zoneenv:e_onoff_2420herb_01" type="manipulate" />
+      <text>
+      </text>
+      <fixed-reward production-exp="10" production-id="gathering-type-1" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

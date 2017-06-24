@@ -1,0 +1,145 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_521" category="epic" completed-desc="q_521_completed" completed-list="y" desc="q_521_sum" grade="1" group2="QG_DaeSaMakEpic" id="521" name2="Quest.Name2.521">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="30" sort-no="321" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-12823.0293" location-y="3344.6353" map="toemungekjan_1">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.521_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-idle="Jinsoa_soc_02" object="npc:CH_JinSoA_0015" type="approach" />
+        <text>
+        </text>
+        <case env-looting="q_520_Quest_hair_growth_solution_manual_1_icon" mapunit-1="3014_e_onoff_billpaper_01" mapunit-2="3014_e_onoff_billpaper_01+" mapunit-3="3014_e_onoff_billpaper_01-" object="zoneenv:e_onoff_billpaper_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:quest_521" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_jinsoadoor_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_SYHBang" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-12823.0293" location-y="3344.6353">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.521_2" required-register-value="1">
+        <text>
+        </text>
+        <case item="quest_521" msg="q_521_m2" progress-mission="y" type="talk-to-item" />
+        <text>
+        </text>
+        <case indicator-idle="Jinsoa_soc_02" object="npc:CH_JinSoA_0015" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-14828.8887" location-y="4030.1821" map="toemungekjan_1">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.521_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_521_m3_indi_1" msg="q_521_m3" object="npc:ch_yeharang_003" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_521" />
+        <text>
+        </text>
+        <case indicator-idle="Jinsoa_soc_02" object="npc:CH_JinSoA_0015" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-12924.5918" location-y="5071.1978" map="toemungekjan_1">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.521_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_521_m4_indi_1" msg="q_521_m4" object="npc:ch_soyeonhwa_008" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_SYHBang" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_soyeonout_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-12924.5918" location-y="5071.1978" map="toemungekjan_1">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.521_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_521_m5_indi_1" msg="q_521_m5" object="npc:ch_noklimdo_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_SYHBang" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="1000" money="700" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_soyeonout_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:Costume_50004_AllRace" slot-2="item:Costume_50004_AllRace_col1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_YeHaRangBang">
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_522" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

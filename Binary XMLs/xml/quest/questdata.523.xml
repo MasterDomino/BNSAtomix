@@ -1,0 +1,76 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_523" category="epic" completed-desc="q_523_completed" completed-list="y" desc="q_523_sum" grade="1" group2="QG_DaeSaMakEpic" id="523" name2="Quest.Name2.523">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="31" sort-no="323" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="15848.6602" location-y="-31003.9766" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.523_1" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-1="3020_e_onoff_jujube_01" object="zoneenv:e_onoff_jujube_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_523_des_2" id="2" location-x="13696.127" location-y="-36820.1563" map="hangari">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.523_2" required-register-value="1">
+        <text>
+        </text>
+        <case gadget="Q_TorchlightB" gadget-required="carry-and-remove" object="zoneenv:e_onoff_kilnpot_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-1="3020_e_onoff_jujube_01" mapunit-2="3020_e_onoff_kilnpot_01" object="zoneenv:e_onoff_jujube_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="13696.127" location-y="-36820.1563" map="hangari">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.523_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_523_m1_indi_1" msg="q_523_m1" object="npc:ch_pottery_011" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1100" money="780" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos3_gr2_sajiseoklim_sheild_Lv31" slot-2="item:gem_pos3_gr2_sajiseoklim_bal_Lv31" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_524" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

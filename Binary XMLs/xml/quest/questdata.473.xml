@@ -1,0 +1,37 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_473" category="normal" desc="q_473_sum" grade="1" group2="QG_Geoamgol" id="473" name2="Quest.Name2.473">
+    <text>
+    </text>
+    <acquisition level="17" preceding-quest-1="q_epic_317" preceding-quest-check="and" recommended-level="19">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_473_s_indi_1" msg="q_473_s" object="npc:ch_foodmaster_002" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-27130.4922" location-y="60775.8828" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.473_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_473_m1_indi_1" msg="q_473_m1" object="npc:ch_merchantcharm_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="110" money="45" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

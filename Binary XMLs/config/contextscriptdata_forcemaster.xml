@@ -1,0 +1,422 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-mversion>0.0.0.1</release-mversion>
+	<release-side>client</release-side>
+	<version>0.1</version>
+</table>
+<contextscript>
+	<job>0õ¬</job>
+</contextscript>
+<stance>
+	<abnormal-flag>down</abnormal-flag>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12131</skill>
+</condition>
+<result>
+	<skillbar-1>12131</skillbar-1>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12136</skill>
+</condition>
+<result>
+	<skillbar-2>12136</skillbar-2>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<skillbar-1>501</skillbar-1>
+	<skillbar-2>501</skillbar-2>
+	<skillbar-3>501</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+</result>
+<stance>
+	<link>inhalation-catch</link>
+	<stance>ð0õ</stance>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12341</skill>
+</condition>
+<result>
+	<skillbar-7>12341</skillbar-7>
+</result>
+<decision>
+</decision>
+<condition>
+	<skill>12343</skill>
+</condition>
+<result>
+	<skillbar-7>12343</skillbar-7>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12321</skill>
+</condition>
+<result>
+	<context-1>12321</context-1>
+	<context-2>12322</context-2>
+	<tps-context-1>12321</tps-context-1>
+	<tps-context-2>12322</tps-context-2>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12312</skill>
+</condition>
+<result>
+	<skillbar-1>12312</skillbar-1>
+	<skillbar-2>12311</skillbar-2>
+	<skillbar-3>12221</skillbar-3>
+	<skillbar-4>12211</skillbar-4>
+	<skillbar-5>501</skillbar-5>
+	<skillbar-6>12344</skillbar-6>
+	<skillbar-7>12372</skillbar-7>
+	<skillbar-8>12340</skillbar-8>
+	<skillbar-fallback-7>12373</skillbar-fallback-7>
+	<stance>501</stance>
+</result>
+<stance>
+	<link>inhalation-catch</link>
+	<stance>0õ</stance>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12374</skill>
+</condition>
+<result>
+	<skillbar-6>12374</skillbar-6>
+	<skillbar-ui-effect>combo</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12321</skill>
+</condition>
+<result>
+	<context-1>12321</context-1>
+	<context-2>12322</context-2>
+	<tps-context-1>12321</tps-context-1>
+	<tps-context-2>12322</tps-context-2>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12361</skill>
+</condition>
+<result>
+	<skillbar-8>12361</skillbar-8>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12312</skill>
+</condition>
+<result>
+	<skillbar-1>12312</skillbar-1>
+	<skillbar-2>12311</skillbar-2>
+	<skillbar-3>12221</skillbar-3>
+	<skillbar-4>12211</skillbar-4>
+	<skillbar-5>501</skillbar-5>
+	<skillbar-6>12332</skillbar-6>
+	<skillbar-7>12333</skillbar-7>
+	<skillbar-8>12331</skillbar-8>
+	<stance>501</stance>
+</result>
+<stance>
+	<link>inhalation-catch</link>
+	<stance>½0õ</stance>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12321</skill>
+</condition>
+<result>
+	<context-1>12321</context-1>
+	<context-2>12322</context-2>
+	<tps-context-1>12321</tps-context-1>
+	<tps-context-2>12322</tps-context-2>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12312</skill>
+</condition>
+<result>
+	<skillbar-1>12312</skillbar-1>
+	<skillbar-2>12311</skillbar-2>
+	<skillbar-3>12221</skillbar-3>
+	<skillbar-4>12211</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<stance>
+	<stance>ð0õ</stance>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12260</skill>
+</condition>
+<result>
+	<cmd-key-down>501</cmd-key-down>
+	<context-1>501</context-1>
+	<context-2>501</context-2>
+	<skillbar-1>501</skillbar-1>
+	<skillbar-2>501</skillbar-2>
+	<skillbar-3>501</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-5>501</skillbar-5>
+	<skillbar-6>501</skillbar-6>
+	<skillbar-7>501</skillbar-7>
+	<skillbar-8>501</skillbar-8>
+	<stance>12260</stance>
+	<stance-ui-effect>combo</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12265</skill>
+</condition>
+<result>
+	<stance>12265</stance>
+	<stance-ui-effect>combo</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12266</skill>
+</condition>
+<result>
+	<skillbar-7>12266</skillbar-7>
+</result>
+<decision>
+</decision>
+<condition>
+	<skill>12267</skill>
+</condition>
+<result>
+	<skillbar-7>12267</skillbar-7>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12255</skill>
+</condition>
+<result>
+	<context-1>12255</context-1>
+	<context-2>12256</context-2>
+	<skillbar-4>12300</skillbar-4>
+	<tps-context-1>12255</tps-context-1>
+	<tps-context-2>12256</tps-context-2>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<cmd-key-down>12243</cmd-key-down>
+	<skillbar-1>12106</skillbar-1>
+	<skillbar-2>12251</skillbar-2>
+	<skillbar-3>12235</skillbar-3>
+	<skillbar-4>12370</skillbar-4>
+	<skillbar-5>12258</skillbar-5>
+	<skillbar-6>12110</skillbar-6>
+	<skillbar-7>12276</skillbar-7>
+	<skillbar-8>12237</skillbar-8>
+	<skillbar-fallback-7>12277</skillbar-fallback-7>
+	<stance>12250</stance>
+	<stance-fallback>12249</stance-fallback>
+</result>
+<stance>
+	<stance>0õ</stance>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12269</skill>
+</condition>
+<result>
+	<stance>12269</stance>
+	<stance-ui-effect>combo</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12271</skill>
+</condition>
+<result>
+	<skillbar-6>12271</skillbar-6>
+	<skillbar-ui-effect>combo</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12117</skill>
+</condition>
+<result>
+	<context-1>12117</context-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>12117</tps-context-1>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12255</skill>
+</condition>
+<result>
+	<context-1>12255</context-1>
+	<context-2>12256</context-2>
+	<skillbar-4>12300</skillbar-4>
+	<tps-context-1>12255</tps-context-1>
+	<tps-context-2>12256</tps-context-2>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12139</skill>
+</condition>
+<result>
+	<skillbar-8>12139</skillbar-8>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<cmd-key-down>12243</cmd-key-down>
+	<skillbar-1>12106</skillbar-1>
+	<skillbar-2>12251</skillbar-2>
+	<skillbar-3>12235</skillbar-3>
+	<skillbar-4>12370</skillbar-4>
+	<skillbar-5>12257</skillbar-5>
+	<skillbar-6>12241</skillbar-6>
+	<skillbar-7>12263</skillbar-7>
+	<skillbar-8>12239</skillbar-8>
+	<stance>12238</stance>
+	<stance-fallback>12268</stance-fallback>
+</result>
+<stance>
+	<stance>½0õ</stance>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12260</skill>
+</condition>
+<result>
+	<cmd-key-down>501</cmd-key-down>
+	<context-1>501</context-1>
+	<context-2>501</context-2>
+	<skillbar-1>501</skillbar-1>
+	<skillbar-2>501</skillbar-2>
+	<skillbar-3>501</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-5>501</skillbar-5>
+	<skillbar-6>501</skillbar-6>
+	<skillbar-7>501</skillbar-7>
+	<skillbar-8>501</skillbar-8>
+	<stance>12260</stance>
+	<stance-ui-effect>combo</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12269</skill>
+</condition>
+<result>
+	<stance>12269</stance>
+	<stance-ui-effect>combo</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12117</skill>
+</condition>
+<result>
+	<context-1>12117</context-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>12117</tps-context-1>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>12255</skill>
+</condition>
+<result>
+	<context-1>12255</context-1>
+	<context-2>12256</context-2>
+	<skillbar-4>12300</skillbar-4>
+	<tps-context-1>12255</tps-context-1>
+	<tps-context-2>12256</tps-context-2>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<cmd-key-down>12243</cmd-key-down>
+	<skillbar-1>12106</skillbar-1>
+	<skillbar-2>12251</skillbar-2>
+	<skillbar-3>12235</skillbar-3>
+	<skillbar-4>12370</skillbar-4>
+</result>

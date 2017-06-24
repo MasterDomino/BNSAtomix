@@ -1,0 +1,70 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_798" category="normal" desc="q_798_sum" grade="1" group2="QG_HeukChangJokSaWon" id="798" name2="Quest.Name2.798">
+    <text>
+    </text>
+    <acquisition level="30" preceding-quest-1="q_epic_525" preceding-quest-2="q_sub_793" preceding-quest-check="and" recommended-level="32">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_798_s_indi_1" msg="q_798_s" object="npc:ch_mayeongganggun_0014" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="46460.231" location-y="-35984.43" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.798_1" required-register-value="6">
+        <text>
+        </text>
+        <case mapunit-1="3023_me_darkcrazytribe_0006" mapunit-2="3023_me_darkcrazytribe_0006_1" mapunit-3="3023_me_darkcrazytribe_0006_2" object="npc:me_darkcrazytribe_0006" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.798_2" required-register-value="6">
+        <text>
+        </text>
+        <case mapunit-4="3023_me_darkcrazytribe_008" mapunit-5="3023_me_darkcrazytribe_008_1" mapunit-6="3023_me_darkcrazytribe_008_2" object="npc:me_darkcrazytribe_008" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.798_3" required-register-value="4">
+        <text>
+        </text>
+        <case mapunit-7="3023_me_darkcrazytribe_005" mapunit-8="3023_me_darkcrazytribe_005_1" mapunit-9="3023_me_darkcrazytribe_005_2" object="npc:me_darkcrazytribe_005" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="44577.375" location-y="-42604.789" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.798_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_798_m4_indi_1" msg="q_798_m4" object="npc:ch_mayeongganggun_0014" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1000" money="800" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

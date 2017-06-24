@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_341" category="normal" desc="q_341_sum" grade="1" group="제룡림(망자의 숲)" group2="QG_MangJaSup" id="341" name="흑룡채의 약탈품" name2="Quest.Name2.341">
+    <text>
+    </text>
+    <acquisition level="5" preceding-quest-1="q_epic_306" preceding-quest-check="and" recommended-level="7">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_341_s_indi_1" msg="q_341_s" object="npc:ch_jakyungdan_0006" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_341_des_1" id="1" location-x="-23253.6055" location-y="-33073.8984" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name="산적소굴 앞 흑룡채 야영지에 있는 흑룡채 약탈품 습득" name2="Mission.Name2.341_3" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_341_Grocery_white_linen_package_1_icon" gadget-required="empty" mapunit-3="2000_e_onoff_bag_01" object="zoneenv:e_onoff_bag_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="1" name="망자의 숲에 있는 흑룡채 약탈조 처치" name2="Mission.Name2.341_1" required-register-value="8">
+        <text>
+        </text>
+        <case mapunit-1="2000_mh_bandit_010" mapunit-2="2000_mh_bandit_010_1" mapunit-3="2000_mh_bandit_010_2" mapunit-4="2000_mh_bandit_010_3" object="npc:mh_bandit_013" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name="망자의 숲에 있는 흑룡채 정찰조 처치" name2="Mission.Name2.341_2" required-register-value="8">
+        <text>
+        </text>
+        <case mapunit-5="2000_mh_bandit_010" mapunit-6="2000_mh_bandit_010_1" mapunit-7="2000_mh_bandit_010_2" mapunit-8="2000_mh_bandit_010_3" object="npc:mh_bandit_010" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_341_des_2" id="2" location-x="-23853.0547" location-y="-30616.1523" map="mangjasup">
+      <text>
+      </text>
+      <mission id="4" name="숲속 야영지에 있는 대나무 마을 자경단 진화려에게 보고" name2="Mission.Name2.341_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_341_m2_indi_1" msg="q_341_m2" object="npc:ch_jakyungdan_0006" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="360" money="40" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos6_gr2_jakyung_bal_Lv07" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

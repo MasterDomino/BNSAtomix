@@ -1,0 +1,40 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_321" category="normal" desc="q_321_sum" grade="1" group="제룡림(대나무 마을)" group2="QG_DaeNaMuCHN" id="321" name="밥은 먹고 다니나요" name2="Quest.Name2.321">
+    <text>
+    </text>
+    <acquisition level="2" preceding-quest-1="q_epic_303" preceding-quest-check="and" recommended-level="4">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_321_s_indi_1" mapunit-1="2010_ctzn_jinf_cheongryeongctzn_ryubekeon_001" msg="q_321_s" object="npc:ctzn_jinf_cheongryeongctzn_ryubekeon_001" type="talk" zone="zone_chryoungchn" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_321_des_1" id="1" location-x="-53405.9766" location-y="-51177.3125" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name="대나무 마을 주민 류백언에게 보고" name2="Mission.Name2.321_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_321_m1_indi_1" msg="q_321_m1" object="npc:Ctzn_JinM_JaKyungDan_HoEom_001" progress-mission="y" type="talk" zone="zone_chryoungchn" />
+        <text>
+        </text>
+        <basic-reward exp="110" money="5" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="5" slot-1="item:questid_321_reward" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

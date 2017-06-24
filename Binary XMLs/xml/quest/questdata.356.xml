@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_356" category="normal" desc="q_356_sum" grade="1" group="제룡림(충각단 제룡림 전초기지)" group2="QG_ChungGakJunCho" id="356" name="여인의 한" name2="Quest.Name2.356">
+    <text>
+    </text>
+    <acquisition level="7" preceding-quest-1="q_epic_308" preceding-quest-check="and" recommended-level="9">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_356_s_indi_1" msg="q_356_s" object="npc:ch_shaman_021" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_356_des_1" id="1" location-x="-35362.5078" location-y="-31515.3281" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name="호숙이의 무덤에서 호숙이를 불러내 대화" name2="Mission.Name2.356_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_356_m1_indi_1" msg="q_356_m1" object="npc:ctzn_jinf_ghost_hosuki_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="2000_e_onoff_tomb_01" object="zoneenv:e_onoff_tomb_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_356_des_2" id="2" location-x="-43874.7109" location-y="-19826.0391" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name="충각단 전초기지에 있는 남해 함대 수송대장 당자강 처치" name2="Mission.Name2.356_2" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2100_me_chunggak_0010" object="npc:me_chunggak_0010" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_356_des_3" id="3" location-x="-35662.2344" location-y="-35471.7031" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name="화장터에 있는 영환도사 도백균에게 보고" name2="Mission.Name2.356_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_356_m3_indi_1" msg="q_356_m3" object="npc:ch_shaman_021" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="120" money="20" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos8_gr2_jakyung_bal_Lv08" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

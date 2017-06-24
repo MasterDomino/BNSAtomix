@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_787" category="normal" desc="q_787_sum" grade="1" group2="QG_SaJiSeokRimEast" id="787" name2="Quest.Name2.787">
+    <text>
+    </text>
+    <acquisition level="31" preceding-quest-1="q_epic_528" preceding-quest-2="q_sub_757" preceding-quest-3="q_sub_785" preceding-quest-check="and" recommended-level="33">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_787_s_indi_1" msg="q_787_s" object="npc:ch_mayeongganggun_0016" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="27388.734" location-y="-25051.727" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.787_1" required-register-value="1">
+        <text>
+        </text>
+        <case loot-item="Quest_787_1" looting="q_787_Quest_old_letter_1_icon" mapunit-1="3024_MH_BokGonPe_0010" object="npc:mh_bokgonpe_0010" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.787_2" required-register-value="1">
+        <text>
+        </text>
+        <case item="Quest_787_1" msg="q_787_m2" progress-mission="y" type="talk-to-item" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="14067.221" location-y="-37562.344" map="hangari">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.787_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_787_m3_indi_1" msg="q_787_m3" object="npc:ch_mayeongganggun_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="560" money="360" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_787_1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="quest_787_1" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

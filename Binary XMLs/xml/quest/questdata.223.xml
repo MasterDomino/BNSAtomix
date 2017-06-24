@@ -1,0 +1,118 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_223" category="epic" completed-desc="q_223_completed" completed-list="y" desc="q_223_sum" grade="1" group2="QG_Toturial" id="223" name2="Quest.Name2.223" tutorial="y">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="1" sort-no="103" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_223_des_1" id="1" location-x="-10175.473" location-y="39583.637" map="startzone">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.223_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="221_11_CH_YungMook_0001" object="zoneenv:1101_foot_2" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_all" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_223_m1_indi_1" msg="q_223_m1" object="npc:ch_yungmook_0001" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_223_des_2" id="2" location-x="-10175.473" location-y="39583.637" map="startzone">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.223_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_223_m2_indi_1" mapunit-1="221_10_CH_YungMook_0001" msg="q_223_m2" object="npc:ch_yungmook_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_all" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <fixed-reward slot-1="skill:common_act_sprint_lv1" slot-2="skill:Common_Act_Drift_Lv1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_223_des_3" id="3" location-x="-8737.976" location-y="37157.859" map="startzone" zone-1="startzone_renew_all">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.223_3" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="221_9_CH_MuSung_0001" object="zoneenv:1101_foot_3" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_all" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_223_m3_indi_3" msg="q_223_m3" object="npc:ch_yungmook_0001" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="q_223_m3_indi_1" object="npc:ch_gilhong_0003" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_223_des_4" id="4" location-x="-8737.976" location-y="37157.859" map="startzone">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.223_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_223_m4_indi_1" mapunit-1="221_11_CH_MuSung_0001" msg="q_223_m4" object="npc:ch_musung_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_all" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <fixed-reward slot-1="skill:common_act_glide_lv1" />
+        <text>
+        </text>
+        <case indicator-social="q_223_m4_indi_2" object="npc:ch_gilhong_0003" type="approach" />
+        <text>
+        </text>
+        <case indicator-social="q_223_m4_indi_4" object="npc:ch_yungmook_0001" type="approach" />
+        <text>
+        </text>
+        <case msg="q_223_m4_1" object="npc:ch_jinyoung_0001" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_224" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

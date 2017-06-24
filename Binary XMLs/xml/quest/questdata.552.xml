@@ -1,0 +1,37 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_552" category="normal" desc="q_552_sum" grade="1" group2="QG_ToMunJinSouth" id="552" name2="Quest.Name2.552">
+    <text>
+    </text>
+    <acquisition level="19" preceding-quest-1="q_epic_501" preceding-quest-check="and" recommended-level="21">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_552_s_indi_1" msg="q_552_s" object="npc:ch_unguksoldier_013" progress-mission="n" type="talk" zone="zone_toemunjean" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-51905.2813" location-y="-77825.6484" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.552_1" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="n" indicator-social="q_552_m1_indi_1" msg="q_552_m1" object="npc:ch_woodcutter_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="220" money="70" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

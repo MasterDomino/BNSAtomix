@@ -1,0 +1,100 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_360" category="normal" desc="q_360_sum" grade="1" group="제룡림(버려진 어촌)" group2="QG_BuryejinECHN" id="360" name="풍수사의 제자 (1)" name2="Quest.Name2.360">
+    <text>
+    </text>
+    <acquisition level="8" preceding-quest-1="q_sub_361" preceding-quest-check="and" recommended-level="10">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_360_s_indi_1" msg="q_360_s" object="npc:ctzn_jinm_ghost_mangnanja_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-29842.5742" location-y="-2705.6406" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name="망난자의 지도 탈환" name2="Mission.Name2.360_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_360_Quest_insect_shell_1_icon" mapunit-1="2200_me_pest_005" mapunit-2="2200_me_pest_005_1" object="npc:me_pest_005" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.360_2" required-register-value="2">
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_shorestone_04" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_shorestone_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_shorestone_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-1="2200_e_onoff_shorestone_01" object="zoneenv:e_onoff_shorestone_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_rockf" gadget-required="carry-and-remove" object="zoneenv:e_destroy_hole_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_rockf" gadget-required="carry-and-remove" object="zoneenv:e_destroy_hole_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_rockf" gadget-required="carry-and-remove" object="zoneenv:e_destroy_hole_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_rockf" gadget-required="carry-and-remove" object="zoneenv:e_destroy_hole_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-29842.5742" location-y="-2705.6406" map="huekummrim">
+      <text>
+      </text>
+      <mission id="3" name="버려진 어촌 정풍우의 제자 망난자에게 보고" name2="Mission.Name2.360_3" required-register-value="1">
+        <text>
+        </text>
+        <case acquire-quest="n" indicator-social="q_360_m3_indi_1" msg="q_360_m3" object="npc:ctzn_jinm_ghost_mangnanja_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="3" location-x="-29120.75" location-y="-2816.6914" map="huekummrim">
+      <text>
+      </text>
+      <mission id="4" name="버려진 어촌 풍수사 정풍우와 대화" name2="Mission.Name2.360_4" required-register-value="1">
+        <text>
+        </text>
+        <case acquire-quest="n" indicator-social="q_360_m4_indi_1" msg="q_360_m4" object="npc:ctzn_jinm_jeongpungwoo_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="470" money="100" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos8_gr2_hukuklim_shield_Lv10" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

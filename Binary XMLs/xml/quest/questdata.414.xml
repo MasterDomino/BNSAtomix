@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_414" category="normal" desc="q_414_sum" grade="1" group="제룡림(흑음림)" group2="QG_HuekUmmRim" id="414" name="탄연방의 사정 (1)" name2="Quest.Name2.414">
+    <text>
+    </text>
+    <acquisition level="10" preceding-quest-1="q_epic_311" preceding-quest-check="and" recommended-level="12">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_414_s_indi_1" msg="q_414_s" object="npc:ch_dweller_023" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-11438.9072" location-y="-28287.6895" map="SanYang_Dun">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.414_1" required-register-value="7">
+        <text>
+        </text>
+        <case looting="q_414_Gather_bar_zinc_1_icon" mapunit-1="2200_sanyang_dun_s414" mapunit-2="2603_mh_bandit_0001" mapunit-3="2603_mh_bandit_0001_1" object="npc:MH_Bandit_0001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-6133.4414" location-y="-13588.5215" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.414_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_414_m3_indi_1" msg="q_414_m3" object="npc:ch_dweller_023" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="550" money="150" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

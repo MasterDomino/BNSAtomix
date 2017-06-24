@@ -1,0 +1,85 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_418" category="normal" desc="q_418_sum" grade="1" group="제룡림(흑음림)" group2="QG_HuekUmmRim" id="418" name="탄연방의 사정 (완)" name2="Quest.Name2.418">
+    <text>
+    </text>
+    <acquisition level="11" preceding-quest-1="q_sub_414" preceding-quest-check="and" recommended-level="13">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_418_s_indi_1" msg="q_418_s" object="npc:ctzn_jinm_jakyungdan_gobung_kff_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-5078.4688" location-y="-12200.3984" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name="흑음림 숯 가마터의 탄연방주 서문연상과 대화" name2="Mission.Name2.418_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_418_m1_indi_1" msg="q_418_m1" object="npc:ch_dweller_023" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-5446.9395" location-y="6855.3071" map="KyeIeHan_Dun">
+      <text>
+      </text>
+      <mission id="2" name="탄연방의 흑강목 탈환" name2="Mission.Name2.418_2" required-register-value="7">
+        <text>
+        </text>
+        <case looting="q_418_gather_bar_gold_1_icon" mapunit-1="2200_kyeiehan_dun_s418" mapunit-2="2620_mh_bandit_019" mapunit-3="2620_mh_bandit_019_1" object="npc:mh_bandit_019" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="3" location-x="-5689.2422" location-y="-8369.1797" map="huekummrim">
+      <text>
+      </text>
+      <mission id="3" name="흑음림 숯 가마터의 탄연방주 서문연상에게 보고" name2="Mission.Name2.418_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_418_m3_indi_1" msg="q_418_m3" object="npc:ch_dweller_023" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="4" location-x="-4745.3203" location-y="-11034.3751" map="huekummrim">
+      <text>
+      </text>
+      <mission id="4" name="흑음림 숯 가마터에 있는 자경단원 고붕에게 보고" name2="Mission.Name2.418_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_418_m4_indi_1" mapunit-1="2200_ctzn_jinm_jakyungdan_gobung_kff_001" msg="q_418_m4" object="npc:ctzn_jinm_jakyungdan_gobung_kff_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="520" money="120" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="5" slot-1="item:food_gr3_lv15" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_351" category="normal" desc="q_351_sum" grade="1" group="제룡림(월영 공동묘지)" group2="QG_WalYoungCemetery" id="351" name="원한은 원한을 낳고 (1)" name2="Quest.Name2.351">
+    <text>
+    </text>
+    <acquisition level="4" preceding-quest-1="q_epic_305" preceding-quest-check="and" recommended-level="6">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_351_s_indi_1" msg="q_351_s" object="npc:ctzn_jinm_jakyungdan_sobung_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-34403.3906" location-y="-33073.8984" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name="향초 탈환" name2="Mission.Name2.351_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_351_quest_grass_mesh_bag_1_icon" mapunit-1="2000_Mob_Hmn_MLnd_Soul_Zombie_001" mapunit-2="2000_Mob_Hmn_MLnd_Soul_Zombie_001_1" object="npc:mob_hmn_mlnd_soul_zombie_001" progress-mission="y" quest-symbol-drop-prob="100" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-36321.6328" location-y="-35891.3164" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name="소각장 묘지기 최염과 대화" name2="Mission.Name2.351_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_351_m2_indi_1" msg="q_351_m2" object="npc:ctzn_jinm_jakyungdan_sobung_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="320" money="40" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos4_gr2_jakyung_bal_Lv06" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

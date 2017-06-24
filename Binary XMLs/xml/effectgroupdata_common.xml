@@ -1,0 +1,36 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>Common_Resurrection_Action_E1_01</alias>
+	<effect-1>Common_Resurrection_Action_Resurrection</effect-1>
+	<effect-2>Common_Resurrection_Action_Resurrection_blockact</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Tutorial_ShipCannon_E1_01</alias>
+	<effect-1>Tutorial_ShipCannon_knockback1</effect-1>
+	<effect-2>Tutorial_ShipCannon_knockback2</effect-2>
+	<effect-3>Tutorial_ShipCannon_down</effect-3>
+	<effect-4>Tutorial_ShipCannon_midair</effect-4>
+	<individual-probability>y</individual-probability>
+	<probability-1>20</probability-1>
+	<probability-2>20</probability-2>
+	<probability-3>20</probability-3>
+	<probability-4>40</probability-4>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>GM_Move_e1_01</alias>
+	<effect-1>return</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>

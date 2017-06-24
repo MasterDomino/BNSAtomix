@@ -1,0 +1,1664 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>Assassin_sp1</alias>
+	<effect-1>Assassin_Common_SwordGage_Charge1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_Lv1_Stance_Disturb_E1_01</alias>
+	<effect-1>15000011</effect-1>
+	<effect-2>15000012</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Lv1_Stance_Hide_E1_01</alias>
+	<effect-1>Assassin_Disturb_Hide_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Passive</effect-2>
+	<effect-3>Assassin_Common_SwordGage_Charge3</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1_E1_01</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_down_extend</effect-1>
+	<effect-2>Assassin_Common_spiderweb_down</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1_E1_011</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_swoon_extend</effect-1>
+	<effect-2>Assassin_Common_spiderweb_swoon</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1_E1_02</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair1</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40031</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1_E1_03</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40032</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1_E1_04</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair3</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40033</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1000_E1_01</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_down_extend</effect-1>
+	<effect-2>Assassin_Common_spiderweb_down2</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1000_E1_011</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_swoon_extend</effect-1>
+	<effect-2>Assassin_Common_spiderweb_swoon2</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1000_E1_02</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair1</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air2</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40031</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1000_E1_03</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air2</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40032</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1000_E1_04</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair3</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air2</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40033</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2000_E1_01</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_down_extend</effect-1>
+	<effect-2>Assassin_Common_spiderweb_down3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2000_E1_011</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_swoon_extend</effect-1>
+	<effect-2>Assassin_Common_spiderweb_swoon3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2000_E1_02</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair1</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40031</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2000_E1_03</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40032</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2000_E1_04</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair3</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40033</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2100_E1_01</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_down_extend2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_down32</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2100_E1_011</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_swoon_extend2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_swoon32</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2100_E1_02</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair1</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40031</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2100_E1_03</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40032</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2100_E1_04</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair3</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40033</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2110_E1_01</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_down_extend2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_down32</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2110_E1_011</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_swoon_extend2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_swoon32</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40060</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2110_E1_02</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair1</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40031</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2110_E1_03</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40032</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2110_E1_04</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair3</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air3</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40033</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2101_E1_01</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_down_extend</effect-1>
+	<effect-2>Assassin_Common_spiderweb_down33</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40057</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2101_E1_011</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_swoon_extend</effect-1>
+	<effect-2>Assassin_Common_spiderweb_swoon33</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2101_E1_02</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair1</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air33</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40031</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2101_E1_03</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair2</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air33</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40032</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv2101_E1_04</alias>
+	<effect-1>Assassin_Assassinate_SpiderWeb_Lv1_midair3</effect-1>
+	<effect-2>Assassin_Common_spiderweb_air33</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40033</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1_E1_05</alias>
+	<effect-1>15002015</effect-1>
+	<effect-2>Assassin_Common_rupture</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40055</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Assassinate_SpiderWeb_Lv1_E1_06</alias>
+	<effect-1>Assassin_Disturb_Hide_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Passive</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_Decapitation_Lv1_E1_01</alias>
+	<effect-1>Assassin_Assassinate_Decapitation_Lv1_stun</effect-1>
+	<effect-2>Assassin_Assassinate_Decapitation_Lv1_dispel</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_Decapitation_Lv1_E1_02</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<effect-3>Assassin_Common_MoveBlock_700ms</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_Decapitation_Lv1_E2_03</alias>
+	<effect-1>Assassin_Assassinate_Decapitation_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_Decapitation_Lv1_E2_01</alias>
+	<effect-1>Assassin_Assassinate_Decapitation_Lv1_Down</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_Decapitation_Lv1_E2_02</alias>
+	<effect-1>Assassin_Assassinate_Decapitation_Lv1_tumbling</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_LightningKick_Lv1_E1_01</alias>
+	<effect-1>Assassin_Common_MoveBlock_1000ms</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_LightningKick_Lv1_E2_01</alias>
+	<effect-1>Assassin_Assassinate_LightningKick_Lv1_Damage</effect-1>
+	<effect-2>Assassin_Assassinate_LightningKick_dispel</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_LightningKick_Lv1_E2_02</alias>
+	<effect-1>Assassin_Assassinate_LightningKick_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Trampledown_Lv1_E1_01</alias>
+	<effect-1>Assassin_Trampledown_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Trampledown_Lv1_E1_02</alias>
+	<effect-1>Assassin_Common_SwordGage_Charge1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Trampledown_Lv1_E1_03</alias>
+	<effect-1>Assassin_Trampledown_Lv1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_ThunderDrop_Lv1_E1_01</alias>
+	<effect-1>Assassin_Assassinate_ThunderDrop_Lv1_anim</effect-1>
+	<effect-2>Assassin_Assassinate_ThunderDrop_Lv1_dispel</effect-2>
+	<effect-3>Common_SpiderWeb_Dispel</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_ThunderDrop_Lv1_E1_02</alias>
+	<effect-1>Assassin_Assassinate_ThunderDrop_Lv1_buff</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_ThunderDrop_Lv1_E2_01</alias>
+	<effect-1>Assassin_Assassinate_ThunderDrop_Lv1_Down2</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Assassinate_ThunderDrop_Lv1_E2_02</alias>
+	<effect-1>Assassin_Assassinate_ThunderDrop_Lv1_tumbling</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShurikenBomb_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_TimeBomb_Lv1_stun</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40045</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_MistSlash_Lv1_E1_01</alias>
+	<effect-1>15100011</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_MistSlash_Lv1_E1_02</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<effect-3>15000001</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_MistSlash_Lv1_E1_03</alias>
+	<effect-1>15100011</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_DewSlash_Lv1_E1_01</alias>
+	<effect-1>15101011</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_DewSlash_Lv1_E1_02</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<effect-3>15000001</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_DewSlash_Lv1_E1_03</alias>
+	<effect-1>15101011</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_MoonlightSlash_Lv1_E1_01</alias>
+	<effect-1>15102011</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_MoonlightSlash_Lv1_E1_02</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<effect-3>Assassin_Common_SwordGage_Charge2</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_MoonlightSlash_Lv1_E1_03</alias>
+	<effect-1>15102011</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_MistSlash_poison_Lv1_E1_01</alias>
+	<effect-1>15100011</effect-1>
+	<effect-2>Assassin_targetPoison_Lv1</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_DewSlash_poison_Lv1_E1_01</alias>
+	<effect-1>15101011</effect-1>
+	<effect-2>Assassin_targetPoison_Lv1</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_MoonlightSlash_Lv1_poison_E1_01</alias>
+	<effect-1>15102011</effect-1>
+	<effect-2>Assassin_targetPoison_Lv1</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_RcomboCaster_Lv1_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Shuriken_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_Shuriken_Lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_Shuriken_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_Shuriken_Lv1</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Shuriken_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_Shuriken_Lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Shuriken_Lv1_hid_E1_01</alias>
+	<effect-1>Assassin_Disturb_Shuriken_Lv1</effect-1>
+	<effect-2>Assassin_Hide_TimeBomb_Lv1_stun</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Shuriken_Lv1_hid_E1_02</alias>
+	<effect-1>Assassin_Disturb_Shuriken_Lv1_dispel</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_Shuriken_Lv1_hid_E1_01</alias>
+	<effect-1>Assassin_Disturb_Shuriken_Lv1</effect-1>
+	<effect-2>Assassin_Hide_TimeBomb_Lv1_stun</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_Shuriken_Lv1_hid_E1_02</alias>
+	<effect-1>Assassin_Disturb_Shuriken_Lv1_dispel</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SideStep_Lv1_E1_01</alias>
+	<effect-1>15104011</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SideStep_Counter_Lv1_E1_01</alias>
+	<effect-1>15104012</effect-1>
+	<effect-2>15104013</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_BackStep_Lv1_E1_01</alias>
+	<effect-1>15105011</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SideStep_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_SideStep_Lv1_CooltimeFlag</effect-1>
+	<effect-2>Assassin_Disturb_SideStep_Lv1_camerablock</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_Flashbang_Lv1_smokescreen</effect-1>
+	<effect-2>Assassin_Disturb_Flashbang_Lv1_stun</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_Flashbang_Lv1_tumbling</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1_E1_03</alias>
+	<effect-1>Assassin_Disturb_Flashbang_Lv1_tumbling</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1_E1_04</alias>
+	<effect-1>Assassin_Disturb_Flashbang_Lv1_tumbling</effect-1>
+	<skill-result>dodge</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1_E1_05</alias>
+	<effect-1>Assassin_Disturb_Flashbang_Lv1_smokescreen</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1000_E1_06</alias>
+	<effect-1>Assassin_common_dispelKneel</effect-1>
+	<effect-2>Assassin_common_dispelStun</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv0100_E1_06</alias>
+	<effect-1>Assassin_common_burrow-scan</effect-1>
+	<effect-2>Assassin_common_detect-hiding</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1100_E1_06</alias>
+	<effect-1>Assassin_common_dispelKneel</effect-1>
+	<effect-2>Assassin_common_dispelStun</effect-2>
+	<effect-3>Assassin_common_burrow-scan</effect-3>
+	<effect-4>Assassin_common_detect-hiding</effect-4>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1000_E1_07</alias>
+	<effect-1>Assassin_common_dispelKneel</effect-1>
+	<effect-2>Assassin_common_dispelStun</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv0100_E1_07</alias>
+	<effect-1>Assassin_common_burrow-scan</effect-1>
+	<effect-2>Assassin_common_detect-hiding</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Flashbang_Lv1100_E1_07</alias>
+	<effect-1>Assassin_common_dispelKneel</effect-1>
+	<effect-2>Assassin_common_dispelStun</effect-2>
+	<effect-3>Assassin_common_burrow-scan</effect-3>
+	<effect-4>Assassin_common_detect-hiding</effect-4>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SmokeScreen_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_SmokeScreen_Lv1_miss</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SmokeScreen_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_SmokeScreen_Lv1_smokescreen</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SmokeScreen_Lv1_E1_03</alias>
+	<effect-1>Assassin_Disturb_SmokeScreen_Lv1_miss</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonScreen_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_PoisonScreen_Lv1_smokescreen</effect-1>
+	<effect-2>15108012</effect-2>
+	<effect-3>Assassin_targetPoison_Lv1</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonScreen_Lv1_E1_02</alias>
+	<effect-1>Assassin_CasterPoison_Lv1</effect-1>
+	<effect-2>Assassin_Disturb_PoisonScreen_Lv1_miss</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonScreen_Lv1_E1_03</alias>
+	<effect-1>Assassin_Disturb_SmokeScreen_Lv1_miss</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShurikenBurst_Lv1_E1_01</alias>
+	<effect-1>15109011</effect-1>
+	<effect-2>15109012</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShurikenBurst_Lv1_E1_02</alias>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShurikenBurst_Lv1_E1_03</alias>
+	<effect-1>15109011</effect-1>
+	<effect-2>15109012</effect-2>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_HeartStab_Lv1_E1_01</alias>
+	<effect-1>15110011</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_HeartStab_Lv1_E1_02</alias>
+	<effect-1>15110011</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_HeartStab_Lv1_E1_03</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_HeartStab_Lv1_E1_04</alias>
+	<effect-1>Assassin_Disturb_HeartStab_Lv1_poisonexplosion</effect-1>
+	<effect-2>Assassin_Common_poison_dispel</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40051</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_HeartStab_Lv1_poison_E1_01</alias>
+	<effect-1>15110011</effect-1>
+	<effect-2>Assassin_targetPoison_Lv1</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_HeartStab_Lv1_poison_E1_02</alias>
+	<effect-1>15110011</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_HeartStab_Lv1_poison_E1_03</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<effect-3>Assassin_Common_applied_poison_dispel</effect-3>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_WoodBlock_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_WoodBlock_Counter_detection</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_WoodBlock_Counter_Lv1_E1_01</alias>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_WoodBlock_Counter_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_Hide_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Passive</effect-2>
+	<effect-3>Assassin_Common_SwordGage_Charge3</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_WoodBlock_Counter_Lv2010_E1_02</alias>
+	<effect-1>Assassin_Disturb_Hide_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Passive2</effect-2>
+	<effect-3>15000003</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_WoodBlock_Counter_Lv2020_E1_02</alias>
+	<effect-1>Assassin_Disturb_Hide_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Passive3</effect-2>
+	<effect-3>15000003</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_WoodBlock_Counter_Lv2120_E1_02</alias>
+	<effect-1>Assassin_Disturb_Hide_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Passive2</effect-2>
+	<effect-3>15000004</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowSlash_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_ShadowSlash_Lv1_down</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowSlash_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_ShadowSlash_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowSlash_Lv1_E1_03</alias>
+	<effect-1>Assassin_Disturb_ShadowSlash_Lv1_poisonexplosion</effect-1>
+	<effect-2>Assassin_Common_poison_dispel</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40051</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowSlash_Lv1000_E1_01</alias>
+	<effect-1>Assassin_Disturb_ShadowSlash_Lv1_down</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40052</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowSlash_Lv1000_E1_03</alias>
+	<effect-1>Assassin_Disturb_ShadowSlash_Lv1_swoon</effect-1>
+	<effect-2>Assassin_Disturb_ShadowSlash_Lv1_poisonexplosion</effect-2>
+	<effect-3>Assassin_Common_poison_dispel</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40051</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowSlash_Lv1_hid_E2_01</alias>
+	<effect-1>Assassin_Disturb_ShadowSlash_Lv1_caster1</effect-1>
+	<effect-2>Assassin_Disturb_ShadowSlash_Lv1_caster2</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Teleport_Lv1_E1_01</alias>
+	<effect-1>15113011</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Teleport_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_Hide_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Passive</effect-2>
+	<effect-3>Assassin_Common_SwordGage_Charge3</effect-3>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_FeignDeath_Lv1</alias>
+	<effect-1>15114011</effect-1>
+	<effect-2>15114012</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_replacePosition_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_replacePosition_Lv1_change</effect-1>
+	<effect-2>Assassin_Disturb_replacePosition_Lv1_target</effect-2>
+	<effect-3>Assassin_Disturb_replacePosition_Lv1_hate</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_replacePosition_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_replacePosition_Lv1_caster</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_replacePosition_Lv1_E1_03</alias>
+	<effect-1>Assassin_Disturb_replacePosition_Lv1_cancel</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_replacePosition_Lv1_E1_04</alias>
+	<effect-1>Assassin_Disturb_replacePosition_Lv1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_replacePosition_Lv1_E1_05</alias>
+	<effect-1>Assassin_Disturb_replacePosition_Lv1_hate</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>dodge</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_replacePosition_Lv1_E1_06</alias>
+	<effect-1>Assassin_Disturb_replacePosition_Lv1_hate</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_replacePosition_Lv0100_E1_02</alias>
+	<effect-1>Assassin_Disturb_replacePosition_Lv1_RecycleReset</effect-1>
+	<effect-2>Assassin_Disturb_replacePosition_Lv1_caster</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Down_BackStep_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_Down_BackStep_Lv1_dispel</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Down_BackStep_Lv1_E2_01</alias>
+	<effect-1>Assassin_Disturb_Down_BackStep_Lv1_tumbling</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Down_Shadowmove_Lv1_counter_E1_01</alias>
+	<effect-1>15111011</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Down_Shadowmove_Lv1_counter_E1_02</alias>
+	<effect-1>Assassin_Disturb_Down_BackStep_Lv1_dispel</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Stance</effect-2>
+	<effect-3>Assassin_Disturb_Hide_Lv1_Passive</effect-3>
+	<effect-4>15000003</effect-4>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SpineStab_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_SpineStab_Lv1_damage</effect-1>
+	<effect-2>Assassin_Hide_SpineStab_Lv1_stun</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SpineStab_Lv1_E1_02</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SpineStab_Lv1_E1_03</alias>
+	<effect-1>Assassin_Hide_SpineStab_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SpineStab_Lv1000_E1_01</alias>
+	<effect-1>Assassin_Hide_SpineStab_Lv1_damage</effect-1>
+	<effect-2>Assassin_Hide_SpineStab_Lv1_stun2</effect-2>
+	<effect-3>Assassin_Hide_SpineStab_Lv1_SPdamage</effect-3>
+	<effect-4>Assassin_Hide_SpineStab_Lv1_FPdamage</effect-4>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_LowKick_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_LowKick_Lv1_swoon</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_LowKick_Lv1_E1_02</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_LowKick_Lv1_E1_03</alias>
+	<effect-1>Assassin_Hide_LowKick_Lv1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_LowKick_Lv1000_E1_01</alias>
+	<effect-1>Assassin_Hide_LowKick_Lv1_swoon</effect-1>
+	<skill-result>Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_LowKick_Lv1000_E1_04</alias>
+	<effect-1>Assassin_Hide_LowKick_Lv1_swoon</effect-1>
+	<skill-result>Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_MidAir_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_MidAir_Lv1_air</effect-1>
+	<effect-2>Assassin_Hide_MidAir_Lv1_dispel</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_MidAir_Lv1_E1_02</alias>
+	<effect-1>15000012</effect-1>
+	<effect-2>15000011</effect-2>
+	<skill-result>all</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_Ambush_Lv1_E1_01</alias>
+	<effect-1>15204011</effect-1>
+	<effect-2>15204012</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_PoisonSmokeMine_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_PoisonSmokeMine_Lv1_trigger</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_PoisonSmokeMine_Lv1_E1_02</alias>
+	<effect-1>Assassin_targetPoison_Lv1</effect-1>
+	<effect-2>Assassin_Hide_Mine_Lv1_kneel</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40039</target-state-first-filter>
+	<target-state-second-filter>40056</target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Hide_PoisonSmokeMine_Lv1_E1_03</alias>
+	<effect-1>Assassin_targetPoison_Lv1</effect-1>
+	<effect-2>Assassin_Hide_Mine_Lv1_midair-1</effect-2>
+	<effect-3>Assassin_Hide_Mine_Lv1_dispelKneel</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40038</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Hide_PoisonSmokeMine_Lv1_E1_04</alias>
+	<effect-1>Assassin_targetPoison_Lv1</effect-1>
+	<effect-2>Assassin_Hide_Mine_Lv1_midair-1</effect-2>
+	<effect-3>Assassin_Hide_Mine_Lv1_dispelStun</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40055</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Hide_SpreadCaltlop_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_SpreadCaltlop_Lv1_dispel</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SpreadCaltlop_Lv1_E1_02</alias>
+	<effect-1>Assassin_Hide_SpreadCaltlop_Lv1_Damage</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SpreadCaltlop_Lv1_E1_03</alias>
+	<effect-1>Assassin_Hide_SpreadCaltlop_Lv1_Damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SpreadCaltlop_Lv1_trigger</alias>
+	<effect-1>Assassin_Hide_SpreadCaltlop_Lv1_moveblock</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SilverThread_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_SilverThread_Lv1_trigger</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SilverThread_Lv1_E1_02</alias>
+	<effect-1>Assassin_Hide_SilverThread_Lv1_down</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_SilverThread_Lv1_trigger</alias>
+	<effect-1>Assassin_Hide_SilverThread_Lv1_swoon</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_Mine_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_Mine_Lv1_trigger</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_Mine_Lv1_E1_02</alias>
+	<effect-1>Assassin_Hide_Mine_Lv1_down</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_Mine_Lv1_E1_03</alias>
+	<effect-1>Assassin_Hide_Mine_Lv1_midair-1</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40038</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Hide_Mine_Lv1_E1_04</alias>
+	<effect-1>Assassin_Hide_Mine_Lv1_midair-1</effect-1>
+	<effect-2>Assassin_Hide_Mine_Lv1_dispelStun</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40055</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Hide_Mine_Lv1_E1_05</alias>
+	<effect-1>Assassin_Hide_Mine_Lv1_poisonexplosion</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40051</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Hide_Mine_Lv1_E1_06</alias>
+	<effect-1>Assassin_Hide_Mine_Lv1_down</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40039</target-state-first-filter>
+	<target-state-second-filter>40056</target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_Dash_front_Lv1_E1_01</alias>
+	<effect-1>Assassin_Common_SwordGage_Charge1</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_Dash_back_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_Dash_Back_Lv1_hide</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Stance</effect-2>
+	<effect-3>Assassin_Common_SwordGage_Charge3</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_nudge_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_nudge_Lv1_knockback</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_Lv1100_E1_01</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_TimeBomb_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_TimeBomb_Lv1_bomb</effect-1>
+	<effect-2>Assassin_Hide_TimeBomb_Lv1_flag</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_knockback</effect-3>
+	<effect-4>Assassin_Disturb_ShadowPenetration_blockdash</effect-4>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1_E2_01</alias>
+	<effect-1>Assassin_Disturb_Hide_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Disturb_Hide_Lv1_Passive</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1_E1_02</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_knockback</effect-3>
+	<effect-4>Destroyer_HardWall_StanceEffect_stancechange</effect-4>
+	<effect-5>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-5>
+	<effect-6>Assassin_Disturb_ShadowPenetration_blockdash</effect-6>
+	<skill-result>front-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter>50025</target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1_E1_03</alias>
+	<effect-1>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_blockdash</effect-2>
+	<skill-result>front-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter>50024</target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1_E1_04</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_knockback</effect-3>
+	<effect-4>Destroyer_HardWall_StanceEffect_stancechange</effect-4>
+	<effect-5>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-5>
+	<effect-6>Assassin_Disturb_ShadowPenetration_blockdash</effect-6>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter> </target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1_E1_05</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_knockback</effect-3>
+	<effect-4>Assassin_Disturb_ShadowPenetration_blockdash</effect-4>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>30000</target-state-first-filter>
+	<target-state-second-filter>40040</target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1_E1_06</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_knockback</effect-3>
+	<effect-4>Assassin_Disturb_ShadowPenetration_blockdash</effect-4>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1000_E1_01</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_blockdash2</effect-3>
+	<effect-4>Assassin_Disturb_ShadowPenetration_knockback</effect-4>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1000_E1_02</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_knockback</effect-3>
+	<effect-4>Assassin_Disturb_ShadowPenetration_knockback</effect-4>
+	<effect-5>Destroyer_HardWall_StanceEffect_stancechange</effect-5>
+	<effect-6>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-6>
+	<skill-result>front-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter>50025</target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1000_E1_03</alias>
+	<effect-1>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_blockdash2</effect-2>
+	<skill-result>front-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter>50024</target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1000_E1_04</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_knockback</effect-3>
+	<effect-4>Assassin_Disturb_ShadowPenetration_knockback</effect-4>
+	<effect-5>Destroyer_HardWall_StanceEffect_stancechange</effect-5>
+	<effect-6>Destroyer_HardWall_GuardBreaker_Sp_Consume</effect-6>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+	<target-state-second-filter> </target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1000_E1_05</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_knockback</effect-3>
+	<effect-4>Assassin_Disturb_ShadowPenetration_knockback</effect-4>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>30000</target-state-first-filter>
+	<target-state-second-filter>40040</target-state-second-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_ShadowPenetration_Lv1000_E1_06</alias>
+	<effect-1>Assassin_Disturb_ShadowPenetration_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_ShadowPenetration_dispel</effect-2>
+	<effect-3>Assassin_Disturb_ShadowPenetration_blockdash2</effect-3>
+	<effect-4>Assassin_Disturb_ShadowPenetration_knockback</effect-4>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonBreath_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_PoisonBreath_Lv1_damage</effect-1>
+	<effect-2>Assassin_targetPoison_Lv1</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonBreath_Lv1_E1_02</alias>
+	<effect-1>Assassin_CasterPoison_Lv1</effect-1>
+	<effect-2>Assassin_Disturb_PoisonBreath_MoveBlock_300ms</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonBreath_Lv1_E1_03</alias>
+	<effect-1>Assassin_Disturb_PoisonBreath_Lv1_damage</effect-1>
+	<effect-2>Assassin_targetPoison_Lv1</effect-2>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonBreath_Lv1_E2_01</alias>
+	<effect-1>Assassin_Disturb_PoisonBreath_Lv1_damage</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonBreath_Lv1_E2_02</alias>
+	<effect-1>Assassin_Common_applied_poison_dispel</effect-1>
+	<effect-2>Assassin_CasterPoison_Lv1</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonBreath_Lv1_E2_03</alias>
+	<effect-1>Assassin_CasterPoison_Lv1</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonBreath_Lv1_E3_01</alias>
+	<effect-1>Assassin_Disturb_PoisonBreath_Lv1_damage</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonSpider_Lv1_E1_01</alias>
+	<effect-1>Assassin_Disturb_PoisonSpider_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_PoisonSpider_Lv1_blockdefence</effect-2>
+	<effect-3>Assassin_targetPoison_Lv1</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonSpider_Lv1000_E1_01</alias>
+	<effect-1>Assassin_Disturb_PoisonSpider_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_PoisonSpider_Lv1_blockdefence2</effect-2>
+	<effect-3>Assassin_targetPoison_Lv1</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_PoisonSpider_Lv2000_E1_01</alias>
+	<effect-1>Assassin_Disturb_PoisonSpider_Lv1_damage</effect-1>
+	<effect-2>Assassin_Disturb_PoisonSpider_Lv1_blockdefence3</effect-2>
+	<effect-3>Assassin_targetPoison_Lv1</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SummonPoint_Lv1_E1_01</alias>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SummonPoint_Lv1_E2_01</alias>
+	<effect-1>Assassin_Disturb_SummonPoint_Lv1_trigger</effect-1>
+	<effect-2>Assassin_Disturb_SummonPoint_Lv1_rupture</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Disturb_SummonPoint_Lv1_trigger</alias>
+	<effect-1>Assassin_Disturb_SummonPoint_Lv1_knockback</effect-1>
+	<effect-2>Assassin_Disturb_SummonPoint_Lv1_dispel</effect-2>
+	<effect-3>Assassin_Disturb_SummonPoint_Lv1_dispel2</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+	<target-state-first-filter>40050</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_SummonPoint_Lv1_trigger2</alias>
+	<effect-1>Assassin_Disturb_SummonPoint_Lv1_knockback2</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+	<target-state-first-filter>50020</target-state-first-filter>
+</record>
+<record>
+	<alias>Assassin_Disturb_Summon_Lv1_e1_01</alias>
+	<effect-1>Assassin_Disturb_SummonPoint_Lv1_knockback2</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_throw_Lv1_E1_01</alias>
+	<effect-1>Assassin_Hide_throw_Lv1_block</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_throw_Lv1_E1_02</alias>
+	<effect-1>Assassin_Hide_throw_Lv1_tumbling</effect-1>
+	<effect-2>Assassin_Hide_throw_Lv1_block3</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_throw_Lv1_E2_01</alias>
+	<effect-1>Assassin_Hide_Reveal_Lv1_Stance</effect-1>
+	<effect-2>Assassin_Hide_Reveal_Lv1_Reveal</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_throw_Lv1_E3_01</alias>
+	<effect-1>Assassin_Hide_throw_Lv1_knockback3</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Assassin_Hide_throw_Lv1_E4_01</alias>
+	<effect-1>Assassin_Hide_throw_Lv1_knockback</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>

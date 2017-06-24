@@ -1,0 +1,166 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_302" category="epic" completed-desc="q_302_completed" completed-list="y" desc="q_302_sum" grade="1" group2="QG_JeRyoungRimEpic" id="302" name2="Quest.Name2.302">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="3" sort-no="202" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_302_des_1" id="1" location-x="-55504.0508" location-y="-54833.9609" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.302_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="2631_ch_dochunpung_0001" object="npc:ch_dochunpung_0001" progress-mission="y" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-55324.2188" location-y="-54174.5625" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.302_2" required-register-value="7">
+        <text>
+        </text>
+        <case object="npc:mh_chunggak_0002" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_chunggak_0003" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_chunggak_0004" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_chunggak_0011" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_chunggak_0012" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_chunggak_0013" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-1="2631_mh_chunggak_0013" mapunit-2="2631_mh_chunggak_0013_1" object="npc:mh_chunggak_0001" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_302_des_3" id="3" location-x="-55683.8867" location-y="-55373.4648" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.302_3" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_04" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_05" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_06" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_07" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_08" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_09" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_downpoli_10" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case approach-social="q_302_m3_app_2" indicator-social="q_302_m3_indi_2" object="npc:ch_jakyungdan_0004" type="approach" />
+        <text>
+        </text>
+        <case gadget="q_jakyungdana" gadget-required="carry-and-remove" indicator-social="q_302_m3_indi_1" mapunit-1="2631_e_onoff_downpoli_01" mapunit-2="2631_e_onoff_downpoli_01_1" msg="q_302_m3" object="npc:ch_kwakjun_0001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_302_des_4" id="4" location-x="-55324.2188" location-y="-54174.5625" map="mangjasup">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.302_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_302_m4_indi_1" msg="q_302_m4" object="npc:ctzn_jinm_jakyungdan_docheonpung_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="q_302_m4_indi_2" object="npc:CH_NamSoYu_0001" progress-mission="n" type="approach" />
+        <text>
+        </text>
+        <case object="zone:zone_chryoungchn_doctor1" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="500" />
+        <text>
+        </text>
+        <fixed-reward item-count-2="5" job-1="기공사" slot-1="item:weapon_ab_quest_002" slot-2="item:potion_gr2_lv3" />
+        <text>
+        </text>
+        <fixed-reward item-count-2="5" job-1="역사" slot-1="item:weapon_ta_quest_002" slot-2="item:potion_gr2_lv3" />
+        <text>
+        </text>
+        <fixed-reward item-count-2="5" job-1="권사" slot-1="item:weapon_gt_quest_002" slot-2="item:potion_gr2_lv3" />
+        <text>
+        </text>
+        <fixed-reward item-count-2="5" job-1="검사" slot-1="item:weapon_sw_quest_002" slot-2="item:potion_gr2_lv3" />
+        <text>
+        </text>
+        <fixed-reward item-count-2="5" job-1="암살자" slot-1="item:weapon_dg_quest_002" slot-2="item:potion_gr2_lv3" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_chryoungchn_doctor_start">
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_303" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

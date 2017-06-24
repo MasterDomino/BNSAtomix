@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_120" category="normal" grade="1" group2="QG_Gathering" id="120" name2="Quest.Name2.120">
+    <text>
+    </text>
+    <acquisition level="14" production-exp="5" production-id="gathering-type-7" recommended-level="16">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_120_Gather_damped_lumber_1_icon" object="zoneenv:e_onoff_2440tree_01" progress-mission="y" type="manipulate" />
+      <text>
+      </text>
+      <basic-reward production-exp="50" production-id="gathering-type-7" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

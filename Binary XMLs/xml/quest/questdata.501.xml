@@ -1,0 +1,226 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_501" category="epic" completed-desc="q_501_completed" completed-list="y" desc="q_501_sum" grade="1" group2="QG_DaeSaMakEpic" id="501" name2="Quest.Name2.501">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="21" sort-no="301" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-50541.9375" location-y="-53784.9688" map="chungryoung">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.501_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_501_m1_indi_1" msg="q_501_m1" object="npc:ch_andumae_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zoneenv:e_onoff_illusionsmoke_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object="zoneenv:e_onoff_illusionsmoke_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object="zoneenv:e_onoff_illusionsmoke_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object="zoneenv:e_onoff_alonewells_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_3021fence_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object="zoneenv:e_door_3031fence_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-44359.1523" location-y="-62430.625" map="oemalri">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.501_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_501_m2_indi_1" msg="q_501_m2" object="npc:ch_oldman_0002" progress-mission="y" type="talk" visible-object="n" zone="zone_HanSiRangHouse" />
+        <text>
+        </text>
+        <case object="zone:zone_HanSiRangHouse" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="zone:zone_OeToLi_Phase" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case button-text-accept="q_501_m1_ok" button-text-cancel="q_501_m1_no" indicator-social="q_501_m2_re_app_1" msg="q_501_m2_re" object="npc:ch_andumae_0001" progress-mission="reaction-only" type="talk" />
+        <text>
+        </text>
+        <case approach-social="q_501_m2_re_app_1" object="npc:ch_andumae_0001" progress-mission="reaction-only" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-44359.1523" location-y="-62430.625" map="oemalri">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.501_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_501_m3_indi_1" msg="q_501_m3" object="npc:CH_SungGunDang_0007" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HanSiRangHouse" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="zone:zone_OeToLi_Phase" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case approach-social="q_501_m3_app_3" object="npc:ch_unguksoldier_0002" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-46019.3086" location-y="-62567.3438" map="oemalri">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.501_4" required-register-value="1">
+        <text>
+        </text>
+        <case object="zone:zone_HanSiRangHouse" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="zone:zone_OeToLi_Phase" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case mapunit-1="3008_MH_Samagyo_0037" object="npc:mh_samagyo_0037" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case approach-social="q_501_m3_app_1" object="npc:ch_hansirang_0004" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.501_5" required-register-value="5">
+        <text>
+        </text>
+        <case looting="q_501_medic_pill_for_adamantine_1_icon" object="npc:mh_samagyo_0025" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case looting="q_501_medic_pill_for_adamantine_1_icon" mapunit-2="3008_MH_Samagyo_0024" object="npc:mh_samagyo_0024" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case object="zone:zone_HanSiRangHouse" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="zone:zone_OeToLi_Phase" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-44554.4648" location-y="-61942.3438" map="oemalri" zone-1="zone_OeToLi_Phase">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.501_6" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3008_CH_HanSiRang_0003" object="npc:CH_HanSiRang_0003" progress-mission="y" type="npc-manipulate" zone="zone_OeToLi_Phase" />
+        <text>
+        </text>
+        <case object="zone:zone_OeToLi_Phase" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case approach-social="q_501_m3_app_2" object="npc:ch_unguksoldier_0001" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="6" location-x="-44359.1523" location-y="-62430.625" map="oemalri">
+      <text>
+      </text>
+      <mission id="7" name2="Mission.Name2.501_7" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_501_m7_indi_1" msg="q_501_m7" object="npc:CH_UnGukSoldier_001" progress-mission="y" type="talk" zone="zone_HanSiRangHouse" />
+        <text>
+        </text>
+        <case object="zone:zone_HanSiRangHouse" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="1400" money="440" />
+        <text>
+        </text>
+        <case indicator-idle="BK_P_None_Mov_Idle" object="npc:CH_SungGunDang_0007" type="approach" />
+        <text>
+        </text>
+        <case approach-social="q_501_m7_app_3" indicator-idle="M_idle_13" object="npc:ch_unguksoldier_0002" type="approach" />
+        <text>
+        </text>
+        <case approach-social="q_501_m7_app_2" indicator-idle="M_idle_13" object="npc:ch_unguksoldier_0001" type="approach" />
+        <text>
+        </text>
+        <case approach-social="q_501_m7_app_1" indicator-idle="M_idle_02" object="npc:ch_hansirang_0004" type="approach" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos1_gr2_woonkuk_bal_Lv21" slot-2="item:gem_pos1_gr2_woonkuk_shield_Lv21" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_540" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <transit id="1" zone="zone_toemunjean">
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

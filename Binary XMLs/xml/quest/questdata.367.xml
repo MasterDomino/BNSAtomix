@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_367" category="normal" desc="q_367_sum" grade="1" group2="QG_HuekUmmRim" id="367" name2="Quest.Name2.367">
+    <text>
+    </text>
+    <acquisition level="8" preceding-quest-1="q_sub_365" preceding-quest-check="and" recommended-level="10">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_367_s_indi_1" msg="q_367_s" object="npc:ch_pungsusa_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-19237.3184" location-y="-5259.7852" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.367_1" required-register-value="3">
+        <text>
+        </text>
+        <case looting="q_367_Quest_red_ghost_mask_1_icon" mapunit-1="2200_mob_etc_mflt_spctr_ghostmask_001" mapunit-2="2200_mob_etc_mflt_spctr_ghostmask_001_1" object="npc:mob_etc_mflt_spctr_ghostmask_001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-6966.3125" location-y="-10257.0273" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.367_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_367_m2_indi_1" msg="q_367_m2" object="npc:ch_shaman_022" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="250" money="50" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

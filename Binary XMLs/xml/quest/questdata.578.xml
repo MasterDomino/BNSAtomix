@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_578" category="normal" desc="q_578_sum" grade="1" group2="QG_ToMunJinNorth" id="578" name2="Quest.Name2.578">
+    <text>
+    </text>
+    <acquisition level="22" preceding-quest-1="q_epic_506" preceding-quest-check="and" recommended-level="24">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_578_s_indi_1" msg="q_578_s" object="npc:ch_herbalist_006" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-31806.8242" location-y="-58559.293" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.578_1" required-register-value="10">
+        <text>
+        </text>
+        <case mapunit-1="3004_ME_Wolf_0008" mapunit-2="3004_ME_Wolf_0008_1" object="npc:me_wolf_0008" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-38079.5938" location-y="-54654.8164" map="toemunjean">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.578_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_578_m2_indi_1" msg="q_578_m2" object="npc:ch_herbalist_006" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1050" money="440" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

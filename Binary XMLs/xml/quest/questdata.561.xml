@@ -1,0 +1,64 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_561" category="normal" desc="q_561_sum" grade="1" group2="QG_ToMunJinNorth" id="561" name2="Quest.Name2.561">
+    <text>
+    </text>
+    <acquisition level="23" preceding-quest-1="q_epic_507" preceding-quest-check="and" recommended-level="25">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_561_s_indi_1" msg="q_561_s" object="npc:ch_unguksoldier_022" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_561_des_1" id="1" location-x="-19389.3086" location-y="-63679.9219" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.561_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_561_Quest_dog_tag_1_icon" mapunit-1="3004_me_samagyo_0012" object="npc:MH_HwanYeongCho_0004" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case looting="q_561_Quest_dog_tag_1_icon" object="npc:MH_HwanYeongCho_0003" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case looting="q_561_Quest_dog_tag_1_icon" object="npc:MH_HwanYeongCho_0002" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case looting="q_561_Quest_dog_tag_1_icon" mapunit-1="3004_MH_HwanYeongCho_0001" mapunit-2="3004_MH_HwanYeongCho_0002" mapunit-3="3004_MH_HwanYeongCho_0003" mapunit-4="3004_MH_HwanYeongCho_0004" object="npc:MH_HwanYeongCho_0001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-45589.6211" location-y="-63407.1875" map="OeMalRi">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.561_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_561_m2_indi_1" msg="q_561_m2" object="npc:ch_unguksoldier_010" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1100" money="500" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos1_gr2_hwangpoong_bal_Lv25" slot-2="item:gem_pos1_gr2_hwangpoong_sheild_Lv25" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

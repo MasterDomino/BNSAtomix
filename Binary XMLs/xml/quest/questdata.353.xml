@@ -1,0 +1,97 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_353" category="normal" desc="q_353_sum" grade="1" group="제룡림(월영 공동묘지)" group2="QG_WalYoungCemetery" id="353" name="원한은 원한을 낳고 (완)" name2="Quest.Name2.353">
+    <text>
+    </text>
+    <acquisition level="5" preceding-quest-1="q_sub_351" preceding-quest-check="and" recommended-level="7">
+      <text>
+      </text>
+      <case acquire-quest="y" drop-gadget="n" indicator-social="q_353_s_indi_1" msg="q_353_s" object="npc:ctzn_jinm_jakyungdan_sobung_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-36321.6328" location-y="-35891.3164" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name="각토시의 원한령을 불러내어 처치" name2="Mission.Name2.353_1" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="n" indicator-social="q_353_m1_indi_1" msg="q_353_m1" object="npc:ch_dweller_021" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_353_des_2" id="2" location-x="-30626.8477" location-y="-32894.0625" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name="숲속 야영지에 있는 팽만호와 대화" name2="Mission.Name2.353_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_353_m2_indi_1" msg="q_353_m2" object="npc:mob_hmn_mlnd_soul_pdungn_zombie_q_001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget="Q_ClothA" gadget-required="empty" object="zoneenv:e_onoff_ChungCorpse_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget="Q_ClothA" gadget-required="empty" object="zoneenv:e_onoff_ChungCorpse_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget="Q_ClothA" gadget-required="empty" object="zoneenv:e_onoff_ChungCorpse_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget="Q_ClothA" gadget-required="empty" object="zoneenv:e_onoff_ChungCorpse_04" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget="Q_ClothA" gadget-required="empty" object="zoneenv:e_onoff_ChungCorpse_05" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget="Q_ClothA" gadget-required="empty" mapunit-2="2000_e_onoff_ChungCorpse_01" mapunit-3="2000_e_onoff_ChungCorpse_01_1" object="zoneenv:e_onoff_ChungCorpse_06" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_clotha" gadget-required="carry-and-remove" mapunit-1="2000_e_onoff_gaktosi_01" mapunit-2="2000_e_onoff_gaktosi_02" mapunit-3="2000_e_onoff_gaktosi_03" object="zoneenv:e_onoff_gaktosi_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_clotha" gadget-required="carry-and-remove" object="zoneenv:e_onoff_gaktosi_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_clotha" gadget-required="carry-and-remove" object="zoneenv:e_onoff_gaktosi_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-24752.2305" location-y="-30436.3164" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.353_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_353_m3_indi_1" msg="q_353_m3" object="npc:ch_jakyungdan_0010" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="180" money="20" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos5_gr2_jakyung_bal_Lv07" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

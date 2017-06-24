@@ -1,0 +1,82 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_575" category="normal" desc="q_575_sum" grade="4" group2="QG_ToMunJinNorth" id="575" name2="Quest.Name2.575">
+    <text>
+    </text>
+    <acquisition level="22" preceding-quest-1="q_epic_506" preceding-quest-check="and" recommended-level="24">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_575_s_indi_1" msg="q_575_s" object="npc:ch_shaman_025" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-35146.2461" location-y="-77335.25" map="yeogwegul">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.575_1" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="sub_575_zcon" indicator-social="q_575_m1_indi_1" msg="q_575_m1" object="npc:ch_sunggundang_0006" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_Takki_Party" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_575_des_2" id="2" location-x="-36185.3086" location-y="-80944.625" map="yeogwegul">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.575_2" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="sub_575_zcon" mapunit-1="3000_YeoGweGul" object="zone:zone_Takki_Party" progress-mission="y" type="convoy-arrived" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission-step-fail dispose-quest="n" zone-1="zone_Takki_Party">
+        <text>
+        </text>
+        <case convoy="sub_575_zcon" object="zone:zone_Takki_Party" progress-mission="reaction-only" type="convoy-failed" />
+        <text>
+      </text>
+      </mission-step-fail>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_575_des_3" id="3" location-x="-36607.4141" location-y="-70400.7422" map="yeogwegul">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.575_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_575_m3_indi_1" msg="q_575_m3" object="npc:ch_shaman_025" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1850" money="650" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Acc_ear_quest_005" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

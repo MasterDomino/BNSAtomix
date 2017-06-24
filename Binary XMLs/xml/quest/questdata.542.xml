@@ -1,0 +1,64 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_542" category="epic" completed-desc="q_542_completed" completed-list="y" desc="q_542_sum" grade="1" group2="QG_DaeSaMakEpic" id="542" name2="Quest.Name2.542">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="36" sort-no="335" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="34620.6563" location-y="60064.4922" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.542_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_542_m1_indi_1" mapunit-1="3090_Guide_E542" mapunit-2="3090_Guide_E542_1" msg="q_542_m1" object="npc:ch_chungun_0001" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+        </text>
+        <basic-reward exp="1400" money="1300" />
+        <text>
+        </text>
+        <optional-reward job-1="역사" slot-1="item:weapon_ta_quest_019" slot-2="item:weapon_ta_quest_019_01" />
+        <text>
+        </text>
+        <optional-reward job-1="암살자" slot-1="item:weapon_dg_quest_019" slot-2="item:weapon_dg_quest_019_01" />
+        <text>
+        </text>
+        <optional-reward job-1="기공사" slot-1="item:weapon_ab_quest_019" slot-2="item:weapon_ab_quest_019_01" />
+        <text>
+        </text>
+        <optional-reward job-1="권사" slot-1="item:weapon_gt_quest_019" slot-2="item:weapon_gt_quest_019_01" />
+        <text>
+        </text>
+        <optional-reward job-1="검사" slot-1="item:weapon_sw_quest_019" slot-2="item:weapon_sw_quest_019_01" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_534" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <transit id="1" zone="zone_MuChon_Sul_1">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

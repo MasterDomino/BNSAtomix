@@ -1,0 +1,118 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_497" category="epic" completed-desc="q_497_completed" completed-list="y" desc="q_497_sum" grade="1" group2="QG_JeRyoungRimEpic" id="497" name2="Quest.Name2.497">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="20" sort-no="225" />
+    <text>
+    </text>
+    <mission-step desc="q_497_des_1" id="1" location-x="-35766.5703" location-y="62433.3125" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.497_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_497_m1_indi_1" msg="q_497_m1" object="npc:ch_merchantweapon_003" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_497_des_2" id="2" location-x="-35853.8047" location-y="65835.4063" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.497_2" required-register-value="12">
+        <text>
+        </text>
+        <case looting="q_497_Quest_gray_stone_1_icon" mapunit-1="2420_me_rockmonster_001" mapunit-2="2420_me_rockmonster_001_1" object="npc:me_rockmonster_001" progress-mission="y" quest-symbol-drop-prob="80" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-36289.9688" location-y="63392.875" map="songamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.497_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_497_m3_indi_1" msg="q_497_m3" object="npc:ch_merchantweapon_003" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_497_des_4" id="4" location-x="-42288.2188" location-y="64165.8711" map="mangjagul">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.497_4" required-register-value="4">
+        <text>
+        </text>
+        <case looting="q_497_quest_sword_of_deadswordman_1_icon" mapunit-1="2420_mangjagul_e497" mapunit-2="2610_mob_hmn_2legr_mlnd_spctr_pdungn_deadswordman_001" mapunit-3="2610_mob_hmn_2legr_mlnd_spctr_pdungn_deadswordman_001_1" object="npc:mob_hmn_2legr_mlnd_spctr_pdungn_deadswordman_001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-36987.8359" location-y="62258.8477" map="songamdo">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.497_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_497_m5_indi_1" msg="q_497_m5" object="npc:ch_merchantweapon_003" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_497_des_6" id="6" location-x="-34196.375" location-y="63305.6445" map="songamdo">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.497_6" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_497_m6_indi_1" msg="q_497_m6" object="npc:ctzn_jinm_jakyungdan_seomunbeom_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="900" money="300" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:camp_repairkit_lv12" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_319" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,40 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_358" category="normal" desc="q_358_sum" grade="1" group="제룡림(버려진 어촌)" group2="QG_BuryejinECHN" id="358" name="배움은 움직이는 거야" name2="Quest.Name2.358">
+    <text>
+    </text>
+    <acquisition level="7" preceding-quest-1="q_epic_309" preceding-quest-check="and" recommended-level="9">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_358_s_indi_1" msg="q_358_s" object="npc:ch_shaman_021" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-30508.873" location-y="-3538.5156" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name="버려진 어촌 정풍우의 제자 망난자와 대화" name2="Mission.Name2.358_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_358_m1_indi_1" msg="q_358_m1" object="npc:ctzn_jinm_ghost_mangnanja_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="120" money="10" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="1" slot-1="item:Camp_repairKit_Lv12" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_400" category="normal" desc="q_400_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="400" name="심금을 울리는 버섯 (1)" name2="Quest.Name2.400">
+    <text>
+    </text>
+    <acquisition level="15" preceding-quest-1="q_epic_496" preceding-quest-check="and" recommended-level="17">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_400_s_indi_1" msg="q_400_s" object="npc:ch_dweller_029" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-7764.7422" location-y="47080.2852" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name="송암도 암자에 있는 소연신과 대화" name2="Mission.Name2.400_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_400_m2_indi_1" msg="q_400_m2" object="npc:ch_dweller_031" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="490" money="160" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos3_gr2_songlim_sheild_lv17" slot-2="item:gem_pos3_gr2_songlim_bal_lv17" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-7503.0469" location-y="42631.3984" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.400_1" required-register-value="12">
+        <text>
+        </text>
+        <case looting="q_393_quest_gallbladder_1_icon" mapunit-1="2440_Mob_4LegR_MLnd_Spctr_GrassBeast_Green_003" mapunit-2="2440_Mob_4LegR_MLnd_Spctr_GrassBeast_Green_003_1" object="npc:mob_4legr_mlnd_spctr_grassbeast_green_003" progress-mission="y" quest-symbol-drop-prob="80" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,1793 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>Gadget_BombA_Damage_Lv1_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Damage_Lv2_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Damage_Lv3_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_PotA_Damage_Lv1_E1_01</alias>
+	<effect-1>80003</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_PotA_Damage_Lv2_E1_01</alias>
+	<effect-1>80004</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_PotA_Damage_Lv3_E1_01</alias>
+	<effect-1>80005</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_PotA_Damage_Lv4_E1_01</alias>
+	<effect-1>80006</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_ClubA_Damage_Lv1_E1_01</alias>
+	<effect-1>80007</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_ClubA_Damage_Lv2_E1_01</alias>
+	<effect-1>80008</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BowA_Damage_Lv1_E1_01</alias>
+	<effect-1>80009</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_ShortswordA_Damage_Lv1_E1_01</alias>
+	<effect-1>80010</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Healpot_Heal_Lv1_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Gadget_SlowswordA_Damage_Lv1_E1_01</alias>
+	<effect-1>80012</effect-1>
+	<effect-2>80013</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TimebombA_Damage_Lv1_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Gadget_Kangsi_Damage_Lv1_E1_01</alias>
+	<effect-1>80015</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Firewood_Damage_Lv1_E1_01</alias>
+	<effect-1>80016</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Torchlight_Damage_Lv1_E1_01</alias>
+	<effect-1>80017</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_StoneA_Damage_Lv1_E1_01</alias>
+	<effect-1>80018</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA2_Damage_Lv1_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_WaterpotA_Damage_Lv1_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Bone_Damage_Lv1_E1_01</alias>
+	<effect-1>80021</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Sesamepot_Damage_Lv1_E1_01</alias>
+	<effect-1>80022</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Pastepot_Buff_Lv1_E1_01</alias>
+	<effect-1>80023</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Gadget_WaterpotB_Damage_Lv1_E1_01</alias>
+	<effect-1>80024</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_OneHand_BombA_Damage_Lv1_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Test_Rope_stun_Lv1_E1_01</alias>
+	<effect-1>80027</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Test_Rifle_Damage_Lv1_E1_01</alias>
+	<effect-1>80028</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Test_Revolver_Damage_Lv1_E1_01</alias>
+	<effect-1>80029</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_Hades_Lantern_Damage_Lv1_E1_01</alias>
+	<effect-1>80030</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_Ground_SeedA_Damage_Lv1_E1_01</alias>
+	<effect-1>80031</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_YeopSan_BagA_Damage_Lv1_E1_01</alias>
+	<effect-1>80032</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_BombA_Damage_Lv12_E1_01</alias>
+	<effect-1>Gadget_OneHand_BombA_Damage_Lv12</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_RockColum_Damage_Lv28_E1_01</alias>
+	<effect-1>80034</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_DarkCrazyTribeCloth_Lv23_E1_01</alias>
+	<effect-1>80035</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_Lantern_Lv4_E1_01</alias>
+	<effect-1>80036</effect-1>
+	<effect-2>80037</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_TimeBombA_Lv13_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_RopeA_Lv15_E1_01</alias>
+	<effect-1>80040</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_RifleA_Lv15_E1_01</alias>
+	<effect-1>80041</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_RifleA_Lv7_E1_01</alias>
+	<effect-1>80000380</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_TimeBombA_KnockBack_Lv13_E1_01</alias>
+	<effect-1>80000390</effect-1>
+	<effect-2>80000391</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_Sesame_PotA_E1_01</alias>
+	<effect-1>80000400</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_Perilla_PotA_E1_01</alias>
+	<effect-1>80000410</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_PepperA_E1_01</alias>
+	<effect-1>80000420</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_Flash_BangA_E1_01</alias>
+	<effect-1>80000430</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_IronHammerA_E1_01</alias>
+	<effect-1>Gadget_Q_IronHammerA_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_FirewoodB_E1_01</alias>
+	<effect-1>80000450</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_SwordA_E1_01</alias>
+	<effect-1>80000460</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_SwordB_E1_01</alias>
+	<effect-1>80000470</effect-1>
+	<effect-2>80000471</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_PoisonedNeedleA_E1_01</alias>
+	<effect-1>Gadget_Q_PoisonedNeedleA_down</effect-1>
+	<effect-2>Gadget_Q_PoisonedNeedleA_poison</effect-2>
+	<effect-3>Gadget_Q_PoisonedNeedleA_Damage</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_Dark_SwordA_E1_01</alias>
+	<effect-1>Gadget_Q_Dark_SwordA_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_DetecterA_E1_01</alias>
+	<effect-1>Gadget_OneHand_DetecterA_BurrowScan</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_DetecterB_E1_01</alias>
+	<effect-1>Gadget_OneHand_DetecterB_BurrowScan</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_DetecterD_E1_01</alias>
+	<effect-1>Gadget_OneHand_DetecterD_BurrowScan</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_RockA_E1_01</alias>
+	<effect-1>Gadget_OneHand_RockA_stun2</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BomB_PvPvEA_E1_01</alias>
+	<effect-1>Gadget_Q_BomB_PvPvEA_stun</effect-1>
+	<effect-2>Gadget_Q_BomB_PvPvEA_damage</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_DrumA_E1_01</alias>
+	<effect-1>Gadget_Q_Damage_common</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_GourdBottleA_E1_01</alias>
+	<effect-1>Gadget_Q_GourdBottleA_death</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_DarkForce_CrystalA_E1_01</alias>
+	<effect-1>Gadget_Q_DarkForce_CrystalA_death</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_Flash_BangB_E1_01</alias>
+	<effect-1>Gadget_Q_Flash_BangB_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OneHand_PoisonNeedleA_Lv25_E1_01</alias>
+	<effect-1>Gadget_Q_Damage_common</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Shield_All_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Shield_All_defense</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_SwordC_E1_01</alias>
+	<effect-1>Gadget_Q_SwordC_Damage_Lv1</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_FishA</alias>
+	<effect-1>Gadget_Q_FishA_Damage_Lv1</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombB_E1_01</alias>
+	<effect-1>Gadget_Q_Damage_common</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_ShieldA_E1_01</alias>
+	<effect-1>Gadget_Q_ShieldA_defense</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_SkullA_E1_01</alias>
+	<effect-1>Gadget_Q_SkullA_dispel</effect-1>
+	<effect-2>Gadget_Q_SkullA_Stun</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40042</target-state-first-filter>
+</record>
+<record>
+	<alias>Gadget_Q_SkullA_E1_02</alias>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40043</target-state-first-filter>
+</record>
+<record>
+	<alias>Gadget_Q_ChainA_E1_01</alias>
+	<effect-1>Gadget_Q_ChainADamage_Lv1</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombC_E1_01</alias>
+	<effect-1>Gadget_Q_BombC_Damage_Lv1</effect-1>
+	<effect-2>Gadget_Q_BombC_Stun</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv1_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv1_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv1_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv2_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv2_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv2_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv3_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv3_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv3_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv4_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv4_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv4_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv5_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv5_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv5_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv6_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv6_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv6_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv7_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv7_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv7_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv8_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv8_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv8_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv9_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv9_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv9_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv10_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv10_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv10_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv11_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv11_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv11_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv12_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv12_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv12_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv13_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv13_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv13_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv14_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv14_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv14_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv15_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv15_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv15_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv16_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv16_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv16_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv17_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv17_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv17_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv18_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv18_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv18_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv19_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv19_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv19_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv20_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv20_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv20_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv21_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv21_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv21_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv22_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv22_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv22_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv23_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv23_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv23_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv24_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv24_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv24_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv25_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv25_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv25_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv26_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv26_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv26_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv27_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv27_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv27_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv28_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv28_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv28_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv29_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv29_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv29_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv30_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv30_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv30_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv31_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv31_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv31_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv32_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv32_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv32_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv33_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv33_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv33_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv34_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv34_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv34_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv35_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv35_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv35_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv36_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv36_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv36_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv37_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv37_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv37_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv38_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv38_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv38_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv39_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv39_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv39_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv40_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv40_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv40_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv41_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv41_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv41_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv42_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv42_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv42_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv43_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv43_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv43_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv44_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv44_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv44_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv45_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv45_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv45_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv46_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv46_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv46_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv47_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv47_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv47_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv48_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv48_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv48_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv49_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv49_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv49_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TwoHand_Flylizard_LanternA_Lv50_E1_01</alias>
+	<effect-1>Gadget_TwoHand_Flylizard_Lantern_Lv50_damage</effect-1>
+	<effect-2>Gadget_TwoHand_Flylizard_Lantern_Lv50_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_TorchlightC_E1_01</alias>
+	<effect-1>Gadget_Q_TorchlightC_Damage_Lv1</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_TorchlightD_E1_01</alias>
+	<effect-1>Gadget_Q_TorchlightD_Damage_Lv1</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv1_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv1_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv2_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv2_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv3_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv3_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv4_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv4_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv5_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv5_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv6_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv6_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv7_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv7_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv8_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv8_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv9_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv9_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv10_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv10_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv11_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv11_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv12_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv12_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv13_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv13_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv14_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv14_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv15_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv15_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv16_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv16_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv17_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv17_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv18_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv18_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv19_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv19_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv20_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv20_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv21_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv21_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv22_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv22_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv23_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv23_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv24_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv24_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv25_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv25_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv26_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv26_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv27_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv27_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv28_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv28_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv29_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv29_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv30_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv30_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv31_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv31_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv32_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv32_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv33_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv33_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv34_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv34_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv35_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv35_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv36_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv36_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv37_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv37_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv38_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv38_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv39_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv39_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv40_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv40_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv41_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv41_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv42_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv42_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv43_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv43_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv44_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv44_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv45_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv45_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv46_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv46_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv47_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv47_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv48_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv48_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv49_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv49_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv50_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv50_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_BombA_Lv51_E1_01</alias>
+	<effect-1>Gadget_BombA_Lv51_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_SapA_E1_01</alias>
+	<effect-1>Gadget_Q_SapA_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_IronHammerB_E1_01</alias>
+	<effect-1>Gadget_Q_IronHammerB_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Ref_Torchlight_E1_01</alias>
+	<effect-1>Gadget_Ref_Torchlight_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Ref_Torchlight_E1_02</alias>
+	<effect-1>Gadget_Ref_Torchlight_damage2</effect-1>
+	<effect-2>Gadget_Ref_Torchlight_Lv1_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40007</target-state-first-filter>
+</record>
+<record>
+	<alias>Gadget_Ref_OilCask_E1_01</alias>
+	<effect-1>Gadget_Ref_OilCask_oily</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Ref_SorceryBomb_E1_01</alias>
+	<effect-1>Gadget_Ref_SorceryBomb_damage</effect-1>
+	<effect-2>Gadget_Ref_SorceryBomb_midair</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Ref_BiYeon_E1_01</alias>
+	<effect-1>Gadget_Ref_BiYeon_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_WaterPotD_E1_01</alias>
+	<effect-1>Gadget_Q_WaterPotD_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_DaggerA_E1_01</alias>
+	<effect-1>Gadget_Q_DaggerA_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_AxeA_E1_01</alias>
+	<effect-1>Gadget_Q_AxeA_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_ShockBombA_Lv26_E1_01</alias>
+	<effect-1>Gadget_ShockBombA_Lv26_Damage</effect-1>
+	<effect-2>Gadget_ShockBombA_Lv26_midair</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_OilCaskA_Lv24_E1_01</alias>
+	<effect-1>Gadget_OilCaskA_Lv24_Oily</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TorchlightA_Lv24_E1_01</alias>
+	<effect-1>Gadget_Ref_Torchlight_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_TorchlightA_Lv24_E1_02</alias>
+	<effect-1>Gadget_Ref_Torchlight_damage2</effect-1>
+	<effect-2>Gadget_Ref_Torchlight_Lv1_burn</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40007</target-state-first-filter>
+</record>
+<record>
+	<alias>Gadget_BombS_Lv20_E1_01</alias>
+	<effect-1>Gadget_BombS_Lv20_damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_CharmA_E1_01</alias>
+	<effect-1>Gadget_CharmA_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Deadbody_Pest_E1_01</alias>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Deadbody_PestSmall_E1_01</alias>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Deadbody_HolyMushroom_E1_01</alias>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombA_E1_01</alias>
+	<effect-1>Gadget_Q_BombA_Damage</effect-1>
+	<effect-2>Gadget_OneHand_BombA</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_RedBombA_E1_01</alias>
+	<effect-1>Gadget_Q_RedBombA_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BlueBombA_E1_01</alias>
+	<effect-1>Gadget_Q_BlueBombA_Damage</effect-1>
+	<effect-2>Gadget_Q_BlueBombA_Swoon</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_YellowBombA_E1_01</alias>
+	<effect-1>Gadget_Q_YellowBombA_Speeddown</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombC2_E1_01</alias>
+	<effect-1>Gadget_Q_BombC2_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_RifleA_E1_01</alias>
+	<effect-1>Gadget_Q_RifleA_FallDown_Transit</effect-1>
+	<effect-2>Gadget_Q_RifleA_Damage_Transit</effect-2>
+	<effect-3>Gadget_Q_RifleA_DispelBurrow_stack</effect-3>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+	<target-state-first-filter>40054</target-state-first-filter>
+</record>
+<record>
+	<alias>Gadget_Q_RifleA_E1_02</alias>
+	<effect-1>Gadget_Q_RifleA_Shot_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_RockD_E1_01</alias>
+	<effect-1>Gadget_Q_RockD_Damage</effect-1>
+	<effect-2>Gadget_Q_RockD_Stun_ImmuneBreak</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombD_E1_01</alias>
+	<effect-1>Gadget_Q_BombD_Damage</effect-1>
+	<effect-2>Gadget_Q_BombD_Stun</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_RifleB_E1_01</alias>
+	<effect-1>Gadget_Q_RifleB_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombE_E1_01</alias>
+	<effect-1>Gadget_Q_BombE_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_RifleC_E1_01</alias>
+	<effect-1>Gadget_Q_RifleC_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_CrystalA_E1_01</alias>
+	<effect-1>Gadget_Q_CrystalA_Damage</effect-1>
+	<effect-2>Gadget_Q_CrystalA_Salting</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombF_E1_01</alias>
+	<effect-1>Gadget_Q_BombF_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_DaggerB_E1_01</alias>
+	<effect-1>Gadget_Q_DaggerB_Damage</effect-1>
+	<effect-2>Gadget_Q_DaggerB_Berserker</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombG_E1_01</alias>
+	<effect-1>Gadget_Q_BombG_Damage</effect-1>
+	<effect-2>Gadget_Q_BombG_Stun</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_IronHammerC_E1_01</alias>
+	<effect-1>Gadget_Q_IronHammerC_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_DynamiteA_E1_01</alias>
+	<effect-1>Gadget_Q_DynamiteA_Stun</effect-1>
+	<effect-2>Gadget_Q_DynamiteA_DOT</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_GasBombA_E1_01</alias>
+	<effect-1>Gadget_Q_GasBombA_Stun</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_ClubA_E1_01</alias>
+	<effect-1>Gadget_Q_ClubA_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_GourdBottleB_E1_01</alias>
+	<effect-1>Gadget_Q_GourdBottleB_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_BombA_Lv32_E1_01</alias>
+	<effect-1>Gadget_Q_BombA_Lv32_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_RedBombB_E1_01</alias>
+	<effect-1>Gadget_Q_RedBombB_Knockback</effect-1>
+	<effect-2>Gadget_Q_RedBombB_Damage</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_RedMarbleA_E1_01</alias>
+	<effect-1>Gadget_Q_RedMarbleA_Damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>Gadget_Q_DBombA_E1_01</alias>
+	<effect-1>Gadget_Q_DBombA_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>

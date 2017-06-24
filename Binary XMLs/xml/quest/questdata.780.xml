@@ -1,0 +1,58 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_780" category="normal" desc="q_780_sum" grade="1" group2="QG_SaJiSeokRimEast" id="780" name2="Quest.Name2.780">
+    <text>
+    </text>
+    <acquisition level="31" preceding-quest-1="q_epic_526" preceding-quest-check="and" recommended-level="33">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_780_s_indi_1" msg="q_780_s" object="npc:ch_muun_0007" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="46399.492" location-y="-14301.234" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.780_1" required-register-value="8">
+        <text>
+        </text>
+        <case object="npc:me_samagyo_0033" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:ME_Samagyo_0034" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-1="3024_ME_Samagyo_0033" object="npc:ME_Samagyo_0035" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="46704.258" location-y="-19679.109" map="haerimchon">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.780_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_780_m2_indi_1" msg="q_780_m2" object="npc:ch_muun_0007" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1000" money="800" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

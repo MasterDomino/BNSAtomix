@@ -1,0 +1,88 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_788" category="normal" desc="q_788_sum" grade="1" group2="QG_SaJiSeokRimSouth" id="788" name2="Quest.Name2.788">
+    <text>
+    </text>
+    <acquisition level="32" preceding-quest-1="q_epic_528" preceding-quest-check="and" recommended-level="34">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_788_s_indi_1" msg="q_788_s" object="npc:ch_baekmuhan_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="2" location-x="10356.282" location-y="-35960.781" map="hangari">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.788_2" required-register-value="3">
+        <text>
+        </text>
+        <case mapunit-1="3020_e_destroy_baekceramics_01" object="zoneenv:e_destroy_baekceramics_01" object-1="zoneenv:e_destroy_baekceramics_01" object-2="zoneenv:e_destroy_baekceramics_02" object-3="zoneenv:e_destroy_baekceramics_03" progress-mission="y" skill="gadget_q_ironhammerc" type="skill" />
+        <text>
+        </text>
+        <case button-text-accept="q_788_m1_re_ok" button-text-cancel="q_788_m1_re_no" drop-gadget="y" indicator-social="q_788_m1_re_indi_1" msg="q_788_m1_re" object="npc:ch_leebokdol_0001" progress-mission="reaction-only" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="10825.0322" location-y="-37894.375" map="hangari">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.788_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_788_m4_indi_1" msg="q_788_m4" object="npc:ch_gudogong_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="290" money="220" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:TeleportItem_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="1" location-x="11977.377" location-y="-37796.7188" map="hangari">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.788_1" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="y" indicator-social="q_788_m1_indi_1" msg="q_788_m1" object="npc:ch_leebokdol_0001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="10707.845" location-y="-34593.594" map="hangari">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.788_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_788_m3_indi_1" msg="q_788_m3" object="npc:ch_poyeon_0001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

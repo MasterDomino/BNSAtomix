@@ -1,0 +1,831 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-mversion>0.0.0.1</release-mversion>
+	<release-side>client</release-side>
+	<version>0.1</version>
+</table>
+<contextscript>
+	<job>Œ¬</job>
+</contextscript>
+<stance>
+	<link>mount</link>
+	<status>link</status>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>11143</skill>
+</condition>
+<result>
+	<skillbar-1>11143</skillbar-1>
+	<skillbar-2>11116</skillbar-2>
+	<skillbar-3>11136</skillbar-3>
+	<skillbar-4>11114</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>11144</skill>
+</condition>
+<result>
+	<skillbar-1>11144</skillbar-1>
+	<skillbar-2>11116</skillbar-2>
+	<skillbar-3>11136</skillbar-3>
+	<skillbar-4>11114</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<stance>
+	<link>catch</link>
+	<status>linked</status>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<condition>
+	<skill>11506</skill>
+</condition>
+<result>
+	<skillbar-1>11506</skillbar-1>
+	<skillbar-2>501</skillbar-2>
+	<skillbar-3>501</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<decision>
+</decision>
+<result>
+	<skillbar-1>11506</skillbar-1>
+	<skillbar-2>501</skillbar-2>
+	<skillbar-3>501</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<stance>
+	<abnormal-flag>down</abnormal-flag>
+</stance>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<skillbar-1>11510</skillbar-1>
+	<skillbar-2>11132</skillbar-2>
+	<skillbar-3>11138</skillbar-3>
+	<skillbar-4>501</skillbar-4>
+	<skillbar-ui-effect>key-change</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11119</skill>
+</condition>
+<result>
+	<context-1>11119</context-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<stance>11113</stance>
+	<stance-ui-effect>key-change</stance-ui-effect>
+	<tps-context-1>11119</tps-context-1>
+</result>
+<condition>
+	<skill>11113</skill>
+</condition>
+<result>
+	<context-ui-effect>key-change</context-ui-effect>
+	<stance>11113</stance>
+	<stance-ui-effect>key-change</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11218</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11218</skill>
+</condition>
+<result>
+	<context-2>11218</context-2>
+	<context-ui-effect>event</context-ui-effect>
+	<tps-context-2>11218</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11217</skill>
+</condition>
+<result>
+	<context-2>11217</context-2>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-2>11217</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11212</skill>
+</condition>
+<condition>
+	<field>event</field>
+	<skill>11212</skill>
+</condition>
+<result>
+	<context-2>11212</context-2>
+	<context-ui-effect>combo</context-ui-effect>
+	<skillbar-ui-effect>event</skillbar-ui-effect>
+	<tps-context-2>11212</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11102</skill>
+</condition>
+<condition>
+	<field>event</field>
+	<skill>11102</skill>
+</condition>
+<result>
+	<context-2>11102</context-2>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-2>11102</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11003</skill>
+</condition>
+<result>
+	<context-2>11003</context-2>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-2>11003</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11001</skill>
+</condition>
+<result>
+	<context-2>11001</context-2>
+	<context-fallback-1>11600</context-fallback-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-2>11001</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11007</skill>
+</condition>
+<result>
+	<context-1>11007</context-1>
+	<context-fallback-1>11600</context-fallback-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>11007</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11005</skill>
+</condition>
+<result>
+	<context-1>11005</context-1>
+	<context-fallback-1>11600</context-fallback-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>11005</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11101</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11101</skill>
+</condition>
+<result>
+	<context-1>11101</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11101</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11127</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11127</skill>
+</condition>
+<result>
+	<context-1>11127</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11127</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11601</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11601</skill>
+</condition>
+<result>
+	<context-1>11601</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11601</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11602</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11602</skill>
+</condition>
+<result>
+	<context-1>11602</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11602</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11604</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11604</skill>
+</condition>
+<result>
+	<context-1>11604</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11604</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11605</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11605</skill>
+</condition>
+<result>
+	<context-1>11605</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11605</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11607</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11607</skill>
+</condition>
+<result>
+	<context-1>11607</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11607</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11608</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11608</skill>
+</condition>
+<result>
+	<context-1>11608</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11608</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11118</skill>
+</condition>
+<result>
+	<context-ui-effect>key-change</context-ui-effect>
+	<stance>11118</stance>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11508</skill>
+</condition>
+<result>
+	<skillbar-7>11508</skillbar-7>
+	<stance-ui-effect>key-change</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11100</skill>
+</condition>
+<result>
+	<context-1>11100</context-1>
+	<tps-context-1>11100</tps-context-1>
+</result>
+<condition>
+	<skill>11600</skill>
+</condition>
+<result>
+	<context-1>11600</context-1>
+	<tps-context-1>11600</tps-context-1>
+</result>
+<condition>
+	<skill>11603</skill>
+</condition>
+<result>
+	<context-1>11603</context-1>
+	<tps-context-1>11603</tps-context-1>
+</result>
+<condition>
+	<skill>11606</skill>
+</condition>
+<result>
+	<context-1>11606</context-1>
+	<tps-context-1>11606</tps-context-1>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<cmd-key-down>11507</cmd-key-down>
+	<cmd-key-left>11401</cmd-key-left>
+	<cmd-key-right>11400</cmd-key-right>
+	<skillbar-1>11103</skillbar-1>
+	<skillbar-2>11129</skillbar-2>
+	<skillbar-3>11106</skillbar-3>
+	<skillbar-4>11108</skillbar-4>
+	<skillbar-5>11137</skillbar-5>
+	<skillbar-6>11204</skillbar-6>
+	<skillbar-7>11509</skillbar-7>
+	<skillbar-8>11109</skillbar-8>
+	<stance>11112</stance>
+</result>
+<stance>
+	<stance>èÀ</stance>
+	<status>stance</status>
+</stance>
+<layer>
+</layer>
+<condition>
+	<skill>11300</skill>
+</condition>
+<result>
+	<context-1>11300</context-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>11300</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11119</skill>
+</condition>
+<result>
+	<context-1>11119</context-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<stance>11113</stance>
+	<stance-ui-effect>key-change</stance-ui-effect>
+	<tps-context-1>11119</tps-context-1>
+</result>
+<condition>
+	<skill>11113</skill>
+</condition>
+<result>
+	<context-ui-effect>key-change</context-ui-effect>
+	<stance>11113</stance>
+	<stance-ui-effect>key-change</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11007</skill>
+</condition>
+<result>
+	<context-1>11007</context-1>
+	<context-fallback-1>11600</context-fallback-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>11007</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11101</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11101</skill>
+</condition>
+<result>
+	<context-1>11101</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11101</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11127</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11127</skill>
+</condition>
+<result>
+	<context-1>11127</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11127</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11601</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11601</skill>
+</condition>
+<result>
+	<context-1>11601</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11601</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11602</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11602</skill>
+</condition>
+<result>
+	<context-1>11602</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11602</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11604</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11604</skill>
+</condition>
+<result>
+	<context-1>11604</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11604</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11605</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11605</skill>
+</condition>
+<result>
+	<context-1>11605</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11605</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11607</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11607</skill>
+</condition>
+<result>
+	<context-1>11607</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11607</tps-context-1>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11608</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11608</skill>
+</condition>
+<result>
+	<context-1>11608</context-1>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-1>11608</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11111</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11111</skill>
+</condition>
+<result>
+	<skillbar-2>11111</skillbar-2>
+	<skillbar-ui-effect>combo</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11110</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11110</skill>
+</condition>
+<result>
+	<skillbar-8>11110</skillbar-8>
+	<skillbar-ui-effect>combo</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11130</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11130</skill>
+</condition>
+<result>
+	<skillbar-4>11130</skillbar-4>
+	<skillbar-fallback-4>11108</skillbar-fallback-4>
+	<skillbar-ui-effect>combo</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11218</skill>
+</condition>
+<condition>
+	<field>combo</field>
+	<skill>11218</skill>
+</condition>
+<result>
+	<context-2>11218</context-2>
+	<context-ui-effect>event</context-ui-effect>
+	<tps-context-2>11218</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11217</skill>
+</condition>
+<result>
+	<context-2>11217</context-2>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-2>11217</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<field>state</field>
+	<skill>11102</skill>
+</condition>
+<condition>
+	<field>event</field>
+	<skill>11102</skill>
+</condition>
+<result>
+	<context-2>11102</context-2>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-2>11102</tps-context-2>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11212</skill>
+</condition>
+<condition>
+	<field>event</field>
+	<skill>11212</skill>
+</condition>
+<result>
+	<context-2>11212</context-2>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-2>11212</tps-context-2>
+</result>
+<condition>
+	<field>state</field>
+	<skill>11226</skill>
+</condition>
+<condition>
+	<field>event</field>
+	<skill>11226</skill>
+</condition>
+<result>
+	<context-2>11226</context-2>
+	<context-ui-effect>combo</context-ui-effect>
+	<tps-context-2>11226</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11118</skill>
+</condition>
+<result>
+	<context-ui-effect>key-change</context-ui-effect>
+	<stance>11118</stance>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11112</skill>
+</condition>
+<result>
+	<stance>11112</stance>
+	<stance-ui-effect>key-change</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11131</skill>
+</condition>
+<result>
+	<stance>11131</stance>
+	<stance-ui-effect>key-change</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11120</skill>
+</condition>
+<result>
+	<context-1>11120</context-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>11120</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11121</skill>
+</condition>
+<result>
+	<context-1>11121</context-1>
+	<context-2>11122</context-2>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>11121</tps-context-1>
+	<tps-context-2>11122</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11508</skill>
+</condition>
+<result>
+	<skillbar-7>11508</skillbar-7>
+	<stance-ui-effect>key-change</stance-ui-effect>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11107</skill>
+</condition>
+<result>
+	<context-2>11107</context-2>
+	<context-ui-effect>key-change</context-ui-effect>
+	<stance>11112</stance>
+	<stance-ui-effect>key-change</stance-ui-effect>
+	<tps-context-2>11107</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11207</skill>
+</condition>
+<result>
+	<context-2>11207</context-2>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-2>11207</tps-context-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11501</skill>
+</condition>
+<result>
+	<context-1>11501</context-1>
+	<context-ui-effect>key-change</context-ui-effect>
+	<tps-context-1>11501</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11100</skill>
+</condition>
+<result>
+	<context-1>11100</context-1>
+	<tps-context-1>11100</tps-context-1>
+</result>
+<condition>
+	<skill>11600</skill>
+</condition>
+<result>
+	<context-1>11600</context-1>
+	<tps-context-1>11600</tps-context-1>
+</result>
+<condition>
+	<skill>11603</skill>
+</condition>
+<result>
+	<context-1>11603</context-1>
+	<tps-context-1>11603</tps-context-1>
+</result>
+<condition>
+	<skill>11606</skill>
+</condition>
+<result>
+	<context-1>11606</context-1>
+	<tps-context-1>11606</tps-context-1>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11129</skill>
+</condition>
+<result>
+	<skillbar-2>11129</skillbar-2>
+</result>
+<layer>
+</layer>
+<condition>
+	<skill>11124</skill>
+</condition>
+<result>
+	<skillbar-2>11124</skillbar-2>
+</result>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute>ä´</immune-breaker-attribute>
+	<skill>11106</skill>
+</condition>
+<result>
+	<skillbar-3>11106</skillbar-3>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute>0</immune-breaker-attribute>
+	<skill>11204</skill>
+</condition>
+<result>
+	<skillbar-6>11204</skillbar-6>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute> ¼</immune-breaker-attribute>
+	<skill>11108</skill>
+</condition>
+<result>
+	<skillbar-4>11108</skillbar-4>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<decision>
+</decision>
+<condition>
+	<immune-breaker-attribute>4Ç0</immune-breaker-attribute>
+	<skill>11109</skill>
+</condition>
+<result>
+	<skillbar-8>11109</skillbar-8>
+	<skillbar-ui-effect>immune-break</skillbar-ui-effect>
+</result>
+<layer>
+</layer>
+<decision>
+</decision>
+<result>
+	<cmd-key-down>11507</cmd-key-down>
+	<cmd-key-left>11401</cmd-key-left>
+	<cmd-key-right>11400</cmd-key-right>
+	<skillbar-1>11103</skillbar-1>
+	<skillbar-2>11129</skillbar-2>
+	<skillbar-3>11106</skillbar-3>
+	<skillbar-4>11108</skillbar-4>
+	<skillbar-5>11137</skillbar-5>
+	<skillbar-6>11204</skillbar-6>
+	<skillbar-7>11509</skillbar-7>
+	<skillbar-8>11109</skillbar-8>
+	<stance>11112</stance>
+</result>

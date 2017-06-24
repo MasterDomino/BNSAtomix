@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_461" category="normal" desc="q_461_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="461" name="전우를 위하여" name2="Quest.Name2.461">
+    <text>
+    </text>
+    <acquisition level="16" preceding-quest-1="q_epic_316" preceding-quest-check="and" recommended-level="18">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_461_s_indi_1" msg="q_461_s" object="npc:ctzn_jinm_jakyungdan_giljun_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-17971.0156" location-y="37659.1094" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name="붉은 뱀버섯의 갓 획득" name2="Mission.Name2.461_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_461_quest_baemmushroom_cap_1_icon" mapunit-1="2440_mob_etc_mset_spctr_mushroom_snake_001" mapunit-2="2440_mob_etc_mset_spctr_mushroom_snake_001_1" mapunit-3="2440_Mob_Etc_Mset_Spctr_Mushroom_Snake_001_2" object="npc:mob_etc_mset_spctr_mushroom_snake_001" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-16225.127" location-y="54249.6172" map="songrimsa">
+      <text>
+      </text>
+      <mission id="2" name="송림사에 있는 자경단원 길준에게 보고" name2="Mission.Name2.461_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_461_m2_indi_1" msg="q_461_m2" object="npc:ctzn_jinm_jakyungdan_giljun_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="450" money="140" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:dotpotion_gr3_lv18" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

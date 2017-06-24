@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_123" category="normal" grade="1" group2="QG_Gathering" id="123" name2="Quest.Name2.123">
+    <text>
+    </text>
+    <acquisition level="50" production-exp="20" production-id="gathering-type-7" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_123_Gather_oak_lumber_1_icon" object="zoneenv:e_onoff_3004tree_02" type="manipulate" />
+      <text>
+      </text>
+      <basic-reward production-exp="10" production-id="gathering-type-7" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

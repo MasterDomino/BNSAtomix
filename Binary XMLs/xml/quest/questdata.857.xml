@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_857" category="normal" desc="q_857_sum" grade="1" group2="QG_OSaekAmDoWest" id="857" name2="Quest.Name2.857">
+    <text>
+    </text>
+    <acquisition level="33" preceding-quest-1="q_epic_531" preceding-quest-check="and" recommended-level="35">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_857_s_indi_1" msg="q_857_s" object="npc:ch_mayeongganggun_0028" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_857_des_1" id="1" location-x="28584.625" location-y="37681.5977" map="jeolbuktuom">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.857_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_857_Quest_portrait_girl_1_icon" mapunit-1="3070_MH_ORakDang_0025" object="npc:mh_orakdang_0025" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="22207.0977" location-y="49111.3516" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.857_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_857_m2_indi_1" msg="q_857_m2" object="npc:ch_mayeongganggun_0028" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1250" money="1200" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

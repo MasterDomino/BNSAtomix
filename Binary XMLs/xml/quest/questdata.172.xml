@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_172" category="normal" grade="1" group2="QG_Gathering" id="172" name2="Quest.Name2.172">
+    <text>
+    </text>
+    <acquisition level="26" production-exp="100" production-id="gathering-type-4" recommended-level="28">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_172_Gather_lizard_meat_1_icon" object="zoneenv:e_onoff_3010animalcorpse_01" progress-mission="y" type="manipulate" />
+      <text>
+      </text>
+      <basic-reward production-exp="50" production-id="gathering-type-4" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

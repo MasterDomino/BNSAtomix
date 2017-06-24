@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_756" category="normal" desc="q_756_sum" grade="1" group2="QG_SaJiSeokRimSouth" id="756" name2="Quest.Name2.756">
+    <text>
+    </text>
+    <acquisition level="29" preceding-quest-1="q_epic_523" preceding-quest-check="and" recommended-level="31">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_756_s_indi_1" msg="q_756_s" object="npc:ch_pottery_015" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="18581.836" location-y="-25659.1" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.756_1" required-register-value="15">
+        <text>
+        </text>
+        <case object="npc:MH_BokGonPe_0008" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:MH_BokGonPae_0005" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:MH_BokGonPae_0004" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-1="3020_mh_bokgonpe_0008" mapunit-2="3020_mh_bokgonpe_0008_1" mapunit-3="3020_mh_bokgonpe_0008_2" object="npc:MH_BokGonPe_012" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="10864.095" location-y="-36273.281" map="hangari">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.756_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_756_m2_indi_1" msg="q_756_m2" object="npc:ch_pottery_015" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1100" money="780" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

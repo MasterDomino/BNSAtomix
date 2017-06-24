@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_465" category="normal" desc="q_465_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="465" name="질풍노도의 시기" name2="Quest.Name2.465">
+    <text>
+    </text>
+    <acquisition level="16" preceding-quest-1="q_epic_493" preceding-quest-check="and" recommended-level="18">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_465_s_indi_1" msg="q_465_s" object="npc:ch_jakyoungdan_039" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-18320.7832" location-y="35683.7422" map="HeAn_Dun">
+      <text>
+      </text>
+      <mission id="1" name="해안동굴에 있는 까칠한 모래소라의 소라살 획득" name2="Mission.Name2.465_1" required-register-value="9">
+        <text>
+        </text>
+        <case looting="q_465_quest_turban_meat_1_icon" mapunit-1="2440_hean_dun_s465" mapunit-2="2611_mob_etc_mlnd_beast_pdungn_crab_hermit_002" mapunit-3="2611_mob_etc_mlnd_beast_pdungn_crab_hermit_002_1" mapunit-4="2611_mob_etc_mlnd_beast_pdungn_crab_hermit_002_2" mapunit-5="2611_mob_etc_mlnd_beast_pdungn_crab_hermit_002_3" mapunit-6="2611_mob_etc_mlnd_beast_pdungn_crab_hermit_002_4" object="npc:mob_etc_mlnd_beast_pdungn_crab_hermit_002" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-21024.1758" location-y="40276.1016" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name="송암도 해안가에 있는 자경단원 방취아에게 보고" name2="Mission.Name2.465_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_465_m2_indi_1" msg="q_465_m2" object="npc:ch_jakyoungdan_039" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="650" money="210" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

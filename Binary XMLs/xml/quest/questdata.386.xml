@@ -1,0 +1,25 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_386" category="normal" desc="q_386_sum" grade="1" group2="QG_NokMyungCHN" id="386" name2="Quest.Name2.386">
+    <text>
+    </text>
+    <acquisition level="14" preceding-quest-1="q_epic_496" preceding-quest-check="and" recommended-level="16">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_386_s_indi_1" msg="q_386_s" object="npc:ch_faction_0002" type="talk" />
+      <text>
+      </text>
+      <fixed-reward slot-1="item:all_silhouette_01" />
+      <text>
+      </text>
+      <basic-reward exp="140" money="45" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

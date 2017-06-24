@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_147" category="normal" grade="1" group2="QG_Gathering" id="147" name2="Quest.Name2.147">
+    <text>
+    </text>
+    <acquisition level="50" production-exp="20" production-id="gathering-type-1" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_147_Gather_desert_grass_1_icon" object="zoneenv:e_onoff_3004herb_02" type="manipulate" />
+      <text>
+      </text>
+      <fixed-reward production-exp="10" production-id="gathering-type-1" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

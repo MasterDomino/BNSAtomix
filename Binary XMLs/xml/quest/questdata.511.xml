@@ -1,0 +1,202 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_511" category="epic" completed-desc="q_511_completed" completed-list="y" desc="q_511_sum" grade="1" group2="QG_DaeSaMakEpic" id="511" name2="Quest.Name2.511">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="26" sort-no="311" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-67224.1797" location-y="-23102.5625" map="yugachon">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.511_1" required-register-value="1">
+        <text>
+        </text>
+        <case object="zone:zone_YuGaCHN_Musung_2" progress-mission="y" type="enter-zone" />
+        <text>
+        </text>
+        <case mapunit-1="3010_e_onoff_stranepot_01_1" object="zone:zone_YuGaCHN_BaekUn_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0035_indi_1" object="npc:ch_yugachon_0035" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0034_indi_1" object="npc:ch_yugachon_0034" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0032_indi_1" object="npc:ch_yugachon_0032" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-67224.1797" location-y="-23102.5625" map="yugachon">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.511_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_511_m2_indi_1" msg="q_511_m2" object="npc:ch_yugachon_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_YuGaCHN_Musung_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0035_indi_1" object="npc:ch_yugachon_0035" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0034_indi_1" object="npc:ch_yugachon_0034" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0032_indi_1" object="npc:ch_yugachon_0032" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-64216.3672" location-y="-22608.4219" map="yugachon">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.511_3" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_511_Quest_remains_1_icon" mapunit-1="3050_e_onoff_dropscull_01" object="zoneenv:e_onoff_dropscull_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_YuGaCHN_Musung_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0035_indi_1" object="npc:ch_yugachon_0035" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0034_indi_1" object="npc:ch_yugachon_0034" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0032_indi_1" object="npc:ch_yugachon_0032" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-67224.1797" location-y="-23102.5625" map="yugachon">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.511_4" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3053_e_onoff_scullbox_01" object="zoneenv:e_onoff_scullbox_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0035_indi_1" object="npc:ch_yugachon_0035" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0034_indi_1" object="npc:ch_yugachon_0034" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0032_indi_1" object="npc:ch_yugachon_0032" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-67224.1797" location-y="-23102.5625" map="yugachon">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.511_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_511_m5_indi_1" msg="q_511_m5" object="npc:ch_chinchin_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_YuGaCHN_Musung_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="700" money="350" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0035_indi_1" object="npc:ch_yugachon_0035" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0034_indi_1" object="npc:ch_yugachon_0034" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="CH_YuGaChon_0032_indi_1" object="npc:ch_yugachon_0032" type="talk" />
+        <text>
+        </text>
+        <optional-reward job-1="역사" slot-1="item:weapon_ta_quest_016" slot-2="item:weapon_ta_quest_016_01" />
+        <text>
+        </text>
+        <optional-reward job-1="암살자" slot-1="item:weapon_dg_quest_016" slot-2="item:weapon_dg_quest_016_01" />
+        <text>
+        </text>
+        <optional-reward job-1="기공사" slot-1="item:weapon_ab_quest_016" slot-2="item:weapon_ab_quest_016_01" />
+        <text>
+        </text>
+        <optional-reward job-1="권사" slot-1="item:weapon_gt_quest_016" slot-2="item:weapon_gt_quest_016_01" />
+        <text>
+        </text>
+        <optional-reward job-1="검사" slot-1="item:weapon_sw_quest_016" slot-2="item:weapon_sw_quest_016_01" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_YuGaCHN_BaekUn_1">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="2" zone="zone_YuGaCHN_Musung_1">
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_512" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

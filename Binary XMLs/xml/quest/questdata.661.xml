@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_661" category="normal" desc="q_661_sum" grade="1" group2="QG_GoYoSaMak" id="661" name2="Quest.Name2.661">
+    <text>
+    </text>
+    <acquisition level="29" preceding-quest-1="q_epic_521" preceding-quest-check="and" recommended-level="31">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_661_s_indi_1" msg="q_661_s" object="npc:ch_togupa_001" progress-mission="n" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-16834.748" location-y="1618.0728" map="toemungekjan">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.661_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_661_m1_indi_1" msg="q_661_m1" object="npc:ch_dweller_045" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-8396.1875" location-y="3199.3242" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.661_2" required-register-value="15">
+        <text>
+        </text>
+        <case looting="q_661_Quest_darktribe_deco002_1_icon" object="npc:me_darkcrazytribe_0010" progress-mission="y" quest-symbol-drop-prob="75" type="loot" />
+        <text>
+        </text>
+        <case looting="q_661_Quest_darktribe_deco002_1_icon" object="npc:me_darkcrazytribe_0011" progress-mission="y" quest-symbol-drop-prob="75" type="loot" />
+        <text>
+        </text>
+        <case looting="q_661_Quest_darktribe_deco002_1_icon" mapunit-1="3010_ME_DarkCrazyTribe_0010" object="npc:me_darkcrazytribe_0012" progress-mission="y" quest-symbol-drop-prob="75" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="11111.1553" location-y="-16548.5117" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.661_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_661_m3_indi_1" msg="q_661_m3" object="npc:ch_mangnanja_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1100" money="780" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

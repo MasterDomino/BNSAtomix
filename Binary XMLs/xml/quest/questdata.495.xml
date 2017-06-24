@@ -1,0 +1,88 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_495" category="epic" completed-desc="q_495_completed" completed-list="y" desc="q_495_sum" grade="1" group2="QG_JeRyoungRimEpic" id="495" name2="Quest.Name2.495">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="19" sort-no="224" />
+    <text>
+    </text>
+    <mission-step desc="q_495_des_1" id="1" location-x="-18131.0801" location-y="66717.8359" map="GurAmGul">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.495_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_495_m1_indi_1" msg="q_495_m1" object="npc:ch_jakyungdan_0013" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_495_des_2" id="2" location-x="-13687.7207" location-y="64661.1953" map="guramgul">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.495_2" required-register-value="5">
+        <text>
+        </text>
+        <case looting="q_495_Quest_golden_sticky_1_icon" mapunit-1="2420_guramgul_e495" mapunit-2="2622_me_soracrab_002" mapunit-3="2622_me_soracrab_002_1" object="npc:me_soracrab_002" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_495_des_3" id="3" location-x="-15998.2676" location-y="65372.1328" map="GurAmGul">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.495_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_495_m3_indi_1" msg="q_495_m3" object="npc:ch_jakyungdan_0013" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_495_des_4" id="4" location-x="-29136.8555" location-y="64352.4414" map="songamdo">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.495_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_495_m4_indi_1" msg="q_495_m4" object="npc:ctzn_jinm_jakyungdan_seomunbeom_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="500" money="270" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="3" slot-1="item:Quest_Potion_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_497" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

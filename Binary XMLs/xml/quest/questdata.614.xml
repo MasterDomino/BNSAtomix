@@ -1,0 +1,46 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_614" category="normal" desc="q_614_sum" grade="1" group2="QG_HwangPungSaMak" id="614" name2="Quest.Name2.614">
+    <text>
+    </text>
+    <acquisition level="25" preceding-quest-1="q_epic_511" preceding-quest-check="and" recommended-level="27">
+      <text>
+      </text>
+      <case loot-item="Quest_614_1" looting="q_614_Quest_brown_book_1_icon" object="npc:mh_mayeongganggun_0006" type="loot" />
+      <text>
+      </text>
+      <case acquire-quest="y" item="Quest_614_1" msg="q_614_s" type="talk-to-item" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-56780.1797" location-y="-5563.8633" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.614_1" required-register-value="1">
+        <text>
+        </text>
+        <case grocery="Quest_614_1" indicator-social="q_614_m1_indi_1" msg="q_614_m1" object="npc:ch_unguksoldier_009" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="Quest_614_1" />
+        <text>
+        </text>
+        <basic-reward exp="500" money="350" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="Quest_614_1" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

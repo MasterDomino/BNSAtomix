@@ -1,0 +1,67 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_377" category="normal" desc="q_377_sum" grade="1" group="제룡림(흑음림)" group2="QG_HuekUmmRim" id="377" name="멋있지만 쓸모없어" name2="Quest.Name2.377">
+    <text>
+    </text>
+    <acquisition level="11" preceding-quest-1="q_sub_376" preceding-quest-check="and" recommended-level="13">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_377_s_indi_1" msg="q_377_s" object="npc:ctzn_jinm_guntuyang_shm_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-3246.1445" location-y="-6925.5313" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name="결계석에 숯으로 주술 각인" name2="Mission.Name2.377_1" required-register-value="1">
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="2200_e_onoff_stone_01" mapunit-2="2200_e_onoff_stone_02" object="zoneenv:e_onoff_stone_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_stone_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_stone_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_stone_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_stone_05" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-4301.1172" location-y="-10590.1758" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name="흑음림 주술사 군투양에게 보고" name2="Mission.Name2.377_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_377_m2_indi_1" msg="q_377_m2" object="npc:ctzn_jinm_guntuyang_shm_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="130" money="20" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos1_gr2_dokcho_bal_Lv14" slot-2="item:gem_pos1_gr2_dokcho_atk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

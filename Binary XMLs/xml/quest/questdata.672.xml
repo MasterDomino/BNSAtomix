@@ -1,0 +1,97 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_672" category="normal" desc="q_672_sum" grade="1" group2="QG_MaengDokSaMak" id="672" name2="Quest.Name2.672">
+    <text>
+    </text>
+    <acquisition level="32" preceding-quest-1="q_epic_541" preceding-quest-check="and" recommended-level="34">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_672_s_indi_1" msg="q_672_s" object="npc:CH_GangHoIn_0003" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-20329.043" location-y="9258.9766" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.672_1" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_672_1_Quest_hair_growth_solution_manual_1_icon" mapunit-1="3010_e_onoff_dangpigeon_01" object="zoneenv:e_onoff_dangpigeon_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:quest_672_1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-18650.9844" location-y="11030.2617" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.672_2" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_672_2_Quest_hair_growth_solution_manual_1_icon" mapunit-1="3010_e_onoff_pangpigeon_01" object="zoneenv:e_onoff_pangpigeon_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:quest_672_2" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-19490.0117" location-y="15598.3086" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.672_3" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="n" env-looting="q_672_3_Quest_hair_growth_solution_manual_1_icon" mapunit-1="3010_e_onoff_nampigeon_01" object="zoneenv:e_onoff_nampigeon_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:quest_672_3" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-17998.4063" location-y="12987.9961" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.672_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_672_m4_indi_1" msg="q_672_m4" object="npc:ch_dokgomun_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_672_1" item-2="quest_672_2" item-3="quest_672_3" />
+        <text>
+        </text>
+        <basic-reward exp="290" money="220" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="quest_672_1" item-2="quest_672_2" item-3="quest_672_3" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

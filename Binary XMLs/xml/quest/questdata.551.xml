@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_551" category="normal" desc="q_551_sum" grade="1" group2="QG_ToMunJinSouth" id="551" name2="Quest.Name2.551">
+    <text>
+    </text>
+    <acquisition level="19" preceding-quest-1="q_epic_501" preceding-quest-check="and" recommended-level="21">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_551_s_indi_1" msg="q_551_s" object="npc:ch_goboonyeong_0001" type="talk" zone="zone_toemunjean" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-49024.9297" location-y="-67392.375" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.551_1" required-register-value="10">
+        <text>
+        </text>
+        <case looting="q_551_quest_poison_pouch002_1_icon" mapunit-1="3000_ME_IronTurtle_002" mapunit-2="3000_ME_IronTurtle_002_1" mapunit-3="3000_ME_IronTurtle_002_2" object="npc:me_ironturtle_002" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_551_des_2" id="2" location-x="-51905.2813" location-y="-77825.6484" map="toemunjean">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.551_2" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="y" gadget="Q_PerfumeA" gadget-required="empty" mapunit-3="3000_e_onoff_smallpot_01" object="zoneenv:e_onoff_smallpot_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_551_des_3" id="3" location-x="-51905.2813" location-y="-77825.6484" map="toemunjean">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.551_3" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="n" gadget="Q_PerfumeA" gadget-required="carry-and-remove" indicator-social="q_551_m3_indi_1" msg="q_551_m3" object="npc:ch_unguksoldier_014" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="900" money="280" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget="Q_PerfumeA" gadget-required="empty" object="zoneenv:e_onoff_smallpot_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="5" slot-1="item:food_gr3_lv21" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E16FA0F2-BFA3-402E-A99F-45F67B3FF816}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SagaBNS.GameServer</RootNamespace>
+    <AssemblyName>GameServer</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>..\Bin\GameServer.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>..\Bin\GameServer.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>..\SagaBNS.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-client\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotoShop">
+      <HintPath>..\Dependencies\PhotoShop.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActorEventHandlers\NPCEventHandler.cs" />
+    <Compile Include="ActorEventHandlers\PCEventHandler.cs" />
+    <Compile Include="ActorEventHandlers\DummyEventHandler.cs" />
+    <Compile Include="ActorEventHandlers\PortalEventHandler.cs" />
+    <Compile Include="ActorEventHandlers\QuestEventHandler.cs" />
+    <Compile Include="BaGua\BaGuaManager.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="GameServer.cs" />
+    <Compile Include="Effect\EffectManager.cs" />
+    <Compile Include="Item\ItemFactory.cs" />
+    <Compile Include="Item\ItemUpdateMethod.cs" />
+    <Compile Include="Manager\ExperienceManager.cs" />
+    <Compile Include="Manager\GameClientManager.cs" />
+    <Compile Include="Map\ChatArgument.cs" />
+    <Compile Include="Map\HeightMapBuilder.cs" />
+    <Compile Include="Map\Map.cs" />
+    <Compile Include="Map\MapEvents.cs" />
+    <Compile Include="Map\MapInstanceDestoryTask.cs" />
+    <Compile Include="Map\MapManager.cs" />
+    <Compile Include="Map\MoveArgument.cs" />
+    <Compile Include="Map\RespawnPoint.cs" />
+    <Compile Include="Map\UpdateEvent.cs" />
+    <Compile Include="Map\UpdateTypes.cs" />
+    <Compile Include="Map\QuestArgument.cs" />
+    <Compile Include="Network\AccountServer\AccountSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\CharacterServer\CharacterSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\Enum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Actor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.BaGua.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Craft.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Inventory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Item.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Login.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Map.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Party.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Player.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Quest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Skill.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Social.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Teleport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network\Client\GameSession.Trade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NPC\AI\AI.cs" />
+    <Compile Include="NPC\AI\AICommands\Chase.cs" />
+    <Compile Include="NPC\AI\AICommands\IAICommand.cs" />
+    <Compile Include="NPC\AI\AICommands\CommandTypes.cs" />
+    <Compile Include="NPC\AI\AICommands\Attack.cs" />
+    <Compile Include="NPC\AI\AICommands\Move.cs" />
+    <Compile Include="NPC\AI\AIStatus.cs" />
+    <Compile Include="NPC\CampfireSpawnManager.cs" />
+    <Compile Include="NPC\FactionRelation.cs" />
+    <Compile Include="NPC\NPCDataFactory.cs" />
+    <Compile Include="NPC\NPCStore.cs" />
+    <Compile Include="NPC\NPCSpawnManager.cs" />
+    <Compile Include="NPC\SpawnData.cs" />
+    <Compile Include="NPC\FactionRelationFactory.cs" />
+    <Compile Include="NPC\NPCStoreFactory.cs" />
+    <Compile Include="Packets\Client\Actor\CM_ACTOR_MOVEMENT.cs" />
+    <Compile Include="Packets\Client\Actor\CM_PLAYER_RECOVER.cs" />
+    <Compile Include="Packets\Client\Actor\CM_UNKNOWN.cs" />
+    <Compile Include="Packets\Client\Actor\CM_SAVE_UI_SETTING.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_LIST.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_INFO_LIST.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_APPEAR_LIST.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_APPEAR_INFO_LIST.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_UPDATE_LIST.cs" />
+    <Compile Include="Packets\Client\Actor\CM_ACTOR_TURN.cs" />
+    <Compile Include="Packets\Client\Actor\SM_PLAYER_UPDATE_LIST.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_AGGRO.cs" />
+    <Compile Include="Packets\Client\Actor\CM_ACTOR_CORPSE_OPEN.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_CORPSE_ITEM_LIST.cs" />
+    <Compile Include="Packets\Client\Actor\CM_ACTOR_CORPSE_CLOSE.cs" />
+    <Compile Include="Packets\Client\Actor\CM_ACTOR_CORPSE_LOOT.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_CORPSE_OPEN_FAILED.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_CORPSE_CLOSE_RESULT.cs" />
+    <Compile Include="Packets\Client\Actor\CM_PLAYER_REVIVE.cs" />
+    <Compile Include="Packets\Client\Actor\CM_ACTOR_ITEM_PICK_UP.cs" />
+    <Compile Include="Packets\Client\Actor\CM_ACTOR_ITEM_DROP.cs" />
+    <Compile Include="Packets\Client\Actor\CM_ACTOR_CORPSE_PICK_UP.cs" />
+    <Compile Include="Packets\Client\Actor\SM_ACTOR_CORPSE_LOOT_RESULT.cs" />
+    <Compile Include="Packets\Client\BaGua\CM_DECOMPOSE_BAGUA.cs" />
+    <Compile Include="Packets\Client\BaGua\CM_COMPOSE_BAGUA.cs" />
+    <Compile Include="Packets\Client\BaGua\CM_BAGUA_SET_CHANGE.cs" />
+    <Compile Include="Packets\Client\BaGua\CM_BAGUA_SET_REMOVE.cs" />
+    <Compile Include="Packets\Client\BaGua\SM_BAGUA_SET_CHANGE.cs" />
+    <Compile Include="Packets\Client\BaGua\SM_COMPOSE_BAGUA_FAIL.cs" />
+    <Compile Include="Packets\Client\BaGua\SM_BAGUA_SET_REMOVE.cs" />
+    <Compile Include="Packets\Client\Craft\CM_ADD_CRAFT.cs" />
+    <Compile Include="Packets\Client\Craft\CM_DELETE_CRAFT.cs" />
+    <Compile Include="Packets\Client\Craft\SM_ADD_CRAFT.cs" />
+    <Compile Include="Packets\Client\Inventory\CM_EXPAND_INVENTORY.cs" />
+    <Compile Include="Packets\Client\Inventory\SM_EXPAND_INVENTORY.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_EQUIP.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_EXCHANGE.cs" />
+    <Compile Include="Packets\Client\Item\CM_ADD_WEAPON_GEM_SLOT.cs" />
+    <Compile Include="Packets\Client\Item\CM_HAMMER_REPAIR.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_LOAD_INVENTORY.cs" />
+    <Compile Include="Packets\Client\Login\CM_LOGIN_AUCTION_START.cs" />
+    <Compile Include="Packets\Client\Login\SM_LOGIN_AUCTION_START.cs" />
+    <Compile Include="Packets\Client\Login\CM_LOGIN_UNKNOWN1.cs" />
+    <Compile Include="Packets\Client\Login\CM_LOGIN_UNKNOWN2.cs" />
+    <Compile Include="Packets\Client\Login\SM_LOGIN_UNKNOWN1.cs" />
+    <Compile Include="Packets\Client\Login\SM_LOGIN_UNKNOWN2.cs" />
+    <Compile Include="Packets\Client\Quest\CM_QUEST_DROP.cs" />
+    <Compile Include="Packets\Client\Item\SM_ITEM_INFO.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_DROP.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_UNEQUIP.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_USE.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_BUY.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_SELL.cs" />
+    <Compile Include="Packets\Client\Item\SM_ITEM_BUYBACK_LIST.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_BUYBACK.cs" />
+    <Compile Include="Packets\Client\Item\CM_ITEM_MOVE.cs" />
+    <Compile Include="Packets\Client\Login\CM_LOGIN_AUTH.cs" />
+    <Compile Include="Packets\Client\Login\CM_LOGIN_START.cs" />
+    <Compile Include="Packets\Client\Login\CM_CHARACTER_SELECT.cs" />
+    <Compile Include="Packets\Client\Login\SM_CHARACTER_SELECT.cs" />
+    <Compile Include="Packets\Client\Login\SM_LOGIN_INIT.cs" />
+    <Compile Include="Packets\Client\Login\SM_LOGIN_AUTH_RESULT.cs" />
+    <Compile Include="Packets\Client\Login\CM_LOGIN_CHAT_AUTH.cs" />
+    <Compile Include="Packets\Client\Login\SM_LOGIN_CHAT_AUTH.cs" />
+    <Compile Include="Packets\Client\Map\CM_MAP_PORTAL_ENTER.cs" />
+    <Compile Include="Packets\Client\Map\CM_DRAGON_STREAM.cs" />
+    <Compile Include="Packets\Client\Map\SM_MAP_PORTAL_SOME_REPLY.cs" />
+    <Compile Include="Packets\Client\Map\SM_MAP_PORTAL_CANCEL.cs" />
+    <Compile Include="Packets\Client\Map\CM_MAP_PORTAL_SOME_REQUEST.cs" />
+    <Compile Include="Packets\Client\Map\SM_MAP_PORTAL_ACTIVATE.cs" />
+    <Compile Include="Packets\Client\Party\CM_PARTY_INVITE.cs" />
+    <Compile Include="Packets\Client\Party\SM_PARTY_INVITE_FAILED.cs" />
+    <Compile Include="Packets\Client\Party\SM_PARTY_SEND_INVITATION.cs" />
+    <Compile Include="Packets\Client\Party\CM_PARTY_REPLY_INVITATION.cs" />
+    <Compile Include="Packets\Client\Party\SM_PARTY_INFO.cs" />
+    <Compile Include="Packets\Client\Party\CM_PARTY_REPLY_INVITATION_DENIEND.cs" />
+    <Compile Include="Packets\Client\Party\SM_PARTY_MEMBER_LEAVE.cs" />
+    <Compile Include="Packets\Client\Party\SM_PARTY_MEMBER_ONLINE_STATUS.cs" />
+    <Compile Include="Packets\Client\Party\CM_PARTY_GIVE_LEADERSHIP.cs" />
+    <Compile Include="Packets\Client\Party\SM_PARTY_LEADER_CHANGE.cs" />
+    <Compile Include="Packets\Client\Party\CM_PARTY_QUIT.cs" />
+    <Compile Include="Packets\Client\Party\CM_PARTY_KICK.cs" />
+    <Compile Include="Packets\Client\Party\SM_PARTY_MEMBER_UPDATE.cs" />
+    <Compile Include="Packets\Client\Party\CM_PARTY_CHANGE_LOOT_MODE.cs" />
+    <Compile Include="Packets\Client\Party\SM_PARTY_LOOT_MODE_CHANGED.cs" />
+    <Compile Include="Packets\Client\Quest\SM_QUEST_DROP.cs" />
+    <Compile Include="Packets\Client\Quest\SM_QUEST_INFO.cs" />
+    <Compile Include="Packets\Client\Map\SM_MAP_CHANGE_MAP.cs" />
+    <Compile Include="Packets\Client\Map\CM_MAP_LOAD_FINISHED.cs" />
+    <Compile Include="Packets\Client\Map\SM_MAP_LOAD_REPLY.cs" />
+    <Compile Include="Packets\Client\Quest\CM_QUEST_NPC_OPEN.cs" />
+    <Compile Include="Packets\Client\Quest\SM_QUEST_NPC_OPEN.cs" />
+    <Compile Include="Packets\Client\Quest\CM_QUEST_UPDATE_REQUEST.cs" />
+    <Compile Include="Packets\Client\Quest\SM_QUEST_UPDATE.cs" />
+    <Compile Include="Packets\Client\Quest\CM_MAPOBJECT_OPEN.cs" />
+    <Compile Include="Packets\Client\Quest\CM_MAPOBJECT_GET_ITEM.cs" />
+    <Compile Include="Packets\Client\Quest\SM_QUEST_FINISH.cs" />
+    <Compile Include="Packets\Client\Quest\SM_QUEST_NEXT_QUEST.cs" />
+    <Compile Include="Packets\Client\Quest\SM_QUEST_CUTSCENE.cs" />
+    <Compile Include="Packets\Client\Quest\CM_QUEST_LOOT_QUEST_ITEM.cs" />
+    <Compile Include="Packets\Client\Quest\SM_QUEST_HISTORY.cs" />
+    <Compile Include="Packets\Client\Quest\CM_QUEST_ACCEPT.cs" />
+    <Compile Include="Packets\Client\Quest\CM_MAPOBJECT_CLOSE.cs" />
+    <Compile Include="Packets\Client\Quest\CM_MAPOBJECT_INVENTORY_OPEN.cs" />
+    <Compile Include="Packets\Client\Quest\SM_MAPOBJECT_INVENTORY_OPEN.cs" />
+    <Compile Include="Packets\Client\Quest\CM_QUEST_UPDATE_REQUEST_MAPOBJECT.cs" />
+    <Compile Include="Packets\Client\Quest\SM_MAPOBJECT_CLOSE.cs" />
+    <Compile Include="Packets\Client\Skill\CM_SKILL_LOAD.cs" />
+    <Compile Include="Packets\Client\Skill\SM_SKILL_LOAD.cs" />
+    <Compile Include="Packets\Client\Skill\SM_SKILL_ADD.cs" />
+    <Compile Include="Packets\Client\Skill\CM_TARGET_SWITCH.cs" />
+    <Compile Include="Packets\Client\Skill\CM_SKILL_CAST.cs" />
+    <Compile Include="Packets\Client\Skill\SM_SKILL_CAST_RESULT.cs" />
+    <Compile Include="Packets\Client\Skill\CM_SKILL_CAST_COORDINATE.cs" />
+    <Compile Include="Packets\Client\Social\CM_CHAT.cs" />
+    <Compile Include="Packets\Client\Social\CM_TIME_ONLINE_REQUEST.cs" />
+    <Compile Include="Packets\Client\Social\SM_CHAT_RESPONSE.cs" />
+    <Compile Include="Packets\Client\Social\SM_CHAT.cs" />
+    <Compile Include="Packets\Client\Social\SM_SERVER_MESSAGE.cs" />
+    <Compile Include="Packets\Client\Social\CM_HELP_UNSTUCK.cs" />
+    <Compile Include="Packets\Client\Teleport\CM_TELEPORT_REQUEST.cs" />
+    <Compile Include="Packets\Client\Teleport\CM_LOCATION_DISCOVERY.cs" />
+    <Compile Include="Packets\Client\Teleport\CM_LOCATION_LOAD_TELEPORT.cs" />
+    <Compile Include="Packets\Client\Teleport\SM_TELEPORT_REQUEST.cs" />
+    <Compile Include="Packets\Client\Teleport\SM_LOCATION_ADD_TELEPORT.cs" />
+    <Compile Include="Packets\Client\Teleport\SM_LOCATION_LOAD_TELEPORT.cs" />
+    <Compile Include="Packets\Client\Trade\CM_TRADE_INIT.cs" />
+    <Compile Include="Party\PartyManager.cs" />
+    <Compile Include="PC\Status.cs" />
+    <Compile Include="Portal\PortalDataManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quests\QuestDetail.cs" />
+    <Compile Include="Quests\QuestManager.cs" />
+    <Compile Include="Quests\QuestStep.cs" />
+    <Compile Include="Scripting\MapObjectScriptHandler.cs" />
+    <Compile Include="Scripting\NPCScriptHandler.cs" />
+    <Compile Include="Scripting\NPCScriptTask.cs" />
+    <Compile Include="Scripting\ScriptManager.cs" />
+    <Compile Include="Scripting\ScriptTaskExecutor.cs" />
+    <Compile Include="Scripting\ScriptTasks\Chat.cs" />
+    <Compile Include="Scripting\ScriptTasks\Delay.cs" />
+    <Compile Include="Scripting\ScriptTasks\Move.cs" />
+    <Compile Include="Scripting\ScriptTasks\SpawnNPC.cs" />
+    <Compile Include="Scripting\Utils.cs" />
+    <Compile Include="Services\BroadcastService.cs" />
+    <Compile Include="Skills\SkillFactory.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\Additions\Mine.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\Additions\Stealth.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\Additions\Poisening.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\Additions\PoisenCharge.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\Additions\WoodBlock.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\HighHit.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\SpineStab.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\Mine.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\MineExplode.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\Dash.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\PoisenBreath.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\AssassinAttack.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\WoodBlock.cs" />
+    <Compile Include="Skills\SkillHandlers\Assassin\WoodBlockCounter.cs" />
+    <Compile Include="Skills\SkillHandlers\BladeMaster\TurningStrike.cs" />
+    <Compile Include="Skills\SkillHandlers\BladeMaster\Rush.cs" />
+    <Compile Include="Skills\SkillHandlers\BladeMaster\SwordBlocking.cs" />
+    <Compile Include="Skills\SkillHandlers\BladeMaster\CounterAttack.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\Repair.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\Teleport.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\MovementLock.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\ActorDown.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\BonusAddition.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\Stun.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\ActorFrosen.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\Poisen.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\Suicide.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Additions\ActorCatch.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Repair.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\DefaultAttack.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\FoodRecovery.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Dash.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\Teleport.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\PestSuicide.cs" />
+    <Compile Include="Skills\SkillHandlers\Common\PestPoisen.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\Addition\Fire.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\Addition\FireSelf.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\Addition\FrosenSelf.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\Addition\Frosen.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\Addition\Frost.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\FireBall.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\ColdDlast.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\MagneticCatch.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\FrosenBall.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\ThrowTarget.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\EnergyMissile.cs" />
+    <Compile Include="Skills\SkillHandlers\ForceMaster\RapidCooling.cs" />
+    <Compile Include="Skills\SkillHandlers\ISkillHandler.cs" />
+    <Compile Include="Skills\SkillHandlers\KungfuMaster\Additions\CounterEnemy.cs" />
+    <Compile Include="Skills\SkillHandlers\KungfuMaster\Additions\CounterSelf.cs" />
+    <Compile Include="Skills\SkillHandlers\KungfuMaster\LowKick.cs" />
+    <Compile Include="Skills\SkillHandlers\KungfuMaster\JumpPunch.cs" />
+    <Compile Include="Skills\SkillHandlers\KungfuMaster\TakeDown.cs" />
+    <Compile Include="Skills\SkillHandlers\KungfuMaster\Armbar.cs" />
+    <Compile Include="Skills\SkillHandlers\KungfuMaster\CounterEnemy.cs" />
+    <Compile Include="Skills\SkillHandlers\KungfuMaster\Counter.cs" />
+    <Compile Include="Skills\SkillManager.cs" />
+    <Compile Include="Skills\SkillManager.SkillHandlers.cs" />
+    <Compile Include="Skills\SkillManager.SkillAttack.cs" />
+    <Compile Include="Tasks\Actor\SkillCastTask.cs" />
+    <Compile Include="Tasks\Actor\CorpseDeleteTask.cs" />
+    <Compile Include="Tasks\Actor\RespawnTask.cs" />
+    <Compile Include="Tasks\Actor\MapObjRespawnTask.cs" />
+    <Compile Include="Tasks\Actor\ItemDeleteTask.cs" />
+    <Compile Include="Tasks\Player\CombatStatusTask.cs" />
+    <Compile Include="Tasks\Player\HPRegenerationTask.cs" />
+    <Compile Include="Tasks\Player\DieTask.cs" />
+    <Compile Include="Tasks\Player\PartyOfflineTask.cs" />
+    <Compile Include="Tasks\Player\RecoverTask.cs" />
+    <Compile Include="Tasks\Player\ActorItemPickDropTask.cs" />
+    <Compile Include="Tasks\Player\MPRegenerationTask.cs" />
+    <Compile Include="Utils\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{D2F2E853-9897-4261-8B83-1204149102C4}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartEngine.Core\SmartEngine.Core.csproj">
+      <Project>{95d5a697-719f-42dd-8f9a-823f35b0748c}</Project>
+      <Name>SmartEngine.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartEngine.Network\SmartEngine.Network.csproj">
+      <Project>{48a58130-3777-444e-b92d-d7169a7fd75d}</Project>
+      <Name>SmartEngine.Network</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

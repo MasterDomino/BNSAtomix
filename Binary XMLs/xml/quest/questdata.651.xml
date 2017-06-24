@@ -1,0 +1,103 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_651" category="normal" desc="q_651_sum" grade="1" group2="QG_GoYoSaMak" id="651" name2="Quest.Name2.651">
+    <text>
+    </text>
+    <acquisition level="27" preceding-quest-1="q_epic_517" preceding-quest-2="q_sub_644" preceding-quest-check="and" recommended-level="29">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_651_s_indi_1" msg="q_651_s" object="npc:ch_geumeunbang_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-21074.8438" location-y="-2300.9727" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.651_1" required-register-value="3">
+        <text>
+        </text>
+        <case looting="q_651_Quest_red_horn_armor_1_icon" mapunit-1="3010_MH_ORakDang_0024" object="npc:mh_orakdang_0024" progress-mission="y" quest-symbol-drop-prob="50" type="loot" />
+        <text>
+        </text>
+        <case looting="q_651_Quest_red_horn_armor_1_icon" object="npc:mh_orakdang_0042" progress-mission="y" quest-symbol-drop-prob="50" type="loot" />
+        <text>
+        </text>
+        <case looting="q_651_Quest_red_horn_armor_1_icon" object="npc:mh_orakdang_0043" progress-mission="y" quest-symbol-drop-prob="50" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-14549.5918" location-y="3395.4165" map="toemungekjan">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.651_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_651_m2_indi_1" msg="q_651_m2" object="npc:ch_buchaepa_0002" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-14778.1074" location-y="3852.4478" map="toemungekjan">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.651_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_651_m5_indi_1" msg="q_651_m5" object="npc:ch_geumeunbang_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1250" money="650" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-14549.5918" location-y="3395.4165" map="toemungekjan">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.651_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_651_m3_indi_1" msg="q_651_m3" object="npc:ch_buchaepa_0003" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-14549.5918" location-y="3395.4165" map="toemungekjan">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.651_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_651_m4_indi_1" msg="q_651_m4" object="npc:ch_buchaepa_0004" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

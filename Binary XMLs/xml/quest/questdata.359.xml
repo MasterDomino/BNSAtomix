@@ -1,0 +1,82 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_359" category="normal" desc="q_359_sum" grade="1" group="제룡림(충각단 제룡림 전초기지)" group2="QG_ChungGakJunCho" id="359" name="지기의 한" name2="Quest.Name2.359">
+    <text>
+    </text>
+    <acquisition level="7" preceding-quest-1="q_epic_308" preceding-quest-check="and" recommended-level="9">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_359_s_indi_1" msg="q_359_s" object="npc:ctzn_jinm_jakyungdan_wangjinpyeong_foc_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_359_des_1" id="1" location-x="-44653.9922" location-y="-19046.7539" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name="남해함대 수송병 처치" name2="Mission.Name2.359_2" required-register-value="12">
+        <text>
+        </text>
+        <case mapunit-2="2100_Mob_JinM_ChungGak_Plunder_CrsBow_001" mapunit-3="2100_Mob_JinM_ChungGak_Plunder_CrsBow_001_1" mapunit-4="2100_Mob_JinM_ChungGak_Plunder_CrsBow_001_2" object="npc:mob_jinm_chunggak_plunder_crsbow_001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_chunggak_0041" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="3" name="남해함대 상륙병 처치" name2="Mission.Name2.359_3" required-register-value="8">
+        <text>
+        </text>
+        <case object="npc:mob_jinm_chunggak_plunder_sht_001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-5="2100_Mob_JinM_ChungGak_Plunder_Sht_001" mapunit-6="2100_Mob_JinM_ChungGak_Plunder_Sht_001_1" mapunit-7="2100_Mob_JinM_ChungGak_Plunder_Sht_001_2" mapunit-8="2100_Mob_JinM_ChungGak_Plunder_Sht_001_3" object="npc:mh_chunggak_0017" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="1" name="남해함대 매복병 처치" name2="Mission.Name2.359_1" required-register-value="4">
+        <text>
+        </text>
+        <case object="npc:mh_chunggak_0042" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-1="2100_mh_chunggak_0043" mapunit-9="2100_mh_chunggak_0043_1" object="npc:mh_chunggak_0043" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-35662.2344" location-y="-35471.7031" map="mangjasup">
+      <text>
+      </text>
+      <mission id="4" name="소각장에 있는 자경단원 왕진평에게 보고" name2="Mission.Name2.359_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_359_m3_indi_1" msg="q_359_m3" object="npc:ctzn_jinm_jakyungdan_wangjinpyeong_foc_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="300" money="40" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos1_gr2_tanyeon_bal_Lv08" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

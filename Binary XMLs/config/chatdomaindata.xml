@@ -1,0 +1,70 @@
+<table>
+	<release-module>LevelData</release-module>
+	<release-side>client</release-side>
+	<type>chat-domain</type>
+	<version>0.1</version>
+</table>
+<record>
+	<id>1</id>
+	<name2>chatdomain.startzone</name2>
+</record>
+<record>
+	<id>2</id>
+	<name2>chatdomain.jeryoung1</name2>
+</record>
+<record>
+	<id>3</id>
+	<name2>chatdomain.jeryoung2</name2>
+</record>
+<record>
+	<id>4</id>
+	<name2>chatdomain.jeryoung3</name2>
+</record>
+<record>
+	<id>5</id>
+	<name2>chatdomain.jeryoung4</name2>
+</record>
+<record>
+	<id>6</id>
+	<name2>chatdomain.daesamak1</name2>
+</record>
+<record>
+	<id>7</id>
+	<name2>chatdomain.daesamak2</name2>
+</record>
+<record>
+	<id>8</id>
+	<name2>chatdomain.daesamak3</name2>
+</record>
+<record>
+	<id>9</id>
+	<name2>chatdomain.daesamak4</name2>
+</record>
+<record>
+	<id>10</id>
+	<name2>chatdomain.suwal1</name2>
+</record>
+<record>
+	<id>11</id>
+	<name2>chatdomain.suwal2</name2>
+</record>
+<record>
+	<id>12</id>
+	<name2>chatdomain.suwal3</name2>
+</record>
+<record>
+	<id>13</id>
+	<name2>chatdomain.suwal4</name2>
+</record>
+<record>
+	<id>14</id>
+	<name2>chatdomain.suwal5</name2>
+</record>
+<record>
+	<id>15</id>
+	<name2>chatdomain.suwal6</name2>
+</record>
+<record>
+	<id>16</id>
+	<name2>chatdomain.suwal7</name2>
+</record>

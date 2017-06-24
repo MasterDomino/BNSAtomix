@@ -1,0 +1,91 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_408" category="normal" desc="q_408_sum" grade="1" group2="QG_Geoamgol" id="408" name2="Quest.Name2.408">
+    <text>
+    </text>
+    <acquisition level="18" preceding-quest-1="q_sub_406" preceding-quest-check="and" recommended-level="20">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_408_s_indi_1" msg="q_408_s" object="npc:ctzn_jinm_songrimsa_pengilgang_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-33411.2773" location-y="64614.1406" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.408_1" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="y" mapunit-4="2420_e_destroy_rock_04" object="zoneenv:e_destroy_rock_01" progress-mission="reaction-only" type="killed" />
+        <text>
+        </text>
+        <case drop-gadget="y" mapunit-3="2420_e_destroy_rock_03" object="zoneenv:e_destroy_rock_04" progress-mission="reaction-only" type="killed" />
+        <text>
+        </text>
+        <case drop-gadget="y" mapunit-2="2420_e_destroy_rock_02" object="zoneenv:e_destroy_rock_05" progress-mission="reaction-only" type="killed" />
+        <text>
+        </text>
+        <case drop-gadget="y" mapunit-1="2420_e_destroy_rock_01" object="zoneenv:e_destroy_rock_06" progress-mission="reaction-only" type="killed" />
+        <text>
+        </text>
+        <case gadget="q_rocka" gadget-required="carry-and-remove" mapunit-4="2420_e_onoff_tower_01" object="zoneenv:e_onoff_tower_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_rocka" gadget-required="carry-and-remove" object="zoneenv:e_onoff_tower_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="q_rocka" gadget-required="carry-and-remove" object="zoneenv:e_onoff_tower_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" object="zoneenv:e_destroy_rock_02" progress-mission="reaction-only" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="3" location-x="-35592.1055" location-y="64003.5078" map="songamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.408_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_408_m3_indi_1" msg="q_408_m3" object="npc:ctzn_jinm_songrimsa_pengilgang_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="150" money="50" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:teleportitem_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-33847.4414" location-y="64265.2071" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.408_2" required-register-value="1">
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="2420_e_onoff_big_01" object="zoneenv:e_onoff_big_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

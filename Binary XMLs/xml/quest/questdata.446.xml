@@ -1,0 +1,82 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_446" category="normal" desc="q_446_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="446" name2="Quest.Name2.446">
+    <text>
+    </text>
+    <acquisition level="15" preceding-quest-1="q_epic_496" preceding-quest-2="q_sub_447" preceding-quest-check="and" recommended-level="17">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_446_s_indi_1" msg="q_446_s" object="npc:ch_shaman_030" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_446_des_1" id="1" location-x="-7764.7422" location-y="46120.7188" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name="변질된 목장승에 부적 부착" name2="Mission.Name2.446_1" required-register-value="2">
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_05" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="2440_e_onoff_jangsung_01" object="zoneenv:e_onoff_jangsung_06" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_07" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_08" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_09" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_jangsung_10" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_446_des_2" id="2" location-x="-7764.7422" location-y="47080.2852" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name="송암도에 있는 만금당 선교옥에게 보고" name2="Mission.Name2.446_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_446_m2_indi_1" msg="q_446_m2" object="npc:ch_shaman_030" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="120" money="40" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:teleportitem_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

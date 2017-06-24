@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_769" category="normal" desc="q_769_sum" grade="1" group2="QG_HeukChangJokSaWon" id="769" name2="Quest.Name2.769">
+    <text>
+    </text>
+    <acquisition level="30" preceding-quest-1="q_epic_525" preceding-quest-2="q_sub_768" preceding-quest-check="and" recommended-level="32">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_769_s_indi_1" msg="q_769_s" object="npc:ch_researcher_0002" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="45427.695" location-y="-35862.953" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.769_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_769_Quest_black_ball_1_icon" mapunit-1="3023_me_darkcrazytribe_0003" object="npc:me_darkcrazytribe_0003" object-1="npc:me_darkcrazytribe_0028" progress-mission="y" skill="gadget_q_poisonedneedlea" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="44577.375" location-y="-42604.789" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.769_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_769_m3_indi_1" msg="q_769_m3" object="npc:ch_researcher_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="550" money="400" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos6_gr2_sajiseoklim_bal_Lv32" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="44577.375" location-y="-42604.789" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.769_2" required-register-value="1">
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="3023_e_onoff_macannon_01" object="zoneenv:e_onoff_macannon_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case approach-social="q_769_m3_app_1" object="npc:ch_researcher_0002" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

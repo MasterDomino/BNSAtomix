@@ -1,0 +1,844 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>MH_BladeMaster_Batto_acceleration_Q_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_acceleration_Q_speedup</effect-1>
+	<effect-2>MH_BladeMaster_Batto_acceleration_Q_dispel</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_batto_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_batto_damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_batto_LV1_Kneel</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_batto_Q_Damage0_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<target>target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_counterattack_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_counterattack_LV1_Dodge</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_full_moon_slash_damagePLUS</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_Fast1_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_Fast1_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_Fast1_LV1_E1_p</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_Fast1_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_Fast2_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_Fast2_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_Fast2_LV1_E1_p</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_Fast2_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_LV1_E1_p</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_LV1_Q_01</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_LV1_Q_Damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_full_moon_slash_LV1_Q_powerup</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_LV1_Q_p</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_LV1_Q_Damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_full_moon_slash_LV1_Q_powerup</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_LV2_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_LV2_damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_full_moon_slash_LV2_damagePLUS</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_full_moon_slash_LV3_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_LV3_damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_full_moon_slash_LV3_damagePLUS</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_impact_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_Damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_impact_Cast_Cancel</effect-2>
+	<effect-3>MH_BladeMaster_Batto_impact_Slient</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_impact_E1_02</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_Stun</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_impact_LV2_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_LV2_Damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_impact_LV2_Cast_Cancel</effect-2>
+	<effect-3>MH_BladeMaster_Batto_impact_LV2_Slient</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_impact_LV2_E1_02</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_LV2_Stun</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_impact_LV3_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_LV3_Damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_impact_LV3_Cast_Cancel</effect-2>
+	<effect-3>MH_BladeMaster_Batto_impact_LV3_Slient</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_impact_LV3_E1_02</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_LV3_Stun</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_light_of_velocity_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_light_of_velocity_speedattack</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_light_of_velocity_Q_Damage0_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<target>target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_mach_slash_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_mach_slash_speedattack</effect-1>
+	<effect-2>MH_BladeMaster_Batto_mach_slash_bleeding</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_mach_slash_LV2_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_light_of_velocity_LV2_speedattack</effect-1>
+	<effect-2>MH_BladeMaster_Batto_light_of_velocity_LV2_bleeding</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_mach_slash_LV3_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_light_of_velocity_LV3_speedattack</effect-1>
+	<effect-2>MH_BladeMaster_Batto_light_of_velocity_LV3_bleeding</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_Pierce_Short_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_Pierce_Short_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_Pierce_Short_LV1_E1_02</alias>
+	<effect-1>10211013</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_Pierce_Short_LV1_E1_03</alias>
+	<effect-1>MH_BladeMaster_Batto_Lv1_Stance_Change</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_Pierce_Short_LV1_E1_P</alias>
+	<effect-1>MH_BladeMaster_Batto_Pierce_Short_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_rush_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_rush_stun</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_rush_Q_E1_01</alias>
+	<individual-probability>n</individual-probability>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_blocking_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_blocking_parry</effect-1>
+	<effect-2>MH_BladeMaster_Sword_blocking_defense</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_blood_wind_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_blood_wind_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_blood_wind_E1_p</alias>
+	<effect-1>MH_BladeMaster_Sword_blood_wind_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_blood_wind_Q_Damage0_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<target>target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_crescent_slash_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_crescent_slash_damage</effect-1>
+	<effect-2>MH_BladeMaster_Sword_crescent_slash_down</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_crescent_slash_LV2_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_crescent_slash_LV2_damage</effect-1>
+	<effect-2>MH_BladeMaster_Sword_crescent_slash_LV2_down</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_crescent_slash_LV3_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_crescent_slash_LV3_damage</effect-1>
+	<effect-2>MH_BladeMaster_Sword_crescent_slash_LV3_down</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_crescent_slash_Q_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_crescent_slash_Q_stun</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_crescent_slash_Q_E2_01</alias>
+	<effect-1>MH_BladeMaster_Sword_crescent_slash_Q_heal</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_flying_swallow_sword_Q_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_flying_swallow_sword_Q_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_flying_swallow_sword_Q_E1_p</alias>
+	<effect-1>MH_BladeMaster_Sword_flying_swallow_sword_Q_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_FrontKick_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_FrontKick_LV1_stagger</effect-1>
+	<effect-2>MH_BladeMaster_Sword_FrontKick_LV1_Knockback</effect-2>
+	<effect-3>MH_BladeMaster_Sword_FrontKick_LV1_Damage</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+	<target-state-first-filter>5400</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_FrontKick_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Sword_FrontKick_LV1_stagger</effect-1>
+	<effect-2>MH_BladeMaster_Sword_FrontKick_LV1_Knockback</effect-2>
+	<effect-3>MH_BladeMaster_Sword_FrontKick_LV1_Damage</effect-3>
+	<effect-4>Destroyer_HardWall_StanceEffect_stancechange</effect-4>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+	<target-state-first-filter>5200</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_FrontKick_LV1_E1_03</alias>
+	<effect-1>MH_BladeMaster_Sword_FrontKick_LV1_stagger</effect-1>
+	<effect-2>MH_BladeMaster_Sword_FrontKick_LV1_Knockback</effect-2>
+	<effect-3>MH_BladeMaster_Sword_FrontKick_LV1_Damage</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+	<target-state-first-filter>30000</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_FrontKick_LV1_E1_04</alias>
+	<effect-1>MH_BladeMaster_Sword_FrontKick_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_FrontKick_LV1_E1_05</alias>
+	<effect-1>MH_BladeMaster_Sword_FrontKick_LV1_stagger</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_FrontKick_LV1_E1_06</alias>
+	<effect-1>MH_BladeMaster_Sword_FrontKick_LV1_stagger</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_impact_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_LV1_Damage</effect-1>
+	<effect-2>10126012</effect-2>
+	<effect-3>10126013</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_impact_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>back-Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_impact_LV1_E1_p</alias>
+	<effect-1>MH_BladeMaster_Batto_impact_LV1_Damage</effect-1>
+	<effect-2>10126012</effect-2>
+	<effect-3>10126013</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Push_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_Push_LV1_Knockback</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Push_LV1_E1_p</alias>
+	<effect-1>MH_BladeMaster_Sword_Push_LV1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_rush_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_rush_LV1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_rush_LV1_E1_p</alias>
+	<effect-1>MH_BladeMaster_Sword_rush_LV1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Rushing_Wind_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_Rushing_Wind_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Rushing_Wind_E1_02</alias>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Rushing_Wind_E1_p</alias>
+	<effect-1>MH_BladeMaster_Sword_Rushing_Wind_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Rushing_Wind_Q_Damage0_E1_01</alias>
+	<individual-probability>n</individual-probability>
+	<target>target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_stab_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_stab_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_stab_LV1_E1_p</alias>
+	<effect-1>MH_BladeMaster_Sword_stab_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_stamp_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_stamp_LV1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_stamp_LV1_E1_p</alias>
+	<effect-1>MH_BladeMaster_Sword_stamp_LV1_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_storm_wind_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_storm_wind_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_storm_wind_LV2_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_storm_wind_LV2_damage</effect-1>
+	<effect-2>MH_BladeMaster_Sword_storm_wind_LV2_injury</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_storm_wind_LV3_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_storm_wind_LV3_damage</effect-1>
+	<effect-2>MH_BladeMaster_Sword_storm_wind_LV3_injury</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_triple_slash_Q_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_triple_slash_Q_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_triple_slash_Q_E2_01</alias>
+	<effect-1>MH_BladeMaster_Sword_triple_slash_Q_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_triple_slash_Q_E3_01</alias>
+	<effect-1>MH_BladeMaster_Sword_triple_slash_Q_damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_triple_slash_Q_E4_01</alias>
+	<effect-1>MH_BladeMaster_Sword_triple_slash_Q_stun</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_turning_strike_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_turning_strike_LV1_Damage</effect-1>
+	<effect-2>MH_BladeMaster_Sword_turning_strike_LV1_Down</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_turning_strike_LV1_E1_P</alias>
+	<effect-1>MH_BladeMaster_Sword_turning_strike_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_upper_slash_LV2_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV2_damage</effect-1>
+	<effect-2>MH_BladeMaster_Sword_upper_slash_LV2_air</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_upper_slash_LV3_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV3_damage</effect-1>
+	<effect-2>MH_BladeMaster_Sword_upper_slash_LV3_air</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_crippling_cut_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_crippling_cut_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_back_dash_LV1</alias>
+	<effect-1>MH_BladeMaster_Batto_Back_Dash_LV1_Tumbling</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_full_moon_slash_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_full_moon_slash_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Batto_full_moon_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_counterattack_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_counterattack_LV1_Dodge</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_flying_swallow_sword_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_flying_swallow_sword_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_flying_swallow_sword_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Sword_flying_swallow_sword_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_upper_slash_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV1_MidAir</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+	<target-state-first-filter>40015</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_upper_slash_E1_02</alias>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV1_MidAir</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+	<target-state-first-filter>40027</target-state-first-filter>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_upper_slash_E1_03</alias>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+	<target-state-first-filter>40016</target-state-first-filter>
+	<target-state-second-filter>40028</target-state-second-filter>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_upper_slash_E1_04</alias>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_upper_slash_E1_05</alias>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV1_MidAir</effect-1>
+	<skill-result>back-hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_stamp_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_stamp_LV1_Damage</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_stamp_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Sword_stamp_LV1_Damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_back_dash_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_Back_Dash_LV1_Tumbling</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_rush_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_rush_LV1_damage</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_rush_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Sword_rush_LV1_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_crescent_slash_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_crescent_slash_LV1_Damage</effect-1>
+	<effect-2>MH_BladeMaster_Batto_crescent_slash_LV2_Down</effect-2>
+	<effect-3>MH_BladeMaster_Batto_crescent_slash_LV2_Speed</effect-3>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_crescent_slash_E1_02</alias>
+	<effect-1>MH_BladeMaster_Batto_crescent_slash_LV1_Damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_six_combo_air_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_air_six_combo_slash_LV1_midair</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_six_combo_air_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Batto_air_six_combo_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_six_combo_slash_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Batto_six_combo_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Batto_six_combo_slash_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Batto_six_combo_slash_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Upper_ShoulderCharge_LV1_E1_01</alias>
+	<effect-1>MH_BladeMaster_Sword_Upper_ShoulderCharge_LV1_Knockback</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Upper_ShoulderCharge_LV1_E1_02</alias>
+	<effect-1>MH_BladeMaster_Sword_Upper_ShoulderCharge_LV1_Damage</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>second-target</target>
+	<target-state>Enemy</target-state>
+</record>
+<record>
+	<alias>MH_BladeMaster_Sword_Upper_ShoulderCharge_LV1_E1_03</alias>
+	<effect-1>MH_BladeMaster_Sword_Upper_ShoulderCharge_LV1_Knockbackdash</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV1_MidAir</effect-1>
+</record>
+<record>
+	<effect-1>MH_BladeMaster_Sword_upper_slash_LV1_Damage</effect-1>
+</record>

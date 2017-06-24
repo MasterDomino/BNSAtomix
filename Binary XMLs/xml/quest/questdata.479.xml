@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_479" category="normal" desc="q_479_sum" grade="1" group2="QG_Geoamgol" id="479" name2="Quest.Name2.479">
+    <text>
+    </text>
+    <acquisition level="18" preceding-quest-1="q_sub_485" preceding-quest-check="and" recommended-level="20">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_479_s_indi_1" msg="q_479_s" object="npc:ch_merchantcharm_002" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-33411.2773" location-y="64614.1406" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.479_1" required-register-value="5">
+        <text>
+        </text>
+        <case looting="q_479_grocery_torn_reed_hat_1_icon" mapunit-1="2420_mob_hmn_2legr_mlnd_specter_deadswordman_001" mapunit-2="2420_mob_hmn_2legr_mlnd_specter_deadswordman_001_1" object="npc:mob_hmn_2legr_mlnd_specter_deadswordman_001" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-33585.7422" location-y="63654.5742" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.479_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_479_m2_indi_1" msg="q_479_m2" object="npc:ch_merchantcharm_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="600" money="200" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

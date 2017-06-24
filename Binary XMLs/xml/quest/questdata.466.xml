@@ -1,0 +1,76 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_466" category="normal" desc="q_466_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="466" name="숨어있는 도끼파 소탕" name2="Quest.Name2.466">
+    <text>
+    </text>
+    <acquisition level="16" preceding-quest-1="q_epic_493" preceding-quest-check="and" recommended-level="18">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_466_s_indi_1" msg="q_466_s" object="npc:ch_jakyoungdan_040" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-18320.7832" location-y="35683.7422" map="HeAn_Dun">
+      <text>
+      </text>
+      <mission id="1" name="도끼파 전문 날강도 처치" name2="Mission.Name2.466_1" required-register-value="10">
+        <text>
+        </text>
+        <case mapunit-1="2440_hean_dun_s466(1)" mapunit-3="2611_mob_hmn_mlnd_bman_pdungn_hangari_003" mapunit-4="2611_mob_hmn_mlnd_bman_pdungn_hangari_003_1" mapunit-5="2611_mob_hmn_mlnd_bman_pdungn_hangari_003_2" mapunit-6="2611_mob_hmn_mlnd_bman_pdungn_hangari_003_3" object="npc:mob_hmn_mlnd_bman_pdungn_hangari_003" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name="도끼파 전문 사기꾼 처치" name2="Mission.Name2.466_2" required-register-value="10">
+        <text>
+        </text>
+        <case mapunit-10="2611_mob_hmn_mlnd_bman_pdungn_hangari_002_3" mapunit-2="2440_hean_dun_s466(2)" mapunit-7="2611_mob_hmn_mlnd_bman_pdungn_hangari_002" mapunit-8="2611_mob_hmn_mlnd_bman_pdungn_hangari_002_1" mapunit-9="2611_mob_hmn_mlnd_bman_pdungn_hangari_002_2" object="npc:mob_hmn_mlnd_bman_pdungn_hangari_002" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-21024.1758" location-y="40276.1016" map="songamdo">
+      <text>
+      </text>
+      <mission id="3" name="송암도 해안가에 있는 자경단원 방노산에게 보고" name2="Mission.Name2.466_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_466_m3_indi_1" msg="q_466_m3" object="npc:ch_jakyoungdan_040" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="3" location-x="-16225.127" location-y="54249.6172" map="songrimsa">
+      <text>
+      </text>
+      <mission id="4" name="송림사에 있는 자경단원 맹도성과 대화" name2="Mission.Name2.466_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_466_m4_indi_1" msg="q_466_m4" object="npc:ch_jakyoungdan_037" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="650" money="210" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

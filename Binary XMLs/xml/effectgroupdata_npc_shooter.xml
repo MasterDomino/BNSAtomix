@@ -1,0 +1,84 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>MH_Shooter_Rifle_Curtain_Fire_E1_01</alias>
+	<effect-1>MH_Shooter_Rifle_Curtain_Fire_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_Piercing_shot_E1_01</alias>
+	<effect-1>MH_Shooter_Rifle_Piercing_shot_damage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_Piercing_shot_Q_E1_01</alias>
+	<effect-1>MH_Shooter_Rifle_Piercing_shot_knockback</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_reload_E1_01</alias>
+	<effect-1>MH_Shooter_Rifle_reload</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>caster</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_sharpshooting_E1_01</alias>
+	<effect-1>MH_Shooter_Rifle_sharpshooting_RangeDamage</effect-1>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_Suppressing_Fire_E1_01</alias>
+	<effect-1>MH_Shooter_Rifle_Suppressing_Fire_damage</effect-1>
+	<effect-2>MH_Shooter_Rifle_Suppressing_Fire_speeddown</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_Curtain_Fire_E1_p</alias>
+	<effect-1>MH_Shooter_Rifle_Curtain_Fire_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_Piercing_shot_E1_p</alias>
+	<effect-1>MH_Shooter_Rifle_Piercing_shot_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_Piercing_shot_Q_E1_p</alias>
+	<effect-1>MH_Shooter_Rifle_Piercing_shot_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_sharpshooting_E1_p</alias>
+	<effect-1>MH_Shooter_Rifle_sharpshooting_RangeDamage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-target</target>
+	<target-state>enemy</target-state>
+</record>
+<record>
+	<alias>MH_Shooter_Rifle_Suppressing_Fire_E1_p</alias>
+	<effect-1>MH_Shooter_Rifle_Suppressing_Fire_damage</effect-1>
+	<skill-result>parry-perfect-parry-counter</skill-result>
+	<target>first-second-target</target>
+	<target-state>enemy</target-state>
+</record>

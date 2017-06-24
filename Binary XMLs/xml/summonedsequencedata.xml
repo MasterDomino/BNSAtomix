@@ -1,0 +1,62 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>summoned-sequence</type>
+	<version>0.3</version>
+</table>
+<summoned-sequence>
+	<alias>seq_tanker_g1</alias>
+</summoned-sequence>
+<melee>
+	<margin>20</margin>
+</melee>
+<action>
+	<type>select</type>
+</action>
+<action>
+	<prob>50</prob>
+	<skill>1</skill>
+	<type>use-indexed-skill</type>
+</action>
+<action>
+	<prob>50</prob>
+	<skill>2</skill>
+	<type>use-indexed-skill</type>
+</action>
+<range>
+	<margin>250</margin>
+</range>
+<action>
+	<skill>3</skill>
+	<type>use-indexed-skill</type>
+</action>
+<summoned-sequence>
+	<alias>seq_bomber_g1</alias>
+</summoned-sequence>
+<melee>
+	<margin>20</margin>
+</melee>
+<action>
+	<skill>1</skill>
+	<type>use-indexed-skill</type>
+</action>
+<summoned-sequence>
+	<alias>seq_rick_g1</alias>
+</summoned-sequence>
+<melee>
+	<margin>20</margin>
+</melee>
+<action>
+	<skill>1</skill>
+	<type>use-indexed-skill</type>
+</action>
+<summoned-sequence>
+	<alias>seq_worm_g1</alias>
+</summoned-sequence>
+<melee>
+	<margin>70</margin>
+</melee>
+<action>
+	<skill>1</skill>
+	<type>use-indexed-skill</type>
+</action>

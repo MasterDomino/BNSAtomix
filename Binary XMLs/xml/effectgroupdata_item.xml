@@ -1,0 +1,1352 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>effect-group</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>Item_Potion_BladeMaterSPHeal_lv1_E1_01</alias>
+	<effect-1>Item_Potion_BladeMaterSPHeal_lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_KungFuMasterSPHeal_lv1_E1_01</alias>
+	<effect-1>Item_Potion_KungFuMasterSPHeal_lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_ForceMasterFPHeal_lv1_E1_01</alias>
+	<effect-1>Item_Potion_ForceMasterFPHeal_lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_DestroyerSPHeal_lv1_E1_01</alias>
+	<effect-1>Item_Potion_DestroyerSPHeal_lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_BladeMaterSPHeal_lv2_E1_01</alias>
+	<effect-1>Item_Potion_BladeMaterSPHeal_lv2</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_KungFuMasterSPHeal_lv2_E1_01</alias>
+	<effect-1>Item_Potion_KungFuMasterSPHeal_lv2</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_ForceMasterFPHeal_lv2_E1_01</alias>
+	<effect-1>Item_Potion_ForceMasterFPHeal_lv2</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_DestroyerSPHeal_lv2_E1_01</alias>
+	<effect-1>Item_Potion_DestroyerSPHeal_lv2</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv1_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv1_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv6_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv6_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv11_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv11_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv16_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv16_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv21_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv21_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Ramen_Lv1_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Ramen_Lv1_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Ramen_Lv6_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Ramen_Lv6_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Ramen_Lv11_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Ramen_Lv11_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Ramen_Lv16_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Ramen_Lv16_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Ramen_Lv21_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Ramen_Lv21_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv1_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv1</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv6_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv6</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv11_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv11</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv16_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv16</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv21_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv21</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv26_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv26</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv31_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv31</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv36_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv36</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv41_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv41</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpHeal_Lv46_E1_01</alias>
+	<effect-1>Item_Potion_HpHeal_Lv46</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_ChRyoungCHN_E1_01</alias>
+	<effect-1>Item_Warp_ChRyoungCHN</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_NokMyungCHN_E1_01</alias>
+	<effect-1>Item_Warp_NokMyungCHN</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_SongRimSa_E1_01</alias>
+	<effect-1>Item_Warp_SongRimSa</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_3000_E1_01</alias>
+	<effect-1>Item_Warp_3000_1</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_3010_1_E1_01</alias>
+	<effect-1>Item_Warp_3010_1</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_3010_2_E1_01</alias>
+	<effect-1>Item_Warp_3010_3</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_3020_E1_01</alias>
+	<effect-1>Item_Warp_3020_1</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_3030_E1_01</alias>
+	<effect-1>Item_Warp_3030_1</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_YuGaChon_E1_01</alias>
+	<effect-1>Item_Warp_YuGaChon</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_ToeMun_E1_01</alias>
+	<effect-1>Item_Warp_ToeMun</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_ChocSeoRu_E1_01</alias>
+	<effect-1>Item_Warp_ChocSeoRu</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_JinHanGeneral_E1_01</alias>
+	<effect-1>Item_Warp_JinHanGeneral</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_DalSaem_E1_01</alias>
+	<effect-1>Item_Warp_DalSaem</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_HiKiKoMoRiMaul_E1_01</alias>
+	<effect-1>Item_Warp_HiKiKoMoRiMaul</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_GunWunSeongDo_E1_01</alias>
+	<effect-1>Item_Warp_GunWunSeongDo</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_HangARiGongBang_E1_01</alias>
+	<effect-1>Item_Warp_HangARiGongBang</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_JinWiGwan_E1_01</alias>
+	<effect-1>Item_Warp_JinWiGwan</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_HeaRimChon_E1_01</alias>
+	<effect-1>Item_Warp_HeaRimChon</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_HoeRangChon_E1_01</alias>
+	<effect-1>Item_Warp_HoeRangChon</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_DalGokChon_E1_01</alias>
+	<effect-1>Item_Warp_DalGokChon</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Warp_BbyeoMuDum_E1_01</alias>
+	<effect-1>Item_Warp_BbyeoMuDum</effect-1>
+	<effect-2>Item_Warp_casting_bindingskillstep_Lv1</effect-2>
+	<effect-3>Item_Warp_Skill_Cancel_Lv1</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Scroll_Atk_Lv1_E1_01</alias>
+	<effect-1>Item_Scroll_Atk_Lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Scroll_Cri_Lv1_E1_01</alias>
+	<effect-1>Item_Scroll_Cri_Lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Scroll_Def_Lv1_E1_01</alias>
+	<effect-1>Item_Scroll_Def_Lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv26_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv26_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv31_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv31_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv36_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv36_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv41_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv41_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv46_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv46_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Mandu_Lv51_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Mandu_Lv51_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Remen_Lv26_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Remen_Lv26_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Remen_Lv31_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Remen_Lv31_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Remen_Lv36_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Remen_Lv36_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Remen_Lv41_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Remen_Lv41_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Remen_Lv46_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Remen_Lv46_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Regen_Default_Remen_Lv51_E1_01</alias>
+	<effect-1>Item_Food_Regen_Default_Remen_Lv51_HP</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv1_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv1</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv6_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv6</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv11_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv11</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv16_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv16</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv21_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv21</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv26_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv26</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv31_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv31</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv36_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv36</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv41_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv41</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_FpHeal_Lv46_E1_01</alias>
+	<effect-1>Item_Potion_FpHeal_Lv46</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_HpFpHeal_Lv16_E1_01</alias>
+	<effect-1>Item_potion_HpFpHeal_Lv16</effect-1>
+	<effect-2>Item_potion_HpFpHeal_Lv16_01</effect-2>
+	<effect-3>Item_Potion_Heal_DodgeParryImmune</effect-3>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Movespeedup_Lv1_E1_01</alias>
+	<effect-1>Item_Potion_Movespeedup_Lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Common_Resurrection_Action_E1_01</alias>
+	<effect-1>Item_Potion_Resurrection_360</effect-1>
+	<effect-2>Item_Potion_Resurrection_360_blockact</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>all</target-state>
+</record>
+<record>
+	<alias>Common_Resurrection_Action2_E1_01</alias>
+	<effect-1>Item_Potion_Resurrection_360</effect-1>
+	<effect-2>Item_Potion_Resurrection_360_blockact</effect-2>
+	<skill-result>hit-critical-hit</skill-result>
+	<target>second-target</target>
+	<target-state>friend</target-state>
+</record>
+<record>
+	<alias>Item_Food_Dispel_F1_01</alias>
+	<effect-1>Item_Food_Dispel</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv1_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv1</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv4_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv4</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv7_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv7</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv10_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv10</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv13_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv13</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv16_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv16</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv19_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv19</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv22_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv22</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv25_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv25</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv28_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv28</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv31_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv31</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv34_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv34</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv37_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv37</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv40_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv40</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv43_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv43</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv46_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv46</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv49_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv49</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Lv52_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Lv52</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Low_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Low</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv1_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv1</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv7_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv7</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv13_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv13</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv19_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv19</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv25_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv25</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv31_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv31</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv37_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv37</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv43_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv43</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv49_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv49</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Hp_Lv55_E1_01</alias>
+	<effect-1>Effect_Item_potion_Hp_Lv55</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Low_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Low</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv1_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv1</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv7_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv7</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv13_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv13</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv19_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv19</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv25_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv25</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv31_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv31</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv37_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv37</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv43_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv43</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv49_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv49</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_potion_Fp_Lv55_E1_01</alias>
+	<effect-1>Effect_Item_potion_Fp_Lv55</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>QuestID_321_reward_E1_01</alias>
+	<effect-1>Effect_QuestID_321_reward</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>QuestID_338_reward_E1_01</alias>
+	<effect-1>Effect_QuestID_338_reward</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>QuestID_428_reward_E1_01</alias>
+	<effect-1>Effect_QuestID_428_reward</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>QuestID_456_reward_E1_01</alias>
+	<effect-1>Effect_QuestID_456_reward</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>New_Item_Food_Gro_Lv4_001_E1_01</alias>
+	<effect-1>Effect_New_Item_Food_Gro_Lv4_001</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>New_Item_Food_Gro_Lv1_001_E1_01</alias>
+	<effect-1>Effect_New_Item_Food_Gro_Lv1_001</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>New_Item_Food_Gro_Lv1_002_E1_01</alias>
+	<effect-1>Effect_New_Item_Food_Gro_Lv1_002</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>New_Item_Food_Gro_Lv3_001_E1_01</alias>
+	<effect-1>Effect_New_Item_Food_Gro_Lv3_001</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>New_Item_Poison_dispel_001_E1_01</alias>
+	<effect-1>Effect_New_Item_Poison_dispel_001</effect-1>
+	<individual-probability>n</individual-probability>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv3_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv3</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv6_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv6</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv9_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv9</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv12_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv12</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv15_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv15</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv18_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv18</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv21_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv21</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv24_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv24</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv27_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv27</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv30_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv30</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv33_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv33</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv36_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv36</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv39_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv39</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv42_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv42</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv45_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv45</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr3_Lv48_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr3_Lv48</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr2_Lv3_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr2_Lv3</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr2_Lv9_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr2_Lv9</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr2_Lv15_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr2_Lv15</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr2_Lv21_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr2_Lv21</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr2_Lv27_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr2_Lv27</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr2_Lv33_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr2_Lv33</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr2_Lv39_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr2_Lv39</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Normal_Gr2_Lv45_E1_01</alias>
+	<effect-1>Effect_Item_Food_Normal_Gr2_Lv45</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv3_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv3</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv9_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv9</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv15_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv15</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv21_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv21</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv27_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv27</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv33_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv33</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv39_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv39</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv45_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv45</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr3_Lv50_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr3_Lv50</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv3_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv3</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv9_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv9</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv15_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv15</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv21_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv21</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv27_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv27</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv33_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv33</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv39_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv39</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv45_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv45</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Hp_Gr2_Lv50_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Hp_Gr2_Lv50</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_DotPotion_Hp_Gr2_Lv6_E1_01</alias>
+	<effect-1>Effect_Item_DotPotion_Hp_Gr2_Lv6</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_DotPotion_Hp_Gr2_Lv12_E1_01</alias>
+	<effect-1>Effect_Item_DotPotion_Hp_Gr2_Lv12</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_DotPotion_Hp_Gr2_Lv18_E1_01</alias>
+	<effect-1>Effect_Item_DotPotion_Hp_Gr2_Lv18</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_DotPotion_Hp_Gr2_Lv24_E1_01</alias>
+	<effect-1>Effect_Item_DotPotion_Hp_Gr2_Lv24</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_DotPotion_Hp_Gr2_Lv30_E1_01</alias>
+	<effect-1>Effect_Item_DotPotion_Hp_Gr2_Lv30</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_DotPotion_Hp_Gr2_Lv36_E1_01</alias>
+	<effect-1>Effect_Item_DotPotion_Hp_Gr2_Lv36</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_DotPotion_Hp_Gr2_Lv42_E1_01</alias>
+	<effect-1>Effect_Item_DotPotion_Hp_Gr2_Lv42</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_DotPotion_Hp_Gr2_Lv48_E1_01</alias>
+	<effect-1>Effect_Item_DotPotion_Hp_Gr2_Lv48</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Medic_Pill_for_Adamantine_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Medic_Pill_for_Adamantine</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Potion_Quest_arrowroot-ball_E1_01</alias>
+	<effect-1>Effect_Item_Potion_Quest_arrowroot-ball</effect-1>
+	<effect-2>Item_Potion_Heal_DodgeParryImmune</effect-2>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Quest_753_food_E1_01</alias>
+	<effect-1>Effect_Item_Food_Quest_753_food</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Quest_blue_ball_E1_01</alias>
+	<effect-1>Effect_Item_Food_Quest_blue_ball</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Quest_570_food_E1_01</alias>
+	<effect-1>Effect_Item_Food_Quest_570_food</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>
+<record>
+	<alias>Item_Food_Quest_766_food_E1_01</alias>
+	<effect-1>Effect_Item_Food_Quest_766_food</effect-1>
+	<skill-result>Hit-Critical-Hit</skill-result>
+	<target>first-target</target>
+</record>

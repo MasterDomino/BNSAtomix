@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_132" category="normal" grade="1" group2="QG_Gathering" id="132" name2="Quest.Name2.132">
+    <text>
+    </text>
+    <acquisition level="14" production-exp="10" production-id="gathering-type-6" recommended-level="16">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_132_Gather_small_gemstone_1_icon" object="zoneenv:e_onoff_2440gemstone_01" progress-mission="y" type="manipulate" />
+      <text>
+      </text>
+      <basic-reward production-exp="50" production-id="gathering-type-6" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

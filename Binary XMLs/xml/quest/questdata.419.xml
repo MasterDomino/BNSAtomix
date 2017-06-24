@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_419" category="normal" desc="q_419_sum" grade="1" group="제룡림(흑음림)" group2="QG_HuekUmmRim" id="419" name="흑채" name2="Quest.Name2.419">
+    <text>
+    </text>
+    <acquisition level="11" preceding-quest-1="q_sub_378" preceding-quest-check="and" recommended-level="13">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_419_s_indi_1" msg="q_419_s" object="npc:ch_dweller_027" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-6472.3301" location-y="4365.0728" map="KyeIeHan_Dun">
+      <text>
+      </text>
+      <mission id="1" name="검은안개 역병충의 수액 획득" name2="Mission.Name2.419_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_419_Quest_black_sticky_1_icon" mapunit-1="2200_kyeiehan_dun_s419" mapunit-2="2620_me_pest_008" mapunit-3="2620_me_pest_008_1" mapunit-4="2620_me_pest_008_2" mapunit-5="2620_me_pest_008_3" object="npc:me_pest_008" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-5689.2422" location-y="-8369.1797" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name="흑음림 숯 가마터의 탄연방 곡운에게 보고" name2="Mission.Name2.419_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_419_m2_indi_1" msg="q_419_m2" object="npc:ch_dweller_027" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="520" money="120" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

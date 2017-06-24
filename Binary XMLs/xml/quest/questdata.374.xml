@@ -1,0 +1,82 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_374" category="normal" desc="q_374_sum" grade="1" group="제룡림(흑음림)" group2="QG_HuekUmmRim" id="374" name="버섯 캐는 협객 (완)" name2="Quest.Name2.374">
+    <text>
+    </text>
+    <acquisition level="9" preceding-quest-1="q_sub_372" preceding-quest-check="and" recommended-level="11">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_374_s_indi_1" msg="q_374_s" object="npc:ctzn_jinf_cheongryeongctzn_millyeona_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-10804.8438" location-y="-288.0049" map="UnSin_Dun">
+      <text>
+      </text>
+      <mission id="1" name="버섯 꾸러미 습득" name2="Mission.Name2.374_1" required-register-value="5">
+        <text>
+        </text>
+        <case env-looting="q_374_Quest_mushroom_packet_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mushrob_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_374_Quest_mushroom_packet_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mushrob_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_374_Quest_mushroom_packet_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mushrob_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_374_Quest_mushroom_packet_1_icon" gadget-required="empty" object="zoneenv:e_onoff_mushrob_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_374_Quest_mushroom_packet_1_icon" gadget-required="empty" mapunit-1="2200_unsin_dun_s374" mapunit-2="2604_e_onoff_mushrob_01" mapunit-3="2604_e_onoff_mushrob_01_1" mapunit-4="2604_e_onoff_mushrob_01_2" mapunit-5="2604_e_onoff_mushrob_01_3" object="zoneenv:e_onoff_mushrob_05" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="3" location-x="-9909.1328" location-y="-11256.4746" map="huekummrim">
+      <text>
+      </text>
+      <mission id="3" name="숯 가마터에 있는 자경단원 고붕에게 보고" name2="Mission.Name2.374_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_374_m3_indi_1" msg="q_374_m3" object="npc:ctzn_jinm_jakyungdan_gobung_kff_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="140" money="40" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Potion_Gr3_Lv9" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-17460.5215" location-y="-5093.2109" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name="숲속 야영지에 있는 밀련아에게 보고" name2="Mission.Name2.374_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_374_m2_indi_1" msg="q_374_m2" object="npc:ctzn_jinf_cheongryeongctzn_millyeona_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

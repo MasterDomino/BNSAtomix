@@ -1,0 +1,214 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_526" category="epic" completed-desc="q_526_completed" completed-list="y" desc="q_526_sum" grade="1" group2="QG_DaeSaMakEpic" id="526" name2="Quest.Name2.526">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="33" sort-no="326" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="44577.375" location-y="-42604.7891" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.526_1" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0007" type="approach" visible-object="y" />
+        <text>
+        </text>
+        <case indicator-social="q_526_m1_indi_1" msg="q_526_m1" object="npc:ch_jinsoa_0007" progress-mission="y" remove-grocery="y" type="talk" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="39171.7617" location-y="-26084.2598" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.526_4" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3022_e_onoff_yeflower91_1" object="zone:zone_ZaSekHoSu" progress-mission="y" type="enter-zone" />
+        <text>
+        </text>
+        <case object="npc:ch_jinsoa_0007" type="approach" visible-object="n" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="39171.7617" location-y="-26084.2598" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.526_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_526_m5_indi_1" msg="q_526_m5" object="npc:ch_yeharang_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_ZaSekHoSu" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="6" location-x="39171.7617" location-y="-26084.2598" map="sajisukrim" zone-1="zone_ZaSekHoSu">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.526_6" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_526_Quest_lotus_1_icon" mapunit-1="3022_e_onoff_yeflower91" object="zoneenv:e_onoff_yeflower91" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_ZaSekHoSu" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case approach-social="q_526_m5_app_1" object="npc:ch_yeharang_0002" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="7" location-x="39171.7617" location-y="-26084.2598" map="sajisukrim" zone-1="zone_ZaSekHoSu">
+      <text>
+      </text>
+      <mission id="7" name2="Mission.Name2.526_7" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_526_m7_indi_1" msg="q_526_m7" object="npc:ch_yeosarang_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_ZaSekHoSu" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="8" location-x="39171.7617" location-y="-26084.2598" map="sajisukrim" zone-1="zone_ZaSekHoSu">
+      <text>
+      </text>
+      <mission id="8" name2="Mission.Name2.526_8" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_526_m8_indi_1" msg="q_526_m8" object="npc:ch_yeharang_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_ZaSekHoSu" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_527" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <transit id="1" zone="zone_ZaSekHoSu2">
+      <text>
+      </text>
+      <destination mission-step-id="8" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="7" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="6" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <mission-step id="9" location-x="46836.0938" location-y="-22799.2266" map="haerimchon">
+      <text>
+      </text>
+      <mission id="9" name2="Mission.Name2.526_9" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_526_m9_indi_1" msg="q_526_m9" object="npc:ch_muun_0016" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1600" money="1100" />
+        <text>
+        </text>
+        <case object="npc:ch_yeharang_0002" type="approach" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos7_gr2_sajiseoklim_sheild_Lv32" slot-2="item:gem_pos7_gr2_sajiseoklim_bal_Lv32" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="46642.4414" location-y="-36652.5391" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.526_2" required-register-value="6">
+        <text>
+        </text>
+        <case looting="q_526_Quest_white_talisman_1_icon" mapunit-1="3023_ME_DarkCrazyTribe_009" mapunit-2="3023_ME_DarkCrazyTribe_009_1" mapunit-3="3023_ME_DarkCrazyTribe_009_2" object="npc:me_darkcrazytribe_009" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+        </text>
+        <case object="npc:ch_unguksoldier_0007" type="approach" />
+        <text>
+        </text>
+        <case object="npc:ch_jinsoa_0007" type="approach" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="44577.375" location-y="-42604.7891" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.526_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_526_m3_indi_1" msg="q_526_m3" object="npc:ch_jinsoa_0007" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

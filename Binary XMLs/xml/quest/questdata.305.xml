@@ -1,0 +1,142 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_305" category="epic" completed-desc="q_305_completed" completed-list="y" desc="q_305_sum" grade="1" group2="QG_JeRyoungRimEpic" id="305" name2="Quest.Name2.305">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="5" sort-no="205" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_305_des_1" id="1" location-x="-36021.9063" location-y="-50997.4766" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.305_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_305_m1_indi_1" mapunit-1="2010_guide_E305" msg="q_305_m1" object="npc:ctzn_jinm_jakyungdan_gongsamsik_kff_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="q_305_m1_indi_2" object="npc:ctzn_jinm_jakyungdan_docheonpung_002" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_305_des_2" id="2" location-x="-37263.8359" location-y="-55047.2969" map="MeMaRyun_Dun">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.305_2" required-register-value="1">
+        <text>
+        </text>
+        <case msg="q_305_m2" object="npc:ctzn_jinm_cheongryeongctzn_gwakdekyu_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zoneenv:2001_footswitch_1" progress-mission="reaction-only" type="env-entered" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_305_des_3" id="3" location-x="-34103.6641" location-y="-50877.5859" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.305_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_305_m3_indi_1" msg="q_305_m3" object="npc:ctzn_jinm_jakyungdan_gongsamsik_kff_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_305_des_4" id="4" location-x="-34103.6641" location-y="-50877.5859" map="mangjasup">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.305_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_305_m4_indi_1" msg="q_305_m4" object="npc:ch_dadanha_0001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_305_des_5" id="5" location-x="-34103.6641" location-y="-50877.5859" map="mangjasup">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.305_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_305_m5_indi_1" msg="q_305_m5" object="npc:ch_namsoyu_0003" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="200" money="20" />
+        <text>
+        </text>
+        <case object="zone:zone_mangjasup_gerjeum_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:gem_pos2_gr2_jakyung_bal_Lv05" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <transit id="1" zone="zone_mangjasup_gerjeum_2">
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="0" />
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="0" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="2" zone="zone_mangjasup_dun_1">
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_306" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <transit id="3" zone="zone_ChRyoungCHN_DoChunPung_1">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

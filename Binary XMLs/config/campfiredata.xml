@@ -1,0 +1,257 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>campfire</type>
+	<version>0.4</version>
+</table>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_0001</alias>
+	<anim-show>00010628.CampFire</anim-show>
+	<animset-name>Prop_Fire_001.Prop_Fire_001_10_001_Animset</animset-name>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<despawn-show>00010628.CampFire_FireEnd</despawn-show>
+	<mesh-id>Prop_Fire_001.Prop_Fire_001_10_001_Mesh</mesh-id>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_Static</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_Static</map-tooltip>
+	<remain-duration>0</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_ChunRyong</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_ChunRyong</map-tooltip>
+	<party-match>PartyMatch_ChunRyong</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_MaMulGul</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_MaMulGul</map-tooltip>
+	<party-match>PartyMatch_MaMulGul</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_HangariBoss</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_HangariBoss</map-tooltip>
+	<party-match>PartyMatch_HangariBoss</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_Nokpo</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_Nokpo</map-tooltip>
+	<party-match>PartyMatch_Nokpo</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_Gugubung</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_Gugubung</map-tooltip>
+	<party-match>PartyMatch_Gugubung</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_GoldHaetae</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_GoldHaetae</map-tooltip>
+	<party-match>PartyMatch_GoldHaetae</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_IronTurtle</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_IronTurtle</map-tooltip>
+	<party-match>PartyMatch_IronTurtle</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_AdamantineMan</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_AdamantineMan</map-tooltip>
+	<party-match>PartyMatch_AdamantineMan</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_GoldScorpion</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_GoldScorpion</map-tooltip>
+	<party-match>PartyMatch_GoldScorpion</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_Hakan</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_Hakan</map-tooltip>
+	<party-match>PartyMatch_Hakan</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_Ukaha</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_Ukaha</map-tooltip>
+	<party-match>PartyMatch_Ukaha</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_Hwebijuk</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_Hwebijuk</map-tooltip>
+	<party-match>PartyMatch_Hwebijuk</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_SukSamJa</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_SukSamJa</map-tooltip>
+	<party-match>PartyMatch_SukSamJa</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_MudSoldierBoss</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_MudSoldierBoss</map-tooltip>
+	<party-match>PartyMatch_MudSoldierBoss</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_FireGorilla</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_FireGorilla</map-tooltip>
+	<party-match>PartyMatch_FireGorilla</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_HeukBiJo</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_HeukBiJo</map-tooltip>
+	<party-match>PartyMatch_HeukBiJo</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_HeukSinJo</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_HeukSinJo</map-tooltip>
+	<party-match>PartyMatch_HeukSinJo</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_YaGolTa</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_YaGolTa</map-tooltip>
+	<party-match>PartyMatch_YaGolTa</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_NahanBoss</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_NahanBoss</map-tooltip>
+	<party-match>PartyMatch_NahanBoss</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_Scorpion</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_Scorpion</map-tooltip>
+	<party-match>PartyMatch_Scorpion</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_HeukChang</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_HeukChang</map-tooltip>
+	<party-match>PartyMatch_HeukChang</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_TakgiGul</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_TakgiGul</map-tooltip>
+	<party-match>PartyMatch_TakgiGul</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>
+<record>
+	<additional-heal-percent>100</additional-heal-percent>
+	<alias>CampFire_Bunwajok</alias>
+	<caster_repair-end-show>00009805.CampFire_Repairing_End</caster_repair-end-show>
+	<caster_repair-show>00009805.CampFire_Repairing</caster_repair-show>
+	<map-tooltip>PartyMatch.Desc.CampFire_Bunwajok</map-tooltip>
+	<party-match>PartyMatch_Bunwajok</party-match>
+	<remain-duration>300000</remain-duration>
+	<repair-duration>60000</repair-duration>
+</record>

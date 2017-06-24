@@ -1,0 +1,118 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_535" category="epic" completed-desc="q_535_completed" completed-list="y" desc="q_535_sum" grade="1" group2="QG_DaeSaMakEpic" id="535" name2="Quest.Name2.535">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="36" sort-no="337" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="22854.0625" location-y="67681.8672" map="bigbonedg">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.535_1" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:ch_chungun_0001" type="approach" visible-object="y" />
+        <text>
+        </text>
+        <case indicator-social="q_535_m1_app_indi_1" msg="q_535_m1" object="npc:ch_jinsoa_0010" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case mapunit-1="3077_e_footswitch_959" object="zone:zone_BigBoneDg" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="19777.8906" location-y="71109.6016" map="bigbonedg" zone-1="zone_bigbonedg">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.535_2" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_535_Quest_silver_tag_1_icon" mapunit-1="3077_ME_BoneMaskBigA_003" object="npc:me_bonemaskbiga_003" progress-mission="y" type="loot" />
+        <text>
+        </text>
+        <case object="zone:zone_BigBoneDg" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="npc:ch_chungun_0001" type="approach" />
+        <text>
+        </text>
+        <case indicator-idle="q535_m2_CH_JinSoA_0010_idle" indicator-social="q_535_m4_app_1" object="npc:ch_jinsoa_0010" type="approach" />
+        <text>
+        </text>
+        <case indicator-social="q_535_m4_app_2" object="npc:ch_orakdang_0005" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="22854.0625" location-y="67681.8672" map="bigbonedg">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.535_3" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:ch_jinsoa_0010" progress-mission="y" type="approach" />
+        <text>
+        </text>
+        <case mapunit-1="3077_e_footswitch_959" object="zone:zone_BigBoneDg" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="22854.0625" location-y="67681.8672" map="bigbonedg">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.535_4" required-register-value="1">
+        <text>
+        </text>
+        <case msg="q_535_m4" object="npc:ch_tomungaekjan_0002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zoneenv:e_footswitch_535" progress-mission="reaction-only" type="env-entered" />
+        <text>
+        </text>
+        <case object="zone:zone_BigBoneDg" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <basic-reward exp="1400" money="1300" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos7_gr2_osaekamdo_sheild_Lv36" slot-2="item:gem_pos7_gr2_osaekamdo_bal_Lv36" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission-step-fail rollback-step-id="3" />
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_536" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

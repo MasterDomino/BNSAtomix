@@ -1,0 +1,46 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_627" category="normal" desc="q_627_sum" grade="1" group2="QG_HwangPungSaMak" id="627" name2="Quest.Name2.627">
+    <text>
+    </text>
+    <acquisition level="26" preceding-quest-1="q_epic_515" preceding-quest-check="and" recommended-level="28">
+      <text>
+      </text>
+      <case loot-item="Quest_627" looting="q_627_Quest_old_book_1_icon" object="npc:mh_bigulbogul_067" type="loot" />
+      <text>
+      </text>
+      <case acquire-quest="y" item="quest_627" msg="q_627_s" type="talk-to-item" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_627_des_1" id="1" location-x="-56686.9531" location-y="7860.5977" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.627_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_627_m1_indi_1" msg="q_627_m1" object="npc:ch_scholar_005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="quest_627" />
+        <text>
+        </text>
+        <basic-reward exp="550" money="280" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="quest_627" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

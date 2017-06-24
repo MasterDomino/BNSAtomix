@@ -1,0 +1,58 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_491" category="epic" completed-desc="q_491_completed" completed-list="y" desc="q_491_sum" grade="1" group2="QG_JeRyoungRimEpic" id="491" name2="Quest.Name2.491">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="14" sort-no="213" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_491_des_1" id="1" location-x="31732.1152" location-y="22075.8848" map="suryengol">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.491_1" required-register-value="8">
+        <text>
+        </text>
+        <case looting="q_491_Grocery_Meat_Loaf_1_icon" mapunit-1="2300_me_deer_0001" mapunit-2="2300_me_deer_0001_1" mapunit-3="2300_me_deer_0001_2" mapunit-4="2310_guide_E491" object="npc:me_deer_0001" prob="100" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_491_des_2" id="2" location-x="14186.748" location-y="20482.25" map="nokmyeong">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.491_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_491_m2_indi_1" msg="q_491_m2" object="npc:ctzn_lynm_dokchogeosa_foc_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="420" money="120" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos2_gr2_dokcho_bal_lv14" slot-2="item:gem_pos2_gr2_dokcho_atk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_492" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

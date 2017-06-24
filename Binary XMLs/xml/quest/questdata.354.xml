@@ -1,0 +1,70 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_354" category="normal" desc="q_354_sum" grade="1" group="제룡림(월영 공동묘지)" group2="QG_WalYoungCemetery" id="354" name="내 다리 내놔! (완)" name2="Quest.Name2.354">
+    <text>
+    </text>
+    <acquisition level="6" preceding-quest-1="q_epic_308" preceding-quest-2="q_sub_346" preceding-quest-check="and" recommended-level="8">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_354_s_indi_1" msg="q_354_s" object="npc:ch_gravekeeper_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_354_des_2" id="2" location-x="-36302.5313" location-y="-29203.1895" map="DoGul_Dun" zone-1="zone_mangjasup_dun_2">
+      <text>
+      </text>
+      <mission id="2" name="파헤쳐진 무덤에 있는 왕미남의 무덤에서 시체의 다리 습득" name2="Mission.Name2.354_2" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_354_Grocery_Bad_Skin_1_icon" gadget-required="empty" mapunit-1="2601_e_onoff_minam_01" object="zoneenv:e_onoff_minam_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_354_des_3" id="3" location-x="-35842.0703" location-y="-33253.7344" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name="소각장에 있는 자경단원 왕진평에게 보고" name2="Mission.Name2.354_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_354_m3_indi_1" msg="q_354_m3" object="npc:ctzn_jinm_jakyungdan_wangjinpyeong_foc_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="300" money="60" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="1" job-1="job-none" slot-1="item:potion_gr2_lv3" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-33863.8828" location-y="-33913.1289" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.354_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_354_m1_indi_1" msg="q_354_m1" object="npc:ctzn_jinm_jakyungdan_wangjinpyeong_foc_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

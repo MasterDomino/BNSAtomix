@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_339" category="normal" desc="q_339_sum" grade="1" group="제룡림(망자의 숲)" group2="QG_MangJaSup" id="339" name="찬바람이 불면" name2="Quest.Name2.339">
+    <text>
+    </text>
+    <acquisition level="50" preceding-quest-1="q_epic_307" preceding-quest-check="and" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_339_s_indi_1" msg="q_339_s" object="npc:ch_jakyungdan_0005" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_339_des_1" id="1" location-x="-12395.5947" location-y="-31406.1289" map="BukJJok_Dun">
+      <text>
+      </text>
+      <mission id="1" name="북쪽 동굴에 있는 재빠른 석등 비룡 처치" name2="Mission.Name2.339_1" required-register-value="5">
+        <text>
+        </text>
+        <case drop-gadget="n" looting="q_339_Grocery_Pointed_Small_Stone_1_icon" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-20855.8008" location-y="-29597.0859" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name="숲속 야영지에 있는 대나무 마을 자경단 방가위에게 보고" name2="Mission.Name2.339_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_339_m2_indi_1" msg="q_339_m2" object="npc:ch_jakyungdan_0005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="270" money="42" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Item_Camp_repair_material_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

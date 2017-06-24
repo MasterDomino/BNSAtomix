@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_656" category="normal" desc="q_656_sum" grade="4" group2="QG_GoYoSaMak" id="656" name2="Quest.Name2.656">
+    <text>
+    </text>
+    <acquisition level="28" preceding-quest-1="q_epic_519" preceding-quest-check="and" recommended-level="30">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_656_s_indi_1" msg="q_656_s" object="npc:ch_scholar_006" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-12480.2168" location-y="-31027.2852" map="yousadonggul">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.656_1" required-register-value="3">
+        <text>
+        </text>
+        <case looting="q_656_Quest_golden_rock_1_icon" mapunit-1="3048_ME_Haetae_0006" mapunit-2="3048_ME_Haetae_0006_1" mapunit-3="3048_ME_Haetae_0006_2" object="npc:ME_Haetae_0006" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-24337.7344" location-y="-24395.3984" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.656_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_656_m2_indi_1" msg="q_656_m2" object="npc:ch_scholar_006" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1950" money="1300" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:acc_ring_quest_011" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

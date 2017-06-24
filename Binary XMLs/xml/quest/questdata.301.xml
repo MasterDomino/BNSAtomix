@@ -1,0 +1,106 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_301" category="epic" completed-desc="q_301_completed" completed-list="y" desc="q_301_sum" grade="1" group2="QG_JeRyoungRimEpic" id="301" name2="Quest.Name2.301">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="3" sort-no="201" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_301_des_1" id="1" location-x="-55683.8867" location-y="-52795.8281" map="mangjasup">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.301_1" required-register-value="1">
+        <text>
+        </text>
+        <case approach-social="q_301_m1_app_1" indicator-social="q_301_m1_indi_1" msg="q_301_m1" object="npc:ctzn_jinf_nokmyeonctzn_namsoyu_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case approach-talk="y" object="npc:ctzn_jinf_nokmyeonctzn_namsoyu_001" progress-mission="n" type="approach" />
+        <text>
+        </text>
+        <case object="zone:zone_chryoungchn_doctor_start" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="5" slot-1="item:New_Item_Food_Lv4_Gr1" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_301_des_2" id="2" location-x="-55683.8867" location-y="-52795.8281" map="mangjasup">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.301_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_301_m2_indi_1" object="npc:ch_gosuljun_0001" progress-mission="y" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_301_des_3" id="3" location-x="-55683.8867" location-y="-52795.8281" map="mangjasup">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.301_3" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_supplybox_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case indicator-social="q_301_m3_indi_2" object="npc:ch_gosuljun_0001" type="approach" />
+        <text>
+        </text>
+        <case indicator-social="q_301_m3_indi_1" object="npc:ch_okkyungwon_0001" type="approach" />
+        <text>
+        </text>
+        <case gadget="q_ammboxa" gadget-required="carry-and-remove" mapunit-1="2631_e_onoff_supplybox_01" mapunit-2="2631_e_onoff_bulletbox_01" mapunit-3="2631_e_onoff_supplybox_01_1" object="zoneenv:e_onoff_bulletbox_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_301_des_4" id="4" location-x="-55683.8867" location-y="-52795.8281" map="mangjasup">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.301_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_301_m4_indi_1" msg="q_301_m4" object="npc:ch_okkyungwon_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="400" />
+        <text>
+        </text>
+        <fixed-reward item-count-1="10" slot-1="item:food_gr3_lv3" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_302" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

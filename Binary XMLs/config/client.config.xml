@@ -1,0 +1,3740 @@
+<option>
+	<name>use-context-script-new-logic</name>
+	<value>true</value>
+</option>
+<option>
+	<name>player-hide-show</name>
+	<value>00007916.hide</value>
+</option>
+<option>
+	<name>other-hide-show</name>
+	<value>00007916.hide_enemy</value>
+</option>
+<option>
+	<name>other-detect-hide-show</name>
+	<value>00007916.hide</value>
+</option>
+<option>
+	<name>party-hide-show</name>
+	<value>00007916.hide</value>
+</option>
+<option>
+	<name>mount-socket</name>
+	<value>mount_socket</value>
+</option>
+<option>
+	<name>mount-socket-start-duration</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>mount-socket-end-duration</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>request-waiting-enter-world-number-interval</name>
+	<value>300</value>
+</option>
+<option>
+	<name>use-contextprocess2</name>
+	<value>true</value>
+</option>
+<option>
+	<name>help-restoration-show</name>
+	<value>00007910.help_restoration_start</value>
+</option>
+<option>
+	<name>help-continue-show</name>
+	<value>00007910.help_restoration_loop</value>
+</option>
+<option>
+	<name>help-end-show</name>
+	<value>00007910.help_restoration_end</value>
+</option>
+<option>
+	<name>invited-party-waiting-time</name>
+	<value>20.0</value>
+</option>
+<option>
+	<name>key-walk</name>
+	<value>*</value>
+</option>
+<option>
+	<name>restoration-time</name>
+	<value>40.0</value>
+</option>
+<option>
+	<name>deadbody-putdown-duration</name>
+	<value>0.4</value>
+</option>
+<option>
+	<name>dying-signal-scenematerial</name>
+	<value>00011949.PP_Dying</value>
+</option>
+<option>
+	<name>exhaustion-signal-scenematerial</name>
+	<value>00011949.PP_Exhausted</value>
+</option>
+<option>
+	<name>dead-signal-postprocess</name>
+	<value>Startzone_001.Dead_pp</value>
+</option>
+<option>
+	<name>restoration-signal-scenematerial</name>
+	<value>00011949.PP_restoration</value>
+</option>
+<option>
+	<name>key-chat-input-mode-response-one</name>
+	<value>@t</value>
+</option>
+<option>
+	<name>ignore-mouse-press-time</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>far-cam-height-jin-m</name>
+	<value>62.0</value>
+</option>
+<option>
+	<name>near-cam-height-jin-m</name>
+	<value>85.0</value>
+</option>
+<option>
+	<name>far-cam-height-jin-f</name>
+	<value>56.0</value>
+</option>
+<option>
+	<name>near-cam-height-jin-f</name>
+	<value>73.0</value>
+</option>
+<option>
+	<name>far-cam-height-gon-m</name>
+	<value>70.0</value>
+</option>
+<option>
+	<name>near-cam-height-gon-m</name>
+	<value>125.0</value>
+</option>
+<option>
+	<name>far-cam-height-gon-f</name>
+	<value>68.0</value>
+</option>
+<option>
+	<name>near-cam-height-gon-f</name>
+	<value>96.0</value>
+</option>
+<option>
+	<name>far-cam-height-lyn-m</name>
+	<value>42.0</value>
+</option>
+<option>
+	<name>near-cam-height-lyn-m</name>
+	<value>35</value>
+</option>
+<option>
+	<name>far-cam-height-lyn-f</name>
+	<value>41.0</value>
+</option>
+<option>
+	<name>near-cam-height-lyn-f</name>
+	<value>32.0</value>
+</option>
+<option>
+	<name>far-cam-height-kun</name>
+	<value>66.0</value>
+</option>
+<option>
+	<name>near-cam-height-kun</name>
+	<value>96.0</value>
+</option>
+<option>
+	<name>auto-target-angle</name>
+	<value>60.0</value>
+</option>
+<option>
+	<name>auto-target-beam-width</name>
+	<value>1.4</value>
+</option>
+<option>
+	<name>auto-target-band0</name>
+	<value>5.0</value>
+</option>
+<option>
+	<name>auto-target-band1</name>
+	<value>35.0</value>
+</option>
+<option>
+	<name>action-target-angle</name>
+	<value>12.0</value>
+</option>
+<option>
+	<name>action-target-beam-width</name>
+	<value>1.2</value>
+</option>
+<option>
+	<name>action-target-distance</name>
+	<value>2.5</value>
+</option>
+<option>
+	<name>npc-interact-distance</name>
+	<value>3.5</value>
+</option>
+<option>
+	<name>pouch-interact-distance</name>
+	<value>3.5</value>
+</option>
+<option>
+	<name>deadbody-interact-distance</name>
+	<value>3.5</value>
+</option>
+<option>
+	<name>env-interact-distance</name>
+	<value>3.5</value>
+</option>
+<option>
+	<name>fielditem-interact-distance</name>
+	<value>3.5</value>
+</option>
+<option>
+	<name>pouch-interact-distance</name>
+	<value>3.5</value>
+</option>
+<option>
+	<name>airdash-interact-distance</name>
+	<value>3.5</value>
+</option>
+<option>
+	<name>restoration-interact-distance</name>
+	<value>3.5</value>
+</option>
+<option>
+	<name>backrun-velocity-pct</name>
+	<value>0.4</value>
+</option>
+<option>
+	<name>backwalking-velocity-pct</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>combat-velocity-pct</name>
+	<value>0.8</value>
+</option>
+<option>
+	<name>use-interval-time</name>
+	<value>true</value>
+</option>
+<option>
+	<name>interval-time</name>
+	<value>0.25</value>
+</option>
+<option>
+	<name>skill-context-distance-num</name>
+	<value>9</value>
+</option>
+<option>
+	<name>skill-context-distance1</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>skill-context-distance2</name>
+	<value>8.0</value>
+</option>
+<option>
+	<name>skill-context-distance3</name>
+	<value>12.0</value>
+</option>
+<option>
+	<name>skill-context-distance4</name>
+	<value>16.0</value>
+</option>
+<option>
+	<name>skill-context-distance5</name>
+	<value>20.0</value>
+</option>
+<option>
+	<name>skill-context-distance6</name>
+	<value>25.0</value>
+</option>
+<option>
+	<name>skill-context-distance7</name>
+	<value>35.0</value>
+</option>
+<option>
+	<name>skill-context-distance8</name>
+	<value>40.0</value>
+</option>
+<option>
+	<name>skill-context-distance9</name>
+	<value>45.0</value>
+</option>
+<option>
+	<name>target-distance-num</name>
+	<value>4</value>
+</option>
+<option>
+	<name>target-distance1</name>
+	<value>5.0</value>
+</option>
+<option>
+	<name>target-distance2</name>
+	<value>8.0</value>
+</option>
+<option>
+	<name>target-distance3</name>
+	<value>20.0</value>
+</option>
+<option>
+	<name>target-distance4</name>
+	<value>25.0</value>
+</option>
+<option>
+	<name>longJump-HeightTime</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>longJump-Height</name>
+	<value>90.0</value>
+</option>
+<option>
+	<name>longJump-LengthTime</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>longJump-Length</name>
+	<value>1000.0</value>
+</option>
+<option>
+	<name>highJump-Time</name>
+	<value>0.8</value>
+</option>
+<option>
+	<name>highJump-Height</name>
+	<value>350.0</value>
+</option>
+<option>
+	<name>highJump-Length</name>
+	<value>240.0</value>
+</option>
+<option>
+	<name>show-Player-nameplate</name>
+	<value>true</value>
+</option>
+<option>
+	<name>show-Pc-nameplate</name>
+	<value>true</value>
+</option>
+<option>
+	<name>show-Npc-nameplate</name>
+	<value>true</value>
+</option>
+<option>
+	<name>nameplate-distance1</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>nameplate-distance2</name>
+	<value>40.0</value>
+</option>
+<option>
+	<name>nameplate-levelgap-awful-monster</name>
+	<value>20</value>
+</option>
+<option>
+	<name>nameplate-levelgap-strong-monster</name>
+	<value>5</value>
+</option>
+<option>
+	<name>nameplate-levelgap-weak-monster</name>
+	<value>2</value>
+</option>
+<option>
+	<name>nameplate-levelgap-veryweak-monster</name>
+	<value>-3</value>
+</option>
+<option>
+	<name>nameplate-levelgap-veryveryweak-monster</name>
+	<value>-5</value>
+</option>
+<option>
+	<name>nameplate-ImageOffset1</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>nameplate-ImageOffset2</name>
+	<value>10.0</value>
+</option>
+<option>
+	<name>nameplate-AddtionalPositionX</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>nameplate-AddtionalPositionY</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>nameplate-AddtionalPositionZ</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>nameplate-space-between-lines</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>target-decal-normal-particle</name>
+	<value>00010057.UI_TargetDecal001</value>
+</option>
+<option>
+	<name>target-decal-offensive-monster-particle</name>
+	<value>00010057.UI_Targetdecal001_Attack</value>
+</option>
+<option>
+	<name>target-decal-weak-monster-particle </name>
+	<value>00010057.UI_Targetdecal001_NoReward</value>
+</option>
+<option>
+	<name>target-decal-zoneenv-particle</name>
+	<value>00010057.UI_TargetDecal001</value>
+</option>
+<option>
+	<name>questIndicator-AddtionalPositionZ</name>
+	<value>40.0</value>
+</option>
+<option>
+	<name>missing-IconTexture</name>
+	<value>00008758.Missing</value>
+</option>
+<option>
+	<name>missing-IconIndex</name>
+	<value>3</value>
+</option>
+<option>
+	<name>missing-IconSize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>blank-IconTexture</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>blank-IconIndex</name>
+	<value>4</value>
+</option>
+<option>
+	<name>blank-IconSize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>action-IconIndex</name>
+	<value>2</value>
+</option>
+<option>
+	<name>skill-criticalshow</name>
+	<value>38</value>
+</option>
+<option>
+	<name>mountMove-mounttime</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>mountMove-unmounttime</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>login-map-package</name>
+	<value>Start_001.umap</value>
+</option>
+<option>
+	<name>login-address</name>
+	<value>70.1.1.89</value>
+</option>
+<option>
+	<name>login-port</name>
+	<value>7500</value>
+</option>
+<option>
+	<name>key-stance</name>
+	<value>TAB</value>
+</option>
+<option>
+	<name>key-skillbar-5</name>
+	<value>z</value>
+</option>
+<option>
+	<name>key-skillbar-6</name>
+	<value>x</value>
+</option>
+<option>
+	<name>key-skillbar-7</name>
+	<value>c</value>
+</option>
+<option>
+	<name>key-skillbar-8</name>
+	<value>v</value>
+</option>
+<option>
+	<name>key-skillbar-9</name>
+	<value>F1</value>
+</option>
+<option>
+	<name>key-skillbar-10</name>
+	<value>F2</value>
+</option>
+<option>
+	<name>key-skillbar-11</name>
+	<value>F3</value>
+</option>
+<option>
+	<name>key-skillbar-12</name>
+	<value>F4</value>
+</option>
+<option>
+	<name>key-toggle-equipwindow</name>
+	<value>p</value>
+</option>
+<option>
+	<name>select-character-namebox-selected-scale</name>
+	<value>1.2</value>
+</option>
+<option>
+	<name>select-character-namebox-mouseover-scale</name>
+	<value>1.2</value>
+</option>
+<option>
+	<name>select-character-namebox-scaleanim-duration</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>camera-position-actortag-createcharacter-lyn-female</name>
+	<value>CamPos_LynF</value>
+</option>
+<option>
+	<name>target-arrow-additional-offset-z</name>
+	<value>10.0</value>
+</option>
+<option>
+	<name>customize-character-default-parttype-index-skin</name>
+	<value>4</value>
+</option>
+<option>
+	<name>customize-character-default-parttype-index-face</name>
+	<value>2</value>
+</option>
+<option>
+	<name>customize-character-default-parttype-index-body</name>
+	<value>2</value>
+</option>
+<option>
+	<name>social-balloon-visible-range</name>
+	<value>20</value>
+</option>
+<option>
+	<name>balloon-duration</name>
+	<value>4</value>
+</option>
+<option>
+	<name>quest-indicator-range</name>
+	<value>9</value>
+</option>
+<option>
+	<name>npc-indicator-range</name>
+	<value>9</value>
+</option>
+<option>
+	<name>quest-approach-range</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>itempouch-drop-angle</name>
+	<value>270</value>
+</option>
+<option>
+	<name>itempouch-drop-adddistance</name>
+	<value>0.1</value>
+</option>
+<option>
+	<name>outlinebloom-start-alpha</name>
+	<value>128</value>
+</option>
+<option>
+	<name>outlinebloom-alpha-animtype</name>
+	<value>1</value>
+</option>
+<option>
+	<name>outlinebloom-min-alpha</name>
+	<value>0</value>
+</option>
+<option>
+	<name>outlinebloom-max-alpha</name>
+	<value>128</value>
+</option>
+<option>
+	<name>outlinebloom-alpha-anim-time</name>
+	<value>0.6</value>
+</option>
+<option>
+	<name>talknpc-outlinebloom-color-r</name>
+	<value>34</value>
+</option>
+<option>
+	<name>talknpc-outlinebloom-color-g</name>
+	<value>215</value>
+</option>
+<option>
+	<name>talknpc-outlinebloom-color-b</name>
+	<value>30</value>
+</option>
+<option>
+	<name>env-outline-bloom-color-r</name>
+	<value>34</value>
+</option>
+<option>
+	<name>env-outline-bloom-color-g</name>
+	<value>215</value>
+</option>
+<option>
+	<name>env-outline-bloom-color-b</name>
+	<value>30</value>
+</option>
+<option>
+	<name>gadget-outline-bloom-color-r</name>
+	<value>34</value>
+</option>
+<option>
+	<name>gadget-outline-bloom-color-g</name>
+	<value>215</value>
+</option>
+<option>
+	<name>gadget-outline-bloom-color-b</name>
+	<value>30</value>
+</option>
+<option>
+	<name>gather-outline-bloom-color-r</name>
+	<value>34</value>
+</option>
+<option>
+	<name>gather-outline-bloom-color-g</name>
+	<value>215</value>
+</option>
+<option>
+	<name>gather-outline-bloom-color-b</name>
+	<value>30</value>
+</option>
+<option>
+	<name>attackable-target-outlinebloom-color-r</name>
+	<value>246</value>
+</option>
+<option>
+	<name>attackable-target-outlinebloom-color-g</name>
+	<value>255</value>
+</option>
+<option>
+	<name>attackable-target-outlinebloom-color-b</name>
+	<value>0</value>
+</option>
+<option>
+	<name>offensive-monster-target-outlinebloom-color-r</name>
+	<value>255</value>
+</option>
+<option>
+	<name>offensive-monster-target-outlinebloom-color-g</name>
+	<value>10</value>
+</option>
+<option>
+	<name>offensive-monster-target-outlinebloom-color-b</name>
+	<value>10</value>
+</option>
+<option>
+	<name>weak-monster-target-outlinebloom-color-r</name>
+	<value>255</value>
+</option>
+<option>
+	<name>weak-monster-target-outlinebloom-color-g</name>
+	<value>255</value>
+</option>
+<option>
+	<name>weak-monster-target-outlinebloom-color-b</name>
+	<value>0</value>
+</option>
+<option>
+	<name>npc-detect-show-ref</name>
+	<value>00009805.UI_Detect</value>
+</option>
+<option>
+	<name>fall-die-show</name>
+	<value>00007910.Dead_Fallen</value>
+</option>
+<option>
+	<name>dead-while-falling-show</name>
+	<value>00010628.Falling_Dead_Start</value>
+</option>
+<option>
+	<name>from-fallingdead-To-Dead-transit-show</name>
+	<value>00010628.Fallen_Dead</value>
+</option>
+<option>
+	<name>fall-landing-shock-show</name>
+	<value>00009805.Exhausted</value>
+</option>
+<option>
+	<name>swimarea-die-show</name>
+	<value>00010628.Swim_Dead</value>
+</option>
+<option>
+	<name>mapunit-player-icon-imageset</name>
+	<value>00009499.Minimap_Unit_Player</value>
+</option>
+<option>
+	<name>mapunit-out-of-player-icon-imageset</name>
+	<value>00009499.Minimap_Unit_Player_Borderline</value>
+</option>
+<option>
+	<name>mapunit-party-icon-imageset</name>
+	<value>00009499.Minimap_Party_Location</value>
+</option>
+<option>
+	<name>mapunit-party-dead-imageset</name>
+	<value>00009499.Minimap_Party_Status_Death</value>
+</option>
+<option>
+	<name>mapunit-party-exhaustion-imageset</name>
+	<value>00009499.Minimap_Party_Status_tired</value>
+</option>
+<option>
+	<name>mapunit-party-restoration-imageset</name>
+	<value>00009499.mapunit_party_status_RecoveryPower_woonkijosik</value>
+</option>
+<option>
+	<name>mapunit-party-another-channel-imageset</name>
+	<value>00009499.Minimap_Party_Status_OtherChanel</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-icon-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline</value>
+</option>
+<option>
+	<name>mapunit-party-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Status_OtherChanel</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Status_OtherChanel</value>
+</option>
+<option>
+	<name>mapunit-party-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-icon-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline</value>
+</option>
+<option>
+	<name>mapunit-player-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-player-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-party-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-party-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-player-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-player-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-outglow-blink-time</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>mapunit-always-show-name</name>
+	<value>false</value>
+</option>
+<option>
+	<name>mapunit-free-drawing-time</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>mapunit-default-fontset</name>
+	<value>00008130.UI.Normal_14</value>
+</option>
+<option>
+	<name>balloon-offset-x</name>
+	<value>10</value>
+</option>
+<option>
+	<name>balloon-offset-y</name>
+	<value>10</value>
+</option>
+<option>
+	<name>balloon-name-text-space-between-lines</name>
+	<value>10</value>
+</option>
+<option>
+	<name>balloon-space-between-lines</name>
+	<value>4</value>
+</option>
+<option>
+	<name>blloon-max-number-of-characters-per-line</name>
+	<value>22</value>
+</option>
+<option>
+	<name>blloon-max-characters</name>
+	<value>64</value>
+</option>
+<option>
+	<name>balloon-min-size</name>
+	<value>30</value>
+</option>
+<option>
+	<name>balloon-duration</name>
+	<value>4</value>
+</option>
+<option>
+	<name>dead-delay-ui-time</name>
+	<value>5</value>
+</option>
+<option>
+	<name>minimap-tooltip-context-offset-x</name>
+	<value>0</value>
+</option>
+<option>
+	<name>minimap-tooltip-context-offset-y</name>
+	<value>-35</value>
+</option>
+<option>
+	<name>minimap-on-sound-ref</name>
+	<value>00004409.CBT.S_UI_Window_MiniMap_On</value>
+</option>
+<option>
+	<name>minimap-off-sound-ref</name>
+	<value>00004409.CBT.S_UI_Window_MiniMap_Off</value>
+</option>
+<option>
+	<name>instant-notification-normal-move-time</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>instant-notification-accelation-move-time</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>money-icontexture</name>
+	<value>00008758.Grocery_money_2</value>
+</option>
+<option>
+	<name>money-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>money-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>attack-targeting-type</name>
+	<value>1</value>
+</option>
+<option>
+	<name>action-targeting-type</name>
+	<value>1</value>
+</option>
+<option>
+	<name>missing-IconTexture</name>
+	<value>00008507.HJC_FACE</value>
+</option>
+<option>
+	<name>missing-IconIndex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>missing-IconSize</name>
+	<value>256</value>
+</option>
+<option>
+	<name>wall-hit-show</name>
+	<value>00007910.wallcrash</value>
+</option>
+<option>
+	<name>wall-die-show</name>
+	<value>00007910.wallcrash_die</value>
+</option>
+<option>
+	<name>wall-exhaustion-show</name>
+	<value>00007910.wallcrash_exhaustion</value>
+</option>
+<option>
+	<name>input-pending-time</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>restoration-show</name>
+	<value>00010628.SelfRevival_Start</value>
+</option>
+<option>
+	<name>restoration-continue-show</name>
+	<value>00010628.SelfRevival_Loop</value>
+</option>
+<option>
+	<name>restoration-end-show</name>
+	<value>00010628.SelfRevival_End</value>
+</option>
+<option>
+	<name>teleport-casting-show</name>
+	<value>00010628.Return_Cast</value>
+</option>
+<option>
+	<name>restoration-icontexture</name>
+	<value>00008758.Actionkey_Icon_00</value>
+</option>
+<option>
+	<name>restoration-iconindex</name>
+	<value>21</value>
+</option>
+<option>
+	<name>self-resurrect-icontexture</name>
+	<value>00008758.Actionkey_Icon_00</value>
+</option>
+<option>
+	<name>self-resurrect-iconindex</name>
+	<value>22</value>
+</option>
+<option>
+	<name>lobby-createcharacter-weapon-blademaster</name>
+	<value>2973</value>
+</option>
+<option>
+	<name>lobby-createcharacter-weapon-kungfufighter</name>
+	<value>2996</value>
+</option>
+<option>
+	<name>lobby-createcharacter-weapon-forcemaster</name>
+	<value>3093</value>
+</option>
+<option>
+	<name>lobby-createcharacter-weapon-destroyer</name>
+	<value>3153</value>
+</option>
+<option>
+	<name>lobby-createcharacter-weapon-assassin</name>
+	<value>3213</value>
+</option>
+<option>
+	<name>lobby-createcharacter-weapon-summoner</name>
+	<value>3273</value>
+</option>
+<option>
+	<name>lobby-select-assassin-anim-name</name>
+	<value>AA_A_None_Log_select_Assassin_Start</value>
+</option>
+<option>
+	<name>lobby-select-summoner-anim-name</name>
+	<value>AA_A_None_Log_select_Summoner_Start</value>
+</option>
+<option>
+	<name>lobby-assassin-idle-anim-name</name>
+	<value>AA_A_None_Log_select_Assassin_Looping</value>
+</option>
+<option>
+	<name>lobby-summoner-idle-anim-name</name>
+	<value>AA_A_None_Log_select_Summoner_Looping</value>
+</option>
+<option>
+	<name>summoned-spawn-distance</name>
+	<value>100</value>
+</option>
+<option>
+	<name>summoned-angle</name>
+	<value>320</value>
+</option>
+<option>
+	<name>summoned-warp-size</name>
+	<value>1750</value>
+</option>
+<option>
+	<name>summoned-following-tolerance</name>
+	<value>60</value>
+</option>
+<option>
+	<name>action-icon-change-image-effect-time</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>action-icon-change-scale-effect-time</name>
+	<value>0.2</value>
+</option>
+<option>
+	<name>action-icon-change-scale-effect-start-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>action-icon-change-scale-effect-max-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>action-icon-change-scale-effect-max-opacity</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>action-icon-change-scale-effect-start-delay-time</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>action-icon-particle-ref</name>
+	<value>00011426.BoxGlow_UI</value>
+</option>
+<option>
+	<name>action-icon-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>action-icon-change-small-scale-effect-time</name>
+	<value>0.2</value>
+</option>
+<option>
+	<name>action-icon-change-small-scale-effect-start-scale</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>action-icon-change-small-scale-effect-max-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>action-icon-change-small-scale-effect-max-opacity</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>action-icon-change-small-scale-effect-start-delay-time</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>action-icon-image-overlay-effect-start-opacity</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>action-icon-image-overlay-effect-end-opacity</name>
+	<value>0.2</value>
+</option>
+<option>
+	<name>action-icon-recycle-2-complete-particle-ref</name>
+	<value>00011426.Ready_UI</value>
+</option>
+<option>
+	<name>action-icon-recycle-2-complete-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>action-icon-context-recycle-1-complete-particle-ref</name>
+	<value>00011426.UI_Box_Alert_002</value>
+</option>
+<option>
+	<name>action-icon-context-recycle-1-complete-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>changed-particle-ref</name>
+	<value>00011426.UI_Box_Glow</value>
+</option>
+<option>
+	<name>changed-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>changed-context-particle-ref</name>
+	<value>00011426.Ready_UI</value>
+</option>
+<option>
+	<name>changed-context-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>event-skill-particle-ref</name>
+	<value>00011426.UI_Box_Alert_002</value>
+</option>
+<option>
+	<name>event-skill-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>change-stance-particle-ref</name>
+	<value>00011426.BoxGlow_UI</value>
+</option>
+<option>
+	<name>change-stance-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>combo-exec-particle-ref</name>
+	<value>00011426.UI_Box_Alert_002</value>
+</option>
+<option>
+	<name>combo-exec-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>immune-break-particle-ref</name>
+	<value>00011426.Particle.immune_break</value>
+</option>
+<option>
+	<name>immune-break-particle-scale</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>player-sp-gauge-particle-ref</name>
+	<value>00011426.Combo_UI</value>
+</option>
+<option>
+	<name>player-sp-gauge-particle-scale</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>player-full-sp-gauge-particle-ref</name>
+	<value>00011426.Full_Combo_UI</value>
+</option>
+<option>
+	<name>player-full-sp-gauge-particle-scale</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>use-path-engine</name>
+	<value>true</value>
+</option>
+<option>
+	<name>mineTrigger-iconindex</name>
+	<value>14</value>
+</option>
+<option>
+	<name>manipulate-sound-loop</name>
+	<value>00004409.S_UI_AmbObj_TouchCue</value>
+</option>
+<option>
+	<name>manipulate-sound-end</name>
+	<value>00004409.S_UI_AmbObj_TouchEndCue</value>
+</option>
+<option>
+	<name>npc-manipulate-sound-end </name>
+	<value>00004409.S_UI_AmbObj_TouchEndCue</value>
+</option>
+<option>
+	<name>manipulate-action-icon-texture</name>
+	<value>00008758.Actionkey_Icon_00</value>
+</option>
+<option>
+	<name>manipulate-action-icon-index</name>
+	<value>9</value>
+</option>
+<option>
+	<name>manipulate-action-icon-size</name>
+	<value>64</value>
+</option>
+<option>
+	<name>manipulate-action-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>manipulate-action-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>gather-source-action-icon-texture</name>
+	<value>00008758.Actionkey_Icon_00</value>
+</option>
+<option>
+	<name>gather-source-action-icon-index</name>
+	<value>15</value>
+</option>
+<option>
+	<name>gather-source-action-icon-size</name>
+	<value>64</value>
+</option>
+<option>
+	<name>gather-source-action-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>gather-source-action-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>pick-up-action-icon-texture</name>
+	<value>00008758.Actionkey_Icon_00</value>
+</option>
+<option>
+	<name>pick-up-action-icon-index</name>
+	<value>14</value>
+</option>
+<option>
+	<name>pick-up-action-icon-size</name>
+	<value>64</value>
+</option>
+<option>
+	<name>pick-up-action-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>pick-up-action-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>put-down-action-icon-texture</name>
+	<value>00008758.Actionkey_Icon_00</value>
+</option>
+<option>
+	<name>put-down-action-icon-index</name>
+	<value>20</value>
+</option>
+<option>
+	<name>put-down-action-icon-size</name>
+	<value>64</value>
+</option>
+<option>
+	<name>put-down-action-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>put-down-action-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>env-default-action-icon-texture</name>
+	<value>00008758.Actionkey_Icon_00</value>
+</option>
+<option>
+	<name>env-default-action-icon-index</name>
+	<value>9</value>
+</option>
+<option>
+	<name>env-default-action-icon-size</name>
+	<value>64</value>
+</option>
+<option>
+	<name>env-default-action-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>env-default-action-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>instant-notification-duplication-check-time</name>
+	<value>3</value>
+</option>
+<option>
+	<name>locked-icontexture</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>locked-iconindex</name>
+	<value>5</value>
+</option>
+<option>
+	<name>locked-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>locked-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>locked-icontexture-heightt</name>
+	<value>512</value>
+</option>
+<option>
+	<name>tooltip-fontset-item-combat-bonus</name>
+	<value>00008130.UI.Over_12</value>
+</option>
+<option>
+	<name>tooltip-fontset-item-combat-penalty</name>
+	<value>00008130.UI.Label_Red02_12</value>
+</option>
+<option>
+	<name>tooltip-fontset-item-combat-normal</name>
+	<value>00008130.UI.Normal_12</value>
+</option>
+<option>
+	<name>expand-inventory-slot-particle-ref</name>
+	<value>00011426.Inventory_UI_01</value>
+</option>
+<option>
+	<name>expand-inventory-slot-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>expand-inventory-sound-ref</name>
+	<value>00004409.CBT.S_UI_Inventory_Extend</value>
+</option>
+<option>
+	<name>skill-bar-acquire-skill-particle-ref</name>
+	<value>00011426.Skill_UI_01</value>
+</option>
+<option>
+	<name>skill-bar-acquire-skill-particle-scale</name>
+	<value>4.0</value>
+</option>
+<option>
+	<name>quest-quick-slot-add-quest-particle-ref</name>
+	<value>00011426.Quest_UI</value>
+</option>
+<option>
+	<name>quest-quick-slot-add-quest-particle-scale</name>
+	<value>2.5</value>
+</option>
+<option>
+	<name>quest-quick-slot-add-quest-particle-x</name>
+	<value>-130.0</value>
+</option>
+<option>
+	<name>quest-quick-slot-add-quest-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>quest-quick-slot-progress-mission-particle-ref</name>
+	<value>00011426.Quest_UI_A</value>
+</option>
+<option>
+	<name>quest-quick-slot-progress-mission-particle-scale</name>
+	<value>2.5</value>
+</option>
+<option>
+	<name>quest-quick-slot-progress-mission-particle-x</name>
+	<value>-130.0</value>
+</option>
+<option>
+	<name>quest-quick-slot-progress-mission-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>action-icon-tutorial-particle-ref</name>
+	<value>00011426.Tutorial_UI_01</value>
+</option>
+<option>
+	<name>action-icon-tutorial-particle-scale</name>
+	<value>5.0</value>
+</option>
+<option>
+	<name>system-icon-tutorial-particle-ref</name>
+	<value>00011426.Tutorial_UI_02</value>
+</option>
+<option>
+	<name>system-icon-tutorial-particle-scale</name>
+	<value>5.0</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-possible-imageset</name>
+	<value>00009499.Teleport_point_possible_normal</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-possible-over-imageset</name>
+	<value>00009499.Teleport_point_possible_over</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-possible-pressed-imageset</name>
+	<value>00009499.Teleport_point_possible_pressed</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-possible-width</name>
+	<value>32</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-possible-height</name>
+	<value>32</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-impossible-imageset</name>
+	<value>00009499.Teleport_point_impossible_normal</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-impossible-width</name>
+	<value>32</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-impossible-height</name>
+	<value>32</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-current-area-imageset</name>
+	<value>00009499.Teleport_point_current_normal</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-current-area-width</name>
+	<value>32</value>
+</option>
+<option>
+	<name>mapunit-teleport-point-current-area-height</name>
+	<value>32</value>
+</option>
+<option>
+	<name>mapunit-convoy-npc-imageset</name>
+	<value>00009499.Minimap_Convoy_Location</value>
+</option>
+<option>
+	<name>mapunit-convoy-npc-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-convoy-npc-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-convoy-npc-imageset</name>
+	<value>00009499.Minimap_Convoy_Status_Borderline</value>
+</option>
+<option>
+	<name>mapunit-out-of-convoy-npc-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-convoy-npc-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-campfire-imageset</name>
+	<value>00009499.Minimap_Campfire</value>
+</option>
+<option>
+	<name>mapunit-campfire-over-imageset</name>
+	<value>00009499.Minimap_Campfire_Outglow</value>
+</option>
+<option>
+	<name>mapunit-campfire-pressed-imageset</name>
+	<value>00009499.Minimap_Campfire</value>
+</option>
+<option>
+	<name>mapunit-campfire-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-campfire-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>party-name-default-fontset</name>
+	<value>00008130.UI.Normal_12</value>
+</option>
+<option>
+	<name>party-name-disable-fontset</name>
+	<value>00008130.UI.Disable_12</value>
+</option>
+<option>
+	<name>tutorial-target-zone-mark</name>
+	<value>00011416.Tutorial_Area000</value>
+</option>
+<option>
+	<name>quest-levelgap-awful</name>
+	<value>4</value>
+</option>
+<option>
+	<name>quest-levelgap-strong</name>
+	<value>2</value>
+</option>
+<option>
+	<name>quest-levelgap-weak</name>
+	<value>-1</value>
+</option>
+<option>
+	<name>quest-levelgap-veryweak</name>
+	<value>-2</value>
+</option>
+<option>
+	<name>quest-levelgap-veryveryweak</name>
+	<value>-4</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-acquire-path</name>
+	<value>00009499.Map_Epic_Start</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-acquire-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-acquire-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-acquire-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-acquire-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-acquire-path</name>
+	<value>00009499.Map_Job_Start</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-acquire-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-acquire-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-acquire-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-acquire-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-acquire-path</name>
+	<value>00009499.Map_Normal_Start</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-acquire-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-acquire-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-acquire-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-acquire-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-next-acquire-path</name>
+	<value>00009499.Map_Normal_potential</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-next-acquire-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-next-acquire-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-next-acquire-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-next-acquire-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-complete-path</name>
+	<value>00009499.Map_Epic_End</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-complete-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-complete-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-complete-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-can-complete-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-progress-path</name>
+	<value>00009499.Map_Epic_Progress</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-progress-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-progress-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-progress-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-epic-progress-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-complete-path</name>
+	<value>00009499.Map_Job_End</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-complete-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-complete-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-complete-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-can-complete-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-progress-path</name>
+	<value>00009499.Map_Job_Progress</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-progress-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-progress-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-progress-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-job-progress-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-complete-path</name>
+	<value>00009499.Map_Normal_End</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-complete-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-complete-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-complete-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-can-complete-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-progress-path</name>
+	<value>00009499.Map_Normal_Progress</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-progress-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-progress-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-progress-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-normal-progress-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-empty-path</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-empty-texcoord-u</name>
+	<value>320</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-empty-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-empty-texcoord-ul</name>
+	<value>64</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-empty-texcoord-vl</name>
+	<value>64</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-acquire-path</name>
+	<value>00009499.Map_Faction_Start</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-acquire-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-acquire-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-acquire-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-acquire-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-complete-path</name>
+	<value>00009499.Map_Faction_End</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-complete-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-complete-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-complete-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-can-complete-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-progress-path</name>
+	<value>00009499.Map_Faction_Progress</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-progress-texcoord-u</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-progress-texcoord-v</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-progress-texcoord-ul</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-faction-progress-texcoord-vl</name>
+	<value>32</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-width</name>
+	<value>16</value>
+</option>
+<option>
+	<name>tooltip-quest-icon-height</name>
+	<value>16</value>
+</option>
+<option>
+	<name>exit-game-waiting-time</name>
+	<value>10.0</value>
+</option>
+<option>
+	<name>minimap-alpha-min</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>minimap-alpha-max</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>equip-gem-grade-1-color-r</name>
+	<value>255</value>
+</option>
+<option>
+	<name>equip-gem-grade-1-color-g</name>
+	<value>255</value>
+</option>
+<option>
+	<name>equip-gem-grade-1-color-b</name>
+	<value>255</value>
+</option>
+<option>
+	<name>equip-gem-grade-2-color-r</name>
+	<value>255</value>
+</option>
+<option>
+	<name>equip-gem-grade-2-color-g</name>
+	<value>233</value>
+</option>
+<option>
+	<name>equip-gem-grade-2-color-b</name>
+	<value>88</value>
+</option>
+<option>
+	<name>equip-gem-grade-3-color-r</name>
+	<value>88</value>
+</option>
+<option>
+	<name>equip-gem-grade-3-color-g</name>
+	<value>255</value>
+</option>
+<option>
+	<name>equip-gem-grade-3-color-b</name>
+	<value>119</value>
+</option>
+<option>
+	<name>equip-gem-grade-4-color-r</name>
+	<value>94</value>
+</option>
+<option>
+	<name>equip-gem-grade-4-color-g</name>
+	<value>174</value>
+</option>
+<option>
+	<name>equip-gem-grade-4-color-b</name>
+	<value>255</value>
+</option>
+<option>
+	<name>equip-gem-grade-5-color-r</name>
+	<value>173</value>
+</option>
+<option>
+	<name>equip-gem-grade-5-color-g</name>
+	<value>93</value>
+</option>
+<option>
+	<name>equip-gem-grade-5-color-b</name>
+	<value>255</value>
+</option>
+<option>
+	<name>equip-gem-grade-6-color-r</name>
+	<value>255</value>
+</option>
+<option>
+	<name>equip-gem-grade-6-color-g</name>
+	<value>150</value>
+</option>
+<option>
+	<name>equip-gem-grade-6-color-b</name>
+	<value>0</value>
+</option>
+<option>
+	<name>passive-effect-blink-start-time</name>
+	<value>3.1</value>
+</option>
+<option>
+	<name>passive-effect-blink-cycle-time</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>passive-effect-blink-min-alpha</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>limit-time-for-user-away-status</name>
+	<value>600</value>
+</option>
+<option>
+	<name>itemtalk-camera-basebone-name</name>
+	<value>Bip01</value>
+</option>
+<option>
+	<name>itemtalk-camera-targetbone-name</name>
+	<value>Bip01</value>
+</option>
+<option>
+	<name>player-hp-blink-cycle-duration</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>end-talk-sound</name>
+	<value>00004409.CBT.S_UI_Window_Type2_Close</value>
+</option>
+<option>
+	<name>minimap-search-quest-map-unit-blink-cycle-duration</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>minimap-search-quest-map-unit-blink-cycle-count</name>
+	<value>8</value>
+</option>
+<option>
+	<name>quest-icon-epic-can-complete-quest-imageset</name>
+	<value>00009499.Epic_End</value>
+</option>
+<option>
+	<name>quest-icon-epic-progress-mission-imageset</name>
+	<value>00009499.Epic_Progress</value>
+</option>
+<option>
+	<name>quest-icon-epic-can-complete-quest-pressed-imageset</name>
+	<value>00009499.Epic_end_over</value>
+</option>
+<option>
+	<name>quest-icon-epic-progress-mission-pressed-imageset</name>
+	<value>00009499.Epic_progress_over</value>
+</option>
+<option>
+	<name>quest-icon-epic-can-complete-quest-over-imageset</name>
+	<value>00009499.Epic_end_over</value>
+</option>
+<option>
+	<name>quest-icon-epic-progress-mission-over-imageset</name>
+	<value>00009499.Epic_progress_over</value>
+</option>
+<option>
+	<name>quest-icon-job-can-complete-quest-imageset</name>
+	<value>00009499.Job_End</value>
+</option>
+<option>
+	<name>quest-icon-job-progress-mission-imageset</name>
+	<value>00009499.Job_Progress</value>
+</option>
+<option>
+	<name>quest-icon-job-can-complete-quest-pressed-imageset</name>
+	<value>00009499.job_end_over</value>
+</option>
+<option>
+	<name>quest-icon-job-progress-mission-pressed-imageset</name>
+	<value>00009499.job_progress_over</value>
+</option>
+<option>
+	<name>quest-icon-job-can-complete-quest-over-imageset</name>
+	<value>00009499.job_end_over</value>
+</option>
+<option>
+	<name>quest-icon-job-progress-mission-over-imageset</name>
+	<value>00009499.job_progress_over</value>
+</option>
+<option>
+	<name>quest-icon-normal-can-complete-quest-imageset</name>
+	<value>00009499.Normal_End</value>
+</option>
+<option>
+	<name>quest-icon-normal-progress-mission-imageset</name>
+	<value>00009499.Normal_Progress</value>
+</option>
+<option>
+	<name>quest-icon-normal-can-complete-quest-pressed-imageset</name>
+	<value>00009499.Normal_end_over</value>
+</option>
+<option>
+	<name>quest-icon-normal-progress-mission-pressed-imageset</name>
+	<value>00009499.Normal_progress_over</value>
+</option>
+<option>
+	<name>quest-icon-normal-can-complete-quest-over-imageset</name>
+	<value>00009499.Normal_end_over</value>
+</option>
+<option>
+	<name>quest-icon-normal-progress-mission-over-imageset</name>
+	<value>00009499.Normal_progress_over</value>
+</option>
+<option>
+	<name>quest-icon-faction-can-complete-quest-imageset</name>
+	<value>00009499.faction_End</value>
+</option>
+<option>
+	<name>quest-icon-faction-progress-mission-imageset</name>
+	<value>00009499.faction_Progress</value>
+</option>
+<option>
+	<name>quest-icon-faction-can-complete-quest-pressed-imageset</name>
+	<value>00009499.faction_end_over</value>
+</option>
+<option>
+	<name>quest-icon-faction-progress-mission-pressed-imageset</name>
+	<value>00009499.faction_progress_over</value>
+</option>
+<option>
+	<name>quest-icon-faction-can-complete-quest-over-imageset</name>
+	<value>00009499.faction_end_over</value>
+</option>
+<option>
+	<name>quest-icon-faction-progress-mission-over-imageset</name>
+	<value>00009499.faction_progress_over</value>
+</option>
+<option>
+	<name>gauge-common-start-color-r-1</name>
+	<value>255</value>
+</option>
+<option>
+	<name>gauge-common-start-color-g-1</name>
+	<value>193</value>
+</option>
+<option>
+	<name>gauge-common-start-color-b-1</name>
+	<value>28</value>
+</option>
+<option>
+	<name>gauge-common-end-color-r-1</name>
+	<value>240</value>
+</option>
+<option>
+	<name>gauge-common-end-color-g-1</name>
+	<value>104</value>
+</option>
+<option>
+	<name>gauge-common-end-color-b-1</name>
+	<value>4</value>
+</option>
+<option>
+	<name>gauge-common-start-color-r-2</name>
+	<value>240</value>
+</option>
+<option>
+	<name>gauge-common-start-color-g-2</name>
+	<value>104</value>
+</option>
+<option>
+	<name>gauge-common-start-color-b-2</name>
+	<value>4</value>
+</option>
+<option>
+	<name>gauge-common-end-color-r-2</name>
+	<value>204</value>
+</option>
+<option>
+	<name>gauge-common-end-color-g-2</name>
+	<value>20</value>
+</option>
+<option>
+	<name>gauge-common-end-color-b-2</name>
+	<value>6</value>
+</option>
+<option>
+	<name>inventory-self-restraint-gauge-time</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>system-menu-inventory-acquire-item-particle-ref</name>
+	<value>00011426.UI_Item_Get</value>
+</option>
+<option>
+	<name>system-menu-inventory-acquire-item-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>system-menu-inventory-acquire-item-particle-duration</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>gem-compose-progress-duration</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>gem-compose-success-effect-duration</name>
+	<value>1.5</value>
+</option>
+<option>
+	<name>gem-compose-fail-effect-duration</name>
+	<value>1.5</value>
+</option>
+<option>
+	<name>gem-compose-progress-particle-ref</name>
+	<value>00011426.GemCompose_Progress</value>
+</option>
+<option>
+	<name>gem-compose-progress-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-fail-particle-ref</name>
+	<value>00011426.GemCompose_Fail</value>
+</option>
+<option>
+	<name>gem-compose-fail-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-1-particle-ref</name>
+	<value>00011426.GemCompose_Success_01</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-1-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-1-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-2-particle-ref</name>
+	<value>00011426.GemCompose_Success_02</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-2-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-2-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-2-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-3-particle-ref</name>
+	<value>00011426.GemCompose_Success_03</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-3-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-3-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-3-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-4-particle-ref</name>
+	<value>00011426.GemCompose_Success_04</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-4-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-4-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-4-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-5-particle-ref</name>
+	<value>00011426.GemCompose_Success_05</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-5-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-5-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-5-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-6-particle-ref</name>
+	<value>00011426.GemCompose_Success_06</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-6-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-6-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-6-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-7-particle-ref</name>
+	<value>00011426.GemCompose_Success_07</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-7-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-7-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-7-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-8-particle-ref</name>
+	<value>00011426.GemCompose_Success_08</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-8-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-8-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-8-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-1-background-particle-ref</name>
+	<value>00011426.GemCompose_Success_Background_01</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-1-background-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-1-background-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-1-background-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-2-background-particle-ref</name>
+	<value>00011426.GemCompose_Success_Background_02</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-2-background-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-2-background-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-2-background-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-3-background-particle-ref</name>
+	<value>00011426.GemCompose_Success_Background_03</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-3-background-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-3-background-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-3-background-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-4-background-particle-ref</name>
+	<value>00011426.GemCompose_Success_Background_04</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-4-background-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-4-background-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-4-background-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-5-background-particle-ref</name>
+	<value>00011426.GemCompose_Success_Background_05</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-5-background-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-5-background-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-5-background-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-6-background-particle-ref</name>
+	<value>00011426.GemCompose_Success_Background_06</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-6-background-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-6-background-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-6-background-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-7-background-particle-ref</name>
+	<value>00011426.GemCompose_Success_Background_07</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-7-background-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-7-background-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-7-background-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-8-background-particle-ref</name>
+	<value>00011426.GemCompose_Success_Background_08</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-8-background-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-8-background-particle-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>gem-compose-success-gem-8-background-particle-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>sub-context-menu-attach-gap</name>
+	<value>10</value>
+</option>
+<option>
+	<name>env-manipulate-action-bar-not-display-duration</name>
+	<value>1</value>
+</option>
+<option>
+	<name>npc-manipulate-action-icon-texture</name>
+	<value>00008758.Actionkey_Icon_00</value>
+</option>
+<option>
+	<name>npc-manipulate-action-icon-index</name>
+	<value>3</value>
+</option>
+<option>
+	<name>npc-manipulate-action-icon-size</name>
+	<value>64</value>
+</option>
+<option>
+	<name>npc-manipulate-action-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>npc-manipulate-action-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>dying-sound</name>
+	<value>00003805.Signal.S_Sys_DyingCue</value>
+</option>
+<option>
+	<name>dying-sound-fade-out-time</name>
+	<value>1.5</value>
+</option>
+<option>
+	<name>exhaustion-sound</name>
+	<value>00003805.Signal.S_Sys_ExhaustedCue</value>
+</option>
+<option>
+	<name>exhaustion-loop-sound</name>
+	<value>00003805.Signal.S_Sys_Exhausted_loopCue</value>
+</option>
+<option>
+	<name>exhaustion-loop-sound-fade-in-time</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>exhaustion-loop-sound-fade-out-time</name>
+	<value>1.5</value>
+</option>
+<option>
+	<name>exhaustion-sound-mode</name>
+	<value>Exhausted</value>
+</option>
+<option>
+	<name>dead-sound-mode</name>
+	<value>Death</value>
+</option>
+<option>
+	<name>battle-sound-mode</name>
+	<value>Battle</value>
+</option>
+<option>
+	<name>hud-player-hpbar-animation-time</name>
+	<value>3.0</value>
+</option>
+<option>
+	<name>immediate-escape-skill-id</name>
+	<value>700</value>
+</option>
+<option>
+	<name>effect-fire-seed-texture-ref</name>
+	<value>00009076.fireseed</value>
+</option>
+<option>
+	<name>tooltip-mission-left-margin</name>
+	<value>16</value>
+</option>
+<option>
+	<name>necessary-quest-id-for-skill-training</name>
+	<value>494</value>
+</option>
+<option>
+	<name>default-item-sell-rate</name>
+	<value>100</value>
+</option>
+<option>
+	<name>tooltip-fontset-enable-set-item-slot</name>
+	<value>00008130.UI.Label_LightYellow_12</value>
+</option>
+<option>
+	<name>tooltip-fontset-disable-set-item-slot</name>
+	<value>00008130.UI.Disable_12</value>
+</option>
+<option>
+	<name>tooltip-set-item-slot-left-margin</name>
+	<value>0</value>
+</option>
+<option>
+	<name>tooltip-set-item-description-top-margin</name>
+	<value>8</value>
+</option>
+<option>
+	<name>quest-quick-slot-open-soundcue</name>
+	<value>000004409.CBT.S_UI_Window_Type1_Open</value>
+</option>
+<option>
+	<name>quest-quick-slot-close-soundcue</name>
+	<value>00004409.CBT.S_UI_Window_Type1_Close</value>
+</option>
+<option>
+	<name>skill-map-add-skill-point-sound</name>
+	<value>00004409.CBT.S_UI_Button_SkillBook_Count</value>
+</option>
+<option>
+	<name>skill-map-remove-skill-point-sound</name>
+	<value>00004409.CBT.S_UI_Button_SkillBook_Count</value>
+</option>
+<option>
+	<name>chat-input-papering-check-low-allow-count</name>
+	<value>3</value>
+</option>
+<option>
+	<name>chat-input-papering-check-low-duration</name>
+	<value>1.5</value>
+</option>
+<option>
+	<name>chat-input-papering-check-low-penalty-duration</name>
+	<value>10.0</value>
+</option>
+<option>
+	<name>chat-input-papering-check-midium-allow-count</name>
+	<value>7</value>
+</option>
+<option>
+	<name>chat-input-papering-check-midium-duration</name>
+	<value>8.0</value>
+</option>
+<option>
+	<name>chat-input-papering-check-midium-penalty-duration</name>
+	<value>20.0</value>
+</option>
+<option>
+	<name>chat-input-papering-check-high-allow-count</name>
+	<value>3</value>
+</option>
+<option>
+	<name>chat-input-papering-check-high-duration</name>
+	<value>180.0</value>
+</option>
+<option>
+	<name>chat-input-papering-check-high-penalty-duration</name>
+	<value>120.0</value>
+</option>
+<option>
+	<name>phantom-sword-spawn-duration</name>
+	<value>1.3</value>
+</option>
+<option>
+	<name>phantom-sword-spawn-show-1</name>
+	<value>00007911.Phantom-sword-spawn-show-1</value>
+</option>
+<option>
+	<name>phantom-sword-spawn-show-2</name>
+	<value>00007911.Phantom-sword-spawn-show-2</value>
+</option>
+<option>
+	<name>phantom-sword-spawn-show-3</name>
+	<value>00007911.Phantom-sword-spawn-show-3</value>
+</option>
+<option>
+	<name>phantom-sword-spawn-show-4</name>
+	<value>00007911.Phantom-sword-spawn-show-4</value>
+</option>
+<option>
+	<name>phantom-sword-spawn-show-5</name>
+	<value>00007911.Phantom-sword-spawn-show-5</value>
+</option>
+<option>
+	<name>phantom-sword-spawn-show-6</name>
+	<value>00007911.Phantom-sword-spawn-show-6</value>
+</option>
+<option>
+	<name>phantom-sword-end-duration</name>
+	<value>0.8</value>
+</option>
+<option>
+	<name>phantom-sword-end-show-1</name>
+	<value>00007911.Phantom-sword-end-show-1</value>
+</option>
+<option>
+	<name>phantom-sword-end-show-2</name>
+	<value>00007911.Phantom-sword-end-show-2</value>
+</option>
+<option>
+	<name>phantom-sword-end-show-3</name>
+	<value>00007911.Phantom-sword-end-show-3</value>
+</option>
+<option>
+	<name>phantom-sword-end-show-4</name>
+	<value>00007911.Phantom-sword-end-show-4</value>
+</option>
+<option>
+	<name>phantom-sword-end-show-5</name>
+	<value>00007911.Phantom-sword-end-show-5</value>
+</option>
+<option>
+	<name>phantom-sword-end-show-6</name>
+	<value>00007911.Phantom-sword-end-show-6</value>
+</option>
+<option>
+	<name>phantom-sword-exec-end-duration</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>phantom-sword-exec-end-show-1</name>
+	<value>00007911.Phantom-sword-exec-end-show-1</value>
+</option>
+<option>
+	<name>phantom-sword-exec-end-show-2</name>
+	<value>00007911.Phantom-sword-exec-end-show-2</value>
+</option>
+<option>
+	<name>phantom-sword-exec-end-show-3</name>
+	<value>00007911.Phantom-sword-exec-end-show-3</value>
+</option>
+<option>
+	<name>phantom-sword-exec-end-show-4</name>
+	<value>00007911.Phantom-sword-exec-end-show-4</value>
+</option>
+<option>
+	<name>phantom-sword-exec-end-show-5</name>
+	<value>00007911.Phantom-sword-exec-end-show-5</value>
+</option>
+<option>
+	<name>phantom-sword-exec-end-show-6</name>
+	<value>00007911.Phantom-sword-exec-end-show-6</value>
+</option>
+<option>
+	<name>phantom-sword-finish-duration</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>phantom-sword-finish-show-1</name>
+	<value>00007911.Phantom-sword-finish-show-1</value>
+</option>
+<option>
+	<name>phantom-sword-finish-show-2</name>
+	<value>00007911.Phantom-sword-finish-show-2</value>
+</option>
+<option>
+	<name>phantom-sword-finish-show-3</name>
+	<value>00007911.Phantom-sword-finish-show-3</value>
+</option>
+<option>
+	<name>phantom-sword-finish-show-4</name>
+	<value>00007911.Phantom-sword-finish-show-4</value>
+</option>
+<option>
+	<name>phantom-sword-finish-show-5</name>
+	<value>00007911.Phantom-sword-finish-show-5</value>
+</option>
+<option>
+	<name>phantom-sword-finish-show-6</name>
+	<value>00007911.Phantom-sword-finish-show-6</value>
+</option>
+<option>
+	<name>phantom-sword-sync-time</name>
+	<value>0.8</value>
+</option>
+<option>
+	<name>hud-customize-snap-offset</name>
+	<value>12.0</value>
+</option>
+<option>
+	<name>use-minimap-marking</name>
+	<value>y</value>
+</option>
+<option>
+	<name>mapunit-marking-alpha-animation-cycle</name>
+	<value>6</value>
+</option>
+<option>
+	<name>mapunit-marking-player-imageset</name>
+	<value>00009076.MarkingPosition</value>
+</option>
+<option>
+	<name>mapunit-marking-out-of-player-imageset</name>
+	<value>00009076.MarkingPosition</value>
+</option>
+<option>
+	<name>mapunit-marking-player-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-marking-player-particle-ref</name>
+	<value>00011426.Particle.UI_Map_Marking</value>
+</option>
+<option>
+	<name>mapunit-marking-player-particle-scale</name>
+	<value>1.5</value>
+</option>
+<option>
+	<name>mapunit-marking-party-imageset</name>
+	<value>00009076.MarkingPosition</value>
+</option>
+<option>
+	<name>mapunit-marking-out-of-party-imageset</name>
+	<value>00009076.MarkingPosition</value>
+</option>
+<option>
+	<name>mapunit-marking-party-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-marking-party-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-marking-party-particle-ref</name>
+	<value>00011426.Particle.UI_Map_Marking</value>
+</option>
+<option>
+	<name>mapunit-marking-party-particle-scale</name>
+	<value>1.5</value>
+</option>
+<option>
+	<name>use-minimap-free-drawing</name>
+	<value>y</value>
+</option>
+<option>
+	<name>minimap-free-drawing-line-size</name>
+	<value>5.0</value>
+</option>
+<option>
+	<name>minimap-free-draw-time</name>
+	<value>10.0</value>
+</option>
+<option>
+	<name>minimap-free-drawing-time</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>minimap-link-gap-area-info-name-horizontal</name>
+	<value>15.0</value>
+</option>
+<option>
+	<name>minimap-link-gap-area-info-name-vertical</name>
+	<value>14.0</value>
+</option>
+<option>
+	<name>minimap-link-gap-resize-dummy-default</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>minimap-link-gap-minimap-vertical</name>
+	<value>32.0</value>
+</option>
+<option>
+	<name>minimap-link-gap-size-dummy-horizontal</name>
+	<value>8.0</value>
+</option>
+<option>
+	<name>minimap-link-gap-size-dummy-vertical-top</name>
+	<value>-8.0</value>
+</option>
+<option>
+	<name>minimap-link-gap-size-dummy-vertical-bottom</name>
+	<value>-40.0</value>
+</option>
+<option>
+	<name>sub-quest-acquire-sound</name>
+	<value>00003805.Signal.S_Sys_Quest_AcceptCue</value>
+</option>
+<option>
+	<name>sub-quest-complete-sound</name>
+	<value>00003805.Signal.S_Sys_Quest_SubCompleteCue</value>
+</option>
+<option>
+	<name>mouse-sensitivity-x-min</name>
+	<value>10</value>
+</option>
+<option>
+	<name>mouse-sensitivity-x-max</name>
+	<value>60</value>
+</option>
+<option>
+	<name>mouse-sensitivity-y-min</name>
+	<value>10</value>
+</option>
+<option>
+	<name>mouse-sensitivity-y-max</name>
+	<value>40</value>
+</option>
+<option>
+	<name>mouse-left-click-move</name>
+	<value>true</value>
+</option>
+<option>
+	<name>mouse-right-click-move</name>
+	<value>false</value>
+</option>
+<option>
+	<name>mouse-left-click-action</name>
+	<value>true</value>
+</option>
+<option>
+	<name>mouse-right-click-action</name>
+	<value>false</value>
+</option>
+<option>
+	<name>catch-caster-socket</name>
+	<value>WeaponL</value>
+</option>
+<option>
+	<name>catch-target-socket</name>
+	<value>Catch_Neck</value>
+</option>
+<option>
+	<name>catch-noneHuman-caster-socket</name>
+	<value>WeaponL</value>
+</option>
+<option>
+	<name>catch-noneHuman-target-socket</name>
+	<value>Catch_Back</value>
+</option>
+<option>
+	<name>catch-friend-caster-socket</name>
+	<value>WeaponL</value>
+</option>
+<option>
+	<name>catch-friend-target-socket</name>
+	<value>Bip01Pelvis</value>
+</option>
+<option>
+	<name>catch-inhalation-caster-socket</name>
+	<value>Socket_Caster</value>
+</option>
+<option>
+	<name>catch-inhalation-target-socket</name>
+	<value>Socket_Force</value>
+</option>
+<option>
+	<name>minimap-slide-animation-dest-map-pixel-distance-gap</name>
+	<value>50.0</value>
+</option>
+<option>
+	<name>minimap-slide-animation-duration</name>
+	<value>1.9</value>
+</option>
+<option>
+	<name>minimap-blend-animation-duration</name>
+	<value>1</value>
+</option>
+<option>
+	<name>show-attack-target-tooltip</name>
+	<value>y</value>
+</option>
+<option>
+	<name>critical-die-knockback-show</name>
+	<value>00010628.Critical_Dead</value>
+</option>
+<option>
+	<name>critical-die-knockback-duration</name>
+	<value>1.1</value>
+</option>
+<option>
+	<name>critical-die-knockback-distance</name>
+	<value>750.0</value>
+</option>
+<option>
+	<name>player-status-constant-kd</name>
+	<value>0.8</value>
+</option>
+<option>
+	<name>player-status-constant-kc</name>
+	<value>0.95</value>
+</option>
+<option>
+	<name>player-status-constant-kdf</name>
+	<value>0.8</value>
+</option>
+<option>
+	<name>player-status-constant-kp</name>
+	<value>0.92</value>
+</option>
+<option>
+	<name>player-status-constant-kgp</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>inventory-icon-alpha-animation-common-cycle-duration</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>inventory-icon-alpha-animation-common-cycle-count</name>
+	<value>6</value>
+</option>
+<option>
+	<name>minimap-update-quest-map-unit-blink-cycle-duration</name>
+	<value>0.3</value>
+</option>
+<option>
+	<name>minimap-update-quest-map-unit-blink-cycle-count</name>
+	<value>8</value>
+</option>
+<option>
+	<name>mapunit-outglow-blink-time</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>mapunit-outglow-cycle-count</name>
+	<value>2.0</value>
+</option>
+<option>
+	<name>mapunit-party-1-icon-imageset</name>
+	<value>00009499.Manimap_Party_Location_1</value>
+</option>
+<option>
+	<name>mapunit-party-1-dead-imageset</name>
+	<value>00009499.Minimap_Party_1_Status_Death</value>
+</option>
+<option>
+	<name>mapunit-party-1-exhaustion-imageset</name>
+	<value>00009499.Minimap_Party_1_Status_tired</value>
+</option>
+<option>
+	<name>mapunit-party-1-restoration-imageset</name>
+	<value>00009499.Minimap_Party_1_Status_RecoveryPower</value>
+</option>
+<option>
+	<name>mapunit-party-1-another-channel-imageset</name>
+	<value>00009499.Minimap_Party_1_Status_OtherChanel</value>
+</option>
+<option>
+	<name>mapunit-party-1-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Location_1_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-1-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-1-icon-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline</value>
+</option>
+<option>
+	<name>mapunit-party-1-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-1-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-1-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-party-1-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-1-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-1-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-1-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-1-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-1-icon-mouse-over-imageset</name>
+	<value>00009499.Minimap_Party_Location_1_Outglow</value>
+</option>
+<option>
+	<name>mapunit-party-1-icon-mouse-down-imageset</name>
+	<value>00009499.Minimap_Party_Location_1_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-1-icon-mouse-over-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-1-icon-mouse-down-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-party-2-icon-imageset</name>
+	<value>00009499.Manimap_Party_Location_2</value>
+</option>
+<option>
+	<name>mapunit-party-2-dead-imageset</name>
+	<value>00009499.Minimap_Party_2_Status_Death</value>
+</option>
+<option>
+	<name>mapunit-party-2-exhaustion-imageset</name>
+	<value>00009499.Minimap_Party_2_Status_tired</value>
+</option>
+<option>
+	<name>mapunit-party-2-restoration-imageset</name>
+	<value>00009499.Minimap_Party_2_Status_RecoveryPower</value>
+</option>
+<option>
+	<name>mapunit-party-2-another-channel-imageset</name>
+	<value>00009499.Minimap_Party_2_Status_OtherChanel</value>
+</option>
+<option>
+	<name>mapunit-party-2-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Location_2_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-2-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-2-icon-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline</value>
+</option>
+<option>
+	<name>mapunit-party-2-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-2-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-2-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-party-2-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-2-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-2-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-2-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-2-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-2-icon-mouse-over-imageset</name>
+	<value>00009499.Minimap_Party_Location_2_Outglow</value>
+</option>
+<option>
+	<name>mapunit-party-2-icon-mouse-down-imageset</name>
+	<value>00009499.Minimap_Party_Location_2_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-2-icon-mouse-over-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-2-icon-mouse-down-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-party-3-icon-imageset</name>
+	<value>00009499.Manimap_Party_Location_3</value>
+</option>
+<option>
+	<name>mapunit-party-3-dead-imageset</name>
+	<value>00009499.Minimap_Party_3_Status_Death</value>
+</option>
+<option>
+	<name>mapunit-party-3-exhaustion-imageset</name>
+	<value>00009499.Minimap_Party_3_Status_tired</value>
+</option>
+<option>
+	<name>mapunit-party-3-restoration-imageset</name>
+	<value>00009499.Minimap_Party_3_Status_RecoveryPower</value>
+</option>
+<option>
+	<name>mapunit-party-3-another-channel-imageset</name>
+	<value>00009499.Minimap_Party_3_Status_OtherChanel</value>
+</option>
+<option>
+	<name>mapunit-party-3-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Location_3_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-3-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-3-icon-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline</value>
+</option>
+<option>
+	<name>mapunit-party-3-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-3-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-3-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-party-3-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-3-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-3-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-3-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-3-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-3-icon-mouse-over-imageset</name>
+	<value>00009499.Minimap_Party_Location_3_Outglow</value>
+</option>
+<option>
+	<name>mapunit-party-3-icon-mouse-down-imageset</name>
+	<value>00009499.Minimap_Party_Location_3_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-3-icon-mouse-over-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-3-icon-mouse-down-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-party-4-icon-imageset</name>
+	<value>00009499.Manimap_Party_Location_4</value>
+</option>
+<option>
+	<name>mapunit-party-4-dead-imageset</name>
+	<value>00009499.Minimap_Party_4_Status_Death</value>
+</option>
+<option>
+	<name>mapunit-party-4-exhaustion-imageset</name>
+	<value>00009499.Minimap_Party_4_Status_tired</value>
+</option>
+<option>
+	<name>mapunit-party-4-restoration-imageset</name>
+	<value>00009499.Minimap_Party_4_Status_RecoveryPower</value>
+</option>
+<option>
+	<name>mapunit-party-4-another-channel-imageset</name>
+	<value>00009499.Minimap_Party_4_Status_OtherChanel</value>
+</option>
+<option>
+	<name>mapunit-party-4-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Location_4_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-4-icon-out-glow-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-4-icon-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline</value>
+</option>
+<option>
+	<name>mapunit-party-4-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-4-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-4-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-party-4-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-4-icon-width</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-4-icon-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-4-icon-out-glow-width</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-4-icon-out-glow-height</name>
+	<value>30</value>
+</option>
+<option>
+	<name>mapunit-party-4-icon-mouse-over-imageset</name>
+	<value>00009499.Minimap_Party_Location_4_Outglow</value>
+</option>
+<option>
+	<name>mapunit-party-4-icon-mouse-down-imageset</name>
+	<value>00009499.Minimap_Party_Location_4_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-4-icon-mouse-over-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>mapunit-out-of-party-4-icon-mouse-down-imageset</name>
+	<value>00009499.Minimap_Party_Status_Borderline_Outglow</value>
+</option>
+<option>
+	<name>skill-training-graph-default-value</name>
+	<value>30</value>
+</option>
+<option>
+	<name>skill-training-graph-max-range</name>
+	<value>70</value>
+</option>
+<option>
+	<name>item-grade-icon-size</name>
+	<value>64</value>
+</option>
+<option>
+	<name>item-grade-1-icon-texture</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>item-grade-1-icon-index</name>
+	<value>15</value>
+</option>
+<option>
+	<name>item-grade-1-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-1-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-2-icon-texture</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>item-grade-2-icon-index</name>
+	<value>16</value>
+</option>
+<option>
+	<name>item-grade-2-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-2-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-3-icon-texture</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>item-grade-3-icon-index</name>
+	<value>17</value>
+</option>
+<option>
+	<name>item-grade-3-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-3-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-4-icon-texture</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>item-grade-4-icon-index</name>
+	<value>18</value>
+</option>
+<option>
+	<name>item-grade-4-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-4-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-5-icon-texture</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>item-grade-5-icon-index</name>
+	<value>19</value>
+</option>
+<option>
+	<name>item-grade-5-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-5-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-6-icon-texture</name>
+	<value>00008758.Default_Icon_00</value>
+</option>
+<option>
+	<name>item-grade-6-icon-index</name>
+	<value>20</value>
+</option>
+<option>
+	<name>item-grade-6-icon-texture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>item-grade-6-icon-texture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>system-menu-icon-scale-animation-use</name>
+	<value>y</value>
+</option>
+<option>
+	<name>system-menu-icon-scale-animation-start-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>system-menu-icon-scale-animation-end-scale</name>
+	<value>1.25</value>
+</option>
+<option>
+	<name>system-menu-icon-scale-animation-cycle-duration</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>system-menu-icon-scale-animation-cycle-count</name>
+	<value>4</value>
+</option>
+<option>
+	<name>inventory-gem-decompose-complete-ref</name>
+	<value>00011426.Particle.Inventory_Decompose_02</value>
+</option>
+<option>
+	<name>inventory-gem-decompose-complete-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>inventory-gem-decompose-progress-ref</name>
+	<value>00011426.Particle.Inventory_Decompose_01</value>
+</option>
+<option>
+	<name>inventory-gem-decompose-progress-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>lobby-char-create-button-particle-ref</name>
+	<value>00011426.LoginStage_ChracterCreate</value>
+</option>
+<option>
+	<name>lobby-char-create-button-particle-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>pickup-item-icon-animation-acceleration</name>
+	<value>800</value>
+</option>
+<option>
+	<name>pickup-item-icon-animation-speed</name>
+	<value>500</value>
+</option>
+<option>
+	<name>pickup-item-icon-animation-initial-scale</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>pickup-item-icon-animation-final-scale</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>pickup-item-icon-animation-initial-alpha</name>
+	<value>1.0</value>
+</option>
+<option>
+	<name>pickup-item-icon-animation-final-alpha</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>pickup-item-icon-animation-sine</name>
+	<value>true</value>
+</option>
+<option>
+	<name>faction-score-grade-1-count</name>
+	<value>5</value>
+</option>
+<option>
+	<name>faction-score-grade-2-count</name>
+	<value>10</value>
+</option>
+<option>
+	<name>faction-score-grade-3-count</name>
+	<value>20</value>
+</option>
+<option>
+	<name>faction-score-text-offset-x</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>faction-score-text-offset-y</name>
+	<value>0.0</value>
+</option>
+<option>
+	<name>manipulate-pickup-limit-time</name>
+	<value>180</value>
+</option>
+<option>
+	<name>test-mode-faction-coin</name>
+	<value>n</value>
+</option>
+<option>
+	<name>quest-timer-warning-sound</name>
+	<value>00003805.Signal.S_Sys_TimeAttack_WarningCue</value>
+</option>
+<option>
+	<name>quest-timer-warning-lefttime</name>
+	<value>10.0</value>
+</option>
+<option>
+	<name>faction-reputation-grade-1-count</name>
+	<value>1000</value>
+</option>
+<option>
+	<name>faction-reputation-grade-2-count</name>
+	<value>2000</value>
+</option>
+<option>
+	<name>faction-reputation-grade-3-count</name>
+	<value>4000</value>
+</option>
+<option>
+	<name>default-chat-whisper-user-command</name>
+	<value>/t</value>
+</option>
+<option>
+	<name>dodge-sound</name>
+	<value>00003805.Signal.S_Sys_DodgeCue</value>
+</option>
+<option>
+	<name>faction-battle-bgm1</name>
+	<value>00009808.FactionBattle_ACue</value>
+</option>
+<option>
+	<name>faction-coin1</name>
+	<value>5</value>
+</option>
+<option>
+	<name>faction-battle-bgm2</name>
+	<value>00009808.FactionBattle_BCue</value>
+</option>
+<option>
+	<name>faction-coin2</name>
+	<value>15</value>
+</option>
+<option>
+	<name>faction-battle-bgm3</name>
+	<value>00009808.FactionBattle_CCue</value>
+</option>
+<option>
+	<name>faction-coin3</name>
+	<value>51</value>
+</option>
+<option>
+	<name>faction-battle-bgm-fade-time</name>
+	<value>2</value>
+</option>
+<option>
+	<name>faction-battle-bgm-duration</name>
+	<value>15</value>
+</option>
+<option>
+	<name>faction-battle-bgm-stop-fade-time</name>
+	<value>2</value>
+</option>
+<option>
+	<name>start-talk-sound</name>
+	<value>00004409.CBT.S_UI_Window_NPCTalk_Open</value>
+</option>
+<option>
+	<name>delivery-user-money-icontexture</name>
+	<value>00008758.Delivery_money_PC_2</value>
+</option>
+<option>
+	<name>delivery-user-money-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>delivery-user-money-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>delivery-user-money-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-user-money-icontexture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-user-itembox-icontexture</name>
+	<value>00008758.Delivery_item_PC_2</value>
+</option>
+<option>
+	<name>delivery-user-itembox-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>delivery-user-itembox-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>delivery-user-itembox-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-user-itembox-icontexture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-user-itembox-and-money-icontexture</name>
+	<value>00008758.Delivery_item_money_PC_2</value>
+</option>
+<option>
+	<name>delivery-user-itembox-and-money-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>delivery-user-itembox-and-money-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>delivery-user-itembox-and-money-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-user-itembox-and-money-icontexture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-gm-money-icontexture</name>
+	<value>00008758.Delivery_money_GM_2</value>
+</option>
+<option>
+	<name>delivery-gm-money-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>delivery-gm-money-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>delivery-gm-money-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-gm-money-icontexture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-icontexture</name>
+	<value>00008758.Delivery_item_GM_2</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-icontexture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-and-money-icontexture</name>
+	<value>00008758.Delivery_item_money_GM_2</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-and-money-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-and-money-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-and-money-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-gm-itembox-and-money-icontexture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-auction-money-icontexture</name>
+	<value>00008758.Delivery_money_Auction_2</value>
+</option>
+<option>
+	<name>delivery-auction-money-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>delivery-auction-money-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>delivery-auction-money-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-auction-money-icontexture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-auction-itembox-icontexture</name>
+	<value>00008758.Delivery_item_Auction_2</value>
+</option>
+<option>
+	<name>delivery-auction-itembox-iconindex</name>
+	<value>1</value>
+</option>
+<option>
+	<name>delivery-auction-itembox-iconsize</name>
+	<value>64</value>
+</option>
+<option>
+	<name>delivery-auction-itembox-icontexture-width</name>
+	<value>512</value>
+</option>
+<option>
+	<name>delivery-auction-itembox-icontexture-height</name>
+	<value>512</value>
+</option>
+<option>
+	<name>npc-talk-auction-mode-auction-panel-widget-position-horizontal</name>
+	<value>0.33</value>
+</option>
+<option>
+	<name>npc-talk-auction-mode-auction-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>npc-talk-auction-mode-inventory-panel-widget-position-horizontal</name>
+	<value>0.83</value>
+</option>
+<option>
+	<name>npc-talk-auction-mode-inventory-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>npc-talk-store-mode-store-panel-widget-position-horizontal</name>
+	<value>0.17</value>
+</option>
+<option>
+	<name>npc-talk-store-mode-store-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>npc-talk-store-mode-inventory-panel-widget-position-horizontal</name>
+	<value>0.83</value>
+</option>
+<option>
+	<name>npc-talk-store-mode-inventory-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>npc-talk-delivery-mode-delivery-panel-widget-position-horizontal</name>
+	<value>0.17</value>
+</option>
+<option>
+	<name>npc-talk-delivery-mode-delivery-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>npc-talk-delivery-mode-inventory-panel-widget-position-horizontal</name>
+	<value>0.83</value>
+</option>
+<option>
+	<name>npc-talk-delivery-mode-inventory-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>npc-talk-warehouse-mode-warehouse-panel-widget-position-horizontal</name>
+	<value>0.17</value>
+</option>
+<option>
+	<name>npc-talk-warehouse-mode-warehouse-panel-widget-position-vertical</name>
+	<value>0.345</value>
+</option>
+<option>
+	<name>npc-talk-warehouse-mode-inventory-panel-widget-position-horizontal</name>
+	<value>0.83</value>
+</option>
+<option>
+	<name>npc-talk-warehouse-mode-inventory-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>npc-talk-production-mode-production-panel-widget-position-horizontal</name>
+	<value>0.17</value>
+</option>
+<option>
+	<name>npc-talk-production-mode-production-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>npc-talk-production-mode-inventory-panel-widget-position-horizontal</name>
+	<value>0.83</value>
+</option>
+<option>
+	<name>npc-talk-production-mode-inventory-panel-widget-position-vertical</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>gm-nameplate-prefix-icon-set</name>
+	<value>00008603.Indicator.GM</value>
+</option>
+<option>
+	<name>select-world-box-selected-scale</name>
+	<value>1.2</value>
+</option>
+<option>
+	<name>select-world-ebox-mouseover-scale</name>
+	<value>1.2</value>
+</option>
+<option>
+	<name>select-world-box-scaleanim-duration</name>
+	<value>0.5</value>
+</option>
+<option>
+	<name>mapunit-party-match-campfire-imageset</name>
+	<value>00009499.MiniMap_Unit_PartyCamp</value>
+</option>
+<option>
+	<name>mapunit-party-match-campfire-over-imageset</name>
+	<value>00009499.MiniMap_Unit_PartyCamp_Outglow</value>
+</option>
+<option>
+	<name>mapunit-party-match-campfire-pressed-imageset</name>
+	<value>00009499.MiniMap_Unit_PartyCamp</value>
+</option>
+<option>
+	<name>mapunit-party-match-campfire-width</name>
+	<value>20</value>
+</option>
+<option>
+	<name>mapunit-party-match-campfire-height</name>
+	<value>24</value>
+</option>
+<option>
+	<name>auction-fontset-tradeable-money-editbox</name>
+	<value>00008130.UI.Normal_12</value>
+</option>
+<option>
+	<name>auction-fontset-not-tradeable-money-editbox</name>
+	<value>00008130.UI.Label_Red_12</value>
+</option>
+<option>
+	<name>auction-fontset-enable-money-editbox</name>
+	<value>00008130.UI.Normal_12</value>
+</option>
+<option>
+	<name>auction-fontset-disable-money-editbox</name>
+	<value>00008130.UI.Disable_12</value>
+</option>
+<option>
+	<name>use-social-network-window</name>
+	<value>n</value>
+</option>
+<option>
+	<name>use-auto-target-param-table</name>
+	<value>true</value>
+</option>
+<option>
+	<name>use-auction</name>
+	<value>y</value>
+</option>
+<option>
+	<name>partymatch-find-msg-interval-time</name>
+	<value>15.0</value>
+</option>

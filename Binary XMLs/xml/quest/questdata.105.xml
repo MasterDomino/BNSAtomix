@@ -1,0 +1,19 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_105" category="normal" grade="1" group2="QG_Gathering" id="105" name2="Quest.Name2.105">
+    <text>
+    </text>
+    <acquisition level="50" production-exp="20" production-id="gathering-type-5" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_105_Gather_soft_diamond_iron_1_icon" object="zoneenv:e_onoff_3004mineral_02" type="manipulate" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

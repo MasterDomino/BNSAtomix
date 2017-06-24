@@ -1,0 +1,237 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>animset</type>
+	<version>0.1</version>
+</table>
+<record>
+	<animset-path>00006750.BladeMaster_JinM_Animset</animset-path>
+	<id>1000</id>
+	<job>Ä¨</job>
+	<race>t</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006752.ForceMaster_JinM_Animset</animset-path>
+	<id>1001</id>
+	<job>0ı¨</job>
+	<race>t</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006753.Shooter_JinM_Animset</animset-path>
+	<id>1002</id>
+	<job>©¨</job>
+	<race>t</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00010245.Assassin_JinM_Animset</animset-path>
+	<id>1003</id>
+	<job>T¥ê</job>
+	<race>t</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00010339.Summoner_KunN_Animset</animset-path>
+	<id>1004</id>
+	<job>åX¨</job>
+	<race>t</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006751.KungfuFighter_GonM_Animset</animset-path>
+	<id>2000</id>
+	<job>å¨</job>
+	<race>‰</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006751.KungfuFighter_GonF_Animset</animset-path>
+	<id>2001</id>
+	<job>å¨</job>
+	<race>‰</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006752.ForceMaster_JinM_Animset</animset-path>
+	<id>2002</id>
+	<job>0ı¨</job>
+	<race>‰</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006752.ForceMaster_JinF_Animset</animset-path>
+	<id>2003</id>
+	<job>0ı¨</job>
+	<race>‰</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006753.Shooter_JinM_Animset</animset-path>
+	<id>2004</id>
+	<job>©¨</job>
+	<race>‰</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006753.Shooter_JinF_Animset</animset-path>
+	<id>2005</id>
+	<job>©¨</job>
+	<race>‰</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00008608.Destroyer_GonM_Animset</animset-path>
+	<id>2006</id>
+	<job>Ì¨</job>
+	<race>‰</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00008608.Destroyer_GonF_Animset</animset-path>
+	<id>2007</id>
+	<job>Ì¨</job>
+	<race>‰</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006750.BladeMaster_LynM_Animset</animset-path>
+	<id>3000</id>
+	<job>Ä¨</job>
+	<race>∞</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006750.BladeMaster_LynF_Animset</animset-path>
+	<id>3001</id>
+	<job>Ä¨</job>
+	<race>∞</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006752.ForceMaster_JinM_Animset</animset-path>
+	<id>3002</id>
+	<job>0ı¨</job>
+	<race>∞</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006752.ForceMaster_JinF_Animset</animset-path>
+	<id>3003</id>
+	<job>0ı¨</job>
+	<race>∞</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006753.Shooter_JinM_Animset</animset-path>
+	<id>3004</id>
+	<job>©¨</job>
+	<race>∞</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006753.Shooter_JinF_Animset</animset-path>
+	<id>3005</id>
+	<job>©¨</job>
+	<race>∞</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00010245.Assassin_JinM_Animset</animset-path>
+	<id>3006</id>
+	<job>T¥ê</job>
+	<race>∞</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00010245.Assassin_JinF_Animset</animset-path>
+	<id>3007</id>
+	<job>T¥ê</job>
+	<race>∞</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00010339.Summoner_KunN_Animset</animset-path>
+	<id>3008</id>
+	<job>åX¨</job>
+	<race>∞</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00010339.Summoner_KunN_Animset</animset-path>
+	<id>3009</id>
+	<job>åX¨</job>
+	<race>∞</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006750.BladeMaster_JinM_Animset</animset-path>
+	<id>4000</id>
+	<job>Ä¨</job>
+	<race>ƒ</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006750.BladeMaster_JinF_Animset</animset-path>
+	<id>4001</id>
+	<job>Ä¨</job>
+	<race>ƒ</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006751.KungfuFighter_JinM_Animset</animset-path>
+	<id>4002</id>
+	<job>å¨</job>
+	<race>ƒ</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006751.KungfuFighter_JinF_Animset</animset-path>
+	<id>4003</id>
+	<job>å¨</job>
+	<race>ƒ</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006752.ForceMaster_JinM_Animset</animset-path>
+	<id>4004</id>
+	<job>0ı¨</job>
+	<race>ƒ</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006752.ForceMaster_JinF_Animset</animset-path>
+	<id>4005</id>
+	<job>0ı¨</job>
+	<race>ƒ</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00006753.Shooter_JinM_Animset</animset-path>
+	<id>4006</id>
+	<job>©¨</job>
+	<race>ƒ</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00006753.Shooter_JinF_Animset</animset-path>
+	<id>4007</id>
+	<job>©¨</job>
+	<race>ƒ</race>
+	<sex>Ï</sex>
+</record>
+<record>
+	<animset-path>00010245.Assassin_JinM_Animset</animset-path>
+	<id>4008</id>
+	<job>T¥ê</job>
+	<race>ƒ</race>
+	<sex>®</sex>
+</record>
+<record>
+	<animset-path>00010245.Assassin_JinF_Animset</animset-path>
+	<id>4009</id>
+	<job>T¥ê</job>
+	<race>ƒ</race>
+	<sex>Ï</sex>
+</record>

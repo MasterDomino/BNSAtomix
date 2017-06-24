@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_161" category="normal" grade="1" group2="QG_Gathering" id="161" name2="Quest.Name2.161">
+    <text>
+    </text>
+    <acquisition level="19" production-exp="50" production-id="gathering-type-2" recommended-level="21">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_161_Gather_mud_1_icon" object="zoneenv:e_onoff_2420soil_01" progress-mission="y" type="manipulate" />
+      <text>
+      </text>
+      <basic-reward production-exp="50" production-id="gathering-type-2" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

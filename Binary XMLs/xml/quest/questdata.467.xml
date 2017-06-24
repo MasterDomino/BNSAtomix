@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_467" category="normal" desc="q_467_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="467" name="이 안에 철있다" name2="Quest.Name2.467">
+    <text>
+    </text>
+    <acquisition level="14" preceding-quest-1="q_epic_496" preceding-quest-check="and" recommended-level="16">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_467_s_indi_1" msg="q_467_s" object="npc:ch_merchantweapon_002" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_467_des_1" id="1" location-x="-7764.7422" location-y="40973.9688" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name="철무방 이진명에게 암석 전달" name2="Mission.Name2.467_1" required-register-value="1">
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_amsuk_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_amsuk_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_amsuk_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_amsuk_04" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-1="2440_e_onoff_amsuk_05" object="zoneenv:e_onoff_amsuk_05" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <basic-reward exp="140" money="35" />
+        <text>
+        </text>
+        <case gadget="q_rockb" gadget-required="carry-and-remove" indicator-social="q_467_m1_indi_1" msg="q_467_m1" object="npc:ch_merchantweapon_002" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:camp_repairkit_lv15" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_888" category="normal" desc="q_888_sum" grade="4" group2="QG_OSaekAmDoEast" id="888" max-repeat="1" name2="Quest.Name2.888" reset-type="daily">
+    <text>
+    </text>
+    <acquisition level="34" preceding-quest-1="q_sub_874" preceding-quest-check="and" recommended-level="36">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_888_s_indi_1" msg="q_888_s" object="npc:ce_bonemask_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="25858.1426" location-y="61038.1016" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.888_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3037_ME_BoneMask_001" object="npc:me_bonemask_001" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="34620.6563" location-y="60064.4922" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.888_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_888_m2_indi_1" msg="q_888_m2" object="npc:ce_bonemask_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="750" money="650" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:daily_coin_003" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

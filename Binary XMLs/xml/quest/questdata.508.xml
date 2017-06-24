@@ -1,0 +1,412 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_508" category="epic" completed-desc="q_508_completed" completed-list="y" desc="q_508_sum" grade="1" group2="QG_DaeSaMakEpic" id="508" name2="Quest.Name2.508">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="25" sort-no="309" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-20097.168" location-y="-74379.6016" map="hwanyoungcho">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.508_1" required-register-value="1">
+        <text>
+        </text>
+        <case approach-social="q_508_m2_app_1" object="npc:mh_inspector_0003" progress-mission="y" type="approach" />
+        <text>
+        </text>
+        <case object="zone:zone_HealSpring" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="zone:zone_HwanYoungCho" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_508_des_2" id="2" location-x="-20097.168" location-y="-74379.6016" map="hwanyoungcho" zone-1="zone_HwanYoungCho">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.508_2" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="epic_508_con" msg="q_508_m2" object="npc:mh_inspector_0003" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HwanYoungCho" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case approach-social="q_508_m2_app_1" object="npc:mh_inspector_0003" progress-mission="reaction-only" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-20961.2305" location-y="-77372.9609" map="hwanyoungcho">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.508_3" required-register-value="1">
+        <text>
+        </text>
+        <case convoy="epic_508_con" mapunit-1="3062_ChoiJinA" object="zone:zone_HwanYoungCho" progress-mission="y" type="convoy-arrived" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission-step-fail rollback-step-id="2">
+        <text>
+        </text>
+        <case convoy="epic_508_con" object="zone:zone_HwanYoungCho" progress-mission="reaction-only" type="convoy-failed" />
+        <text>
+      </text>
+      </mission-step-fail>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_508_des_4" id="4" location-x="-20961.2305" location-y="-77372.9609" map="hwanyoungcho" zone-1="zone_HwanYoungCho">
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.508_4" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3062_CE_TradeBook_0001" object="npc:ce_tradebook_0001" progress-mission="y" type="npc-manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_HwanYoungCho" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case object="zoneenv:3062_ChoiJinASight" progress-mission="reaction-only" type="env-entered" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-20961.2305" location-y="-77372.9609" map="hwanyoungcho" zone-1="zone_HwanYoungCho">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.508_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_508_m5_indi_1" msg="q_508_m5" object="npc:mh_inspector_0003" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_HwanYoungCho" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="6" location-x="-17443.2617" location-y="-70028.4297" map="toemunjean">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.508_6" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3062_ChoiJinA_1" object="zone:zone_HwanYoungPhase" progress-mission="y" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="7" location-x="-18109.1523" location-y="-64640.0391" map="toemunjean">
+      <text>
+      </text>
+      <mission id="7" name2="Mission.Name2.508_7" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:mh_inspector_0001" progress-mission="y" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="8" location-x="-20157.4023" location-y="-63167.8594" map="toemunjean">
+      <text>
+      </text>
+      <mission id="8" name2="Mission.Name2.508_8" required-register-value="3">
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" mapunit-1="3006_e_onoff_tlight3006_01" mapunit-2="3006_e_onoff_tlight3006_02" mapunit-3="3006_e_onoff_tlight3006_03" mapunit-4="3006_e_onoff_tlight3006_04" mapunit-5="3006_e_onoff_tlight3006_05" mapunit-6="3006_e_onoff_tlight3006_06" mapunit-7="3006_e_onoff_tlight3006_07" mapunit-8="3006_e_onoff_tlight3006_08" object="zoneenv:e_onoff_illugrass3006_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_05" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_06" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_07" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_08" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_09" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_10" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_11" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_12" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_13" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_14" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case gadget="Q_TorchlightA" gadget-required="carry-and-remove" object="zoneenv:e_onoff_illugrass3006_15" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_tlight3006_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_tlight3006_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_tlight3006_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_tlight3006_05" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_tlight3006_06" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_tlight3006_07" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" object="zoneenv:e_onoff_tlight3006_08" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-1="3006_e_onoff_illugrass3006_01" mapunit-2="3006_e_onoff_illugrass3006_01_1" mapunit-3="3006_e_onoff_illugrass3006_01_2" object="zoneenv:e_onoff_tlight3006_04" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="9" name2="Mission.Name2.508_9" required-register-value="15">
+        <text>
+        </text>
+        <case object="npc:me_samagyo_052" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case mapunit-4="3006_ME_SaMaGyo_052" mapunit-5="3006_ME_SaMaGyo_052_1" mapunit-6="3006_ME_SaMaGyo_052_2" object="npc:me_samagyo_051" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_hwanyeongcho_0004" progress-mission="y" type="killed" visible-object="n" />
+        <text>
+        </text>
+        <case object="npc:mh_hwanyeongcho_0003" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_hwanyeongcho_0002" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_hwanyeongcho_0001" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="9" location-x="-23357.793" location-y="-68544.5156" map="toemunjean">
+      <text>
+      </text>
+      <mission id="10" name2="Mission.Name2.508_10" required-register-value="1">
+        <text>
+        </text>
+        <case object="npc:mh_hansirang_0001" progress-mission="y" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="10" location-x="-26904.168" location-y="-72974.6016" map="samagyobt_1">
+      <text>
+      </text>
+      <mission id="11" name2="Mission.Name2.508_11" required-register-value="1">
+        <text>
+        </text>
+        <case object="zone:zone_SamaBunta" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case mapunit-1="3007_ShamanDie" mapunit-10="3007_ShamanDie_1" object="zoneenv:3007_shamandie" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zoneenv:3007_DirtySama" progress-mission="reaction-only" type="env-entered" />
+        <text>
+        </text>
+        <case indicator-social="q_508_m11_indi_1" object="npc:ch_unguksoldier_0006" progress-mission="n" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="11" location-x="-27396.3555" location-y="-72455.0703" map="SaMaGyoBT_1">
+      <text>
+      </text>
+      <mission id="12" name2="Mission.Name2.508_12" required-register-value="1">
+        <text>
+        </text>
+        <case msg="q_508_m12" object="npc:CH_UnGukSoldier_0005" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_SamaBunta" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_510" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <transit id="1" zone="zone_HwanGakCho">
+      <text>
+      </text>
+      <destination mission-step-id="11" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="10" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="9" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="8" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="7" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="6" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <transit id="2" zone="zone_HwanYoung_Nonepic">
+      <text>
+      </text>
+      <destination mission-step-id="5" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="4" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="1" />
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="1" />
+      <text>
+    </text>
+    </transit>
+    <text>
+    </text>
+    <mission-step id="12" location-x="-26234.2461" location-y="-73471.4922" map="SaMaGyoBT_2">
+      <text>
+      </text>
+      <mission id="13" name2="Mission.Name2.508_13" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3007_Cinema" mapunit-10="3007_Cinema_1" object="zoneenv:3007_cinema" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zone:zone_SamaBunta" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-idle="Hansirang_idle_02" object="npc:CH_UnGukSoldier_0005" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="13" location-x="-44359.1523" location-y="-62430.625" map="oemalri">
+      <text>
+      </text>
+      <mission id="14" name2="Mission.Name2.508_14" required-register-value="1">
+        <text>
+        </text>
+        <optional-reward slot-1="item:Costume_51003_AllRace" slot-2="item:Costume_51003_AllRace_col1" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Acc_ring_quest_009" />
+        <text>
+        </text>
+        <case object="zone:zone_hansiranghouse" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_508_m14_indi_1" msg="q_508_m14" object="npc:ch_unguksoldier_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1700" money="750" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

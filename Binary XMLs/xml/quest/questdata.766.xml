@@ -1,0 +1,46 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_766" category="normal" desc="q_766_sum" grade="1" group2="QG_HeukChangJokBuRak" id="766" name2="Quest.Name2.766">
+    <text>
+    </text>
+    <acquisition level="50" preceding-quest-1="q_epic_524" preceding-quest-check="and" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_766_s_indi_1" msg="q_766_s" object="npc:ch_mayeongganggun_0010" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.766_1" required-register-value="3" />
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.766_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_766_m2_indi_1" msg="q_766_m2" object="npc:ch_mayeongganggun_0010" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="709" money="517" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

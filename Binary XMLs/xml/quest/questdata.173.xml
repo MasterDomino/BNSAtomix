@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_173" category="normal" grade="1" group2="QG_Gathering" id="173" name2="Quest.Name2.173">
+    <text>
+    </text>
+    <acquisition level="50" production-exp="30" production-id="gathering-type-4" recommended-level="50">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_173_Gather_desertwolf_brisket_1_icon" object="zoneenv:e_onoff_3020animalcorpse_01" type="manipulate" />
+      <text>
+      </text>
+      <fixed-reward production-exp="10" production-id="gathering-type-4" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

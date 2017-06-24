@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_484" category="normal" desc="q_484_sum" grade="1" group2="QG_DaeNaMuCHN" id="484" name2="Quest.Name2.484">
+    <text>
+    </text>
+    <acquisition level="18" preceding-quest-1="q_epic_320" preceding-quest-check="and" recommended-level="20">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_484_s_indi_1" msg="q_484_s" object="npc:ctzn_jinf_cheongryeongctzn_ryubekeon_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-50364.2031" location-y="-53835.75" map="chungryoung">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.484_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_484_m1_indi_1" msg="q_484_m1" object="npc:ctzn_jinf_cheongryeongctzn_nayerin_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.484_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_484_m2_indi_1" msg="q_484_m2" object="npc:ctzn_jinm_cheongryeongctzn_gwancheolsu_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-49627.875" location-y="-51855.2813" map="chungryoung">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.484_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_484_m3_indi_1" msg="q_484_m3" object="npc:ctzn_jinm_cheongryeongctzn_yeomgu_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="150" money="50" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

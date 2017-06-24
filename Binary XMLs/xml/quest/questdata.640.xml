@@ -1,0 +1,64 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_640" category="normal" desc="q_640_sum" grade="4" group2="QG_GmmDalUJukJi" id="640" name2="Quest.Name2.640" reset-type="daily">
+    <text>
+    </text>
+    <acquisition level="27" preceding-quest-1="q_epic_516" preceding-quest-2="q_sub_638" preceding-quest-check="and" recommended-level="29">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_640_s_indi_1" msg="q_640_s" object="npc:ch_tosok_0004" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-35920.7461" location-y="29657.8945" map="lakedg">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.640_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_640_Quest_blue_ball_1_icon" mapunit-1="3079_ME_IronTurtle_0001" object="npc:me_ironturtle_0001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.640_2" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_640_Quest_red_ball_1_icon" mapunit-2="3079_ME_HongUn_0001" object="npc:me_hongun_0001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-37948.6445" location-y="9352.2031" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.640_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_640_m3_indi_1" msg="q_640_m3" object="npc:ch_tosok_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="600" money="950" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:daily_coin_002" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,94 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_475" category="normal" desc="q_475_sum" grade="1" group2="QG_Geoamgol" id="475" name2="Quest.Name2.475">
+    <text>
+    </text>
+    <acquisition level="18" preceding-quest-1="q_sub_399" preceding-quest-2="q_sub_485" preceding-quest-3="q_sub_405" preceding-quest-4="q_epic_495" preceding-quest-5="q_epic_495" preceding-quest-check="or" recommended-level="20">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_475_s_indi_1" msg="q_475_s" object="npc:ch_jakyoungdan_041" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-36202.7383" location-y="63829.043" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.475_1" required-register-value="3">
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" mapunit-1="2420_e_onoff_herb_01" object="zoneenv:e_onoff_herb_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_02" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_03" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_04" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_05" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_06" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_07" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_08" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_09" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_10" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_11" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_12" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_13" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_14" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case env-looting="q_475_quest_yellow_flower_1_icon" gadget-required="empty" object="zoneenv:e_onoff_herb_15" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-33498.5117" location-y="63567.3438" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.475_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_475_m2_indi_1" msg="q_475_m2" object="npc:ch_jakyoungdan_041" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="150" money="50" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

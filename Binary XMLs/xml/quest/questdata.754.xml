@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_754" category="normal" desc="q_754_sum" grade="4" group2="QG_SaJiSeokRimSouth" id="754" name2="Quest.Name2.754">
+    <text>
+    </text>
+    <acquisition level="29" preceding-quest-1="q_epic_522" preceding-quest-2="q_sub_752" preceding-quest-check="and" recommended-level="31">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_754_s_indi_1" msg="q_754_s" object="npc:ch_sinryong_0017" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="2791.565" location-y="-28424.633" map="dogimudom">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.754_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_754_quest_pot_style_hat_1_icon" mapunit-2="3074_ME_PotAxParty_0003" object="npc:me_potaxparty_0003" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="12875.815" location-y="-33480.313" map="hangari">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.754_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_754_m2_indi_1" msg="q_754_m2" object="npc:ch_haeyoung_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1700" money="1100" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Acc_ring_quest_014" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

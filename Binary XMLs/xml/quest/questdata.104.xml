@@ -1,0 +1,22 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_104" category="normal" grade="1" group2="QG_Gathering" id="104" name2="Quest.Name2.104">
+    <text>
+    </text>
+    <acquisition level="19" production-exp="50" production-id="gathering-type-5" recommended-level="21">
+      <text>
+      </text>
+      <case acquire-quest="y" env-looting="q_104_Gather_rare_silver_1_icon" object="zoneenv:e_onoff_3000mineral_01" progress-mission="y" type="manipulate" />
+      <text>
+      </text>
+      <basic-reward production-exp="50" production-id="gathering-type-5" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

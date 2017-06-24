@@ -1,0 +1,85 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_524" category="epic" completed-desc="q_524_completed" completed-list="y" desc="q_524_sum" grade="1" group2="QG_DaeSaMakEpic" id="524" name2="Quest.Name2.524">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="32" sort-no="324" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="17124.1426" location-y="-31975.7715" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.524_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_524_m1_indi_1" mapunit-1="3020_Guide_E524" msg="q_524_m1" object="npc:ch_jukun_0001" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step desc="q_524_des_2" id="2" location-x="14924.0615" location-y="-40599.3867" map="sanghumadang">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.524_2" required-register-value="3">
+        <text>
+        </text>
+        <case mapunit-1="3066_ME_Moran_004" object="npc:ce_yeongahcho_0001" progress-mission="y" type="npc-manipulate" />
+        <text>
+        </text>
+        <case drop-gadget="y" gadget-required="empty" mapunit-2="3020_e_onoff_requiem_01" object="zoneenv:e_onoff_requiem_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case object-1="npc:me_moran_004" progress-mission="reaction-only" skill="Gadget_Q_RedMarbleA" type="skill" />
+        <text>
+        </text>
+        <case object="npc:ch_jukun_0001" type="approach" visible-object="y" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="13696.127" location-y="-36820.1563" map="hangari">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.524_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_524_m3_indi_1" msg="q_524_m3" object="npc:ch_pottery_011" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="npc:ch_jukun_0001" type="approach" />
+        <text>
+        </text>
+        <basic-reward exp="1500" money="1170" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos4_gr2_sajiseoklim_sheild_Lv31" slot-2="item:gem_pos4_gr2_sajiseoklim_bal_Lv31" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_525" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

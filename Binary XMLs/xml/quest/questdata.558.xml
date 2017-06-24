@@ -1,0 +1,73 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_558" category="normal" desc="q_558_sum" grade="1" group2="QG_ToMunJinSouth" id="558" name2="Quest.Name2.558">
+    <text>
+    </text>
+    <acquisition level="20" preceding-quest-1="q_epic_540" preceding-quest-check="and" recommended-level="22">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_558_s_indi_1" msg="q_558_s" object="npc:ch_unguksoldier_015" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_558_des_1" id="1" location-x="-62082.5273" location-y="-86274.6875" map="toemunjean">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.558_1" required-register-value="3">
+        <text>
+        </text>
+        <case object="npc:mh_criminal_003" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_movebrush_06" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_movebrush_05" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_movebrush_04" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_movebrush_03" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" object="zoneenv:e_onoff_movebrush_02" progress-mission="reaction-only" type="manipulate" />
+        <text>
+        </text>
+        <case gadget-required="empty" mapunit-1="3000_e_onoff_movebrush_01" object="zoneenv:e_onoff_movebrush_01" progress-mission="reaction-only" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-64002.7656" location-y="-81730.125" map="toemunjean">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.558_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_558_m2_indi_1" msg="q_558_m2" object="npc:ch_unguksoldier_015" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="370" money="150" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:teleportitem_001" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

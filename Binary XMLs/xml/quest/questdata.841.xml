@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_841" category="normal" desc="q_841_sum" grade="1" group2="QG_OSaekAmDoWest" id="841" name2="Quest.Name2.841">
+    <text>
+    </text>
+    <acquisition level="32" preceding-quest-1="q_epic_529" preceding-quest-check="and" recommended-level="34">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_841_s_indi_1" msg="q_841_s" object="npc:ce_hoerangjok_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step desc="q_841_des_1" id="1" location-x="14053.0938" location-y="32194.832" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.841_1" required-register-value="8">
+        <text>
+        </text>
+        <case object="npc:mh_hwangpungdan_0003" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_hwangpungdan_0002" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case gadget-required="dont-care" mapunit-1="3030_MH_HwangPungDan_0001" object="npc:mh_hwangpungdan_0001" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:ME_HwangPungDan_0012" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="16962.9063" location-y="32968.1719" map="hoerangchon">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.841_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_841_m2_indi_1" msg="q_841_m2" object="npc:ce_hoerangjok_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1150" money="900" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

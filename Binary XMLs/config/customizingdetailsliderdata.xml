@@ -1,0 +1,4425 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>CustomizingDetailSlider</type>
+	<version>0.2</version>
+</table>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>20</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>21</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>22</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>23</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>24</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>26</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>27</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>28</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>29</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>30</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>31</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>32</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>33</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>34</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>35</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>36</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>37</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>38</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>39</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>40</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>41</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>42</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>43</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>44</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>45</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>46</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>47</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>48</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>49</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>50</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>51</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>52</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>53</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>54</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>55</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>56</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>57</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>58</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>59</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>60</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>61</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>62</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>63</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>64</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>65</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>66</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>67</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>68</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>69</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>70</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>71</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>72</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>73</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>74</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>75</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>76</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>77</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>78</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>79</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>80</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>81</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>82</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>83</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>84</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>85</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>86</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>87</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>88</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>89</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>90</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>91</param-index>
+	<race>t</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>20</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>21</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>22</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>23</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>24</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>25</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>26</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>27</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>28</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>29</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>30</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>31</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>32</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>33</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>34</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>35</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>36</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>37</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>38</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>39</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>40</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>41</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>42</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>43</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>44</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>45</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>46</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>47</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>48</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>49</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>50</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>51</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>52</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>53</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>54</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>55</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>56</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>57</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>58</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>59</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>60</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>61</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>62</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>63</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>64</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>65</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>66</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>67</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>68</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>69</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>70</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>71</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>72</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>73</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>74</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>75</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>76</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>77</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>78</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>79</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>80</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>81</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>82</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>83</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>84</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>85</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>86</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>90</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>91</param-index>
+	<race>ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>20</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>21</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>22</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>23</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>24</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>26</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>27</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>28</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>29</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>30</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>31</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>32</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>33</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>34</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>35</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>36</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>37</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>38</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>39</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>40</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>41</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>42</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>43</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>44</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>45</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>46</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>47</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>48</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>49</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>50</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>51</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>52</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>53</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>54</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>55</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>56</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>57</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>58</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>59</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>60</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>61</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>62</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>63</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>64</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>65</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>66</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>67</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>68</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>69</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>70</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>71</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>72</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>73</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>74</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>75</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>76</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>77</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>78</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>79</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>80</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>81</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>82</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>83</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>84</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>85</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>86</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>87</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>88</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>89</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>90</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>91</param-index>
+	<race>ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>20</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>21</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>22</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>23</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>24</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>25</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>26</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>27</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>28</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>29</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>30</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>31</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>32</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>33</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>34</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>35</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>36</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>37</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>38</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>39</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>40</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>41</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>42</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>43</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>44</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>45</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>46</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>47</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>48</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>49</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>50</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>51</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>52</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>53</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>54</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>55</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>56</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>57</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>58</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>59</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>60</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>61</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>62</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>63</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>64</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>65</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>66</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>67</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>68</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>69</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>70</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>71</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>72</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>73</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>74</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>75</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>76</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>77</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>78</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>79</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>80</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>81</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>82</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>83</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>84</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>85</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>86</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>90</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>91</param-index>
+	<race>°</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>20</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>21</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>22</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>23</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>24</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>26</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>27</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>28</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>29</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>30</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>31</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>32</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>33</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>34</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>35</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>36</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>37</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>38</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>39</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>40</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>41</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>42</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>43</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>44</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>45</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>46</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>47</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>48</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>49</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>50</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>51</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>52</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>53</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>54</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>55</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>56</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>57</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>58</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>59</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>60</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>61</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>62</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>63</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>64</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>65</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>66</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>67</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>68</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>69</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>70</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>71</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>72</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>73</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>74</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>75</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>76</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>77</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>78</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>79</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>80</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>81</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>82</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>83</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>84</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>85</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>86</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>87</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>88</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>89</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>90</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>91</param-index>
+	<race>°</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>20</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>21</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>22</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>23</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>24</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>25</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>26</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>27</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>28</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>29</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>30</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>31</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>32</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>33</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>34</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>35</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>36</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>37</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>38</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>39</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>40</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>41</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>42</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>43</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>44</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>45</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>46</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>47</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>48</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>49</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>50</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>51</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>52</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>53</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>54</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>55</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>56</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>57</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>58</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>59</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>60</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>61</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>62</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>63</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>64</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>65</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>66</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>67</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>68</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>69</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>70</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>71</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>72</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>73</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>74</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>75</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>76</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>77</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>78</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>79</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>80</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>81</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>82</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>83</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>84</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>85</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>86</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>90</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>91</param-index>
+	<race>Ä</race>
+	<sex>¨</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>20</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>21</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>22</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>23</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>24</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>26</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>27</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>28</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>29</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>30</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>31</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>percent</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>32</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>21</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>33</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>34</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>35</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>36</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>37</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>38</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>39</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>40</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>41</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>42</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>43</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>44</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>45</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>46</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>47</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>48</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>49</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>50</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>51</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>52</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>53</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>54</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>55</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>56</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>57</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>58</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>59</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>60</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>61</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>62</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>63</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>64</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>65</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>66</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>67</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>68</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>69</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>70</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>71</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>72</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>73</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>74</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>75</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>76</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>77</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>78</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>79</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>80</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>81</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>82</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>83</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>84</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>85</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>86</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>87</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>88</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>89</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>90</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>
+<record>
+	<desc-type>value</desc-type>
+	<max-value>100</max-value>
+	<min-value>-100</min-value>
+	<param-index>91</param-index>
+	<race>Ä</race>
+	<sex>ì</sex>
+	<step>41</step>
+</record>

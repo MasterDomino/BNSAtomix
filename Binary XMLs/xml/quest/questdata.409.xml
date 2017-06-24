@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_409" category="normal" desc="q_409_sum" grade="3" group2="QG_Geoamgol" id="409" name2="Quest.Name2.409">
+    <text>
+    </text>
+    <acquisition level="18" preceding-quest-1="q_sub_408" preceding-quest-check="and" recommended-level="20">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_409_s_indi_1" msg="q_409_s" object="npc:ctzn_jinm_songrimsa_pengilgang_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-43905.4063" location-y="63656.1055" map="MangJaGul">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.409_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_409_quest_sword_of_deadswordman_1_icon" mapunit-1="2616_mob_hmn_2legr_mlnd_spctr_deadswordman_q_003" mapunit-2="2420_mangjagul" object="npc:mob_hmn_2legr_mlnd_spctr_deadswordman_q_003" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-35592.1055" location-y="64003.5078" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.409_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_409_m2_indi_1" msg="q_409_m2" object="npc:ctzn_jinm_songrimsa_pengilgang_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1200" money="300" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Camp_repairKit_Lv15" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_635" category="normal" desc="q_635_sum" grade="1" group2="QG_GmmDalUJukJi" id="635" name2="Quest.Name2.635">
+    <text>
+    </text>
+    <acquisition level="26" preceding-quest-1="q_epic_516" preceding-quest-2="q_sub_630" preceding-quest-3="q_sub_624" preceding-quest-check="and" recommended-level="28">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_635_s_indi_1" msg="q_635_s" object="npc:ch_eunggaman_0001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-38507.9961" location-y="13547.3477" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.635_1" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_635_Quest_rubbed_copy_1_icon" mapunit-1="3010_e_onoff_sculpture_01" object="zoneenv:e_onoff_sculpture_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:quest_635" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-37948.6445" location-y="9352.2031" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.635_2" required-register-value="1">
+        <text>
+        </text>
+        <case grocery="Quest_635" indicator-social="q_635_m2_indi_1" msg="q_635_m2" object="npc:ch_eunggaman_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="Quest_635" />
+        <text>
+        </text>
+        <basic-reward exp="300" money="150" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <giveup-loss item-1="Quest_635" />
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

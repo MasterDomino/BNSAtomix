@@ -1,0 +1,61 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_402" category="normal" desc="q_402_sum" grade="1" group2="QG_Geoamgol" id="402" name2="Quest.Name2.402">
+    <text>
+    </text>
+    <acquisition level="17" preceding-quest-1="q_epic_318" preceding-quest-check="and" recommended-level="19">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_402_s_indi_1" msg="q_402_s" object="npc:ch_jakyoungdan_042" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-33411.2773" location-y="65835.4063" map="songamdo">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.402_1" required-register-value="10">
+        <text>
+        </text>
+        <case mapunit-1="2420_mob_jinm_chunggak_plunder_crsbow_002_4" mapunit-2="2420_mob_jinm_chunggak_plunder_crsbow_002_5" mapunit-3="2420_mob_jinm_chunggak_plunder_crsbow_002_6" mapunit-4="2420_mob_jinm_chunggak_plunder_crsbow_002_7" object="npc:mob_jinm_chunggak_plunder_crsbow_003" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.402_2" required-register-value="10">
+        <text>
+        </text>
+        <case mapunit-5="2420_mob_jinm_chunggak_plunder_crsbow_003_4" mapunit-6="2420_mob_jinm_chunggak_plunder_crsbow_003_5" mapunit-7="2420_mob_jinm_chunggak_plunder_crsbow_003_6" mapunit-8="2420_mob_jinm_chunggak_plunder_crsbow_003_7" object="npc:mob_jinm_chunggak_plunder_crsbow_002" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-33236.8125" location-y="63654.5742" map="songamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.402_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_402_m3_indi_1" msg="q_402_m3" object="npc:ch_jakyoungdan_042" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="500" money="180" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

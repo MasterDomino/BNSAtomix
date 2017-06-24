@@ -1,0 +1,76 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_450" category="normal" desc="q_450_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="450" name2="Quest.Name2.450">
+    <text>
+    </text>
+    <acquisition level="15" preceding-quest-1="q_epic_496" preceding-quest-check="and" recommended-level="17">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_450_s_indi_1" msg="q_450_s" object="npc:ch_jakyoungdan_036" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-5492.9707" location-y="46151.9336" map="SongAmGul_Dun">
+      <text>
+      </text>
+      <mission id="1" name="흑룡채 덫 사냥꾼의 소지품 획득" name2="Mission.Name2.450_1" required-register-value="10">
+        <text>
+        </text>
+        <case looting="q_450_Quest_leather_waist_sag_1_icon" mapunit-1="2440_songamgul_dun_s450(1)" mapunit-3="2609_mh_noklimdo_0001" mapunit-4="2609_mh_noklimdo_0001_1" mapunit-5="2609_mh_noklimdo_0001_2" object="npc:mh_noklimdo_0001" prob="100" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.450_2" required-register-value="6">
+        <text>
+        </text>
+        <case looting="q_450_grocery_leather_hip_sack_1_icon" mapunit-2="2440_songamgul_dun_s450(2)" mapunit-6="2609_mob_jinm_pdungn_bandit_member_sht_001" mapunit-7="2609_mob_jinm_pdungn_bandit_member_sht_001_1" mapunit-8="2609_mob_jinm_pdungn_bandit_member_sht_001_2" object="npc:mob_jinm_pdungn_bandit_member_sht_001" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="3" location-x="-16225.127" location-y="54249.6172" map="songrimsa">
+      <text>
+      </text>
+      <mission id="4" name="송림사에 있는 자경단원 맹도성과 대화" name2="Mission.Name2.450_4" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_450_m4_indi_1" msg="q_450_m4" object="npc:ctzn_jinm_jakyungdan_giljun_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="800" money="240" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-7851.9766" location-y="49261.1133" map="songamdo">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.450_3" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_450_m3_indi_1" msg="q_450_m3" object="npc:ch_jakyoungdan_036" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

@@ -1,0 +1,133 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_237" category="epic" completed-desc="q_237_completed" completed-list="y" desc="q_237_sum" grade="1" group2="QG_Toturial" id="237" name2="Quest.Name2.237" tutorial="y">
+    <text>
+    </text>
+    <acquisition job-1="암살자" level="1" recommended-level="1" sort-no="105" />
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_237_des_1" id="1" location-x="-8378.602" location-y="40751.602" map="startzone">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.237_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_237_m1_indi_2" mapunit-1="224_1_CH_YungMook_0001" msg="q_237_m1" object="npc:ch_youngmook_0009" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <completion-loss item-1="start_zone_book" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:new_weapon_DG_GR2_Quest_Lv1" slot-2="skill:Assassin_Disturb_MistSlash_Lv1" slot-3="skill:Assassin_Disturb_DewSlash_Lv1" slot-4="skill:Assassin_Disturb_MoonlightSlash_Lv1" />
+        <text>
+        </text>
+        <case indicator-social="q_237_m1_indi_1" object="npc:ch_hongsukkeun_0001" type="approach" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_all" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_237_des_2" id="2" zone-1="startzone_renew_assassin">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.237_2" required-register-value="1">
+        <text>
+        </text>
+        <tutorial-case item="new_weapon_DG_GR2_Quest_Lv1" progress-mission="y" type="equip-item" />
+        <text>
+        </text>
+        <case indicator-social="q_237_m2_indi_1" msg="q_237_m2" object="npc:ch_youngmook_0009" type="talk" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_assassin" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_237_m2_indi_2" object="npc:ch_jinyoung_0003" type="approach" />
+        <text>
+        </text>
+        <case msg="q_237_m2_ny_1" object="npc:ch_musung_0003" type="talk" />
+        <text>
+        </text>
+        <case msg="q_237_m2_ny_2" object="npc:ch_hwajoong_0004" type="talk" />
+        <text>
+        </text>
+        <case msg="q_237_m2_ny_3" object="npc:ch_jinyoung_0003" type="talk" />
+        <text>
+        </text>
+        <case msg="q_237_m2_ny_4" object="npc:ch_gilhong_0005" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_237_des_3" id="3" location-x="-8378.602" location-y="40751.602" map="startzone">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.237_3" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="224_3_CH_YungMook_0001" object="zoneenv:1106_foot_3" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zone:startzone_renew_assassin" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_237_m3_indi_1" object="npc:ch_jinyoung_0003" type="approach" />
+        <text>
+        </text>
+        <case msg="q_237_m3_ny_1" object="npc:ch_musung_0003" type="talk" />
+        <text>
+        </text>
+        <case msg="q_237_m3_ny_2" object="npc:ch_hwajoong_0004" type="talk" />
+        <text>
+        </text>
+        <case msg="q_237_m3_ny_3" object="npc:ch_jinyoung_0003" type="talk" />
+        <text>
+        </text>
+        <case msg="q_237_m3_ny_4" object="npc:ch_gilhong_0005" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest job-1="암살자" quest="q_epic_238" />
+      <text>
+    </text>
+    </completion>
+    <text>
+    </text>
+    <transit id="1" zone="startzone_renew_blade">
+      <text>
+      </text>
+      <destination mission-step-id="1" zone-index="4" />
+      <text>
+      </text>
+      <destination mission-step-id="2" zone-index="4" />
+      <text>
+      </text>
+      <destination mission-step-id="3" zone-index="4" />
+      <text>
+    </text>
+    </transit>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

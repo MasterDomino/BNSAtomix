@@ -1,0 +1,142 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_epic_516" category="epic" completed-desc="q_516_completed" completed-list="y" desc="q_516_sum" grade="1" group2="QG_DaeSaMakEpic" id="516" name2="Quest.Name2.516">
+    <text>
+    </text>
+    <acquisition level="1" recommended-level="28" sort-no="316" />
+    <text>
+    </text>
+    <mission-step id="1" location-x="-44754.1016" location-y="24175.043" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.516_1" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3010_Epic_PungSaIlJok" object="zone:zone_PungSaIlJok" progress-mission="y" type="enter-zone" />
+        <text>
+        </text>
+        <case object="npc:ch_jinsoa_0013" progress-mission="n" type="approach" visible-object="n" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-45841.0391" location-y="34124.3477" map="PungSaGul">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.516_2" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3072_zone_PungSaIlJok" mapunit-2="3072_zone_PungSaIlJok_P" mapunit-3="3072_zone_PungSaIlJok_H" object="zoneenv:e_FootSwitch_516_2" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zoneenv:e_FootSwitch_516_1" progress-mission="y" type="env-entered" />
+        <text>
+        </text>
+        <case object="zone:zone_PungSaIlJok" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+        </text>
+        <case indicator-social="q_516_m1_indi_2" object="npc:ch_soyeonhwa_0003" type="talk" />
+        <text>
+        </text>
+        <case indicator-social="q_516_m1_indi_1" object="npc:ch_soyeonhwa_007" type="talk" />
+        <text>
+        </text>
+        <case object="zoneenv:e_FootSwitch_516_4" progress-mission="reaction-only" type="env-entered" />
+        <text>
+        </text>
+        <case object="zoneenv:e_FootSwitch_516_3" progress-mission="reaction-only" type="env-entered" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="3" location-x="-45841.0391" location-y="34124.3477" map="pungsailjok">
+      <text>
+      </text>
+      <mission id="3" name2="Mission.Name2.516_3" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-1="3072_e_onoff_whangbox_01" mapunit-2="3072_e_onoff_whangbox_01_H" mapunit-3="3072_e_onoff_whangbox_01_P" object="zoneenv:e_onoff_whangbox_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_PungSaIlJok" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+      </text>
+      <mission id="4" name2="Mission.Name2.516_4" required-register-value="1">
+        <text>
+        </text>
+        <case mapunit-4="3072_e_onoff_boxpung_01" mapunit-5="3072_e_onoff_boxpung_01_H" mapunit-6="3072_e_onoff_boxpung_01_P" object="zoneenv:e_onoff_boxpung_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <case object="zone:zone_PungSaIlJok" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="4" location-x="-45841.0391" location-y="34124.3477" map="pungsailjok" zone-1="zone_PungSaIlJok">
+      <text>
+      </text>
+      <mission id="5" name2="Mission.Name2.516_5" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_516_m5_indi_1" msg="q_516_m5" object="npc:mh_jinsoa_0001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_PungSaIlJok" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="5" location-x="-56686.9531" location-y="7860.5977" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="6" name2="Mission.Name2.516_6" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_516_m6_indi_1" msg="q_516_m6" object="npc:ch_jinsoa_0013" progress-mission="y" type="talk" visible-object="y" />
+        <text>
+        </text>
+        <basic-reward exp="1700" money="800" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos4_gr2_hwangpoong_sheild_Lv28" slot-2="item:gem_pos4_gr2_hwangpoong_bal_Lv28" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <completion>
+      <text>
+      </text>
+      <next-quest quest="q_epic_517" />
+      <text>
+    </text>
+    </completion>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

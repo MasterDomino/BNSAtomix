@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_879" category="normal" desc="q_879_sum" grade="1" group2="QG_OSaekAmDoEast" id="879" name2="Quest.Name2.879">
+    <text>
+    </text>
+    <acquisition level="35" preceding-quest-1="q_sub_877" preceding-quest-check="and" recommended-level="37">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_879_s_indi_1" msg="q_879_s" object="npc:ch_unguk_0004" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="42519.9844" location-y="78111.2813" map="hakjadg">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.879_1" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_879_Quest_old_book_1_icon" gadget-required="empty" mapunit-1="3083_e_onoff_martialbook_01" object="zoneenv:e_onoff_martialbook_01" progress-mission="y" type="manipulate" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="34133.8516" location-y="69374.6563" map="oseakamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.879_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_879_m2_indi_1" msg="q_879_m2" object="npc:ch_unguk_0004" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="880" money="670" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:weapongem_Gr3_001_Lv33" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

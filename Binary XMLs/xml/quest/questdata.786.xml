@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_786" category="normal" desc="q_786_sum" grade="4" group2="QG_SaJiSeokRimSouth" id="786" max-repeat="1" name2="Quest.Name2.786" reset-type="daily">
+    <text>
+    </text>
+    <acquisition level="31" preceding-quest-1="q_epic_527" preceding-quest-2="q_sub_785" preceding-quest-check="and" recommended-level="33">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_786_s_indi_1" msg="q_786_s" object="npc:ch_mayeongganggun_0018" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="27012.656" location-y="-12340.697" map="toegulmudom">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.786_1" required-register-value="1">
+        <text>
+        </text>
+        <case looting="q_786_Quest_spiritual_stone001_1_icon" mapunit-1="3024_ME_MudSoldier_012" object="npc:me_mudsoldier_012" progress-mission="y" type="loot" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="34434.254" location-y="-18674.316" map="sajisukrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.786_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_786_m2_indi_1" msg="q_786_m2" object="npc:ch_mayeongganggun_0018" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="560" money="450" />
+        <text>
+        </text>
+        <fixed-reward slot-1="item:Daily_Coin_003" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

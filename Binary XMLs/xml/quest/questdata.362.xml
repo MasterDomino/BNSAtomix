@@ -1,0 +1,58 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_362" category="normal" desc="q_362_sum" grade="1" group2="QG_BuryejinECHN" id="362" name2="Quest.Name2.362">
+    <text>
+    </text>
+    <acquisition level="8" preceding-quest-1="q_sub_361" preceding-quest-check="and" recommended-level="10">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_362_s_indi_1" msg="q_362_s" object="npc:ctzn_jinm_seavillctzn_wangbuja_001" type="talk" />
+      <text>
+      </text>
+      <case approach-social="q_362_s_app_1" object="npc:ch_haetalyi_0001" type="approach" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="1" location-x="-29620.4746" location-y="-1817.2422" map="huekummrim">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.362_1" required-register-value="4">
+        <text>
+        </text>
+        <case mapunit-1="2200_me_pigbig_002" object="npc:me_pigbig_002" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" id="2" location-x="-29620.4746" location-y="-1817.2422" map="huekummrim">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.362_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_362_m2_indi_1" msg="q_362_m2" object="npc:ctzn_jinm_seavillctzn_wangbuja_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="200" money="50" />
+        <text>
+        </text>
+        <case approach-social="q_362_m2_app_1" object="npc:ch_haetalyi_0001" type="approach" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

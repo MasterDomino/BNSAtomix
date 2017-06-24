@@ -1,0 +1,55 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_387" category="normal" desc="q_387_sum" grade="1" group="제룡림(기연절벽)" group2="QG_KiYoenCliff" id="387" name="납치라면 그들이 전문가" name2="Quest.Name2.387">
+    <text>
+    </text>
+    <acquisition level="14" preceding-quest-1="q_sub_383" preceding-quest-check="and" recommended-level="16">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_387_s_indi_1" msg="q_387_s" object="npc:ctzn_jinm_doctor_shinweiso_001" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_387_des_1" id="1" location-x="12075.8711" location-y="42037.9336" map="julbukdonggul_dun">
+      <text>
+      </text>
+      <mission id="1" name="절벽 동굴에 있는 수련자 나도낙과 대화" name2="Mission.Name2.387_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_387_m1_indi_1" mapunit-3="2300_e_airdash_giyeon_04_b" msg="q_387_m1" object="npc:ctzn_jinf_practiotioner_nadonak_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <case object="zone:zone_suryengol_dun_2" progress-mission="reaction-only" type="enter-zone" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step completion-type="and" desc="q_387_des_2" id="2" location-x="23838.7246" location-y="42673.8672" map="suryengol">
+      <text>
+      </text>
+      <mission id="2" name="기연절벽에 있는 약왕원 수련의 신의소에게 보고" name2="Mission.Name2.387_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_387_m2_indi_1" msg="q_387_m2" object="npc:ctzn_jinm_doctor_shinweiso_001" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="280" money="90" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

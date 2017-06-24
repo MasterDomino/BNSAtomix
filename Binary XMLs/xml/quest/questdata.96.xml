@@ -1,0 +1,37 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_96" category="normal" desc="q_96_sum" grade="1" group2="QG_Gathering" id="96" name2="Quest.Name2.96">
+    <text>
+    </text>
+    <acquisition level="11" production-exp="0" production-id="gathering-type-2" recommended-level="13">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_96_s_indi_1" msg="q_96_s" object="npc:ch_gather_farmer_0004" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="19483.625" location-y="23529.1289" map="nokmyeong">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.96_1" required-register-value="1">
+        <text>
+        </text>
+        <case env-looting="q_96_Gather_clay_1_icon" gadget-required="dont-care" mapunit-1="2310_e_onoff_2310soil_01" object="zoneenv:e_onoff_2310soil_01" progress-mission="y" type="manipulate" />
+        <text>
+        </text>
+        <basic-reward exp="350" money="20" production-exp="10" production-id="gathering-type-2" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

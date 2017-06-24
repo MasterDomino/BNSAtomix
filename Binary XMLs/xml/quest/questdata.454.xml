@@ -1,0 +1,52 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_454" category="normal" desc="q_454_sum" grade="1" group="제룡림(송암도)" group2="QG_SongAmDo" id="454" name="심금을 울리는 버섯 (완)" name2="Quest.Name2.454">
+    <text>
+    </text>
+    <acquisition level="15" preceding-quest-1="q_sub_400" preceding-quest-check="and" recommended-level="17">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_454_s_indi_1" msg="q_454_s" object="npc:ch_dweller_031" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-5043.752" location-y="45839.4336" map="SongAmGul_Dun">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.454_1" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_454_m1_indi_1" mapunit-1="2440_songamgul_dun_s454" msg="q_454_m1" object="npc:ctzn_jinf_hunter_ryeokang_001" progress-mission="y" type="talk" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-9160.4766" location-y="47516.4492" map="songamdo">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.454_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_454_m2_indi_1" msg="q_454_m2" object="npc:ch_dweller_031" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="200" money="80" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>

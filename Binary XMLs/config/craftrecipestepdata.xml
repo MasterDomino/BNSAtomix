@@ -1,0 +1,1932 @@
+<table>
+	<release-module>SystemData</release-module>
+	<release-side>client</release-side>
+	<type>craft-recipe-step</type>
+	<version>0.2</version>
+</table>
+<record>
+	<alias>Produce_blacksmith_01_GR2_sw_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301068</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_sw_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301069</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_sw_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301070</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_sw_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301071</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_sw_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301072</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_sw_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301073</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_gt_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301074</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_gt_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301075</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_gt_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301076</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_gt_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301077</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_gt_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301078</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_gt_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301079</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_ta_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301080</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_ta_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301081</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_ta_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301082</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_ta_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301083</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_ta_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301084</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_ta_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301085</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_dg_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301086</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_dg_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301087</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_dg_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301088</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_dg_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301089</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_dg_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301090</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR2_dg_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301091</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR3_sw_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301098</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR3_sw_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301099</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR3_gt_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301100</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR3_gt_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301101</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR3_ta_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301102</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR3_ta_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301103</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR3_dg_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301104</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR3_dg_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301105</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_02_None_repair_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270087</output-id-1>
+	<time-cost>500</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_02_None_repair_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270088</output-id-1>
+	<time-cost>3200</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_02_None_repair_003</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270091</output-id-1>
+	<time-cost>4300</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_02_None_repair_004</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270093</output-id-1>
+	<time-cost>5900</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_02_None_repair_005</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270095</output-id-1>
+	<time-cost>7600</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_02_None_repair_006</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270096</output-id-1>
+	<time-cost>9700</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR2_ab_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301092</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR2_ab_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301093</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR2_ab_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301094</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR2_ab_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301095</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR2_ab_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301096</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR2_ab_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301097</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR3_ab_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301106</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR3_ab_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>301107</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_02_None_Scroll_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>65000</output-id-1>
+	<time-cost>1600</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_03_None_AddSlot_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270104</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_03_None_AddSlot_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270105</output-id-1>
+	<time-cost>1600</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_03_None_AddSlot_003</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270108</output-id-1>
+	<time-cost>2200</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_03_None_AddSlot_004</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270110</output-id-1>
+	<time-cost>3000</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_03_None_AddSlot_005</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270112</output-id-1>
+	<time-cost>3800</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_03_None_AddSlot_006</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270113</output-id-1>
+	<time-cost>4900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos1_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550749</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos2_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550750</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos3_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550751</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos4_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550752</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos5_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550753</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos6_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550754</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos7_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550755</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos8_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550756</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos1_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550757</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos2_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550758</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos3_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550759</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos4_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550760</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos5_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550761</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos6_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550762</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos7_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550763</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos8_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550764</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos1_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550765</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos2_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550766</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos3_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550767</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos4_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550768</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos5_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550769</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos6_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550770</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos7_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550771</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos8_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550772</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos1_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550773</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos2_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550774</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos3_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550775</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos4_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550776</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos5_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550777</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos6_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550778</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos7_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550779</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos8_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550780</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos1_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550781</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos2_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550782</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos3_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550783</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos4_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550784</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos5_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550785</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos6_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550786</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos7_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550787</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos8_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550788</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos1_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550789</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos2_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550790</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos3_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550791</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos4_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550792</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos5_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550793</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos6_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550794</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos7_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550795</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR2_pos8_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550796</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos1_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550797</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos2_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550798</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos3_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550799</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos4_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550800</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos5_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550801</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos6_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550802</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos7_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550803</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos8_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550804</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos1_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550805</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos2_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550806</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos3_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550807</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos4_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550808</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos5_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550809</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos6_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550810</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos7_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550811</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_gemmaker_gem_GR3_pos8_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>550812</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Ring_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270639</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Ring_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270640</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Ring_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270641</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Ring_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270642</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Ring_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270643</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Ring_006</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270644</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Earring_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270645</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Earring_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270646</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Earring_003</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270647</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Earring_004</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270648</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR2_Earring_005</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270649</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR3_Ring_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270650</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR3_Ring_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270651</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR3_Earring_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270652</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR3_Earring_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270653</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR3_Necklace_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270654</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_01_GR3_Necklace_002</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>270655</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_YellowGem_001</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550062</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_YellowGem_002</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550069</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_YellowGem_003</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550076</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_YellowGem_004</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550083</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_YellowGem_005</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550090</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_YellowGem_006</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550097</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_PurpleGem_001</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550066</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_PurpleGem_002</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550073</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_PurpleGem_003</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550080</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_PurpleGem_004</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550087</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_PurpleGem_005</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550094</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_PurpleGem_006</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550101</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_GreenGem_001</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550063</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_GreenGem_002</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550070</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_GreenGem_003</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550077</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_GreenGem_004</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550084</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_GreenGem_005</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550091</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR2_GreenGem_006</alias>
+	<output-amount-1>2</output-amount-1>
+	<output-id-1>550098</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270044</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270045</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270046</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_004</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270047</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_005</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270048</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_006</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270049</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_007</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270053</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_008</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270054</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_009</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270055</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_010</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270056</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_011</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270057</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_02_None_Paints_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270561</output-id-1>
+	<time-cost>3000</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_02_None_Paints_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270562</output-id-1>
+	<time-cost>3800</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_02_None_Paints_003</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270563</output-id-1>
+	<time-cost>4900</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270063</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270065</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270067</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_004</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270069</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_005</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270071</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_006</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270073</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_02_None_Softener_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270564</output-id-1>
+	<time-cost>3000</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_02_None_Softener_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270565</output-id-1>
+	<time-cost>3800</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_02_None_Softener_003</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270566</output-id-1>
+	<time-cost>4900</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_01_None_Dish_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270567</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_01_None_Dish_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270568</output-id-1>
+	<time-cost>1600</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_01_None_Dish_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270569</output-id-1>
+	<time-cost>2200</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_01_None_Dish_004</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270570</output-id-1>
+	<time-cost>3000</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_01_None_Dish_005</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270571</output-id-1>
+	<time-cost>3800</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_01_None_Dish_006</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270572</output-id-1>
+	<time-cost>4900</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_02_None_Bottle_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270573</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_02_None_Bottle_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270574</output-id-1>
+	<time-cost>1600</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_02_None_Bottle_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270575</output-id-1>
+	<time-cost>2200</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_02_None_Bottle_004</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270576</output-id-1>
+	<time-cost>3000</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_02_None_Bottle_005</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270577</output-id-1>
+	<time-cost>3800</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_02_None_Bottle_006</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270578</output-id-1>
+	<time-cost>4900</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_03_None_Polisher_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270579</output-id-1>
+	<time-cost>3000</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_03_None_Polisher_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270580</output-id-1>
+	<time-cost>3800</time-cost>
+</record>
+<record>
+	<alias>Produce_chinamaker_03_None_Polisher_003</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270581</output-id-1>
+	<time-cost>4900</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_01_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270582</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_01_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270583</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_01_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270584</output-id-1>
+	<time-cost>4800</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_01_004</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270585</output-id-1>
+	<time-cost>9900</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_01_005</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270586</output-id-1>
+	<time-cost>12600</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_01_006</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270587</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_02_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270588</output-id-1>
+	<time-cost>6600</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_02_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270589</output-id-1>
+	<time-cost>8400</time-cost>
+</record>
+<record>
+	<alias>gather_Digger_02_003</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270590</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_02_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270591</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_02_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270592</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_02_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270593</output-id-1>
+	<time-cost>4800</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_02_004</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270594</output-id-1>
+	<time-cost>9900</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_02_005</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270595</output-id-1>
+	<time-cost>12600</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_02_006</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270596</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_01_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270597</output-id-1>
+	<time-cost>6600</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_01_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270598</output-id-1>
+	<time-cost>8400</time-cost>
+</record>
+<record>
+	<alias>gather_Farmer_01_003</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270599</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_01_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270600</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_01_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270601</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_01_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270602</output-id-1>
+	<time-cost>4800</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_01_004</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270603</output-id-1>
+	<time-cost>9900</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_01_005</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270604</output-id-1>
+	<time-cost>12600</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_01_006</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270605</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_02_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270606</output-id-1>
+	<time-cost>6600</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_02_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270607</output-id-1>
+	<time-cost>8400</time-cost>
+</record>
+<record>
+	<alias>gather_Hunter_02_003</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270608</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_01_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270163</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_01_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270164</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_01_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270165</output-id-1>
+	<time-cost>4800</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_01_004</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270166</output-id-1>
+	<time-cost>9900</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_01_005</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270167</output-id-1>
+	<time-cost>12600</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_01_006</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270168</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_02_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270173</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_02_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270174</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_02_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270175</output-id-1>
+	<time-cost>4800</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_02_004</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270176</output-id-1>
+	<time-cost>9900</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_02_005</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270177</output-id-1>
+	<time-cost>12600</time-cost>
+</record>
+<record>
+	<alias>gather_Miner_02_006</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270178</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_01_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270621</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_01_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270622</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_01_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270623</output-id-1>
+	<time-cost>4800</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_01_004</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270624</output-id-1>
+	<time-cost>9900</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_01_005</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270625</output-id-1>
+	<time-cost>12600</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_01_006</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270626</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_02_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270627</output-id-1>
+	<time-cost>6600</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_02_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270628</output-id-1>
+	<time-cost>8400</time-cost>
+</record>
+<record>
+	<alias>gather_Gemcolletor_02_003</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270629</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_01_001</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270630</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_01_002</alias>
+	<output-amount-1>5</output-amount-1>
+	<output-id-1>270631</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_01_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270632</output-id-1>
+	<time-cost>4800</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_01_004</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270633</output-id-1>
+	<time-cost>9900</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_01_005</alias>
+	<output-amount-1>15</output-amount-1>
+	<output-id-1>270634</output-id-1>
+	<time-cost>12600</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_01_006</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270635</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_02_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270636</output-id-1>
+	<time-cost>6600</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_02_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270637</output-id-1>
+	<time-cost>8400</time-cost>
+</record>
+<record>
+	<alias>gather_Lumberjack_02_003</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270638</output-id-1>
+	<time-cost>21600</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_001_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270044</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_002_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270045</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_003_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270046</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_004_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270047</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_005_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270048</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_006_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270049</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_007_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270053</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_008_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270054</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_009_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270055</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_010_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270056</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_011_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270057</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_001_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270044</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_002_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270045</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_003_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270046</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_004_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270047</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_005_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270048</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Potion_006_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270049</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_007_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270053</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_008_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270054</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_009_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270055</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_010_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270056</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR2_Regen_011_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270057</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_001_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270063</output-id-1>
+	<time-cost>150</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_002_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270065</output-id-1>
+	<time-cost>900</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_003_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270067</output-id-1>
+	<time-cost>1200</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_004_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270069</output-id-1>
+	<time-cost>1650</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_005_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270071</output-id-1>
+	<time-cost>2100</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_006_F</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>270073</output-id-1>
+	<time-cost>2700</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_001_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270063</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_002_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270065</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_003_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270067</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_004_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270069</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_005_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270071</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR2_Food_006_M</alias>
+	<output-amount-1>20</output-amount-1>
+	<output-id-1>270073</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292043</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292044</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292045</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_004</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292046</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_005</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292047</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_006</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292048</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_007</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292052</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_008</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292053</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_009</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292054</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_010</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292055</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_potionmaker_01_GR3_Potion_011</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292056</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR3_Food_001</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292059</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR3_Food_002</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292060</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR3_Food_003</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292061</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR3_Food_004</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292062</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR3_Food_005</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292063</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_cook_01_GR3_Food_006</alias>
+	<output-amount-1>10</output-amount-1>
+	<output-id-1>292064</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_YellowGem_001</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550104</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_YellowGem_002</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550111</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_YellowGem_003</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550118</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_YellowGem_004</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550125</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_YellowGem_005</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550132</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_YellowGem_006</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550139</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_PurpleGem_001</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550108</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_PurpleGem_002</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550115</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_PurpleGem_003</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550122</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_PurpleGem_004</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550129</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_PurpleGem_005</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550136</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_PurpleGem_006</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550143</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_GreenGem_001</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550105</output-id-1>
+	<time-cost>300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_GreenGem_002</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550112</output-id-1>
+	<time-cost>1800</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_GreenGem_003</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550119</output-id-1>
+	<time-cost>2400</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_GreenGem_004</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550126</output-id-1>
+	<time-cost>3300</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_GreenGem_005</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550133</output-id-1>
+	<time-cost>4200</time-cost>
+</record>
+<record>
+	<alias>Produce_accmaker_02_GR3_GreenGem_006</alias>
+	<output-amount-1>3</output-amount-1>
+	<output-id-1>550140</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR0_sw_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>900000</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR0_gt_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>900001</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR0_ta_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>900002</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_blacksmith_01_GR0_dg_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>900003</output-id-1>
+	<time-cost>5400</time-cost>
+</record>
+<record>
+	<alias>Produce_shaman_01_GR0_ab_001</alias>
+	<output-amount-1>1</output-amount-1>
+	<output-id-1>900004</output-id-1>
+	<time-cost>5400</time-cost>
+</record>

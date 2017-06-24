@@ -1,0 +1,58 @@
+<table release-module="LevelData" release-side="client" type="quest" version="1.99">
+  <text>
+  </text>
+  <quest alias="q_sub_633" category="normal" desc="q_633_sum" grade="1" group2="QG_GmmDalUJukJi" id="633" name2="Quest.Name2.633">
+    <text>
+    </text>
+    <acquisition level="26" preceding-quest-1="q_epic_516" preceding-quest-2="q_sub_631" preceding-quest-check="and" recommended-level="28">
+      <text>
+      </text>
+      <case acquire-quest="y" indicator-social="q_633_s_indi_1" msg="q_633_s" object="npc:ch_fisherman_008" type="talk" />
+      <text>
+    </text>
+    </acquisition>
+    <text>
+    </text>
+    <mission-step id="1" location-x="-38974.125" location-y="14479.5977" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="1" name2="Mission.Name2.633_1" required-register-value="10">
+        <text>
+        </text>
+        <case mapunit-1="3010_ME_MudSoldier_009" object="npc:me_mudsoldier_009" progress-mission="y" type="killed" />
+        <text>
+        </text>
+        <case object="npc:mh_mudsoldier_0014" progress-mission="y" type="killed" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+    </text>
+    <mission-step id="2" location-x="-37948.6445" location-y="9352.2031" map="yeolsajeedea">
+      <text>
+      </text>
+      <mission id="2" name2="Mission.Name2.633_2" required-register-value="1">
+        <text>
+        </text>
+        <case indicator-social="q_633_m2_indi_1" msg="q_633_m2" object="npc:ch_fisherman_008" progress-mission="y" type="talk" />
+        <text>
+        </text>
+        <basic-reward exp="1100" money="550" />
+        <text>
+        </text>
+        <optional-reward slot-1="item:gem_pos6_gr2_hwangpoong_sheild_lv29" slot-2="item:gem_pos6_gr2_hwangpoong_bal_lv29" />
+        <text>
+      </text>
+      </mission>
+      <text>
+    </text>
+    </mission-step>
+    <text>
+  </text>
+  </quest>
+  <text>
+</text>
+</table>
